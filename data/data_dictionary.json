@@ -1,0 +1,1036 @@
+{
+  "product_master": {
+    "rows": 45,
+    "columns": [
+      {
+        "name": "product_id",
+        "dtype": "str",
+        "sample_values": [
+          "equipos_movimiento-de-tierra_camiones-articulados_001",
+          "equipos_movimiento-de-tierra_camiones-rígidos_001",
+          "equipos_movimiento-de-tierra_camiones-volcadores_001"
+        ]
+      },
+      {
+        "name": "section",
+        "dtype": "str",
+        "sample_values": [
+          "Equipos",
+          "Equipos",
+          "Equipos"
+        ]
+      },
+      {
+        "name": "family",
+        "dtype": "str",
+        "sample_values": [
+          "Movimiento de tierra",
+          "Movimiento de tierra",
+          "Movimiento de tierra"
+        ]
+      },
+      {
+        "name": "subfamily",
+        "dtype": "str",
+        "sample_values": [
+          "Camiones articulados",
+          "Camiones rígidos",
+          "Camiones Volcadores"
+        ]
+      },
+      {
+        "name": "business_model",
+        "dtype": "str",
+        "sample_values": [
+          "Alquiler / Venta",
+          "Alquiler / Venta",
+          "Alquiler / Venta"
+        ]
+      },
+      {
+        "name": "asset_type",
+        "dtype": "str",
+        "sample_values": [
+          "Heavy Earthmoving",
+          "Heavy Earthmoving",
+          "Heavy Earthmoving"
+        ]
+      },
+      {
+        "name": "unit",
+        "dtype": "str",
+        "sample_values": [
+          "unit",
+          "unit",
+          "unit"
+        ]
+      },
+      {
+        "name": "base_price_usd",
+        "dtype": "float64",
+        "sample_values": [
+          "480530.6",
+          "265006.45",
+          "116754.98"
+        ]
+      },
+      {
+        "name": "min_price_usd",
+        "dtype": "int64",
+        "sample_values": [
+          "180000",
+          "250000",
+          "70000"
+        ]
+      },
+      {
+        "name": "max_price_usd",
+        "dtype": "int64",
+        "sample_values": [
+          "650000",
+          "850000",
+          "240000"
+        ]
+      },
+      {
+        "name": "lead_intent",
+        "dtype": "str",
+        "sample_values": [
+          "quote",
+          "quote",
+          "quote"
+        ]
+      },
+      {
+        "name": "service_intensity",
+        "dtype": "str",
+        "sample_values": [
+          "high",
+          "high",
+          "medium"
+        ]
+      },
+      {
+        "name": "criticality",
+        "dtype": "int64",
+        "sample_values": [
+          "5",
+          "5",
+          "4"
+        ]
+      },
+      {
+        "name": "avg_lifespan_months",
+        "dtype": "int64",
+        "sample_values": [
+          "96",
+          "96",
+          "84"
+        ]
+      },
+      {
+        "name": "avg_lead_time_days",
+        "dtype": "int64",
+        "sample_values": [
+          "35",
+          "40",
+          "25"
+        ]
+      },
+      {
+        "name": "tags_json",
+        "dtype": "str",
+        "sample_values": [
+          "[\"mining\", \"earthmoving\", \"haulage\"]",
+          "[\"mining\", \"haulage\"]",
+          "[\"construction\", \"transport\"]"
+        ]
+      },
+      {
+        "name": "catalog_key",
+        "dtype": "str",
+        "sample_values": [
+          "Equipos::Movimiento de tierra::Camiones articulados",
+          "Equipos::Movimiento de tierra::Camiones rígidos",
+          "Equipos::Movimiento de tierra::Camiones Volcadores"
+        ]
+      }
+    ]
+  },
+  "account_master": {
+    "rows": 900,
+    "columns": [
+      {
+        "name": "account_id",
+        "dtype": "str",
+        "sample_values": [
+          "ACC00001",
+          "ACC00002",
+          "ACC00003"
+        ]
+      },
+      {
+        "name": "company_name",
+        "dtype": "str",
+        "sample_values": [
+          "Norte Solutions S.R.L.",
+          "Cumbre Industrial Servicios",
+          "Aconcagua Logística Group"
+        ]
+      },
+      {
+        "name": "sector",
+        "dtype": "str",
+        "sample_values": [
+          "Construcción",
+          "Oil & Gas",
+          "Construcción"
+        ]
+      },
+      {
+        "name": "industry",
+        "dtype": "str",
+        "sample_values": [
+          "Construction",
+          "Oil & Gas",
+          "Construction"
+        ]
+      },
+      {
+        "name": "province",
+        "dtype": "str",
+        "sample_values": [
+          "Buenos Aires",
+          "Santa Cruz",
+          "CABA"
+        ]
+      },
+      {
+        "name": "country",
+        "dtype": "str",
+        "sample_values": [
+          "Argentina",
+          "Argentina",
+          "Argentina"
+        ]
+      },
+      {
+        "name": "employee_count",
+        "dtype": "int64",
+        "sample_values": [
+          "779",
+          "4339",
+          "734"
+        ]
+      },
+      {
+        "name": "annual_budget_multiplier",
+        "dtype": "float64",
+        "sample_values": [
+          "1.12",
+          "1.47",
+          "0.96"
+        ]
+      },
+      {
+        "name": "price_sensitivity",
+        "dtype": "float64",
+        "sample_values": [
+          "0.329",
+          "0.226",
+          "0.348"
+        ]
+      },
+      {
+        "name": "service_attachment",
+        "dtype": "float64",
+        "sample_values": [
+          "0.52",
+          "0.75",
+          "0.52"
+        ]
+      },
+      {
+        "name": "source",
+        "dtype": "str",
+        "sample_values": [
+          "public_directory",
+          "partner_referral",
+          "website_form"
+        ]
+      },
+      {
+        "name": "account_tier",
+        "dtype": "str",
+        "sample_values": [
+          "A",
+          "B",
+          "A"
+        ]
+      },
+      {
+        "name": "website",
+        "dtype": "str",
+        "sample_values": [
+          "https://aconcagua-industrial-s-a.com.ar",
+          "https://cumbre-infraestructura-s-a.com.ar",
+          "https://patagonia-logística-group.com.ar"
+        ]
+      }
+    ]
+  },
+  "contact_master": {
+    "rows": 1800,
+    "columns": [
+      {
+        "name": "contact_id",
+        "dtype": "str",
+        "sample_values": [
+          "CON_ACC00001_1",
+          "CON_ACC00001_2",
+          "CON_ACC00001_3"
+        ]
+      },
+      {
+        "name": "account_id",
+        "dtype": "str",
+        "sample_values": [
+          "ACC00001",
+          "ACC00001",
+          "ACC00001"
+        ]
+      },
+      {
+        "name": "full_name",
+        "dtype": "str",
+        "sample_values": [
+          "Martín Gómez",
+          "Sofía Molina",
+          "Diego Sosa"
+        ]
+      },
+      {
+        "name": "role",
+        "dtype": "str",
+        "sample_values": [
+          "Fleet Manager",
+          "Maintenance Manager",
+          "Operations Manager"
+        ]
+      },
+      {
+        "name": "email",
+        "dtype": "str",
+        "sample_values": [
+          "martín.gómez@norte-solutions-s-r-l.com.ar",
+          "sofía.molina@norte-solutions-s-r-l.com.ar",
+          "diego.sosa@norte-solutions-s-r-l.com.ar"
+        ]
+      },
+      {
+        "name": "phone",
+        "dtype": "str",
+        "sample_values": [
+          "+54 11 5012-4657",
+          "+54 11 9935-2424",
+          "+54 11 1488-2535"
+        ]
+      },
+      {
+        "name": "is_primary",
+        "dtype": "bool",
+        "sample_values": [
+          "True",
+          "False",
+          "False"
+        ]
+      }
+    ]
+  },
+  "lead_funnel": {
+    "rows": 900,
+    "columns": [
+      {
+        "name": "lead_id",
+        "dtype": "str",
+        "sample_values": [
+          "LEAD_ACC00001",
+          "LEAD_ACC00002",
+          "LEAD_ACC00003"
+        ]
+      },
+      {
+        "name": "account_id",
+        "dtype": "str",
+        "sample_values": [
+          "ACC00001",
+          "ACC00002",
+          "ACC00003"
+        ]
+      },
+      {
+        "name": "company_name",
+        "dtype": "str",
+        "sample_values": [
+          "Norte Solutions S.R.L.",
+          "Cumbre Industrial Servicios",
+          "Aconcagua Logística Group"
+        ]
+      },
+      {
+        "name": "contact_name",
+        "dtype": "str",
+        "sample_values": [
+          "Martín Gómez",
+          "Lucía Alvarez",
+          "Micaela Molina"
+        ]
+      },
+      {
+        "name": "contact_role",
+        "dtype": "str",
+        "sample_values": [
+          "Fleet Manager",
+          "Technical Director",
+          "Purchasing Analyst"
+        ]
+      },
+      {
+        "name": "email",
+        "dtype": "str",
+        "sample_values": [
+          "martín.gómez@norte-solutions-s-r-l.com.ar",
+          "lucía.alvarez@cumbre-industrial-servicios.com.ar",
+          "micaela.molina@aconcagua-logística-group.com.ar"
+        ]
+      },
+      {
+        "name": "source",
+        "dtype": "str",
+        "sample_values": [
+          "public_directory",
+          "partner_referral",
+          "website_form"
+        ]
+      },
+      {
+        "name": "sector",
+        "dtype": "str",
+        "sample_values": [
+          "Construcción",
+          "Oil & Gas",
+          "Construcción"
+        ]
+      },
+      {
+        "name": "province",
+        "dtype": "str",
+        "sample_values": [
+          "Buenos Aires",
+          "Santa Cruz",
+          "CABA"
+        ]
+      },
+      {
+        "name": "industry_fit_score",
+        "dtype": "float64",
+        "sample_values": [
+          "0.6918",
+          "0.687",
+          "0.7677"
+        ]
+      },
+      {
+        "name": "funnel_stage",
+        "dtype": "str",
+        "sample_values": [
+          "new",
+          "won",
+          "new"
+        ]
+      },
+      {
+        "name": "next_best_action",
+        "dtype": "str",
+        "sample_values": [
+          "call",
+          "schedule_visit",
+          "send_catalog"
+        ]
+      }
+    ]
+  },
+  "transactions": {
+    "rows": 50000,
+    "columns": [
+      {
+        "name": "transaction_id",
+        "dtype": "str",
+        "sample_values": [
+          "TX_acc00001_equipos-plataformas-para-trabajo-en-altura-plumas-compactas-sobre-orugas-001_202508",
+          "TX_acc00001_equipos-movimiento-de-tierra-cargadoras-frontales-001_202404",
+          "TX_acc00001_equipos-movimiento-de-tierra-topadoras-001_202509"
+        ]
+      },
+      {
+        "name": "date",
+        "dtype": "str",
+        "sample_values": [
+          "2025-08-01",
+          "2024-04-01",
+          "2025-09-01"
+        ]
+      },
+      {
+        "name": "account_id",
+        "dtype": "str",
+        "sample_values": [
+          "ACC00001",
+          "ACC00001",
+          "ACC00001"
+        ]
+      },
+      {
+        "name": "company_name",
+        "dtype": "str",
+        "sample_values": [
+          "Norte Solutions S.R.L.",
+          "Norte Solutions S.R.L.",
+          "Norte Solutions S.R.L."
+        ]
+      },
+      {
+        "name": "sector",
+        "dtype": "str",
+        "sample_values": [
+          "Construcción",
+          "Construcción",
+          "Construcción"
+        ]
+      },
+      {
+        "name": "province",
+        "dtype": "str",
+        "sample_values": [
+          "Buenos Aires",
+          "Buenos Aires",
+          "Buenos Aires"
+        ]
+      },
+      {
+        "name": "employee_count",
+        "dtype": "int64",
+        "sample_values": [
+          "779",
+          "779",
+          "779"
+        ]
+      },
+      {
+        "name": "product_id",
+        "dtype": "str",
+        "sample_values": [
+          "equipos_plataformas-para-trabajo-en-altura_plumas-compactas-sobre-orugas_001",
+          "equipos_movimiento-de-tierra_cargadoras-frontales_001",
+          "equipos_movimiento-de-tierra_topadoras_001"
+        ]
+      },
+      {
+        "name": "section",
+        "dtype": "str",
+        "sample_values": [
+          "Equipos",
+          "Equipos",
+          "Equipos"
+        ]
+      },
+      {
+        "name": "family",
+        "dtype": "str",
+        "sample_values": [
+          "Plataformas para trabajo en altura",
+          "Movimiento de tierra",
+          "Movimiento de tierra"
+        ]
+      },
+      {
+        "name": "subfamily",
+        "dtype": "str",
+        "sample_values": [
+          "Plumas compactas sobre orugas",
+          "Cargadoras frontales",
+          "Topadoras"
+        ]
+      },
+      {
+        "name": "business_model",
+        "dtype": "str",
+        "sample_values": [
+          "Alquiler / Venta",
+          "Alquiler / Venta",
+          "Alquiler / Venta"
+        ]
+      },
+      {
+        "name": "asset_type",
+        "dtype": "str",
+        "sample_values": [
+          "Aerial Work Platform",
+          "Earthmoving",
+          "Earthmoving"
+        ]
+      },
+      {
+        "name": "unit",
+        "dtype": "str",
+        "sample_values": [
+          "unit",
+          "unit",
+          "unit"
+        ]
+      },
+      {
+        "name": "base_price_usd",
+        "dtype": "float64",
+        "sample_values": [
+          "189508.87",
+          "154731.11",
+          "165921.58"
+        ]
+      },
+      {
+        "name": "list_price_usd",
+        "dtype": "float64",
+        "sample_values": [
+          "192870.94",
+          "149668.7",
+          "162008.16"
+        ]
+      },
+      {
+        "name": "negotiated_price_usd",
+        "dtype": "float64",
+        "sample_values": [
+          "189508.87",
+          "152761.66",
+          "155721.1"
+        ]
+      },
+      {
+        "name": "quantity",
+        "dtype": "int64",
+        "sample_values": [
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "name": "revenue_usd",
+        "dtype": "float64",
+        "sample_values": [
+          "189508.87",
+          "152761.66",
+          "155721.1"
+        ]
+      },
+      {
+        "name": "cost_usd",
+        "dtype": "float64",
+        "sample_values": [
+          "104681.75",
+          "91498.22",
+          "77366.77"
+        ]
+      },
+      {
+        "name": "gross_margin_usd",
+        "dtype": "float64",
+        "sample_values": [
+          "84827.12",
+          "61263.44",
+          "78354.32"
+        ]
+      },
+      {
+        "name": "gross_margin_pct",
+        "dtype": "float64",
+        "sample_values": [
+          "0.4476",
+          "0.401",
+          "0.5032"
+        ]
+      },
+      {
+        "name": "lead_time_days",
+        "dtype": "int64",
+        "sample_values": [
+          "17",
+          "28",
+          "49"
+        ]
+      },
+      {
+        "name": "win_probability",
+        "dtype": "float64",
+        "sample_values": [
+          "0.6955",
+          "0.805",
+          "0.727"
+        ]
+      },
+      {
+        "name": "urgency_score",
+        "dtype": "float64",
+        "sample_values": [
+          "0.5442",
+          "0.7874",
+          "0.6142"
+        ]
+      },
+      {
+        "name": "churn_risk",
+        "dtype": "float64",
+        "sample_values": [
+          "0.5083",
+          "0.3983",
+          "0.4449"
+        ]
+      },
+      {
+        "name": "macro_index",
+        "dtype": "float64",
+        "sample_values": [
+          "1.523",
+          "0.7674",
+          "-0.4657"
+        ]
+      },
+      {
+        "name": "seasonality_index",
+        "dtype": "float64",
+        "sample_values": [
+          "-0.866",
+          "0.866",
+          "-1.0"
+        ]
+      },
+      {
+        "name": "min_margin_required",
+        "dtype": "float64",
+        "sample_values": [
+          "0.18",
+          "0.18",
+          "0.18"
+        ]
+      },
+      {
+        "name": "compliance_ok",
+        "dtype": "int64",
+        "sample_values": [
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "name": "reason_code",
+        "dtype": "str",
+        "sample_values": [
+          "OK",
+          "OK",
+          "OK"
+        ]
+      },
+      {
+        "name": "stage",
+        "dtype": "str",
+        "sample_values": [
+          "quote_sent",
+          "qualified",
+          "won"
+        ]
+      },
+      {
+        "name": "outcome",
+        "dtype": "str",
+        "sample_values": [
+          "open",
+          "open",
+          "converted"
+        ]
+      },
+      {
+        "name": "contact_id",
+        "dtype": "str",
+        "sample_values": [
+          "CON_ACC00001_1",
+          "CON_ACC00001_1",
+          "CON_ACC00001_1"
+        ]
+      },
+      {
+        "name": "contact_role",
+        "dtype": "str",
+        "sample_values": [
+          "Fleet Manager",
+          "Fleet Manager",
+          "Fleet Manager"
+        ]
+      },
+      {
+        "name": "lead_intent",
+        "dtype": "str",
+        "sample_values": [
+          "quote",
+          "quote",
+          "quote"
+        ]
+      },
+      {
+        "name": "service_intensity",
+        "dtype": "str",
+        "sample_values": [
+          "medium",
+          "high",
+          "high"
+        ]
+      },
+      {
+        "name": "source_system",
+        "dtype": "str",
+        "sample_values": [
+          "manual_import",
+          "fastapi",
+          "fastapi"
+        ]
+      }
+    ]
+  },
+  "audit_log": {
+    "rows": 50000,
+    "columns": [
+      {
+        "name": "audit_id",
+        "dtype": "str",
+        "sample_values": [
+          "AUD_TX_acc00001_equipos-plataformas-para-trabajo-en-altura-plumas-compactas-sobre-orugas-001_202508",
+          "AUD_TX_acc00001_equipos-movimiento-de-tierra-cargadoras-frontales-001_202404",
+          "AUD_TX_acc00001_equipos-movimiento-de-tierra-topadoras-001_202509"
+        ]
+      },
+      {
+        "name": "event_ts",
+        "dtype": "str",
+        "sample_values": [
+          "2025-08-01T20:07:01Z",
+          "2024-04-01T04:47:06Z",
+          "2025-09-01T01:01:05Z"
+        ]
+      },
+      {
+        "name": "actor",
+        "dtype": "str",
+        "sample_values": [
+          "Compliance & Audit Agent",
+          "Pricing Analyst Agent",
+          "Lead Scout Agent"
+        ]
+      },
+      {
+        "name": "action",
+        "dtype": "str",
+        "sample_values": [
+          "validate_pricing",
+          "validate_pricing",
+          "validate_pricing"
+        ]
+      },
+      {
+        "name": "entity_type",
+        "dtype": "str",
+        "sample_values": [
+          "Equipos",
+          "Equipos",
+          "Equipos"
+        ]
+      },
+      {
+        "name": "entity_id",
+        "dtype": "str",
+        "sample_values": [
+          "TX_acc00001_equipos-plataformas-para-trabajo-en-altura-plumas-compactas-sobre-orugas-001_202508",
+          "TX_acc00001_equipos-movimiento-de-tierra-cargadoras-frontales-001_202404",
+          "TX_acc00001_equipos-movimiento-de-tierra-topadoras-001_202509"
+        ]
+      },
+      {
+        "name": "status",
+        "dtype": "str",
+        "sample_values": [
+          "approved",
+          "approved",
+          "approved"
+        ]
+      },
+      {
+        "name": "reason_code",
+        "dtype": "str",
+        "sample_values": [
+          "OK",
+          "OK",
+          "OK"
+        ]
+      },
+      {
+        "name": "confidence",
+        "dtype": "float64",
+        "sample_values": [
+          "0.7861",
+          "0.8794",
+          "0.7828"
+        ]
+      },
+      {
+        "name": "request_json",
+        "dtype": "str",
+        "sample_values": [
+          "{\"account_id\": \"ACC00001\", \"product_id\": \"equipos_plataformas-para-trabajo-en-altura_plumas-compactas-sobre-orugas_001\", \"negotiated_price_usd\": 189508.87, \"quantity\": 1, \"section\": \"Equipos\"}",
+          "{\"account_id\": \"ACC00001\", \"product_id\": \"equipos_movimiento-de-tierra_cargadoras-frontales_001\", \"negotiated_price_usd\": 152761.66, \"quantity\": 1, \"section\": \"Equipos\"}",
+          "{\"account_id\": \"ACC00001\", \"product_id\": \"equipos_movimiento-de-tierra_topadoras_001\", \"negotiated_price_usd\": 155721.1, \"quantity\": 1, \"section\": \"Equipos\"}"
+        ]
+      },
+      {
+        "name": "response_json",
+        "dtype": "str",
+        "sample_values": [
+          "{\"compliance_ok\": true, \"gross_margin_pct\": 0.4476, \"min_margin_required\": 0.18, \"recommendation\": \"proceed\"}",
+          "{\"compliance_ok\": true, \"gross_margin_pct\": 0.401, \"min_margin_required\": 0.18, \"recommendation\": \"proceed\"}",
+          "{\"compliance_ok\": true, \"gross_margin_pct\": 0.5032, \"min_margin_required\": 0.18, \"recommendation\": \"proceed\"}"
+        ]
+      }
+    ]
+  },
+  "service_events": {
+    "rows": 2668,
+    "columns": [
+      {
+        "name": "service_id",
+        "dtype": "str",
+        "sample_values": [
+          "SRV_ACC00001_01",
+          "SRV_ACC00002_01",
+          "SRV_ACC00002_02"
+        ]
+      },
+      {
+        "name": "date",
+        "dtype": "str",
+        "sample_values": [
+          "2025-06-19",
+          "2024-07-31",
+          "2024-10-26"
+        ]
+      },
+      {
+        "name": "account_id",
+        "dtype": "str",
+        "sample_values": [
+          "ACC00001",
+          "ACC00002",
+          "ACC00002"
+        ]
+      },
+      {
+        "name": "company_name",
+        "dtype": "str",
+        "sample_values": [
+          "Norte Solutions S.R.L.",
+          "Cumbre Industrial Servicios",
+          "Cumbre Industrial Servicios"
+        ]
+      },
+      {
+        "name": "province",
+        "dtype": "str",
+        "sample_values": [
+          "Buenos Aires",
+          "Santa Cruz",
+          "Santa Cruz"
+        ]
+      },
+      {
+        "name": "service_family",
+        "dtype": "str",
+        "sample_values": [
+          "Servicio técnico",
+          "Auditoria de Aire Sullair",
+          "Servicio técnico"
+        ]
+      },
+      {
+        "name": "service_item",
+        "dtype": "str",
+        "sample_values": [
+          "Mantenimiento correctivo",
+          "Auditoría industrial",
+          "Mantenimiento correctivo"
+        ]
+      },
+      {
+        "name": "ticket_type",
+        "dtype": "str",
+        "sample_values": [
+          "preventive",
+          "corrective",
+          "corrective"
+        ]
+      },
+      {
+        "name": "sla_hours",
+        "dtype": "int64",
+        "sample_values": [
+          "8",
+          "4",
+          "48"
+        ]
+      },
+      {
+        "name": "resolved",
+        "dtype": "int64",
+        "sample_values": [
+          "1",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "name": "parts_used",
+        "dtype": "int64",
+        "sample_values": [
+          "1",
+          "3",
+          "6"
+        ]
+      },
+      {
+        "name": "labor_hours",
+        "dtype": "float64",
+        "sample_values": [
+          "0.5",
+          "4.79",
+          "2.41"
+        ]
+      },
+      {
+        "name": "revenue_usd",
+        "dtype": "float64",
+        "sample_values": [
+          "17107.11",
+          "10876.61",
+          "4391.62"
+        ]
+      }
+    ]
+  }
+}

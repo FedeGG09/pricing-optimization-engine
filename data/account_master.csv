@@ -1,0 +1,901 @@
+account_id,company_name,sector,industry,province,country,employee_count,annual_budget_multiplier,price_sensitivity,service_attachment,source,account_tier,website
+ACC00001,Norte Solutions S.R.L.,Construcción,Construction,Buenos Aires,Argentina,779,1.12,0.329,0.52,public_directory,A,https://aconcagua-industrial-s-a.com.ar
+ACC00002,Cumbre Industrial Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4339,1.47,0.226,0.75,partner_referral,B,https://cumbre-infraestructura-s-a.com.ar
+ACC00003,Aconcagua Logística Group,Construcción,Construction,CABA,Argentina,734,0.96,0.348,0.52,website_form,A,https://patagonia-logística-group.com.ar
+ACC00004,Litoral Oil S.A.,Construcción,Construction,Buenos Aires,Argentina,767,0.92,0.244,0.52,public_directory,C,https://sur-tecnología-s-r-l.com.ar
+ACC00005,Pampa Infraestructura S.A.,Construcción,Construction,Buenos Aires,Argentina,697,1.16,0.264,0.52,partner_referral,B,https://sur-servicios-group.com.ar
+ACC00006,Patagonia Tecnología Argentina,Minería,Mining,Río Negro,Argentina,1193,1.29,0.114,0.72,partner_referral,B,https://austral-solutions-argentina.com.ar
+ACC00007,Andes Logística Corp.,Minería,Mining,Catamarca,Argentina,1038,1.12,0.208,0.72,public_directory,C,https://sur-solutions-argentina.com.ar
+ACC00008,Norte Servicios S.R.L.,Energía,Utilities,Mendoza,Argentina,665,1.26,0.197,0.68,public_directory,B,https://pampa-servicios-servicios.com.ar
+ACC00009,Delta Servicios Argentina,Energía,Utilities,Buenos Aires,Argentina,529,1.21,0.189,0.68,public_directory,C,https://austral-infraestructura-servicios.com.ar
+ACC00010,Patagonia Oil Group,Manufactura,Manufacturing,Buenos Aires,Argentina,1443,0.99,0.227,0.61,partner_referral,A,https://norte-oil-s-r-l.com.ar
+ACC00011,Austral Tecnología S.R.L.,Energía,Energy,Buenos Aires,Argentina,1302,1.13,0.149,0.68,public_directory,C,https://cumbre-logística-corp.com.ar
+ACC00012,Pampa Industrial S.R.L.,Oil & Gas,Oil & Gas,Chubut,Argentina,2719,1.19,0.187,0.75,website_form,C,https://austral-servicios-s-r-l.com.ar
+ACC00013,Norte Oil Servicios,Construcción,Construction,Santa Fe,Argentina,189,1.19,0.384,0.52,outbound_research,C,https://aconcagua-logística-corp.com.ar
+ACC00014,Pampa Solutions S.A.,Manufactura,Manufacturing,Mendoza,Argentina,297,0.96,0.251,0.61,public_directory,B,https://patagonia-industrial-s-r-l.com.ar
+ACC00015,Patagonia Oil S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,2906,1.45,0.139,0.75,outbound_research,C,https://cumbre-tecnología-corp.com.ar
+ACC00016,Pampa Energía S.A.,Minería,Mining,San Juan,Argentina,1767,1.22,0.138,0.72,website_form,B,https://patagonia-industrial-corp.com.ar
+ACC00017,Pampa Solutions Servicios,Construcción,Construction,Buenos Aires,Argentina,274,0.94,0.22,0.52,partner_referral,B,https://patagonia-minera-servicios.com.ar
+ACC00018,Patagonia Solutions S.R.L.,Oil & Gas,Oil & Gas,CABA,Argentina,320,1.37,0.138,0.75,partner_referral,C,https://delta-operaciones-s-a.com.ar
+ACC00019,Norte Operaciones Argentina,Servicios,Services,Córdoba,Argentina,242,0.85,0.26,0.45,website_form,B,https://austral-industrial-argentina.com.ar
+ACC00020,Litoral Oil Servicios,Minería,Mining,Catamarca,Argentina,2492,1.12,0.151,0.72,outbound_research,A,https://patagonia-solutions-corp.com.ar
+ACC00021,Cumbre Tecnología S.A.,Oil & Gas,Oil & Gas,CABA,Argentina,2216,1.34,0.205,0.75,public_directory,B,https://norte-solutions-argentina.com.ar
+ACC00022,Aconcagua Servicios Argentina,Construcción,Construction,CABA,Argentina,291,1.04,0.384,0.52,website_form,A,https://cumbre-tecnología-s-a.com.ar
+ACC00023,Norte Servicios Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4344,1.55,0.167,0.75,outbound_research,B,https://austral-infraestructura-servicios.com.ar
+ACC00024,Austral Infraestructura Argentina,Servicios,Services,CABA,Argentina,351,1.08,0.216,0.45,website_form,C,https://austral-servicios-group.com.ar
+ACC00025,Pampa Infraestructura Servicios,Minería,Mining,Jujuy,Argentina,1504,1.19,0.207,0.72,website_form,A,https://aconcagua-infraestructura-s-a.com.ar
+ACC00026,Delta Minera Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2345,1.4,0.12,0.75,outbound_research,B,https://sur-tecnología-servicios.com.ar
+ACC00027,Norte Logística S.A.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,542,1.24,0.145,0.75,website_form,B,https://austral-operaciones-servicios.com.ar
+ACC00028,Delta Operaciones S.A.,Construcción,Construction,CABA,Argentina,186,1.12,0.253,0.52,partner_referral,C,https://pampa-infraestructura-s-r-l.com.ar
+ACC00029,Andes Minera S.R.L.,Construcción,Construction,Buenos Aires,Argentina,411,1.14,0.281,0.52,industry_event,C,https://pampa-solutions-s-a.com.ar
+ACC00030,Norte Energía Group,Construcción,Construction,Mendoza,Argentina,356,1.09,0.268,0.52,public_directory,B,https://andes-energía-group.com.ar
+ACC00031,Patagonia Tecnología Corp.,Oil & Gas,Oil & Gas,Chubut,Argentina,513,1.48,0.156,0.75,public_directory,C,https://patagonia-operaciones-servicios.com.ar
+ACC00032,Andes Oil Servicios,Oil & Gas,Oil & Gas,Neuquén,Argentina,3772,1.31,0.113,0.75,industry_event,B,https://patagonia-infraestructura-servicios.com.ar
+ACC00033,Aconcagua Infraestructura Servicios,Minería,Mining,San Juan,Argentina,1436,1.17,0.173,0.72,partner_referral,B,https://delta-tecnología-servicios.com.ar
+ACC00034,Norte Infraestructura S.R.L.,Minería,Mining,Santa Cruz,Argentina,101,1.38,0.165,0.72,industry_event,B,https://litoral-solutions-servicios.com.ar
+ACC00035,Norte Oil Argentina,Energía,Utilities,Córdoba,Argentina,427,1.03,0.291,0.68,outbound_research,B,https://pampa-solutions-s-r-l.com.ar
+ACC00036,Cumbre Energía Corp.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4092,1.55,0.204,0.75,partner_referral,B,https://pampa-servicios-argentina.com.ar
+ACC00037,Pampa Servicios Argentina,Construcción,Construction,Buenos Aires,Argentina,455,0.92,0.235,0.52,website_form,B,https://litoral-oil-servicios.com.ar
+ACC00038,Aconcagua Oil Corp.,Energía,Energy,Mendoza,Argentina,2147,1.26,0.205,0.68,industry_event,C,https://norte-oil-corp.com.ar
+ACC00039,Patagonia Infraestructura S.R.L.,Construcción,Construction,Córdoba,Argentina,470,1.0,0.376,0.52,website_form,A,https://pampa-operaciones-argentina.com.ar
+ACC00040,Aconcagua Operaciones Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,726,1.34,0.137,0.75,partner_referral,B,https://cumbre-industrial-servicios.com.ar
+ACC00041,Norte Operaciones Corp.,Minería,Mining,Catamarca,Argentina,1540,1.27,0.118,0.72,partner_referral,A,https://sur-operaciones-argentina.com.ar
+ACC00042,Cumbre Oil S.A.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1245,1.42,0.219,0.75,website_form,B,https://delta-minera-s-r-l.com.ar
+ACC00043,Pampa Minera Group,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2881,1.49,0.168,0.75,partner_referral,B,https://patagonia-minera-s-a.com.ar
+ACC00044,Pampa Energía Argentina,Construcción,Construction,Buenos Aires,Argentina,378,1.13,0.389,0.52,outbound_research,C,https://cumbre-servicios-s-r-l.com.ar
+ACC00045,Pampa Minera Argentina,Oil & Gas,Oil & Gas,Neuquén,Argentina,4820,1.5,0.13,0.75,public_directory,C,https://patagonia-servicios-group.com.ar
+ACC00046,Cumbre Operaciones Corp.,Oil & Gas,Oil & Gas,Neuquén,Argentina,2755,1.18,0.224,0.75,outbound_research,A,https://norte-tecnología-s-a.com.ar
+ACC00047,Sur Oil Corp.,Construcción,Construction,Santa Fe,Argentina,62,0.92,0.322,0.52,website_form,C,https://litoral-energía-corp.com.ar
+ACC00048,Delta Operaciones S.R.L.,Servicios,Services,Santa Fe,Argentina,372,0.98,0.428,0.45,partner_referral,B,https://cumbre-infraestructura-group.com.ar
+ACC00049,Litoral Solutions Corp.,Manufactura,Manufacturing,Buenos Aires,Argentina,621,1.06,0.239,0.61,industry_event,A,https://pampa-logística-group.com.ar
+ACC00050,Norte Oil S.A.,Minería,Mining,Santa Cruz,Argentina,2972,1.13,0.181,0.72,partner_referral,B,https://pampa-minera-argentina.com.ar
+ACC00051,Patagonia Infraestructura S.R.L.,Construcción,Construction,Mendoza,Argentina,37,1.11,0.247,0.52,public_directory,B,https://austral-oil-group.com.ar
+ACC00052,Sur Minera Group,Energía,Utilities,Neuquén,Argentina,1434,1.09,0.142,0.68,outbound_research,B,https://austral-servicios-s-r-l.com.ar
+ACC00053,Cumbre Oil Servicios,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2465,1.59,0.25,0.75,industry_event,B,https://delta-infraestructura-s-a.com.ar
+ACC00054,Andes Industrial Servicios,Construcción,Construction,CABA,Argentina,300,1.11,0.208,0.52,partner_referral,A,https://andes-tecnología-group.com.ar
+ACC00055,Delta Industrial Group,Energía,Utilities,Mendoza,Argentina,1475,1.04,0.132,0.68,partner_referral,A,https://andes-servicios-s-r-l.com.ar
+ACC00056,Pampa Energía Servicios,Construcción,Construction,Córdoba,Argentina,107,1.08,0.354,0.52,outbound_research,C,https://aconcagua-minera-corp.com.ar
+ACC00057,Norte Tecnología Servicios,Minería,Mining,Santa Cruz,Argentina,1856,1.31,0.184,0.72,outbound_research,B,https://norte-energía-s-r-l.com.ar
+ACC00058,Delta Industrial Corp.,Oil & Gas,Oil & Gas,CABA,Argentina,814,1.46,0.185,0.75,website_form,B,https://norte-minera-s-a.com.ar
+ACC00059,Cumbre Solutions Corp.,Construcción,Construction,Córdoba,Argentina,660,1.06,0.322,0.52,industry_event,C,https://patagonia-industrial-s-r-l.com.ar
+ACC00060,Cumbre Infraestructura Corp.,Construcción,Construction,Santa Fe,Argentina,786,1.04,0.247,0.52,partner_referral,C,https://austral-oil-corp.com.ar
+ACC00061,Aconcagua Logística Servicios,Energía,Utilities,Neuquén,Argentina,243,1.01,0.161,0.68,public_directory,B,https://andes-infraestructura-servicios.com.ar
+ACC00062,Austral Minera Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4054,1.6,0.178,0.75,partner_referral,C,https://litoral-logística-corp.com.ar
+ACC00063,Delta Logística Corp.,Minería,Mining,Río Negro,Argentina,528,1.2,0.212,0.72,public_directory,A,https://patagonia-logística-group.com.ar
+ACC00064,Andes Oil Corp.,Minería,Mining,San Juan,Argentina,2207,1.12,0.153,0.72,public_directory,C,https://litoral-industrial-s-r-l.com.ar
+ACC00065,Litoral Minera S.A.,Minería,Mining,Jujuy,Argentina,1279,1.44,0.165,0.72,outbound_research,C,https://norte-oil-s-a.com.ar
+ACC00066,Patagonia Minera S.A.,Energía,Energy,Buenos Aires,Argentina,1000,1.17,0.249,0.68,public_directory,C,https://aconcagua-minera-corp.com.ar
+ACC00067,Aconcagua Solutions Servicios,Minería,Mining,Santa Cruz,Argentina,692,1.4,0.119,0.72,partner_referral,B,https://austral-infraestructura-s-a.com.ar
+ACC00068,Cumbre Minera S.R.L.,Minería,Mining,Salta,Argentina,2504,1.29,0.128,0.72,public_directory,C,https://aconcagua-minera-group.com.ar
+ACC00069,Aconcagua Solutions Corp.,Manufactura,Manufacturing,Santa Fe,Argentina,1221,1.05,0.235,0.61,partner_referral,B,https://delta-minera-s-a.com.ar
+ACC00070,Patagonia Minera S.A.,Oil & Gas,Oil & Gas,CABA,Argentina,2919,1.16,0.126,0.75,outbound_research,A,https://norte-logística-servicios.com.ar
+ACC00071,Austral Operaciones Group,Construcción,Construction,Buenos Aires,Argentina,356,1.16,0.188,0.52,website_form,B,https://norte-solutions-argentina.com.ar
+ACC00072,Litoral Servicios Argentina,Oil & Gas,Oil & Gas,Neuquén,Argentina,1023,1.56,0.108,0.75,website_form,B,https://sur-operaciones-s-r-l.com.ar
+ACC00073,Delta Servicios S.R.L.,Minería,Mining,San Juan,Argentina,2418,1.31,0.134,0.72,outbound_research,B,https://cumbre-servicios-s-r-l.com.ar
+ACC00074,Norte Industrial Corp.,Energía,Utilities,Santa Fe,Argentina,1962,1.24,0.148,0.68,partner_referral,C,https://cumbre-infraestructura-argentina.com.ar
+ACC00075,Norte Solutions Corp.,Servicios,Services,Córdoba,Argentina,243,0.83,0.283,0.45,industry_event,B,https://norte-industrial-argentina.com.ar
+ACC00076,Andes Tecnología Argentina,Minería,Mining,Catamarca,Argentina,2418,1.39,0.206,0.72,outbound_research,B,https://sur-solutions-argentina.com.ar
+ACC00077,Patagonia Industrial Group,Oil & Gas,Oil & Gas,Chubut,Argentina,1320,1.17,0.166,0.75,outbound_research,A,https://norte-logística-argentina.com.ar
+ACC00078,Austral Logística Servicios,Minería,Mining,Jujuy,Argentina,641,1.39,0.116,0.72,partner_referral,C,https://norte-logística-s-a.com.ar
+ACC00079,Pampa Operaciones Servicios,Energía,Utilities,Buenos Aires,Argentina,656,1.03,0.191,0.68,industry_event,B,https://litoral-logística-argentina.com.ar
+ACC00080,Aconcagua Logística S.A.,Construcción,Construction,Córdoba,Argentina,618,1.04,0.316,0.52,public_directory,B,https://cumbre-solutions-argentina.com.ar
+ACC00081,Aconcagua Energía S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2675,1.58,0.155,0.75,partner_referral,A,https://pampa-oil-s-r-l.com.ar
+ACC00082,Austral Operaciones Servicios,Minería,Mining,Salta,Argentina,2846,1.41,0.172,0.72,partner_referral,B,https://norte-industrial-argentina.com.ar
+ACC00083,Pampa Logística S.A.,Minería,Mining,San Juan,Argentina,1921,1.29,0.217,0.72,industry_event,A,https://norte-solutions-s-a.com.ar
+ACC00084,Pampa Tecnología S.A.,Servicios,Services,Santa Fe,Argentina,56,1.04,0.246,0.45,outbound_research,C,https://pampa-energía-servicios.com.ar
+ACC00085,Sur Servicios Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2108,1.27,0.277,0.75,outbound_research,B,https://delta-energía-argentina.com.ar
+ACC00086,Sur Solutions Servicios,Manufactura,Manufacturing,Santa Fe,Argentina,80,0.96,0.193,0.61,outbound_research,C,https://austral-energía-argentina.com.ar
+ACC00087,Austral Tecnología S.A.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,3165,1.38,0.27,0.75,website_form,C,https://austral-infraestructura-corp.com.ar
+ACC00088,Litoral Operaciones Corp.,Construcción,Construction,Buenos Aires,Argentina,82,1.05,0.38,0.52,website_form,C,https://sur-tecnología-s-r-l.com.ar
+ACC00089,Austral Logística Corp.,Oil & Gas,Oil & Gas,Chubut,Argentina,4995,1.35,0.209,0.75,website_form,C,https://patagonia-oil-argentina.com.ar
+ACC00090,Pampa Operaciones Group,Manufactura,Manufacturing,Mendoza,Argentina,974,1.08,0.286,0.61,industry_event,B,https://norte-logística-s-r-l.com.ar
+ACC00091,Patagonia Energía S.A.,Construcción,Construction,Mendoza,Argentina,88,0.93,0.343,0.52,outbound_research,B,https://cumbre-oil-servicios.com.ar
+ACC00092,Sur Operaciones Argentina,Minería,Mining,Catamarca,Argentina,1782,1.44,0.164,0.72,industry_event,A,https://austral-solutions-s-r-l.com.ar
+ACC00093,Sur Oil Group,Construcción,Construction,CABA,Argentina,130,1.13,0.306,0.52,partner_referral,C,https://cumbre-tecnología-argentina.com.ar
+ACC00094,Norte Industrial S.R.L.,Construcción,Construction,Buenos Aires,Argentina,643,1.11,0.248,0.52,industry_event,B,https://delta-servicios-servicios.com.ar
+ACC00095,Andes Energía Argentina,Construcción,Construction,Buenos Aires,Argentina,165,1.01,0.28,0.52,outbound_research,B,https://sur-tecnología-servicios.com.ar
+ACC00096,Delta Tecnología S.A.,Oil & Gas,Oil & Gas,Neuquén,Argentina,1474,1.27,0.219,0.75,partner_referral,B,https://aconcagua-infraestructura-s-r-l.com.ar
+ACC00097,Aconcagua Energía Group,Construcción,Construction,Buenos Aires,Argentina,373,1.06,0.248,0.52,outbound_research,B,https://cumbre-industrial-s-a.com.ar
+ACC00098,Norte Infraestructura Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,1324,1.15,0.234,0.75,outbound_research,A,https://austral-solutions-servicios.com.ar
+ACC00099,Aconcagua Industrial Corp.,Energía,Energy,Santa Fe,Argentina,375,1.16,0.134,0.68,industry_event,B,https://cumbre-operaciones-argentina.com.ar
+ACC00100,Aconcagua Industrial Group,Construcción,Construction,Córdoba,Argentina,137,1.14,0.316,0.52,industry_event,A,https://patagonia-solutions-corp.com.ar
+ACC00101,Aconcagua Infraestructura Argentina,Energía,Utilities,Neuquén,Argentina,402,1.08,0.26,0.68,website_form,B,https://patagonia-oil-servicios.com.ar
+ACC00102,Delta Solutions S.A.,Oil & Gas,Oil & Gas,Chubut,Argentina,3076,1.27,0.131,0.75,outbound_research,C,https://patagonia-servicios-argentina.com.ar
+ACC00103,Litoral Tecnología Argentina,Energía,Utilities,Neuquén,Argentina,2453,1.3,0.233,0.68,outbound_research,B,https://litoral-minera-argentina.com.ar
+ACC00104,Andes Logística Servicios,Minería,Mining,Salta,Argentina,2522,1.21,0.143,0.72,website_form,B,https://norte-energía-argentina.com.ar
+ACC00105,Cumbre Oil Corp.,Manufactura,Manufacturing,Buenos Aires,Argentina,1309,1.14,0.331,0.61,website_form,B,https://cumbre-solutions-group.com.ar
+ACC00106,Andes Minera S.A.,Construcción,Construction,Santa Fe,Argentina,174,1.19,0.199,0.52,outbound_research,A,https://litoral-minera-servicios.com.ar
+ACC00107,Sur Infraestructura Corp.,Energía,Utilities,Córdoba,Argentina,1570,1.27,0.242,0.68,website_form,C,https://sur-energía-group.com.ar
+ACC00108,Norte Tecnología S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2527,1.19,0.219,0.75,industry_event,B,https://aconcagua-servicios-servicios.com.ar
+ACC00109,Austral Operaciones Argentina,Construcción,Construction,Buenos Aires,Argentina,337,1.14,0.327,0.52,public_directory,A,https://aconcagua-oil-group.com.ar
+ACC00110,Pampa Logística Corp.,Oil & Gas,Oil & Gas,Chubut,Argentina,1676,1.25,0.125,0.75,website_form,B,https://patagonia-oil-servicios.com.ar
+ACC00111,Sur Tecnología S.R.L.,Manufactura,Manufacturing,Buenos Aires,Argentina,1405,1.0,0.176,0.61,public_directory,C,https://delta-minera-s-a.com.ar
+ACC00112,Litoral Tecnología Group,Minería,Mining,Río Negro,Argentina,1072,1.18,0.113,0.72,partner_referral,C,https://pampa-logística-argentina.com.ar
+ACC00113,Norte Operaciones Servicios,Servicios,Services,Santa Fe,Argentina,246,1.09,0.401,0.45,public_directory,A,https://norte-industrial-argentina.com.ar
+ACC00114,Patagonia Oil S.A.,Energía,Utilities,Santa Fe,Argentina,2351,1.03,0.149,0.68,partner_referral,C,https://delta-operaciones-s-a.com.ar
+ACC00115,Sur Industrial Corp.,Servicios,Services,Buenos Aires,Argentina,240,0.92,0.281,0.45,partner_referral,C,https://sur-solutions-s-a.com.ar
+ACC00116,Sur Servicios S.R.L.,Minería,Mining,Catamarca,Argentina,2762,1.2,0.196,0.72,outbound_research,C,https://litoral-minera-servicios.com.ar
+ACC00117,Norte Solutions S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,355,1.2,0.152,0.75,industry_event,A,https://pampa-operaciones-argentina.com.ar
+ACC00118,Patagonia Minera Servicios,Construcción,Construction,Mendoza,Argentina,84,1.09,0.307,0.52,outbound_research,B,https://andes-tecnología-group.com.ar
+ACC00119,Patagonia Oil Group,Minería,Mining,San Juan,Argentina,867,1.43,0.156,0.72,public_directory,B,https://aconcagua-minera-s-a.com.ar
+ACC00120,Andes Logística S.A.,Construcción,Construction,Córdoba,Argentina,279,0.97,0.325,0.52,website_form,C,https://sur-servicios-s-a.com.ar
+ACC00121,Delta Minera Argentina,Minería,Mining,Salta,Argentina,2732,1.32,0.194,0.72,website_form,C,https://litoral-industrial-group.com.ar
+ACC00122,Sur Infraestructura Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,543,1.6,0.198,0.75,industry_event,A,https://pampa-infraestructura-group.com.ar
+ACC00123,Sur Infraestructura S.A.,Manufactura,Manufacturing,Buenos Aires,Argentina,1823,1.09,0.22,0.61,partner_referral,C,https://aconcagua-logística-s-r-l.com.ar
+ACC00124,Austral Infraestructura S.A.,Energía,Utilities,Mendoza,Argentina,1584,1.03,0.228,0.68,outbound_research,B,https://sur-energía-s-a.com.ar
+ACC00125,Litoral Tecnología Argentina,Minería,Mining,Salta,Argentina,1355,1.16,0.142,0.72,partner_referral,A,https://sur-tecnología-corp.com.ar
+ACC00126,Aconcagua Logística Servicios,Minería,Mining,Catamarca,Argentina,407,1.43,0.1,0.72,public_directory,B,https://litoral-industrial-s-r-l.com.ar
+ACC00127,Aconcagua Tecnología S.A.,Oil & Gas,Oil & Gas,Chubut,Argentina,3166,1.46,0.271,0.75,industry_event,B,https://patagonia-tecnología-s-r-l.com.ar
+ACC00128,Norte Solutions S.A.,Energía,Energy,Mendoza,Argentina,1367,1.26,0.21,0.68,partner_referral,C,https://patagonia-infraestructura-group.com.ar
+ACC00129,Norte Minera S.R.L.,Construcción,Construction,CABA,Argentina,646,0.94,0.196,0.52,outbound_research,C,https://litoral-energía-argentina.com.ar
+ACC00130,Sur Energía Servicios,Servicios,Services,Córdoba,Argentina,351,1.07,0.41,0.45,outbound_research,C,https://austral-solutions-s-a.com.ar
+ACC00131,Litoral Industrial Group,Servicios,Services,Buenos Aires,Argentina,131,0.94,0.445,0.45,outbound_research,B,https://patagonia-energía-group.com.ar
+ACC00132,Austral Operaciones Corp.,Minería,Mining,Río Negro,Argentina,2060,1.14,0.124,0.72,website_form,B,https://austral-logística-s-r-l.com.ar
+ACC00133,Delta Operaciones Servicios,Manufactura,Manufacturing,Santa Fe,Argentina,1622,1.22,0.244,0.61,industry_event,A,https://sur-solutions-group.com.ar
+ACC00134,Norte Solutions Argentina,Servicios,Services,Córdoba,Argentina,50,0.84,0.262,0.45,public_directory,A,https://delta-tecnología-servicios.com.ar
+ACC00135,Cumbre Industrial S.A.,Oil & Gas,Oil & Gas,CABA,Argentina,2965,1.17,0.215,0.75,public_directory,B,https://pampa-tecnología-corp.com.ar
+ACC00136,Austral Infraestructura Argentina,Construcción,Construction,Buenos Aires,Argentina,529,1.04,0.357,0.52,partner_referral,B,https://patagonia-industrial-s-r-l.com.ar
+ACC00137,Pampa Logística Servicios,Energía,Energy,Mendoza,Argentina,1982,1.11,0.249,0.68,industry_event,C,https://delta-logística-servicios.com.ar
+ACC00138,Litoral Energía Group,Energía,Utilities,Santa Fe,Argentina,1070,1.09,0.137,0.68,industry_event,C,https://cumbre-operaciones-s-r-l.com.ar
+ACC00139,Cumbre Logística S.R.L.,Servicios,Services,Buenos Aires,Argentina,177,0.95,0.319,0.45,partner_referral,C,https://litoral-industrial-s-a.com.ar
+ACC00140,Pampa Tecnología Group,Servicios,Services,Santa Fe,Argentina,133,0.82,0.314,0.45,partner_referral,B,https://andes-energía-corp.com.ar
+ACC00141,Aconcagua Logística S.A.,Oil & Gas,Oil & Gas,Chubut,Argentina,3196,1.17,0.201,0.75,industry_event,B,https://patagonia-operaciones-servicios.com.ar
+ACC00142,Cumbre Tecnología S.A.,Energía,Energy,Neuquén,Argentina,1225,1.34,0.191,0.68,industry_event,B,https://sur-servicios-s-r-l.com.ar
+ACC00143,Andes Industrial S.A.,Construcción,Construction,Mendoza,Argentina,532,1.11,0.357,0.52,public_directory,B,https://cumbre-oil-s-r-l.com.ar
+ACC00144,Delta Operaciones Servicios,Minería,Mining,Santa Cruz,Argentina,1404,1.31,0.151,0.72,public_directory,B,https://cumbre-infraestructura-corp.com.ar
+ACC00145,Patagonia Operaciones Servicios,Construcción,Construction,Córdoba,Argentina,359,1.14,0.34,0.52,website_form,B,https://norte-tecnología-servicios.com.ar
+ACC00146,Litoral Servicios Servicios,Oil & Gas,Oil & Gas,Neuquén,Argentina,4980,1.22,0.223,0.75,website_form,B,https://patagonia-solutions-s-a.com.ar
+ACC00147,Aconcagua Solutions Corp.,Energía,Utilities,Mendoza,Argentina,700,1.31,0.252,0.68,website_form,C,https://austral-solutions-servicios.com.ar
+ACC00148,Austral Operaciones Group,Minería,Mining,Río Negro,Argentina,2059,1.26,0.155,0.72,public_directory,B,https://norte-tecnología-corp.com.ar
+ACC00149,Austral Infraestructura S.R.L.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2485,1.5,0.227,0.75,partner_referral,B,https://sur-oil-argentina.com.ar
+ACC00150,Austral Operaciones Corp.,Minería,Mining,Catamarca,Argentina,2448,1.43,0.193,0.72,industry_event,A,https://patagonia-logística-corp.com.ar
+ACC00151,Pampa Oil Group,Construcción,Construction,Mendoza,Argentina,239,0.94,0.315,0.52,public_directory,B,https://andes-oil-s-r-l.com.ar
+ACC00152,Aconcagua Logística Argentina,Construcción,Construction,Buenos Aires,Argentina,122,0.93,0.35,0.52,website_form,C,https://delta-operaciones-argentina.com.ar
+ACC00153,Pampa Infraestructura Group,Servicios,Services,Santa Fe,Argentina,254,0.99,0.425,0.45,website_form,B,https://pampa-oil-argentina.com.ar
+ACC00154,Aconcagua Servicios S.A.,Construcción,Construction,Buenos Aires,Argentina,199,1.14,0.221,0.52,industry_event,C,https://andes-infraestructura-servicios.com.ar
+ACC00155,Litoral Oil Servicios,Construcción,Construction,Córdoba,Argentina,311,1.17,0.21,0.52,public_directory,B,https://pampa-energía-group.com.ar
+ACC00156,Delta Industrial Argentina,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2307,1.51,0.202,0.75,outbound_research,A,https://aconcagua-operaciones-servicios.com.ar
+ACC00157,Patagonia Servicios S.R.L.,Minería,Mining,San Juan,Argentina,2841,1.21,0.115,0.72,industry_event,B,https://litoral-infraestructura-group.com.ar
+ACC00158,Andes Infraestructura Argentina,Minería,Mining,Río Negro,Argentina,2446,1.34,0.089,0.72,website_form,B,https://delta-operaciones-argentina.com.ar
+ACC00159,Norte Logística Servicios,Energía,Energy,Santa Fe,Argentina,560,1.08,0.144,0.68,outbound_research,B,https://cumbre-logística-corp.com.ar
+ACC00160,Austral Solutions S.R.L.,Construcción,Construction,Mendoza,Argentina,795,1.06,0.296,0.52,industry_event,A,https://cumbre-energía-s-a.com.ar
+ACC00161,Austral Servicios S.R.L.,Manufactura,Manufacturing,Santa Fe,Argentina,1222,1.23,0.228,0.61,outbound_research,C,https://litoral-energía-servicios.com.ar
+ACC00162,Delta Oil Corp.,Energía,Utilities,Buenos Aires,Argentina,1937,1.2,0.221,0.68,industry_event,C,https://aconcagua-infraestructura-s-a.com.ar
+ACC00163,Andes Operaciones Group,Construcción,Construction,Santa Fe,Argentina,94,1.06,0.193,0.52,website_form,C,https://litoral-industrial-group.com.ar
+ACC00164,Aconcagua Logística Corp.,Minería,Mining,Jujuy,Argentina,2727,1.4,0.207,0.72,partner_referral,A,https://austral-servicios-argentina.com.ar
+ACC00165,Austral Operaciones Servicios,Manufactura,Manufacturing,Buenos Aires,Argentina,415,1.19,0.185,0.61,website_form,C,https://norte-minera-argentina.com.ar
+ACC00166,Aconcagua Solutions S.R.L.,Construcción,Construction,Mendoza,Argentina,564,1.0,0.241,0.52,website_form,A,https://aconcagua-tecnología-s-a.com.ar
+ACC00167,Cumbre Industrial Corp.,Minería,Mining,Catamarca,Argentina,513,1.19,0.086,0.72,partner_referral,B,https://pampa-industrial-s-r-l.com.ar
+ACC00168,Cumbre Logística Servicios,Energía,Utilities,Santa Fe,Argentina,1039,1.08,0.278,0.68,public_directory,B,https://norte-infraestructura-s-a.com.ar
+ACC00169,Aconcagua Oil Corp.,Energía,Energy,Neuquén,Argentina,797,1.34,0.289,0.68,partner_referral,C,https://sur-operaciones-corp.com.ar
+ACC00170,Austral Minera S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1706,1.29,0.227,0.75,partner_referral,C,https://austral-operaciones-corp.com.ar
+ACC00171,Pampa Infraestructura S.R.L.,Energía,Utilities,Córdoba,Argentina,1670,1.23,0.286,0.68,industry_event,A,https://pampa-industrial-group.com.ar
+ACC00172,Andes Energía S.R.L.,Minería,Mining,Santa Cruz,Argentina,2569,1.27,0.202,0.72,industry_event,B,https://andes-solutions-s-r-l.com.ar
+ACC00173,Litoral Solutions Argentina,Servicios,Services,CABA,Argentina,392,0.92,0.245,0.45,industry_event,C,https://aconcagua-minera-servicios.com.ar
+ACC00174,Sur Oil Corp.,Construcción,Construction,Córdoba,Argentina,287,0.93,0.396,0.52,partner_referral,C,https://sur-solutions-group.com.ar
+ACC00175,Pampa Servicios S.A.,Minería,Mining,Catamarca,Argentina,2404,1.29,0.162,0.72,partner_referral,B,https://pampa-logística-s-r-l.com.ar
+ACC00176,Austral Logística Group,Minería,Mining,Jujuy,Argentina,2145,1.44,0.17,0.72,partner_referral,B,https://sur-servicios-s-r-l.com.ar
+ACC00177,Austral Industrial Servicios,Construcción,Construction,Mendoza,Argentina,208,1.15,0.196,0.52,website_form,C,https://aconcagua-servicios-argentina.com.ar
+ACC00178,Pampa Oil Corp.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,274,1.18,0.215,0.75,public_directory,C,https://litoral-industrial-s-a.com.ar
+ACC00179,Andes Oil Argentina,Energía,Utilities,Mendoza,Argentina,128,1.19,0.172,0.68,public_directory,C,https://aconcagua-servicios-s-a.com.ar
+ACC00180,Pampa Tecnología Servicios,Manufactura,Manufacturing,Santa Fe,Argentina,543,1.22,0.193,0.61,partner_referral,A,https://aconcagua-minera-servicios.com.ar
+ACC00181,Norte Energía Argentina,Minería,Mining,Río Negro,Argentina,1025,1.13,0.133,0.72,public_directory,B,https://andes-servicios-s-a.com.ar
+ACC00182,Cumbre Energía Servicios,Energía,Energy,Mendoza,Argentina,1436,1.08,0.282,0.68,public_directory,B,https://andes-energía-argentina.com.ar
+ACC00183,Sur Industrial S.R.L.,Servicios,Services,CABA,Argentina,101,1.03,0.372,0.45,partner_referral,C,https://norte-servicios-servicios.com.ar
+ACC00184,Austral Logística Corp.,Minería,Mining,San Juan,Argentina,2873,1.38,0.177,0.72,website_form,B,https://sur-industrial-s-a.com.ar
+ACC00185,Cumbre Tecnología Servicios,Energía,Utilities,Buenos Aires,Argentina,1475,1.34,0.179,0.68,industry_event,C,https://litoral-minera-s-r-l.com.ar
+ACC00186,Delta Tecnología Argentina,Minería,Mining,San Juan,Argentina,1868,1.13,0.167,0.72,outbound_research,C,https://patagonia-infraestructura-s-r-l.com.ar
+ACC00187,Aconcagua Logística Group,Minería,Mining,Río Negro,Argentina,731,1.13,0.212,0.72,partner_referral,B,https://norte-energía-s-r-l.com.ar
+ACC00188,Austral Oil Servicios,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,3876,1.2,0.116,0.75,public_directory,A,https://cumbre-logística-corp.com.ar
+ACC00189,Patagonia Oil S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,3376,1.46,0.131,0.75,industry_event,B,https://litoral-servicios-s-a.com.ar
+ACC00190,Norte Minera S.A.,Oil & Gas,Oil & Gas,Chubut,Argentina,3649,1.26,0.144,0.75,partner_referral,B,https://pampa-minera-s-a.com.ar
+ACC00191,Sur Tecnología Corp.,Oil & Gas,Oil & Gas,Neuquén,Argentina,3441,1.35,0.178,0.75,public_directory,A,https://sur-tecnología-argentina.com.ar
+ACC00192,Aconcagua Logística Group,Oil & Gas,Oil & Gas,Chubut,Argentina,1655,1.59,0.241,0.75,industry_event,B,https://aconcagua-logística-s-a.com.ar
+ACC00193,Austral Servicios Argentina,Servicios,Services,Buenos Aires,Argentina,313,1.09,0.305,0.45,outbound_research,B,https://norte-energía-corp.com.ar
+ACC00194,Norte Solutions Group,Construcción,Construction,CABA,Argentina,668,1.11,0.354,0.52,website_form,B,https://cumbre-minera-servicios.com.ar
+ACC00195,Aconcagua Oil S.A.,Minería,Mining,Santa Cruz,Argentina,2933,1.35,0.194,0.72,public_directory,B,https://patagonia-energía-s-r-l.com.ar
+ACC00196,Cumbre Industrial Servicios,Construcción,Construction,Córdoba,Argentina,190,1.19,0.253,0.52,partner_referral,A,https://patagonia-infraestructura-s-r-l.com.ar
+ACC00197,Cumbre Tecnología S.R.L.,Energía,Utilities,Neuquén,Argentina,2365,1.13,0.203,0.68,public_directory,B,https://delta-logística-s-a.com.ar
+ACC00198,Patagonia Energía Argentina,Energía,Energy,Santa Fe,Argentina,1783,1.12,0.182,0.68,outbound_research,B,https://sur-minera-s-a.com.ar
+ACC00199,Patagonia Infraestructura S.A.,Energía,Energy,Mendoza,Argentina,1386,1.01,0.182,0.68,website_form,B,https://delta-solutions-servicios.com.ar
+ACC00200,Austral Operaciones Corp.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2911,1.51,0.213,0.75,outbound_research,B,https://aconcagua-operaciones-s-a.com.ar
+ACC00201,Cumbre Operaciones Corp.,Construcción,Construction,CABA,Argentina,480,1.11,0.225,0.52,website_form,B,https://austral-servicios-group.com.ar
+ACC00202,Norte Minera Servicios,Minería,Mining,San Juan,Argentina,566,1.31,0.166,0.72,public_directory,A,https://sur-minera-servicios.com.ar
+ACC00203,Delta Logística S.A.,Oil & Gas,Oil & Gas,Chubut,Argentina,894,1.29,0.133,0.75,outbound_research,B,https://aconcagua-tecnología-s-r-l.com.ar
+ACC00204,Litoral Oil Argentina,Energía,Energy,Mendoza,Argentina,840,1.19,0.208,0.68,outbound_research,A,https://litoral-tecnología-s-a.com.ar
+ACC00205,Delta Solutions Corp.,Manufactura,Manufacturing,Buenos Aires,Argentina,1042,1.09,0.238,0.61,partner_referral,B,https://patagonia-tecnología-s-a.com.ar
+ACC00206,Andes Infraestructura S.R.L.,Construcción,Construction,CABA,Argentina,319,0.95,0.281,0.52,partner_referral,B,https://patagonia-tecnología-s-a.com.ar
+ACC00207,Austral Industrial Argentina,Minería,Mining,Santa Cruz,Argentina,1602,1.29,0.219,0.72,website_form,C,https://pampa-infraestructura-s-a.com.ar
+ACC00208,Litoral Energía S.R.L.,Energía,Energy,Santa Fe,Argentina,436,1.28,0.226,0.68,industry_event,C,https://cumbre-operaciones-s-r-l.com.ar
+ACC00209,Andes Tecnología Group,Construcción,Construction,CABA,Argentina,231,1.08,0.217,0.52,industry_event,B,https://norte-oil-argentina.com.ar
+ACC00210,Aconcagua Industrial Group,Construcción,Construction,CABA,Argentina,788,1.11,0.209,0.52,outbound_research,C,https://pampa-operaciones-corp.com.ar
+ACC00211,Aconcagua Minera S.A.,Oil & Gas,Oil & Gas,Chubut,Argentina,3593,1.33,0.235,0.75,industry_event,B,https://litoral-logística-servicios.com.ar
+ACC00212,Sur Energía Servicios,Oil & Gas,Oil & Gas,Neuquén,Argentina,3955,1.25,0.177,0.75,outbound_research,B,https://sur-infraestructura-group.com.ar
+ACC00213,Litoral Logística Argentina,Energía,Energy,Córdoba,Argentina,2398,1.02,0.233,0.68,partner_referral,A,https://delta-minera-corp.com.ar
+ACC00214,Delta Infraestructura S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1857,1.19,0.165,0.75,website_form,B,https://delta-industrial-corp.com.ar
+ACC00215,Patagonia Energía S.A.,Construcción,Construction,CABA,Argentina,459,1.04,0.209,0.52,outbound_research,B,https://litoral-industrial-s-a.com.ar
+ACC00216,Delta Minera S.A.,Construcción,Construction,Buenos Aires,Argentina,452,1.01,0.341,0.52,website_form,A,https://sur-infraestructura-s-r-l.com.ar
+ACC00217,Delta Energía Servicios,Minería,Mining,Jujuy,Argentina,2727,1.31,0.103,0.72,industry_event,C,https://delta-operaciones-servicios.com.ar
+ACC00218,Patagonia Servicios S.A.,Construcción,Construction,CABA,Argentina,108,1.01,0.274,0.52,outbound_research,B,https://patagonia-solutions-servicios.com.ar
+ACC00219,Andes Infraestructura S.R.L.,Construcción,Construction,Santa Fe,Argentina,311,1.12,0.245,0.52,website_form,C,https://pampa-minera-corp.com.ar
+ACC00220,Austral Industrial Group,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,781,1.21,0.255,0.75,public_directory,B,https://austral-servicios-corp.com.ar
+ACC00221,Cumbre Energía S.A.,Servicios,Services,CABA,Argentina,18,0.86,0.429,0.45,partner_referral,B,https://austral-operaciones-corp.com.ar
+ACC00222,Austral Oil Servicios,Construcción,Construction,Buenos Aires,Argentina,675,0.98,0.248,0.52,public_directory,C,https://delta-oil-group.com.ar
+ACC00223,Patagonia Infraestructura Argentina,Minería,Mining,Río Negro,Argentina,2761,1.36,0.199,0.72,website_form,B,https://aconcagua-energía-corp.com.ar
+ACC00224,Delta Energía S.A.,Construcción,Construction,Buenos Aires,Argentina,336,1.11,0.216,0.52,industry_event,B,https://norte-servicios-group.com.ar
+ACC00225,Andes Logística Corp.,Oil & Gas,Oil & Gas,Chubut,Argentina,1167,1.39,0.147,0.75,public_directory,B,https://litoral-minera-servicios.com.ar
+ACC00226,Delta Logística S.R.L.,Minería,Mining,San Juan,Argentina,2421,1.37,0.205,0.72,website_form,B,https://austral-industrial-s-a.com.ar
+ACC00227,Andes Minera Group,Manufactura,Manufacturing,Buenos Aires,Argentina,550,1.25,0.176,0.61,website_form,B,https://aconcagua-solutions-group.com.ar
+ACC00228,Norte Energía Servicios,Minería,Mining,Río Negro,Argentina,1410,1.14,0.174,0.72,website_form,A,https://austral-industrial-corp.com.ar
+ACC00229,Norte Logística S.A.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2512,1.15,0.136,0.75,public_directory,C,https://cumbre-solutions-corp.com.ar
+ACC00230,Austral Solutions S.R.L.,Minería,Mining,San Juan,Argentina,900,1.43,0.083,0.72,public_directory,B,https://andes-logística-s-a.com.ar
+ACC00231,Norte Energía S.R.L.,Construcción,Construction,Mendoza,Argentina,775,1.03,0.391,0.52,outbound_research,C,https://patagonia-industrial-s-r-l.com.ar
+ACC00232,Sur Minera Argentina,Manufactura,Manufacturing,Mendoza,Argentina,1485,1.14,0.241,0.61,partner_referral,A,https://cumbre-industrial-corp.com.ar
+ACC00233,Norte Infraestructura Group,Construcción,Construction,CABA,Argentina,262,1.11,0.342,0.52,industry_event,B,https://pampa-energía-s-r-l.com.ar
+ACC00234,Delta Energía S.R.L.,Oil & Gas,Oil & Gas,CABA,Argentina,1092,1.36,0.173,0.75,public_directory,B,https://pampa-minera-group.com.ar
+ACC00235,Delta Infraestructura Argentina,Energía,Energy,Buenos Aires,Argentina,450,1.08,0.274,0.68,outbound_research,A,https://pampa-logística-corp.com.ar
+ACC00236,Delta Industrial Corp.,Energía,Utilities,Santa Fe,Argentina,1145,1.19,0.219,0.68,website_form,B,https://delta-energía-s-a.com.ar
+ACC00237,Pampa Operaciones Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,1270,1.41,0.147,0.75,website_form,A,https://patagonia-solutions-argentina.com.ar
+ACC00238,Sur Energía S.A.,Energía,Utilities,Córdoba,Argentina,456,1.02,0.286,0.68,partner_referral,C,https://aconcagua-minera-s-a.com.ar
+ACC00239,Sur Solutions S.R.L.,Minería,Mining,San Juan,Argentina,807,1.2,0.204,0.72,website_form,B,https://cumbre-solutions-argentina.com.ar
+ACC00240,Litoral Industrial S.A.,Minería,Mining,San Juan,Argentina,2355,1.23,0.139,0.72,public_directory,B,https://austral-industrial-corp.com.ar
+ACC00241,Austral Minera Group,Construcción,Construction,Córdoba,Argentina,511,1.02,0.22,0.52,industry_event,B,https://andes-infraestructura-s-a.com.ar
+ACC00242,Sur Tecnología S.R.L.,Construcción,Construction,Mendoza,Argentina,562,0.93,0.325,0.52,industry_event,B,https://andes-solutions-servicios.com.ar
+ACC00243,Delta Servicios S.R.L.,Manufactura,Manufacturing,Mendoza,Argentina,776,1.22,0.28,0.61,public_directory,A,https://sur-tecnología-servicios.com.ar
+ACC00244,Austral Infraestructura S.R.L.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4232,1.17,0.11,0.75,public_directory,A,https://austral-minera-s-a.com.ar
+ACC00245,Delta Logística Argentina,Minería,Mining,Santa Cruz,Argentina,925,1.42,0.198,0.72,industry_event,A,https://delta-tecnología-argentina.com.ar
+ACC00246,Austral Logística S.A.,Manufactura,Manufacturing,Buenos Aires,Argentina,1783,1.18,0.272,0.61,public_directory,A,https://norte-logística-s-r-l.com.ar
+ACC00247,Litoral Logística S.R.L.,Servicios,Services,Santa Fe,Argentina,337,0.87,0.339,0.45,outbound_research,B,https://norte-servicios-s-r-l.com.ar
+ACC00248,Cumbre Industrial S.R.L.,Construcción,Construction,Santa Fe,Argentina,420,1.18,0.393,0.52,outbound_research,B,https://patagonia-minera-s-r-l.com.ar
+ACC00249,Sur Logística S.R.L.,Minería,Mining,Catamarca,Argentina,1074,1.39,0.174,0.72,industry_event,B,https://norte-solutions-s-r-l.com.ar
+ACC00250,Patagonia Industrial S.A.,Construcción,Construction,Córdoba,Argentina,282,1.03,0.272,0.52,outbound_research,C,https://litoral-operaciones-group.com.ar
+ACC00251,Cumbre Solutions S.R.L.,Energía,Utilities,Buenos Aires,Argentina,2043,1.03,0.272,0.68,industry_event,A,https://norte-energía-s-a.com.ar
+ACC00252,Patagonia Oil S.A.,Minería,Mining,San Juan,Argentina,759,1.31,0.166,0.72,partner_referral,C,https://aconcagua-servicios-servicios.com.ar
+ACC00253,Patagonia Logística S.R.L.,Manufactura,Manufacturing,Santa Fe,Argentina,159,1.09,0.251,0.61,public_directory,B,https://norte-infraestructura-s-r-l.com.ar
+ACC00254,Austral Minera S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4883,1.31,0.177,0.75,industry_event,C,https://cumbre-minera-s-r-l.com.ar
+ACC00255,Norte Energía Corp.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,1599,1.29,0.172,0.75,partner_referral,C,https://norte-energía-argentina.com.ar
+ACC00256,Aconcagua Logística S.R.L.,Energía,Utilities,Córdoba,Argentina,1599,1.02,0.199,0.68,industry_event,B,https://norte-tecnología-s-a.com.ar
+ACC00257,Sur Oil Corp.,Oil & Gas,Oil & Gas,Neuquén,Argentina,902,1.4,0.251,0.75,public_directory,B,https://austral-minera-servicios.com.ar
+ACC00258,Patagonia Operaciones Argentina,Manufactura,Manufacturing,Mendoza,Argentina,662,1.12,0.32,0.61,public_directory,B,https://cumbre-servicios-s-a.com.ar
+ACC00259,Delta Solutions S.R.L.,Servicios,Services,Santa Fe,Argentina,98,0.81,0.201,0.45,partner_referral,A,https://delta-tecnología-group.com.ar
+ACC00260,Patagonia Operaciones Servicios,Minería,Mining,Río Negro,Argentina,374,1.29,0.2,0.72,public_directory,B,https://andes-tecnología-servicios.com.ar
+ACC00261,Aconcagua Servicios S.R.L.,Energía,Energy,Mendoza,Argentina,540,1.32,0.221,0.68,website_form,C,https://austral-logística-corp.com.ar
+ACC00262,Cumbre Tecnología Corp.,Minería,Mining,Río Negro,Argentina,2088,1.16,0.136,0.72,public_directory,B,https://aconcagua-industrial-corp.com.ar
+ACC00263,Pampa Industrial Argentina,Manufactura,Manufacturing,Córdoba,Argentina,1464,1.25,0.319,0.61,website_form,B,https://norte-infraestructura-group.com.ar
+ACC00264,Pampa Servicios Group,Manufactura,Manufacturing,Buenos Aires,Argentina,1829,1.21,0.204,0.61,partner_referral,B,https://patagonia-solutions-corp.com.ar
+ACC00265,Austral Logística S.A.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4168,1.18,0.228,0.75,partner_referral,A,https://austral-tecnología-s-a.com.ar
+ACC00266,Pampa Industrial Corp.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,672,1.56,0.227,0.75,industry_event,B,https://litoral-oil-corp.com.ar
+ACC00267,Andes Solutions Group,Construcción,Construction,Buenos Aires,Argentina,717,1.08,0.219,0.52,partner_referral,B,https://sur-logística-s-r-l.com.ar
+ACC00268,Patagonia Infraestructura S.A.,Manufactura,Manufacturing,Córdoba,Argentina,1583,0.97,0.311,0.61,outbound_research,C,https://pampa-solutions-group.com.ar
+ACC00269,Andes Minera S.R.L.,Construcción,Construction,Santa Fe,Argentina,40,1.08,0.182,0.52,industry_event,B,https://norte-infraestructura-corp.com.ar
+ACC00270,Norte Solutions Corp.,Manufactura,Manufacturing,Córdoba,Argentina,990,1.17,0.305,0.61,partner_referral,B,https://andes-oil-argentina.com.ar
+ACC00271,Cumbre Tecnología Group,Servicios,Services,Córdoba,Argentina,297,1.01,0.31,0.45,industry_event,C,https://sur-infraestructura-group.com.ar
+ACC00272,Delta Oil S.R.L.,Construcción,Construction,Córdoba,Argentina,212,1.14,0.357,0.52,public_directory,B,https://sur-servicios-argentina.com.ar
+ACC00273,Norte Operaciones Corp.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2621,1.48,0.205,0.75,public_directory,C,https://sur-solutions-argentina.com.ar
+ACC00274,Austral Infraestructura S.R.L.,Energía,Energy,Mendoza,Argentina,1548,1.1,0.205,0.68,industry_event,C,https://austral-servicios-argentina.com.ar
+ACC00275,Sur Solutions Argentina,Manufactura,Manufacturing,Buenos Aires,Argentina,505,1.09,0.317,0.61,industry_event,B,https://norte-minera-s-a.com.ar
+ACC00276,Cumbre Energía Corp.,Energía,Energy,Neuquén,Argentina,2456,1.18,0.276,0.68,partner_referral,B,https://aconcagua-industrial-s-r-l.com.ar
+ACC00277,Aconcagua Tecnología Corp.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,3007,1.29,0.229,0.75,website_form,B,https://delta-logística-argentina.com.ar
+ACC00278,Pampa Servicios Servicios,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2440,1.37,0.237,0.75,website_form,A,https://aconcagua-operaciones-corp.com.ar
+ACC00279,Andes Industrial Servicios,Energía,Energy,Mendoza,Argentina,1650,1.26,0.291,0.68,industry_event,C,https://austral-solutions-s-a.com.ar
+ACC00280,Sur Infraestructura S.R.L.,Construcción,Construction,CABA,Argentina,251,1.02,0.31,0.52,outbound_research,A,https://andes-infraestructura-group.com.ar
+ACC00281,Sur Operaciones Argentina,Energía,Energy,Neuquén,Argentina,2226,1.12,0.282,0.68,industry_event,C,https://delta-operaciones-s-a.com.ar
+ACC00282,Andes Tecnología Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,1930,1.21,0.228,0.75,website_form,B,https://norte-oil-servicios.com.ar
+ACC00283,Andes Industrial Argentina,Oil & Gas,Oil & Gas,Neuquén,Argentina,1085,1.34,0.168,0.75,public_directory,B,https://delta-solutions-argentina.com.ar
+ACC00284,Aconcagua Energía Argentina,Construcción,Construction,Buenos Aires,Argentina,328,1.09,0.334,0.52,partner_referral,C,https://patagonia-oil-argentina.com.ar
+ACC00285,Patagonia Minera S.R.L.,Construcción,Construction,Córdoba,Argentina,136,1.13,0.363,0.52,outbound_research,B,https://aconcagua-infraestructura-s-r-l.com.ar
+ACC00286,Litoral Logística S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1901,1.16,0.116,0.75,website_form,C,https://litoral-servicios-s-a.com.ar
+ACC00287,Patagonia Infraestructura Argentina,Construcción,Construction,Buenos Aires,Argentina,760,1.04,0.395,0.52,industry_event,B,https://patagonia-servicios-s-a.com.ar
+ACC00288,Sur Operaciones Argentina,Manufactura,Manufacturing,Córdoba,Argentina,1691,0.98,0.292,0.61,website_form,A,https://delta-servicios-group.com.ar
+ACC00289,Norte Energía Group,Minería,Mining,San Juan,Argentina,2646,1.16,0.136,0.72,partner_referral,B,https://aconcagua-minera-corp.com.ar
+ACC00290,Delta Industrial S.R.L.,Construcción,Construction,CABA,Argentina,135,1.02,0.31,0.52,public_directory,B,https://delta-tecnología-corp.com.ar
+ACC00291,Delta Minera Corp.,Construcción,Construction,Santa Fe,Argentina,49,1.17,0.277,0.52,website_form,B,https://sur-industrial-argentina.com.ar
+ACC00292,Sur Oil Servicios,Manufactura,Manufacturing,Santa Fe,Argentina,1421,1.09,0.285,0.61,partner_referral,B,https://aconcagua-servicios-servicios.com.ar
+ACC00293,Delta Oil Corp.,Manufactura,Manufacturing,Buenos Aires,Argentina,73,1.24,0.155,0.61,partner_referral,B,https://sur-infraestructura-s-a.com.ar
+ACC00294,Aconcagua Solutions S.A.,Energía,Utilities,Neuquén,Argentina,1630,1.16,0.223,0.68,website_form,C,https://litoral-logística-s-a.com.ar
+ACC00295,Aconcagua Operaciones S.A.,Servicios,Services,CABA,Argentina,62,1.05,0.394,0.45,public_directory,B,https://austral-oil-s-r-l.com.ar
+ACC00296,Sur Industrial S.R.L.,Construcción,Construction,Mendoza,Argentina,369,1.0,0.349,0.52,public_directory,B,https://sur-minera-s-a.com.ar
+ACC00297,Sur Logística Argentina,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,217,1.4,0.167,0.75,website_form,A,https://delta-minera-s-r-l.com.ar
+ACC00298,Norte Tecnología S.R.L.,Manufactura,Manufacturing,Mendoza,Argentina,269,0.99,0.31,0.61,outbound_research,B,https://pampa-logística-s-a.com.ar
+ACC00299,Cumbre Energía Corp.,Construcción,Construction,Buenos Aires,Argentina,668,1.1,0.39,0.52,outbound_research,C,https://andes-oil-argentina.com.ar
+ACC00300,Litoral Oil S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4993,1.48,0.123,0.75,partner_referral,B,https://cumbre-logística-servicios.com.ar
+ACC00301,Pampa Infraestructura Corp.,Manufactura,Manufacturing,Mendoza,Argentina,1297,1.27,0.231,0.61,outbound_research,A,https://cumbre-oil-group.com.ar
+ACC00302,Austral Solutions S.R.L.,Manufactura,Manufacturing,Córdoba,Argentina,1507,1.16,0.198,0.61,industry_event,C,https://delta-servicios-servicios.com.ar
+ACC00303,Sur Oil Corp.,Energía,Utilities,Santa Fe,Argentina,552,1.24,0.281,0.68,public_directory,B,https://aconcagua-industrial-servicios.com.ar
+ACC00304,Andes Industrial S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1390,1.49,0.129,0.75,industry_event,B,https://delta-industrial-argentina.com.ar
+ACC00305,Austral Industrial Group,Construcción,Construction,CABA,Argentina,791,0.93,0.371,0.52,public_directory,C,https://austral-operaciones-s-r-l.com.ar
+ACC00306,Aconcagua Operaciones Corp.,Energía,Utilities,Santa Fe,Argentina,272,1.34,0.13,0.68,industry_event,A,https://litoral-solutions-argentina.com.ar
+ACC00307,Cumbre Oil Argentina,Construcción,Construction,Córdoba,Argentina,793,1.13,0.392,0.52,industry_event,B,https://patagonia-servicios-s-r-l.com.ar
+ACC00308,Andes Operaciones Group,Construcción,Construction,Buenos Aires,Argentina,406,0.94,0.308,0.52,industry_event,A,https://litoral-servicios-s-a.com.ar
+ACC00309,Cumbre Infraestructura Corp.,Oil & Gas,Oil & Gas,Chubut,Argentina,616,1.18,0.227,0.75,public_directory,A,https://delta-oil-s-a.com.ar
+ACC00310,Austral Oil Corp.,Construcción,Construction,CABA,Argentina,445,1.0,0.374,0.52,industry_event,B,https://norte-solutions-servicios.com.ar
+ACC00311,Patagonia Logística Corp.,Energía,Energy,Neuquén,Argentina,116,1.32,0.23,0.68,public_directory,B,https://andes-logística-corp.com.ar
+ACC00312,Norte Oil Argentina,Manufactura,Manufacturing,Buenos Aires,Argentina,840,0.96,0.243,0.61,industry_event,B,https://austral-minera-corp.com.ar
+ACC00313,Austral Energía S.A.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2824,1.59,0.239,0.75,public_directory,A,https://patagonia-solutions-argentina.com.ar
+ACC00314,Aconcagua Energía S.R.L.,Construcción,Construction,CABA,Argentina,721,1.09,0.387,0.52,outbound_research,A,https://sur-industrial-s-a.com.ar
+ACC00315,Austral Energía Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2263,1.56,0.173,0.75,partner_referral,B,https://aconcagua-logística-s-a.com.ar
+ACC00316,Andes Tecnología S.A.,Minería,Mining,Catamarca,Argentina,2290,1.35,0.09,0.72,public_directory,A,https://norte-tecnología-s-a.com.ar
+ACC00317,Aconcagua Industrial Corp.,Minería,Mining,San Juan,Argentina,1662,1.29,0.099,0.72,partner_referral,C,https://austral-infraestructura-argentina.com.ar
+ACC00318,Austral Oil S.R.L.,Oil & Gas,Oil & Gas,Chubut,Argentina,291,1.17,0.203,0.75,partner_referral,B,https://patagonia-infraestructura-s-r-l.com.ar
+ACC00319,Aconcagua Oil S.R.L.,Construcción,Construction,Córdoba,Argentina,236,0.96,0.316,0.52,industry_event,A,https://delta-tecnología-s-a.com.ar
+ACC00320,Austral Energía Group,Manufactura,Manufacturing,Mendoza,Argentina,1370,1.03,0.179,0.61,public_directory,B,https://sur-logística-s-r-l.com.ar
+ACC00321,Norte Tecnología S.A.,Construcción,Construction,CABA,Argentina,122,1.0,0.279,0.52,public_directory,B,https://cumbre-servicios-servicios.com.ar
+ACC00322,Delta Industrial Group,Energía,Energy,Santa Fe,Argentina,1834,1.27,0.248,0.68,partner_referral,B,https://sur-servicios-argentina.com.ar
+ACC00323,Litoral Logística Group,Construcción,Construction,Mendoza,Argentina,493,1.07,0.219,0.52,public_directory,A,https://norte-servicios-servicios.com.ar
+ACC00324,Andes Oil Argentina,Oil & Gas,Oil & Gas,Neuquén,Argentina,817,1.52,0.204,0.75,public_directory,A,https://andes-oil-group.com.ar
+ACC00325,Delta Logística Corp.,Energía,Energy,Neuquén,Argentina,2013,1.31,0.226,0.68,industry_event,A,https://austral-oil-s-a.com.ar
+ACC00326,Pampa Tecnología Argentina,Minería,Mining,Santa Cruz,Argentina,143,1.37,0.1,0.72,outbound_research,A,https://cumbre-servicios-argentina.com.ar
+ACC00327,Pampa Minera S.R.L.,Construcción,Construction,Córdoba,Argentina,61,0.98,0.231,0.52,outbound_research,B,https://sur-operaciones-corp.com.ar
+ACC00328,Sur Energía Argentina,Manufactura,Manufacturing,Buenos Aires,Argentina,131,1.23,0.193,0.61,public_directory,B,https://aconcagua-operaciones-group.com.ar
+ACC00329,Norte Operaciones S.R.L.,Energía,Utilities,Buenos Aires,Argentina,2196,1.12,0.276,0.68,partner_referral,C,https://cumbre-industrial-servicios.com.ar
+ACC00330,Pampa Energía Servicios,Manufactura,Manufacturing,Mendoza,Argentina,389,1.02,0.177,0.61,industry_event,B,https://patagonia-solutions-corp.com.ar
+ACC00331,Litoral Minera S.R.L.,Construcción,Construction,Buenos Aires,Argentina,513,1.09,0.27,0.52,outbound_research,A,https://cumbre-tecnología-s-r-l.com.ar
+ACC00332,Cumbre Servicios S.A.,Oil & Gas,Oil & Gas,CABA,Argentina,521,1.27,0.132,0.75,partner_referral,B,https://cumbre-industrial-argentina.com.ar
+ACC00333,Pampa Minera Servicios,Construcción,Construction,Córdoba,Argentina,107,1.16,0.218,0.52,partner_referral,B,https://cumbre-servicios-servicios.com.ar
+ACC00334,Sur Minera Servicios,Construcción,Construction,Córdoba,Argentina,191,0.97,0.265,0.52,website_form,A,https://austral-oil-argentina.com.ar
+ACC00335,Patagonia Servicios Corp.,Minería,Mining,Jujuy,Argentina,2580,1.41,0.154,0.72,website_form,A,https://delta-tecnología-servicios.com.ar
+ACC00336,Aconcagua Logística S.A.,Manufactura,Manufacturing,Mendoza,Argentina,1119,1.03,0.3,0.61,partner_referral,B,https://cumbre-energía-corp.com.ar
+ACC00337,Patagonia Infraestructura Servicios,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2104,1.27,0.101,0.75,website_form,B,https://patagonia-oil-s-a.com.ar
+ACC00338,Sur Operaciones Group,Minería,Mining,Jujuy,Argentina,2917,1.15,0.171,0.72,industry_event,B,https://austral-operaciones-servicios.com.ar
+ACC00339,Aconcagua Solutions Corp.,Minería,Mining,Salta,Argentina,2887,1.16,0.158,0.72,partner_referral,B,https://norte-tecnología-group.com.ar
+ACC00340,Delta Energía Argentina,Construcción,Construction,Mendoza,Argentina,773,1.03,0.334,0.52,outbound_research,A,https://austral-operaciones-group.com.ar
+ACC00341,Andes Servicios Corp.,Construcción,Construction,Santa Fe,Argentina,733,1.14,0.361,0.52,partner_referral,C,https://aconcagua-energía-s-a.com.ar
+ACC00342,Cumbre Industrial Argentina,Minería,Mining,Salta,Argentina,427,1.43,0.136,0.72,public_directory,B,https://cumbre-industrial-s-r-l.com.ar
+ACC00343,Pampa Oil Group,Construcción,Construction,Mendoza,Argentina,30,0.91,0.312,0.52,public_directory,B,https://cumbre-servicios-argentina.com.ar
+ACC00344,Delta Energía Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,202,1.31,0.171,0.75,public_directory,A,https://andes-energía-s-a.com.ar
+ACC00345,Sur Logística Group,Energía,Energy,Neuquén,Argentina,2467,1.21,0.155,0.68,partner_referral,B,https://norte-servicios-corp.com.ar
+ACC00346,Austral Infraestructura Group,Energía,Energy,Neuquén,Argentina,376,1.28,0.292,0.68,public_directory,C,https://cumbre-infraestructura-argentina.com.ar
+ACC00347,Litoral Solutions Group,Energía,Utilities,Mendoza,Argentina,2386,1.24,0.281,0.68,website_form,B,https://norte-energía-corp.com.ar
+ACC00348,Pampa Logística Corp.,Construcción,Construction,CABA,Argentina,713,1.05,0.182,0.52,industry_event,B,https://patagonia-operaciones-argentina.com.ar
+ACC00349,Austral Servicios Corp.,Construcción,Construction,Córdoba,Argentina,97,1.01,0.377,0.52,industry_event,A,https://pampa-minera-argentina.com.ar
+ACC00350,Pampa Solutions S.R.L.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2374,1.53,0.164,0.75,website_form,A,https://patagonia-minera-servicios.com.ar
+ACC00351,Litoral Logística Servicios,Oil & Gas,Oil & Gas,CABA,Argentina,546,1.37,0.277,0.75,public_directory,C,https://litoral-servicios-servicios.com.ar
+ACC00352,Delta Industrial Servicios,Minería,Mining,Jujuy,Argentina,2462,1.27,0.156,0.72,public_directory,B,https://delta-minera-s-a.com.ar
+ACC00353,Andes Industrial Argentina,Construcción,Construction,Mendoza,Argentina,343,1.01,0.202,0.52,industry_event,B,https://norte-servicios-servicios.com.ar
+ACC00354,Cumbre Logística Group,Minería,Mining,Salta,Argentina,2030,1.27,0.109,0.72,industry_event,B,https://aconcagua-infraestructura-corp.com.ar
+ACC00355,Pampa Energía Argentina,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4917,1.51,0.2,0.75,partner_referral,A,https://delta-minera-s-a.com.ar
+ACC00356,Austral Oil Argentina,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1301,1.5,0.154,0.75,public_directory,C,https://andes-operaciones-s-a.com.ar
+ACC00357,Norte Minera Argentina,Construcción,Construction,Buenos Aires,Argentina,240,1.03,0.254,0.52,industry_event,B,https://austral-infraestructura-group.com.ar
+ACC00358,Cumbre Solutions Servicios,Oil & Gas,Oil & Gas,Neuquén,Argentina,3076,1.59,0.151,0.75,industry_event,B,https://litoral-minera-s-a.com.ar
+ACC00359,Delta Servicios Argentina,Minería,Mining,Salta,Argentina,1999,1.25,0.166,0.72,partner_referral,C,https://patagonia-energía-s-r-l.com.ar
+ACC00360,Norte Infraestructura Servicios,Minería,Mining,Salta,Argentina,1397,1.19,0.142,0.72,industry_event,C,https://austral-minera-corp.com.ar
+ACC00361,Pampa Infraestructura Argentina,Oil & Gas,Oil & Gas,Neuquén,Argentina,1224,1.24,0.171,0.75,website_form,A,https://litoral-oil-s-a.com.ar
+ACC00362,Patagonia Energía Group,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4492,1.19,0.268,0.75,partner_referral,B,https://pampa-infraestructura-corp.com.ar
+ACC00363,Delta Industrial S.A.,Construcción,Construction,CABA,Argentina,559,1.16,0.252,0.52,partner_referral,B,https://austral-infraestructura-servicios.com.ar
+ACC00364,Cumbre Tecnología Corp.,Energía,Utilities,Neuquén,Argentina,805,1.18,0.235,0.68,industry_event,C,https://litoral-oil-s-r-l.com.ar
+ACC00365,Sur Operaciones Group,Construcción,Construction,Mendoza,Argentina,335,0.99,0.18,0.52,outbound_research,B,https://litoral-oil-s-a.com.ar
+ACC00366,Litoral Infraestructura S.A.,Construcción,Construction,Mendoza,Argentina,793,1.14,0.311,0.52,website_form,B,https://pampa-operaciones-servicios.com.ar
+ACC00367,Aconcagua Operaciones S.R.L.,Energía,Utilities,Córdoba,Argentina,748,1.03,0.233,0.68,public_directory,C,https://cumbre-infraestructura-group.com.ar
+ACC00368,Aconcagua Solutions S.A.,Construcción,Construction,Santa Fe,Argentina,295,0.94,0.204,0.52,partner_referral,B,https://norte-tecnología-corp.com.ar
+ACC00369,Andes Oil S.A.,Oil & Gas,Oil & Gas,Neuquén,Argentina,1446,1.59,0.151,0.75,outbound_research,C,https://andes-solutions-s-a.com.ar
+ACC00370,Sur Operaciones Group,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1979,1.6,0.183,0.75,website_form,B,https://delta-industrial-group.com.ar
+ACC00371,Litoral Servicios S.R.L.,Construcción,Construction,Buenos Aires,Argentina,576,1.15,0.362,0.52,website_form,C,https://pampa-operaciones-corp.com.ar
+ACC00372,Litoral Energía Servicios,Minería,Mining,Catamarca,Argentina,915,1.27,0.175,0.72,industry_event,C,https://delta-industrial-argentina.com.ar
+ACC00373,Litoral Infraestructura S.R.L.,Servicios,Services,CABA,Argentina,139,1.07,0.413,0.45,outbound_research,C,https://pampa-operaciones-group.com.ar
+ACC00374,Patagonia Operaciones S.R.L.,Oil & Gas,Oil & Gas,Chubut,Argentina,4989,1.59,0.205,0.75,partner_referral,B,https://delta-logística-s-a.com.ar
+ACC00375,Cumbre Logística Argentina,Minería,Mining,San Juan,Argentina,474,1.12,0.17,0.72,public_directory,C,https://delta-minera-s-r-l.com.ar
+ACC00376,Sur Minera Argentina,Minería,Mining,Santa Cruz,Argentina,2740,1.11,0.133,0.72,outbound_research,B,https://andes-minera-argentina.com.ar
+ACC00377,Litoral Solutions Servicios,Energía,Energy,Santa Fe,Argentina,2303,1.19,0.178,0.68,partner_referral,B,https://cumbre-oil-s-r-l.com.ar
+ACC00378,Norte Infraestructura Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,3881,1.35,0.24,0.75,public_directory,B,https://delta-industrial-servicios.com.ar
+ACC00379,Patagonia Oil Corp.,Manufactura,Manufacturing,Santa Fe,Argentina,706,1.12,0.24,0.61,public_directory,A,https://norte-logística-corp.com.ar
+ACC00380,Austral Energía S.A.,Construcción,Construction,Buenos Aires,Argentina,118,0.95,0.187,0.52,website_form,B,https://patagonia-industrial-servicios.com.ar
+ACC00381,Litoral Oil Servicios,Construcción,Construction,Mendoza,Argentina,693,0.91,0.229,0.52,website_form,A,https://pampa-minera-s-a.com.ar
+ACC00382,Austral Operaciones Group,Energía,Energy,Buenos Aires,Argentina,1558,1.29,0.168,0.68,website_form,C,https://norte-energía-s-r-l.com.ar
+ACC00383,Pampa Oil Corp.,Servicios,Services,CABA,Argentina,61,0.86,0.357,0.45,public_directory,B,https://delta-oil-argentina.com.ar
+ACC00384,Sur Minera Argentina,Energía,Utilities,Buenos Aires,Argentina,2441,1.31,0.15,0.68,outbound_research,B,https://austral-logística-argentina.com.ar
+ACC00385,Sur Logística Servicios,Oil & Gas,Oil & Gas,CABA,Argentina,3829,1.53,0.174,0.75,partner_referral,C,https://sur-tecnología-s-r-l.com.ar
+ACC00386,Austral Infraestructura Group,Energía,Utilities,Córdoba,Argentina,1616,1.16,0.191,0.68,website_form,C,https://cumbre-industrial-servicios.com.ar
+ACC00387,Norte Solutions S.R.L.,Oil & Gas,Oil & Gas,Chubut,Argentina,253,1.16,0.248,0.75,industry_event,C,https://austral-oil-servicios.com.ar
+ACC00388,Andes Minera Group,Servicios,Services,Buenos Aires,Argentina,58,0.84,0.279,0.45,public_directory,B,https://norte-infraestructura-s-a.com.ar
+ACC00389,Patagonia Logística Corp.,Energía,Energy,Neuquén,Argentina,970,1.17,0.282,0.68,public_directory,C,https://patagonia-tecnología-argentina.com.ar
+ACC00390,Aconcagua Energía S.A.,Minería,Mining,Río Negro,Argentina,2460,1.22,0.194,0.72,partner_referral,C,https://patagonia-solutions-argentina.com.ar
+ACC00391,Aconcagua Industrial Group,Construcción,Construction,Santa Fe,Argentina,31,1.0,0.304,0.52,industry_event,B,https://pampa-servicios-s-a.com.ar
+ACC00392,Cumbre Tecnología Servicios,Construcción,Construction,Mendoza,Argentina,476,0.97,0.244,0.52,partner_referral,A,https://sur-energía-corp.com.ar
+ACC00393,Aconcagua Infraestructura S.A.,Energía,Utilities,Buenos Aires,Argentina,2325,1.18,0.259,0.68,outbound_research,C,https://litoral-oil-s-r-l.com.ar
+ACC00394,Austral Tecnología Argentina,Energía,Energy,Neuquén,Argentina,883,1.08,0.168,0.68,partner_referral,B,https://cumbre-energía-s-a.com.ar
+ACC00395,Sur Solutions Group,Construcción,Construction,Mendoza,Argentina,394,1.08,0.185,0.52,industry_event,A,https://sur-tecnología-corp.com.ar
+ACC00396,Pampa Solutions Argentina,Construcción,Construction,Mendoza,Argentina,65,0.95,0.34,0.52,website_form,A,https://andes-solutions-servicios.com.ar
+ACC00397,Sur Energía Group,Servicios,Services,Córdoba,Argentina,17,0.94,0.27,0.45,public_directory,A,https://austral-oil-group.com.ar
+ACC00398,Andes Operaciones Servicios,Energía,Energy,Neuquén,Argentina,658,1.09,0.131,0.68,outbound_research,C,https://cumbre-infraestructura-s-a.com.ar
+ACC00399,Aconcagua Infraestructura Argentina,Energía,Utilities,Buenos Aires,Argentina,352,1.3,0.123,0.68,partner_referral,B,https://aconcagua-oil-argentina.com.ar
+ACC00400,Cumbre Oil S.A.,Oil & Gas,Oil & Gas,Chubut,Argentina,4170,1.24,0.274,0.75,public_directory,C,https://andes-industrial-s-r-l.com.ar
+ACC00401,Litoral Operaciones Argentina,Servicios,Services,Córdoba,Argentina,180,0.81,0.365,0.45,industry_event,B,https://pampa-oil-group.com.ar
+ACC00402,Andes Oil Group,Construcción,Construction,Córdoba,Argentina,416,0.95,0.377,0.52,outbound_research,A,https://aconcagua-oil-argentina.com.ar
+ACC00403,Pampa Tecnología S.R.L.,Construcción,Construction,CABA,Argentina,447,1.19,0.38,0.52,industry_event,B,https://delta-solutions-argentina.com.ar
+ACC00404,Delta Infraestructura Argentina,Oil & Gas,Oil & Gas,CABA,Argentina,1857,1.34,0.264,0.75,outbound_research,B,https://cumbre-servicios-group.com.ar
+ACC00405,Delta Logística S.R.L.,Oil & Gas,Oil & Gas,CABA,Argentina,1169,1.49,0.258,0.75,partner_referral,C,https://norte-minera-argentina.com.ar
+ACC00406,Pampa Energía S.R.L.,Servicios,Services,Córdoba,Argentina,87,0.81,0.446,0.45,public_directory,B,https://cumbre-tecnología-s-r-l.com.ar
+ACC00407,Sur Energía Argentina,Energía,Utilities,Córdoba,Argentina,186,1.05,0.272,0.68,partner_referral,C,https://sur-servicios-corp.com.ar
+ACC00408,Pampa Solutions S.A.,Energía,Utilities,Córdoba,Argentina,750,1.27,0.123,0.68,industry_event,C,https://pampa-solutions-s-r-l.com.ar
+ACC00409,Sur Minera S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4213,1.33,0.108,0.75,partner_referral,C,https://aconcagua-tecnología-argentina.com.ar
+ACC00410,Andes Oil S.A.,Energía,Utilities,Neuquén,Argentina,2231,1.16,0.278,0.68,outbound_research,B,https://aconcagua-industrial-servicios.com.ar
+ACC00411,Pampa Infraestructura Corp.,Minería,Mining,Río Negro,Argentina,301,1.41,0.188,0.72,industry_event,B,https://aconcagua-infraestructura-servicios.com.ar
+ACC00412,Litoral Energía Argentina,Manufactura,Manufacturing,Santa Fe,Argentina,999,1.01,0.257,0.61,public_directory,A,https://aconcagua-logística-corp.com.ar
+ACC00413,Litoral Energía Group,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1854,1.46,0.263,0.75,outbound_research,C,https://patagonia-energía-s-a.com.ar
+ACC00414,Austral Operaciones Argentina,Construcción,Construction,Córdoba,Argentina,107,1.01,0.264,0.52,outbound_research,C,https://cumbre-servicios-s-r-l.com.ar
+ACC00415,Andes Operaciones Group,Manufactura,Manufacturing,Santa Fe,Argentina,1625,1.19,0.332,0.61,industry_event,B,https://patagonia-servicios-s-r-l.com.ar
+ACC00416,Litoral Minera Corp.,Oil & Gas,Oil & Gas,Chubut,Argentina,300,1.42,0.189,0.75,outbound_research,B,https://litoral-minera-corp.com.ar
+ACC00417,Pampa Oil Group,Energía,Energy,Neuquén,Argentina,106,1.02,0.147,0.68,industry_event,A,https://andes-tecnología-servicios.com.ar
+ACC00418,Patagonia Operaciones S.R.L.,Minería,Mining,Catamarca,Argentina,300,1.34,0.166,0.72,public_directory,B,https://austral-servicios-corp.com.ar
+ACC00419,Patagonia Infraestructura Group,Construcción,Construction,Córdoba,Argentina,56,1.17,0.36,0.52,partner_referral,C,https://patagonia-infraestructura-corp.com.ar
+ACC00420,Austral Operaciones Servicios,Oil & Gas,Oil & Gas,Chubut,Argentina,2896,1.46,0.21,0.75,website_form,B,https://austral-energía-corp.com.ar
+ACC00421,Norte Operaciones Servicios,Construcción,Construction,Santa Fe,Argentina,743,0.98,0.307,0.52,public_directory,B,https://delta-tecnología-servicios.com.ar
+ACC00422,Delta Tecnología S.R.L.,Energía,Utilities,Mendoza,Argentina,2097,1.34,0.12,0.68,website_form,B,https://patagonia-solutions-servicios.com.ar
+ACC00423,Sur Logística Servicios,Servicios,Services,Santa Fe,Argentina,33,0.8,0.234,0.45,industry_event,B,https://patagonia-infraestructura-group.com.ar
+ACC00424,Patagonia Logística Group,Energía,Utilities,Santa Fe,Argentina,105,1.25,0.231,0.68,website_form,C,https://pampa-logística-group.com.ar
+ACC00425,Andes Servicios Corp.,Servicios,Services,Santa Fe,Argentina,252,0.99,0.421,0.45,public_directory,C,https://litoral-operaciones-argentina.com.ar
+ACC00426,Cumbre Logística Servicios,Oil & Gas,Oil & Gas,CABA,Argentina,2652,1.24,0.223,0.75,industry_event,A,https://delta-infraestructura-s-a.com.ar
+ACC00427,Austral Servicios Servicios,Minería,Mining,San Juan,Argentina,2666,1.17,0.096,0.72,industry_event,C,https://sur-industrial-group.com.ar
+ACC00428,Sur Minera Group,Minería,Mining,San Juan,Argentina,1073,1.28,0.105,0.72,industry_event,C,https://pampa-energía-corp.com.ar
+ACC00429,Delta Solutions Group,Energía,Utilities,Mendoza,Argentina,2128,1.26,0.214,0.68,industry_event,A,https://patagonia-oil-argentina.com.ar
+ACC00430,Andes Minera Corp.,Servicios,Services,Buenos Aires,Argentina,380,0.8,0.432,0.45,public_directory,C,https://sur-minera-s-a.com.ar
+ACC00431,Cumbre Infraestructura Argentina,Oil & Gas,Oil & Gas,Chubut,Argentina,384,1.29,0.135,0.75,industry_event,B,https://litoral-energía-group.com.ar
+ACC00432,Andes Tecnología Servicios,Oil & Gas,Oil & Gas,Chubut,Argentina,1137,1.24,0.163,0.75,industry_event,B,https://norte-tecnología-s-r-l.com.ar
+ACC00433,Austral Minera S.A.,Oil & Gas,Oil & Gas,Chubut,Argentina,2974,1.16,0.263,0.75,website_form,A,https://andes-energía-corp.com.ar
+ACC00434,Cumbre Minera Servicios,Minería,Mining,Río Negro,Argentina,2541,1.21,0.194,0.72,public_directory,A,https://litoral-tecnología-s-r-l.com.ar
+ACC00435,Litoral Infraestructura Argentina,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,996,1.36,0.271,0.75,outbound_research,C,https://cumbre-infraestructura-group.com.ar
+ACC00436,Sur Logística Corp.,Minería,Mining,Río Negro,Argentina,2824,1.11,0.147,0.72,industry_event,B,https://delta-infraestructura-group.com.ar
+ACC00437,Patagonia Operaciones Argentina,Construcción,Construction,CABA,Argentina,540,1.0,0.323,0.52,industry_event,B,https://aconcagua-tecnología-corp.com.ar
+ACC00438,Delta Minera Corp.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4688,1.3,0.247,0.75,public_directory,B,https://aconcagua-tecnología-group.com.ar
+ACC00439,Patagonia Tecnología Corp.,Energía,Energy,Córdoba,Argentina,788,1.21,0.203,0.68,public_directory,A,https://litoral-servicios-group.com.ar
+ACC00440,Patagonia Tecnología Corp.,Servicios,Services,CABA,Argentina,316,0.95,0.358,0.45,website_form,A,https://delta-tecnología-argentina.com.ar
+ACC00441,Delta Minera Servicios,Construcción,Construction,CABA,Argentina,696,1.02,0.307,0.52,outbound_research,A,https://sur-infraestructura-servicios.com.ar
+ACC00442,Sur Energía Servicios,Construcción,Construction,Córdoba,Argentina,465,1.08,0.292,0.52,outbound_research,C,https://andes-logística-servicios.com.ar
+ACC00443,Austral Logística S.A.,Servicios,Services,CABA,Argentina,370,1.06,0.244,0.45,public_directory,B,https://sur-operaciones-corp.com.ar
+ACC00444,Delta Minera S.R.L.,Minería,Mining,Santa Cruz,Argentina,965,1.29,0.198,0.72,industry_event,C,https://delta-infraestructura-argentina.com.ar
+ACC00445,Andes Servicios Argentina,Oil & Gas,Oil & Gas,Neuquén,Argentina,787,1.45,0.275,0.75,outbound_research,A,https://aconcagua-minera-argentina.com.ar
+ACC00446,Delta Minera Servicios,Construcción,Construction,Mendoza,Argentina,658,1.07,0.279,0.52,industry_event,B,https://aconcagua-tecnología-s-a.com.ar
+ACC00447,Norte Operaciones Servicios,Energía,Utilities,Córdoba,Argentina,2135,1.01,0.127,0.68,partner_referral,C,https://patagonia-tecnología-corp.com.ar
+ACC00448,Austral Infraestructura Corp.,Servicios,Services,CABA,Argentina,82,0.96,0.345,0.45,outbound_research,B,https://patagonia-oil-servicios.com.ar
+ACC00449,Austral Industrial Corp.,Minería,Mining,Catamarca,Argentina,1507,1.28,0.146,0.72,industry_event,B,https://norte-infraestructura-s-r-l.com.ar
+ACC00450,Cumbre Infraestructura S.A.,Oil & Gas,Oil & Gas,CABA,Argentina,2690,1.41,0.203,0.75,industry_event,C,https://cumbre-industrial-group.com.ar
+ACC00451,Patagonia Infraestructura Group,Energía,Energy,Córdoba,Argentina,2150,1.22,0.17,0.68,industry_event,A,https://patagonia-tecnología-s-r-l.com.ar
+ACC00452,Litoral Logística S.R.L.,Manufactura,Manufacturing,Santa Fe,Argentina,1399,1.21,0.187,0.61,outbound_research,C,https://andes-logística-s-a.com.ar
+ACC00453,Aconcagua Operaciones S.R.L.,Servicios,Services,Buenos Aires,Argentina,263,1.02,0.225,0.45,public_directory,C,https://sur-industrial-argentina.com.ar
+ACC00454,Delta Minera Corp.,Minería,Mining,Catamarca,Argentina,315,1.21,0.184,0.72,public_directory,B,https://aconcagua-minera-group.com.ar
+ACC00455,Norte Minera Corp.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,297,1.58,0.223,0.75,website_form,A,https://austral-logística-corp.com.ar
+ACC00456,Norte Infraestructura S.A.,Construcción,Construction,Córdoba,Argentina,363,1.1,0.266,0.52,outbound_research,C,https://cumbre-solutions-servicios.com.ar
+ACC00457,Sur Oil S.A.,Minería,Mining,Río Negro,Argentina,836,1.39,0.082,0.72,website_form,B,https://litoral-logística-s-r-l.com.ar
+ACC00458,Andes Industrial Servicios,Construcción,Construction,Córdoba,Argentina,217,0.92,0.311,0.52,outbound_research,C,https://patagonia-energía-s-a.com.ar
+ACC00459,Cumbre Servicios S.A.,Manufactura,Manufacturing,Santa Fe,Argentina,819,1.03,0.233,0.61,website_form,B,https://norte-operaciones-argentina.com.ar
+ACC00460,Delta Energía Group,Manufactura,Manufacturing,Córdoba,Argentina,577,1.08,0.207,0.61,website_form,B,https://norte-servicios-corp.com.ar
+ACC00461,Delta Minera S.A.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,3416,1.39,0.178,0.75,public_directory,B,https://litoral-infraestructura-s-a.com.ar
+ACC00462,Norte Minera S.A.,Oil & Gas,Oil & Gas,Neuquén,Argentina,4880,1.22,0.215,0.75,website_form,B,https://norte-servicios-argentina.com.ar
+ACC00463,Andes Oil Argentina,Minería,Mining,San Juan,Argentina,2453,1.27,0.137,0.72,website_form,B,https://andes-operaciones-argentina.com.ar
+ACC00464,Cumbre Oil Group,Construcción,Construction,Mendoza,Argentina,144,1.1,0.268,0.52,website_form,B,https://sur-energía-corp.com.ar
+ACC00465,Pampa Servicios Servicios,Construcción,Construction,Córdoba,Argentina,683,1.19,0.325,0.52,industry_event,B,https://patagonia-logística-corp.com.ar
+ACC00466,Delta Industrial S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1752,1.47,0.207,0.75,partner_referral,B,https://austral-infraestructura-corp.com.ar
+ACC00467,Andes Logística S.A.,Energía,Utilities,Mendoza,Argentina,147,1.28,0.128,0.68,website_form,A,https://austral-minera-argentina.com.ar
+ACC00468,Cumbre Solutions S.A.,Manufactura,Manufacturing,Santa Fe,Argentina,1567,1.19,0.238,0.61,website_form,B,https://cumbre-industrial-s-r-l.com.ar
+ACC00469,Delta Industrial Group,Construcción,Construction,CABA,Argentina,34,1.04,0.218,0.52,public_directory,A,https://patagonia-energía-corp.com.ar
+ACC00470,Patagonia Solutions Corp.,Energía,Utilities,Neuquén,Argentina,983,1.28,0.297,0.68,partner_referral,B,https://cumbre-oil-s-r-l.com.ar
+ACC00471,Cumbre Servicios Group,Minería,Mining,Jujuy,Argentina,286,1.14,0.1,0.72,partner_referral,A,https://sur-oil-s-r-l.com.ar
+ACC00472,Delta Energía Argentina,Energía,Utilities,Neuquén,Argentina,246,1.27,0.123,0.68,partner_referral,A,https://andes-servicios-s-a.com.ar
+ACC00473,Aconcagua Minera Argentina,Construcción,Construction,Santa Fe,Argentina,310,0.96,0.321,0.52,public_directory,B,https://pampa-servicios-servicios.com.ar
+ACC00474,Litoral Tecnología S.A.,Construcción,Construction,Santa Fe,Argentina,204,1.0,0.181,0.52,outbound_research,A,https://austral-energía-servicios.com.ar
+ACC00475,Pampa Minera Argentina,Minería,Mining,Santa Cruz,Argentina,2178,1.2,0.107,0.72,outbound_research,B,https://litoral-minera-s-r-l.com.ar
+ACC00476,Sur Infraestructura S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,642,1.26,0.211,0.75,partner_referral,A,https://andes-oil-s-r-l.com.ar
+ACC00477,Austral Energía S.A.,Oil & Gas,Oil & Gas,Neuquén,Argentina,4173,1.47,0.207,0.75,industry_event,B,https://sur-solutions-s-a.com.ar
+ACC00478,Aconcagua Solutions Corp.,Minería,Mining,Catamarca,Argentina,1071,1.13,0.162,0.72,website_form,C,https://delta-solutions-servicios.com.ar
+ACC00479,Delta Minera Argentina,Energía,Energy,Mendoza,Argentina,1609,1.22,0.296,0.68,outbound_research,B,https://andes-tecnología-s-a.com.ar
+ACC00480,Litoral Operaciones S.R.L.,Minería,Mining,Catamarca,Argentina,2006,1.18,0.121,0.72,outbound_research,C,https://cumbre-servicios-servicios.com.ar
+ACC00481,Aconcagua Oil Corp.,Servicios,Services,Buenos Aires,Argentina,54,0.98,0.406,0.45,industry_event,A,https://aconcagua-solutions-s-r-l.com.ar
+ACC00482,Cumbre Servicios Servicios,Minería,Mining,Santa Cruz,Argentina,1010,1.25,0.086,0.72,partner_referral,C,https://austral-industrial-corp.com.ar
+ACC00483,Litoral Minera S.R.L.,Energía,Energy,Mendoza,Argentina,481,1.2,0.122,0.68,partner_referral,C,https://delta-logística-group.com.ar
+ACC00484,Litoral Infraestructura S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,330,1.54,0.235,0.75,website_form,C,https://litoral-servicios-argentina.com.ar
+ACC00485,Litoral Industrial Argentina,Minería,Mining,Salta,Argentina,2667,1.23,0.177,0.72,public_directory,A,https://aconcagua-infraestructura-argentina.com.ar
+ACC00486,Patagonia Tecnología Group,Servicios,Services,Buenos Aires,Argentina,360,0.95,0.426,0.45,industry_event,C,https://patagonia-operaciones-group.com.ar
+ACC00487,Sur Servicios Argentina,Energía,Energy,Buenos Aires,Argentina,1577,1.2,0.259,0.68,outbound_research,C,https://pampa-oil-s-a.com.ar
+ACC00488,Pampa Solutions Group,Construcción,Construction,Santa Fe,Argentina,739,1.17,0.291,0.52,partner_referral,B,https://patagonia-logística-group.com.ar
+ACC00489,Patagonia Minera Argentina,Energía,Utilities,Neuquén,Argentina,2237,1.16,0.186,0.68,website_form,A,https://litoral-energía-s-a.com.ar
+ACC00490,Patagonia Energía S.R.L.,Minería,Mining,Jujuy,Argentina,1281,1.14,0.101,0.72,outbound_research,C,https://austral-industrial-group.com.ar
+ACC00491,Delta Minera Group,Minería,Mining,Río Negro,Argentina,2317,1.26,0.17,0.72,industry_event,A,https://andes-solutions-servicios.com.ar
+ACC00492,Sur Logística Corp.,Construcción,Construction,Mendoza,Argentina,612,1.04,0.305,0.52,industry_event,A,https://norte-solutions-corp.com.ar
+ACC00493,Delta Logística Group,Minería,Mining,Salta,Argentina,293,1.43,0.167,0.72,outbound_research,C,https://norte-servicios-s-r-l.com.ar
+ACC00494,Pampa Energía S.A.,Manufactura,Manufacturing,Santa Fe,Argentina,380,1.14,0.228,0.61,industry_event,A,https://austral-industrial-argentina.com.ar
+ACC00495,Sur Minera Servicios,Minería,Mining,Salta,Argentina,705,1.29,0.097,0.72,website_form,B,https://litoral-servicios-corp.com.ar
+ACC00496,Austral Oil Group,Servicios,Services,Buenos Aires,Argentina,12,0.94,0.258,0.45,public_directory,B,https://cumbre-minera-group.com.ar
+ACC00497,Delta Oil S.A.,Construcción,Construction,Mendoza,Argentina,61,0.91,0.316,0.52,outbound_research,B,https://patagonia-logística-s-a.com.ar
+ACC00498,Austral Solutions Group,Construcción,Construction,CABA,Argentina,617,0.91,0.298,0.52,partner_referral,B,https://patagonia-oil-corp.com.ar
+ACC00499,Andes Logística Corp.,Oil & Gas,Oil & Gas,Chubut,Argentina,4390,1.47,0.177,0.75,partner_referral,B,https://norte-logística-group.com.ar
+ACC00500,Patagonia Solutions Argentina,Minería,Mining,San Juan,Argentina,2397,1.36,0.138,0.72,partner_referral,B,https://aconcagua-operaciones-s-r-l.com.ar
+ACC00501,Pampa Infraestructura Corp.,Manufactura,Manufacturing,Buenos Aires,Argentina,344,0.97,0.332,0.61,partner_referral,A,https://aconcagua-infraestructura-corp.com.ar
+ACC00502,Delta Solutions S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4852,1.28,0.188,0.75,industry_event,C,https://norte-minera-servicios.com.ar
+ACC00503,Andes Servicios Group,Construcción,Construction,CABA,Argentina,47,1.19,0.364,0.52,partner_referral,A,https://norte-operaciones-s-r-l.com.ar
+ACC00504,Patagonia Infraestructura Corp.,Energía,Energy,Córdoba,Argentina,196,1.21,0.185,0.68,partner_referral,B,https://norte-minera-argentina.com.ar
+ACC00505,Cumbre Industrial Group,Construcción,Construction,Córdoba,Argentina,544,1.07,0.212,0.52,partner_referral,C,https://delta-logística-s-r-l.com.ar
+ACC00506,Sur Industrial Group,Oil & Gas,Oil & Gas,Chubut,Argentina,3636,1.39,0.269,0.75,public_directory,A,https://delta-energía-servicios.com.ar
+ACC00507,Sur Infraestructura Group,Construcción,Construction,Santa Fe,Argentina,350,0.93,0.308,0.52,outbound_research,A,https://austral-infraestructura-group.com.ar
+ACC00508,Delta Energía S.R.L.,Construcción,Construction,Mendoza,Argentina,368,1.05,0.363,0.52,public_directory,B,https://austral-oil-argentina.com.ar
+ACC00509,Litoral Energía S.A.,Energía,Energy,Buenos Aires,Argentina,1789,1.32,0.206,0.68,industry_event,B,https://delta-minera-servicios.com.ar
+ACC00510,Norte Industrial Argentina,Energía,Energy,Santa Fe,Argentina,785,1.08,0.274,0.68,outbound_research,B,https://norte-servicios-s-r-l.com.ar
+ACC00511,Patagonia Energía S.A.,Oil & Gas,Oil & Gas,Neuquén,Argentina,3680,1.49,0.108,0.75,website_form,A,https://austral-tecnología-s-a.com.ar
+ACC00512,Patagonia Infraestructura Argentina,Energía,Energy,Santa Fe,Argentina,257,1.26,0.261,0.68,public_directory,A,https://pampa-servicios-argentina.com.ar
+ACC00513,Norte Tecnología Group,Minería,Mining,Catamarca,Argentina,696,1.16,0.15,0.72,public_directory,B,https://cumbre-energía-s-a.com.ar
+ACC00514,Pampa Solutions Group,Construcción,Construction,Buenos Aires,Argentina,561,1.17,0.298,0.52,website_form,C,https://austral-minera-group.com.ar
+ACC00515,Patagonia Servicios Group,Construcción,Construction,CABA,Argentina,470,1.03,0.293,0.52,partner_referral,A,https://sur-energía-corp.com.ar
+ACC00516,Sur Infraestructura Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4261,1.19,0.189,0.75,partner_referral,B,https://cumbre-infraestructura-argentina.com.ar
+ACC00517,Austral Operaciones Group,Servicios,Services,Santa Fe,Argentina,125,0.86,0.199,0.45,partner_referral,C,https://sur-servicios-s-a.com.ar
+ACC00518,Patagonia Operaciones Corp.,Servicios,Services,Santa Fe,Argentina,354,0.84,0.287,0.45,public_directory,C,https://delta-energía-group.com.ar
+ACC00519,Cumbre Operaciones S.A.,Servicios,Services,Córdoba,Argentina,112,1.05,0.376,0.45,industry_event,C,https://cumbre-tecnología-group.com.ar
+ACC00520,Litoral Tecnología Corp.,Construcción,Construction,Mendoza,Argentina,384,1.05,0.212,0.52,partner_referral,A,https://norte-minera-corp.com.ar
+ACC00521,Patagonia Industrial S.A.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,443,1.46,0.275,0.75,partner_referral,B,https://sur-servicios-group.com.ar
+ACC00522,Patagonia Oil Corp.,Construcción,Construction,Buenos Aires,Argentina,798,0.96,0.326,0.52,partner_referral,B,https://austral-logística-servicios.com.ar
+ACC00523,Patagonia Operaciones Corp.,Energía,Utilities,Buenos Aires,Argentina,1842,1.3,0.2,0.68,website_form,A,https://austral-infraestructura-argentina.com.ar
+ACC00524,Norte Operaciones Corp.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1301,1.41,0.188,0.75,public_directory,B,https://cumbre-minera-corp.com.ar
+ACC00525,Andes Operaciones Group,Energía,Utilities,Córdoba,Argentina,2155,1.21,0.188,0.68,industry_event,C,https://norte-logística-s-a.com.ar
+ACC00526,Sur Logística Argentina,Oil & Gas,Oil & Gas,Neuquén,Argentina,1250,1.49,0.213,0.75,partner_referral,A,https://sur-logística-corp.com.ar
+ACC00527,Pampa Solutions Argentina,Minería,Mining,Río Negro,Argentina,1100,1.31,0.207,0.72,website_form,C,https://patagonia-logística-s-r-l.com.ar
+ACC00528,Litoral Operaciones Servicios,Oil & Gas,Oil & Gas,Chubut,Argentina,506,1.27,0.225,0.75,public_directory,A,https://sur-operaciones-servicios.com.ar
+ACC00529,Litoral Energía Argentina,Minería,Mining,Santa Cruz,Argentina,500,1.22,0.15,0.72,industry_event,A,https://norte-logística-corp.com.ar
+ACC00530,Pampa Infraestructura Group,Oil & Gas,Oil & Gas,Neuquén,Argentina,4589,1.28,0.203,0.75,outbound_research,B,https://patagonia-tecnología-s-a.com.ar
+ACC00531,Cumbre Oil Corp.,Energía,Utilities,Santa Fe,Argentina,355,1.07,0.263,0.68,industry_event,B,https://norte-operaciones-argentina.com.ar
+ACC00532,Aconcagua Infraestructura Servicios,Energía,Utilities,Córdoba,Argentina,1777,1.24,0.219,0.68,website_form,B,https://austral-servicios-servicios.com.ar
+ACC00533,Austral Tecnología Corp.,Energía,Energy,Mendoza,Argentina,1177,1.18,0.186,0.68,outbound_research,B,https://norte-operaciones-corp.com.ar
+ACC00534,Pampa Operaciones Group,Minería,Mining,Catamarca,Argentina,2696,1.33,0.116,0.72,public_directory,B,https://pampa-energía-s-r-l.com.ar
+ACC00535,Litoral Minera Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2743,1.34,0.263,0.75,outbound_research,A,https://delta-industrial-group.com.ar
+ACC00536,Austral Servicios Argentina,Construcción,Construction,Córdoba,Argentina,694,1.19,0.287,0.52,website_form,A,https://patagonia-logística-servicios.com.ar
+ACC00537,Sur Energía Corp.,Minería,Mining,Catamarca,Argentina,1767,1.18,0.16,0.72,public_directory,C,https://austral-tecnología-servicios.com.ar
+ACC00538,Cumbre Energía Group,Minería,Mining,Catamarca,Argentina,1075,1.39,0.183,0.72,outbound_research,C,https://pampa-servicios-s-a.com.ar
+ACC00539,Aconcagua Infraestructura Servicios,Oil & Gas,Oil & Gas,Chubut,Argentina,3800,1.37,0.167,0.75,website_form,B,https://aconcagua-minera-argentina.com.ar
+ACC00540,Sur Minera Argentina,Minería,Mining,Salta,Argentina,693,1.39,0.083,0.72,public_directory,A,https://andes-solutions-group.com.ar
+ACC00541,Patagonia Oil S.R.L.,Energía,Utilities,Santa Fe,Argentina,1566,1.14,0.284,0.68,partner_referral,C,https://norte-infraestructura-s-a.com.ar
+ACC00542,Pampa Servicios Corp.,Servicios,Services,Buenos Aires,Argentina,162,1.06,0.387,0.45,partner_referral,C,https://norte-energía-corp.com.ar
+ACC00543,Aconcagua Energía S.R.L.,Energía,Utilities,Mendoza,Argentina,1442,1.18,0.183,0.68,public_directory,C,https://austral-logística-corp.com.ar
+ACC00544,Delta Minera Argentina,Construcción,Construction,Buenos Aires,Argentina,676,0.9,0.224,0.52,industry_event,B,https://patagonia-energía-s-r-l.com.ar
+ACC00545,Delta Tecnología Argentina,Minería,Mining,Río Negro,Argentina,2759,1.38,0.125,0.72,partner_referral,C,https://delta-infraestructura-s-r-l.com.ar
+ACC00546,Pampa Energía Corp.,Construcción,Construction,Córdoba,Argentina,308,0.95,0.373,0.52,public_directory,B,https://andes-oil-argentina.com.ar
+ACC00547,Litoral Solutions Group,Construcción,Construction,CABA,Argentina,111,0.91,0.316,0.52,public_directory,B,https://patagonia-logística-s-r-l.com.ar
+ACC00548,Austral Operaciones Corp.,Servicios,Services,CABA,Argentina,17,0.84,0.373,0.45,outbound_research,C,https://norte-infraestructura-argentina.com.ar
+ACC00549,Pampa Tecnología S.R.L.,Energía,Utilities,Córdoba,Argentina,1846,1.25,0.154,0.68,outbound_research,B,https://delta-industrial-group.com.ar
+ACC00550,Litoral Solutions Group,Servicios,Services,Buenos Aires,Argentina,326,0.83,0.307,0.45,industry_event,C,https://aconcagua-solutions-argentina.com.ar
+ACC00551,Norte Energía S.A.,Minería,Mining,San Juan,Argentina,2546,1.12,0.21,0.72,partner_referral,C,https://cumbre-tecnología-argentina.com.ar
+ACC00552,Norte Oil Servicios,Construcción,Construction,Buenos Aires,Argentina,25,0.99,0.267,0.52,industry_event,A,https://austral-industrial-servicios.com.ar
+ACC00553,Litoral Logística Corp.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4326,1.19,0.228,0.75,partner_referral,A,https://patagonia-logística-s-a.com.ar
+ACC00554,Sur Operaciones Group,Servicios,Services,Santa Fe,Argentina,153,0.98,0.386,0.45,industry_event,B,https://aconcagua-servicios-group.com.ar
+ACC00555,Austral Minera S.A.,Construcción,Construction,Mendoza,Argentina,174,0.94,0.231,0.52,website_form,B,https://delta-minera-corp.com.ar
+ACC00556,Litoral Logística Argentina,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,534,1.36,0.12,0.75,outbound_research,A,https://patagonia-solutions-group.com.ar
+ACC00557,Norte Tecnología Argentina,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4367,1.41,0.275,0.75,public_directory,C,https://delta-operaciones-s-a.com.ar
+ACC00558,Patagonia Logística S.A.,Minería,Mining,San Juan,Argentina,2872,1.34,0.175,0.72,partner_referral,B,https://patagonia-logística-s-r-l.com.ar
+ACC00559,Litoral Infraestructura Servicios,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4130,1.3,0.108,0.75,public_directory,C,https://sur-tecnología-s-r-l.com.ar
+ACC00560,Sur Industrial Argentina,Oil & Gas,Oil & Gas,Neuquén,Argentina,2517,1.4,0.208,0.75,website_form,B,https://delta-solutions-corp.com.ar
+ACC00561,Aconcagua Operaciones Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,1534,1.2,0.188,0.75,partner_referral,C,https://norte-tecnología-s-r-l.com.ar
+ACC00562,Austral Solutions Corp.,Minería,Mining,Catamarca,Argentina,1605,1.41,0.147,0.72,public_directory,B,https://patagonia-operaciones-group.com.ar
+ACC00563,Aconcagua Energía S.A.,Construcción,Construction,Mendoza,Argentina,665,1.19,0.329,0.52,outbound_research,C,https://austral-oil-s-a.com.ar
+ACC00564,Litoral Infraestructura S.R.L.,Minería,Mining,San Juan,Argentina,424,1.34,0.122,0.72,outbound_research,B,https://norte-tecnología-s-a.com.ar
+ACC00565,Patagonia Oil Corp.,Energía,Utilities,Buenos Aires,Argentina,2182,1.03,0.239,0.68,public_directory,C,https://sur-infraestructura-servicios.com.ar
+ACC00566,Patagonia Minera S.R.L.,Oil & Gas,Oil & Gas,CABA,Argentina,333,1.53,0.108,0.75,partner_referral,C,https://norte-logística-servicios.com.ar
+ACC00567,Norte Logística S.R.L.,Construcción,Construction,Mendoza,Argentina,658,0.96,0.344,0.52,public_directory,B,https://patagonia-operaciones-servicios.com.ar
+ACC00568,Andes Servicios Argentina,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,1155,1.36,0.173,0.75,public_directory,C,https://norte-tecnología-servicios.com.ar
+ACC00569,Aconcagua Infraestructura S.A.,Minería,Mining,Río Negro,Argentina,2927,1.15,0.107,0.72,website_form,B,https://pampa-industrial-s-r-l.com.ar
+ACC00570,Aconcagua Oil S.R.L.,Energía,Energy,Córdoba,Argentina,1070,1.11,0.203,0.68,partner_referral,B,https://patagonia-servicios-s-r-l.com.ar
+ACC00571,Litoral Industrial Corp.,Construcción,Construction,Mendoza,Argentina,516,0.96,0.305,0.52,partner_referral,A,https://andes-energía-argentina.com.ar
+ACC00572,Litoral Tecnología Servicios,Manufactura,Manufacturing,Mendoza,Argentina,901,0.96,0.22,0.61,public_directory,B,https://cumbre-minera-s-r-l.com.ar
+ACC00573,Aconcagua Tecnología Group,Construcción,Construction,Santa Fe,Argentina,39,0.98,0.323,0.52,partner_referral,A,https://cumbre-logística-corp.com.ar
+ACC00574,Norte Solutions Corp.,Construcción,Construction,Buenos Aires,Argentina,185,1.03,0.292,0.52,public_directory,C,https://sur-tecnología-argentina.com.ar
+ACC00575,Aconcagua Operaciones Argentina,Construcción,Construction,CABA,Argentina,320,1.14,0.356,0.52,outbound_research,B,https://norte-energía-argentina.com.ar
+ACC00576,Delta Tecnología Corp.,Energía,Energy,Córdoba,Argentina,897,1.28,0.29,0.68,partner_referral,B,https://pampa-oil-s-a.com.ar
+ACC00577,Sur Servicios S.R.L.,Servicios,Services,Córdoba,Argentina,143,1.04,0.271,0.45,website_form,B,https://patagonia-oil-s-r-l.com.ar
+ACC00578,Andes Oil Group,Energía,Energy,Santa Fe,Argentina,1535,1.3,0.277,0.68,public_directory,B,https://andes-minera-corp.com.ar
+ACC00579,Cumbre Tecnología S.A.,Servicios,Services,CABA,Argentina,64,0.95,0.225,0.45,website_form,C,https://sur-servicios-argentina.com.ar
+ACC00580,Litoral Energía S.R.L.,Minería,Mining,San Juan,Argentina,2172,1.22,0.099,0.72,outbound_research,B,https://aconcagua-industrial-s-r-l.com.ar
+ACC00581,Norte Oil S.R.L.,Manufactura,Manufacturing,Mendoza,Argentina,749,1.04,0.283,0.61,partner_referral,B,https://pampa-servicios-servicios.com.ar
+ACC00582,Aconcagua Operaciones Corp.,Energía,Utilities,Córdoba,Argentina,645,1.33,0.213,0.68,industry_event,C,https://litoral-servicios-s-a.com.ar
+ACC00583,Patagonia Logística Group,Construcción,Construction,Santa Fe,Argentina,91,1.19,0.216,0.52,website_form,B,https://andes-servicios-servicios.com.ar
+ACC00584,Aconcagua Operaciones Argentina,Oil & Gas,Oil & Gas,CABA,Argentina,2622,1.47,0.156,0.75,industry_event,A,https://norte-oil-servicios.com.ar
+ACC00585,Pampa Oil Servicios,Servicios,Services,Santa Fe,Argentina,238,1.01,0.42,0.45,partner_referral,C,https://norte-energía-s-a.com.ar
+ACC00586,Austral Oil Group,Energía,Energy,Mendoza,Argentina,596,1.03,0.219,0.68,public_directory,B,https://delta-industrial-s-a.com.ar
+ACC00587,Norte Operaciones Servicios,Manufactura,Manufacturing,Córdoba,Argentina,544,1.19,0.308,0.61,industry_event,B,https://sur-energía-s-a.com.ar
+ACC00588,Norte Tecnología Argentina,Construcción,Construction,Buenos Aires,Argentina,479,1.04,0.396,0.52,public_directory,B,https://austral-tecnología-s-r-l.com.ar
+ACC00589,Cumbre Servicios Argentina,Minería,Mining,Salta,Argentina,2831,1.28,0.115,0.72,industry_event,B,https://pampa-logística-corp.com.ar
+ACC00590,Patagonia Energía S.A.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,3575,1.55,0.186,0.75,partner_referral,A,https://austral-operaciones-servicios.com.ar
+ACC00591,Cumbre Minera Argentina,Energía,Utilities,Mendoza,Argentina,1160,1.35,0.244,0.68,partner_referral,C,https://aconcagua-servicios-s-r-l.com.ar
+ACC00592,Delta Oil Servicios,Energía,Energy,Mendoza,Argentina,1954,1.24,0.202,0.68,website_form,C,https://austral-logística-s-a.com.ar
+ACC00593,Patagonia Logística Servicios,Construcción,Construction,Mendoza,Argentina,132,0.91,0.214,0.52,industry_event,B,https://sur-infraestructura-group.com.ar
+ACC00594,Cumbre Operaciones S.A.,Energía,Utilities,Córdoba,Argentina,662,1.31,0.159,0.68,partner_referral,A,https://austral-logística-s-a.com.ar
+ACC00595,Cumbre Infraestructura Servicios,Manufactura,Manufacturing,Mendoza,Argentina,1035,1.25,0.296,0.61,partner_referral,C,https://cumbre-servicios-s-r-l.com.ar
+ACC00596,Litoral Servicios Argentina,Energía,Utilities,Mendoza,Argentina,1922,1.03,0.232,0.68,public_directory,B,https://pampa-operaciones-group.com.ar
+ACC00597,Patagonia Servicios Argentina,Energía,Energy,Mendoza,Argentina,1216,1.2,0.263,0.68,industry_event,B,https://patagonia-oil-s-a.com.ar
+ACC00598,Cumbre Industrial Servicios,Oil & Gas,Oil & Gas,CABA,Argentina,4638,1.49,0.19,0.75,website_form,A,https://austral-servicios-s-a.com.ar
+ACC00599,Cumbre Minera S.A.,Minería,Mining,Jujuy,Argentina,1104,1.24,0.086,0.72,website_form,B,https://delta-operaciones-s-a.com.ar
+ACC00600,Norte Energía S.A.,Manufactura,Manufacturing,Córdoba,Argentina,832,1.13,0.197,0.61,outbound_research,B,https://patagonia-servicios-group.com.ar
+ACC00601,Cumbre Logística S.R.L.,Servicios,Services,Buenos Aires,Argentina,40,1.01,0.26,0.45,website_form,B,https://aconcagua-logística-group.com.ar
+ACC00602,Pampa Solutions Servicios,Minería,Mining,Catamarca,Argentina,312,1.27,0.185,0.72,partner_referral,C,https://norte-industrial-group.com.ar
+ACC00603,Litoral Industrial Corp.,Energía,Energy,Mendoza,Argentina,348,1.32,0.123,0.68,public_directory,C,https://patagonia-solutions-servicios.com.ar
+ACC00604,Cumbre Operaciones Corp.,Construcción,Construction,CABA,Argentina,331,1.15,0.29,0.52,outbound_research,B,https://delta-solutions-servicios.com.ar
+ACC00605,Andes Minera Servicios,Servicios,Services,Santa Fe,Argentina,31,1.0,0.225,0.45,website_form,C,https://litoral-infraestructura-servicios.com.ar
+ACC00606,Sur Solutions Servicios,Minería,Mining,Río Negro,Argentina,1657,1.12,0.183,0.72,public_directory,A,https://patagonia-operaciones-argentina.com.ar
+ACC00607,Norte Operaciones S.R.L.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4758,1.55,0.27,0.75,industry_event,C,https://litoral-infraestructura-s-r-l.com.ar
+ACC00608,Pampa Minera Servicios,Construcción,Construction,Córdoba,Argentina,369,0.9,0.332,0.52,website_form,B,https://andes-industrial-argentina.com.ar
+ACC00609,Aconcagua Oil S.A.,Oil & Gas,Oil & Gas,CABA,Argentina,4205,1.39,0.261,0.75,partner_referral,B,https://sur-operaciones-servicios.com.ar
+ACC00610,Andes Energía Corp.,Minería,Mining,Jujuy,Argentina,2955,1.43,0.142,0.72,outbound_research,C,https://norte-logística-s-r-l.com.ar
+ACC00611,Pampa Solutions Corp.,Oil & Gas,Oil & Gas,CABA,Argentina,2683,1.17,0.189,0.75,public_directory,A,https://pampa-operaciones-s-a.com.ar
+ACC00612,Austral Solutions Argentina,Manufactura,Manufacturing,Mendoza,Argentina,399,0.97,0.166,0.61,website_form,A,https://cumbre-solutions-servicios.com.ar
+ACC00613,Andes Oil Servicios,Construcción,Construction,Córdoba,Argentina,216,1.1,0.374,0.52,website_form,C,https://andes-logística-corp.com.ar
+ACC00614,Patagonia Oil Corp.,Manufactura,Manufacturing,Mendoza,Argentina,611,1.07,0.292,0.61,outbound_research,A,https://aconcagua-oil-corp.com.ar
+ACC00615,Sur Energía Servicios,Minería,Mining,San Juan,Argentina,897,1.45,0.112,0.72,partner_referral,C,https://pampa-solutions-s-r-l.com.ar
+ACC00616,Patagonia Industrial Corp.,Minería,Mining,Catamarca,Argentina,2664,1.38,0.163,0.72,industry_event,C,https://pampa-energía-corp.com.ar
+ACC00617,Sur Oil S.R.L.,Oil & Gas,Oil & Gas,Chubut,Argentina,645,1.5,0.212,0.75,website_form,B,https://cumbre-energía-s-a.com.ar
+ACC00618,Sur Energía S.R.L.,Servicios,Services,CABA,Argentina,203,1.08,0.299,0.45,industry_event,B,https://aconcagua-energía-s-a.com.ar
+ACC00619,Norte Operaciones Corp.,Construcción,Construction,Santa Fe,Argentina,73,1.09,0.27,0.52,public_directory,C,https://cumbre-industrial-corp.com.ar
+ACC00620,Cumbre Energía Group,Minería,Mining,San Juan,Argentina,2640,1.26,0.126,0.72,outbound_research,A,https://andes-tecnología-argentina.com.ar
+ACC00621,Delta Oil Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4895,1.34,0.23,0.75,partner_referral,A,https://delta-industrial-s-a.com.ar
+ACC00622,Austral Logística Group,Oil & Gas,Oil & Gas,CABA,Argentina,3770,1.22,0.156,0.75,industry_event,B,https://andes-oil-servicios.com.ar
+ACC00623,Pampa Oil Servicios,Construcción,Construction,CABA,Argentina,78,1.03,0.223,0.52,outbound_research,B,https://pampa-energía-group.com.ar
+ACC00624,Cumbre Logística Servicios,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4028,1.43,0.175,0.75,outbound_research,A,https://andes-minera-s-r-l.com.ar
+ACC00625,Pampa Minera Servicios,Manufactura,Manufacturing,Santa Fe,Argentina,1469,1.03,0.287,0.61,industry_event,C,https://aconcagua-solutions-corp.com.ar
+ACC00626,Andes Energía Group,Oil & Gas,Oil & Gas,Neuquén,Argentina,3172,1.4,0.126,0.75,partner_referral,A,https://cumbre-logística-s-a.com.ar
+ACC00627,Norte Servicios S.R.L.,Servicios,Services,Buenos Aires,Argentina,111,1.02,0.272,0.45,public_directory,B,https://pampa-industrial-s-r-l.com.ar
+ACC00628,Delta Operaciones Argentina,Manufactura,Manufacturing,Buenos Aires,Argentina,92,1.06,0.182,0.61,partner_referral,B,https://sur-servicios-servicios.com.ar
+ACC00629,Patagonia Energía S.R.L.,Servicios,Services,Santa Fe,Argentina,374,1.04,0.232,0.45,partner_referral,B,https://sur-tecnología-corp.com.ar
+ACC00630,Cumbre Tecnología S.R.L.,Servicios,Services,Buenos Aires,Argentina,33,1.04,0.268,0.45,website_form,B,https://norte-servicios-servicios.com.ar
+ACC00631,Patagonia Minera Argentina,Servicios,Services,Santa Fe,Argentina,117,0.85,0.285,0.45,public_directory,B,https://austral-minera-s-r-l.com.ar
+ACC00632,Litoral Minera Corp.,Minería,Mining,Salta,Argentina,2252,1.3,0.169,0.72,public_directory,B,https://pampa-solutions-s-r-l.com.ar
+ACC00633,Pampa Infraestructura Corp.,Energía,Utilities,Córdoba,Argentina,1701,1.2,0.288,0.68,industry_event,B,https://patagonia-servicios-s-a.com.ar
+ACC00634,Pampa Tecnología S.A.,Minería,Mining,Santa Cruz,Argentina,1540,1.28,0.127,0.72,partner_referral,B,https://aconcagua-logística-corp.com.ar
+ACC00635,Delta Minera S.R.L.,Minería,Mining,San Juan,Argentina,201,1.33,0.13,0.72,website_form,B,https://austral-oil-servicios.com.ar
+ACC00636,Patagonia Energía S.A.,Construcción,Construction,Córdoba,Argentina,253,0.91,0.224,0.52,outbound_research,B,https://norte-infraestructura-argentina.com.ar
+ACC00637,Cumbre Servicios Argentina,Construcción,Construction,Córdoba,Argentina,215,0.9,0.246,0.52,industry_event,C,https://aconcagua-operaciones-servicios.com.ar
+ACC00638,Austral Servicios Corp.,Construcción,Construction,Buenos Aires,Argentina,503,0.97,0.345,0.52,partner_referral,B,https://cumbre-oil-corp.com.ar
+ACC00639,Patagonia Logística S.R.L.,Construcción,Construction,Mendoza,Argentina,368,1.13,0.334,0.52,outbound_research,B,https://austral-industrial-group.com.ar
+ACC00640,Andes Minera Argentina,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2703,1.3,0.175,0.75,partner_referral,C,https://austral-infraestructura-group.com.ar
+ACC00641,Delta Servicios Group,Energía,Utilities,Neuquén,Argentina,211,1.34,0.157,0.68,partner_referral,A,https://aconcagua-solutions-corp.com.ar
+ACC00642,Norte Energía S.R.L.,Oil & Gas,Oil & Gas,CABA,Argentina,3898,1.45,0.132,0.75,public_directory,B,https://delta-solutions-s-a.com.ar
+ACC00643,Pampa Solutions Group,Manufactura,Manufacturing,Mendoza,Argentina,631,1.1,0.214,0.61,website_form,A,https://aconcagua-operaciones-s-r-l.com.ar
+ACC00644,Aconcagua Minera Argentina,Servicios,Services,Buenos Aires,Argentina,284,0.92,0.424,0.45,outbound_research,A,https://pampa-infraestructura-corp.com.ar
+ACC00645,Cumbre Tecnología Group,Construcción,Construction,Mendoza,Argentina,182,1.05,0.331,0.52,industry_event,A,https://delta-minera-s-a.com.ar
+ACC00646,Sur Tecnología Corp.,Manufactura,Manufacturing,Santa Fe,Argentina,1126,1.1,0.148,0.61,website_form,B,https://litoral-logística-argentina.com.ar
+ACC00647,Cumbre Servicios Corp.,Manufactura,Manufacturing,Córdoba,Argentina,850,1.01,0.264,0.61,partner_referral,B,https://delta-tecnología-s-a.com.ar
+ACC00648,Delta Infraestructura Argentina,Minería,Mining,Catamarca,Argentina,1081,1.33,0.089,0.72,outbound_research,C,https://aconcagua-oil-s-a.com.ar
+ACC00649,Patagonia Oil Group,Servicios,Services,CABA,Argentina,396,0.94,0.248,0.45,public_directory,A,https://andes-energía-argentina.com.ar
+ACC00650,Sur Operaciones S.R.L.,Construcción,Construction,Mendoza,Argentina,410,0.91,0.235,0.52,outbound_research,B,https://litoral-minera-corp.com.ar
+ACC00651,Litoral Servicios Corp.,Oil & Gas,Oil & Gas,CABA,Argentina,2184,1.53,0.131,0.75,website_form,B,https://delta-infraestructura-s-a.com.ar
+ACC00652,Patagonia Industrial Argentina,Energía,Utilities,Mendoza,Argentina,769,1.05,0.184,0.68,outbound_research,C,https://austral-solutions-corp.com.ar
+ACC00653,Patagonia Operaciones Argentina,Construcción,Construction,Santa Fe,Argentina,676,1.03,0.312,0.52,website_form,C,https://pampa-solutions-group.com.ar
+ACC00654,Andes Operaciones S.A.,Manufactura,Manufacturing,Santa Fe,Argentina,237,1.06,0.178,0.61,website_form,B,https://patagonia-servicios-argentina.com.ar
+ACC00655,Patagonia Logística Group,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4398,1.43,0.268,0.75,partner_referral,C,https://patagonia-solutions-s-r-l.com.ar
+ACC00656,Andes Operaciones Argentina,Oil & Gas,Oil & Gas,Chubut,Argentina,1622,1.16,0.138,0.75,outbound_research,A,https://norte-tecnología-group.com.ar
+ACC00657,Norte Tecnología Corp.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,3567,1.47,0.242,0.75,public_directory,A,https://patagonia-tecnología-group.com.ar
+ACC00658,Delta Logística S.R.L.,Servicios,Services,Santa Fe,Argentina,357,1.09,0.36,0.45,website_form,B,https://cumbre-tecnología-corp.com.ar
+ACC00659,Austral Tecnología Argentina,Minería,Mining,Río Negro,Argentina,1052,1.18,0.166,0.72,website_form,B,https://aconcagua-solutions-servicios.com.ar
+ACC00660,Litoral Infraestructura S.R.L.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,3268,1.32,0.216,0.75,outbound_research,C,https://cumbre-minera-argentina.com.ar
+ACC00661,Sur Industrial Servicios,Manufactura,Manufacturing,Santa Fe,Argentina,619,1.16,0.198,0.61,website_form,B,https://sur-logística-s-r-l.com.ar
+ACC00662,Pampa Tecnología Corp.,Oil & Gas,Oil & Gas,Neuquén,Argentina,2234,1.23,0.213,0.75,website_form,C,https://patagonia-solutions-s-a.com.ar
+ACC00663,Delta Energía S.R.L.,Construcción,Construction,CABA,Argentina,229,0.97,0.197,0.52,partner_referral,B,https://pampa-solutions-corp.com.ar
+ACC00664,Norte Tecnología Corp.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2683,1.27,0.241,0.75,website_form,C,https://sur-operaciones-corp.com.ar
+ACC00665,Austral Tecnología Argentina,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,3662,1.49,0.248,0.75,partner_referral,A,https://aconcagua-operaciones-s-a.com.ar
+ACC00666,Austral Servicios Servicios,Construcción,Construction,Córdoba,Argentina,629,0.98,0.282,0.52,partner_referral,B,https://austral-tecnología-corp.com.ar
+ACC00667,Pampa Servicios S.R.L.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4044,1.16,0.19,0.75,industry_event,B,https://aconcagua-operaciones-argentina.com.ar
+ACC00668,Cumbre Energía Corp.,Minería,Mining,San Juan,Argentina,1360,1.45,0.097,0.72,public_directory,A,https://aconcagua-infraestructura-argentina.com.ar
+ACC00669,Sur Industrial Argentina,Minería,Mining,Río Negro,Argentina,2101,1.42,0.183,0.72,outbound_research,B,https://sur-industrial-argentina.com.ar
+ACC00670,Cumbre Minera Argentina,Construcción,Construction,CABA,Argentina,287,0.98,0.312,0.52,outbound_research,A,https://patagonia-operaciones-corp.com.ar
+ACC00671,Pampa Operaciones S.R.L.,Construcción,Construction,Buenos Aires,Argentina,550,0.98,0.246,0.52,public_directory,B,https://aconcagua-tecnología-group.com.ar
+ACC00672,Cumbre Logística S.R.L.,Construcción,Construction,Buenos Aires,Argentina,131,1.12,0.385,0.52,partner_referral,B,https://andes-servicios-corp.com.ar
+ACC00673,Austral Operaciones Argentina,Oil & Gas,Oil & Gas,Neuquén,Argentina,3622,1.48,0.131,0.75,industry_event,A,https://delta-solutions-corp.com.ar
+ACC00674,Cumbre Solutions S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,3891,1.18,0.133,0.75,outbound_research,B,https://aconcagua-minera-argentina.com.ar
+ACC00675,Delta Energía Group,Manufactura,Manufacturing,Buenos Aires,Argentina,1828,1.07,0.195,0.61,industry_event,A,https://pampa-minera-corp.com.ar
+ACC00676,Andes Infraestructura S.A.,Construcción,Construction,Buenos Aires,Argentina,29,0.93,0.295,0.52,website_form,B,https://austral-infraestructura-corp.com.ar
+ACC00677,Sur Logística Argentina,Energía,Utilities,Santa Fe,Argentina,1839,1.35,0.267,0.68,industry_event,B,https://aconcagua-tecnología-s-a.com.ar
+ACC00678,Andes Minera Argentina,Servicios,Services,Córdoba,Argentina,61,1.02,0.42,0.45,outbound_research,A,https://patagonia-oil-group.com.ar
+ACC00679,Litoral Tecnología Argentina,Servicios,Services,Buenos Aires,Argentina,198,0.95,0.358,0.45,website_form,C,https://sur-industrial-argentina.com.ar
+ACC00680,Litoral Solutions Servicios,Minería,Mining,Catamarca,Argentina,1433,1.24,0.166,0.72,website_form,B,https://litoral-energía-argentina.com.ar
+ACC00681,Delta Oil Servicios,Minería,Mining,Santa Cruz,Argentina,899,1.14,0.192,0.72,industry_event,C,https://austral-minera-s-r-l.com.ar
+ACC00682,Austral Solutions S.R.L.,Manufactura,Manufacturing,Buenos Aires,Argentina,1037,1.01,0.329,0.61,website_form,A,https://andes-servicios-group.com.ar
+ACC00683,Norte Minera Argentina,Manufactura,Manufacturing,Córdoba,Argentina,501,1.17,0.325,0.61,partner_referral,A,https://sur-solutions-servicios.com.ar
+ACC00684,Sur Operaciones Argentina,Construcción,Construction,Santa Fe,Argentina,86,1.1,0.353,0.52,partner_referral,C,https://pampa-infraestructura-s-a.com.ar
+ACC00685,Sur Tecnología S.R.L.,Minería,Mining,Catamarca,Argentina,465,1.3,0.098,0.72,industry_event,C,https://cumbre-industrial-group.com.ar
+ACC00686,Aconcagua Operaciones Group,Oil & Gas,Oil & Gas,CABA,Argentina,1755,1.51,0.268,0.75,outbound_research,B,https://cumbre-tecnología-s-r-l.com.ar
+ACC00687,Litoral Logística S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,4609,1.53,0.19,0.75,partner_referral,A,https://norte-servicios-argentina.com.ar
+ACC00688,Sur Infraestructura Servicios,Construcción,Construction,Buenos Aires,Argentina,633,0.98,0.366,0.52,public_directory,B,https://pampa-minera-group.com.ar
+ACC00689,Sur Servicios Argentina,Construcción,Construction,Mendoza,Argentina,80,1.15,0.386,0.52,outbound_research,C,https://andes-servicios-corp.com.ar
+ACC00690,Delta Industrial Servicios,Construcción,Construction,Córdoba,Argentina,695,1.0,0.329,0.52,industry_event,C,https://aconcagua-energía-servicios.com.ar
+ACC00691,Pampa Oil Corp.,Construcción,Construction,Córdoba,Argentina,733,0.94,0.345,0.52,public_directory,C,https://andes-infraestructura-corp.com.ar
+ACC00692,Litoral Minera Group,Construcción,Construction,Santa Fe,Argentina,160,0.96,0.357,0.52,outbound_research,C,https://andes-logística-argentina.com.ar
+ACC00693,Delta Operaciones Corp.,Manufactura,Manufacturing,Buenos Aires,Argentina,1439,1.26,0.159,0.61,partner_referral,A,https://andes-energía-servicios.com.ar
+ACC00694,Delta Operaciones S.R.L.,Construcción,Construction,Santa Fe,Argentina,464,0.94,0.267,0.52,industry_event,B,https://delta-operaciones-argentina.com.ar
+ACC00695,Aconcagua Infraestructura Argentina,Servicios,Services,CABA,Argentina,247,0.91,0.212,0.45,website_form,A,https://austral-solutions-s-a.com.ar
+ACC00696,Norte Energía Servicios,Energía,Energy,Neuquén,Argentina,2044,1.13,0.3,0.68,partner_referral,B,https://delta-energía-group.com.ar
+ACC00697,Aconcagua Industrial Corp.,Oil & Gas,Oil & Gas,CABA,Argentina,1714,1.18,0.251,0.75,public_directory,C,https://patagonia-solutions-argentina.com.ar
+ACC00698,Cumbre Servicios S.A.,Manufactura,Manufacturing,Santa Fe,Argentina,1815,1.21,0.165,0.61,outbound_research,B,https://delta-energía-servicios.com.ar
+ACC00699,Patagonia Oil Group,Minería,Mining,Catamarca,Argentina,446,1.44,0.104,0.72,website_form,B,https://andes-oil-group.com.ar
+ACC00700,Cumbre Minera Argentina,Construcción,Construction,Mendoza,Argentina,163,1.06,0.397,0.52,industry_event,B,https://austral-solutions-argentina.com.ar
+ACC00701,Andes Solutions S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,2142,1.54,0.139,0.75,outbound_research,B,https://pampa-tecnología-group.com.ar
+ACC00702,Aconcagua Energía Servicios,Minería,Mining,Río Negro,Argentina,2648,1.19,0.171,0.72,outbound_research,B,https://patagonia-infraestructura-argentina.com.ar
+ACC00703,Pampa Energía Argentina,Energía,Utilities,Córdoba,Argentina,2275,1.35,0.245,0.68,outbound_research,C,https://cumbre-oil-servicios.com.ar
+ACC00704,Aconcagua Operaciones S.A.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2791,1.18,0.122,0.75,website_form,B,https://aconcagua-energía-group.com.ar
+ACC00705,Norte Servicios S.R.L.,Construcción,Construction,Córdoba,Argentina,361,0.9,0.263,0.52,outbound_research,B,https://patagonia-energía-s-r-l.com.ar
+ACC00706,Litoral Energía Servicios,Energía,Utilities,Santa Fe,Argentina,2491,1.25,0.276,0.68,public_directory,B,https://patagonia-industrial-s-r-l.com.ar
+ACC00707,Sur Oil Servicios,Minería,Mining,San Juan,Argentina,840,1.27,0.098,0.72,website_form,B,https://delta-servicios-s-r-l.com.ar
+ACC00708,Andes Logística Argentina,Minería,Mining,Río Negro,Argentina,1195,1.34,0.139,0.72,partner_referral,A,https://sur-minera-servicios.com.ar
+ACC00709,Pampa Infraestructura Argentina,Minería,Mining,San Juan,Argentina,2232,1.43,0.137,0.72,industry_event,C,https://patagonia-energía-argentina.com.ar
+ACC00710,Cumbre Industrial S.A.,Minería,Mining,Catamarca,Argentina,776,1.29,0.149,0.72,website_form,C,https://aconcagua-oil-argentina.com.ar
+ACC00711,Austral Energía Corp.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4418,1.43,0.264,0.75,website_form,C,https://austral-logística-s-r-l.com.ar
+ACC00712,Litoral Servicios Argentina,Servicios,Services,CABA,Argentina,320,0.85,0.279,0.45,outbound_research,B,https://andes-operaciones-corp.com.ar
+ACC00713,Sur Solutions Servicios,Minería,Mining,Salta,Argentina,563,1.2,0.148,0.72,industry_event,A,https://cumbre-operaciones-s-r-l.com.ar
+ACC00714,Cumbre Minera S.A.,Servicios,Services,CABA,Argentina,247,0.8,0.304,0.45,industry_event,B,https://andes-logística-argentina.com.ar
+ACC00715,Patagonia Operaciones Corp.,Oil & Gas,Oil & Gas,Chubut,Argentina,272,1.19,0.193,0.75,outbound_research,B,https://litoral-industrial-s-r-l.com.ar
+ACC00716,Litoral Operaciones Group,Construcción,Construction,Córdoba,Argentina,251,1.01,0.376,0.52,public_directory,C,https://patagonia-minera-argentina.com.ar
+ACC00717,Sur Operaciones S.A.,Manufactura,Manufacturing,Santa Fe,Argentina,336,1.24,0.282,0.61,website_form,A,https://andes-servicios-corp.com.ar
+ACC00718,Delta Solutions Corp.,Energía,Utilities,Santa Fe,Argentina,209,1.04,0.208,0.68,partner_referral,C,https://delta-logística-corp.com.ar
+ACC00719,Patagonia Energía S.A.,Energía,Energy,Mendoza,Argentina,618,1.05,0.21,0.68,outbound_research,A,https://sur-operaciones-servicios.com.ar
+ACC00720,Norte Infraestructura Corp.,Construcción,Construction,Mendoza,Argentina,511,1.13,0.235,0.52,outbound_research,C,https://delta-solutions-group.com.ar
+ACC00721,Pampa Operaciones S.R.L.,Construcción,Construction,Córdoba,Argentina,737,1.11,0.358,0.52,public_directory,B,https://pampa-tecnología-argentina.com.ar
+ACC00722,Delta Operaciones S.A.,Construcción,Construction,CABA,Argentina,143,1.2,0.384,0.52,partner_referral,A,https://pampa-energía-s-a.com.ar
+ACC00723,Pampa Solutions Group,Minería,Mining,Santa Cruz,Argentina,1355,1.27,0.151,0.72,website_form,B,https://norte-logística-group.com.ar
+ACC00724,Sur Industrial S.R.L.,Servicios,Services,Santa Fe,Argentina,136,0.8,0.358,0.45,industry_event,A,https://litoral-infraestructura-servicios.com.ar
+ACC00725,Litoral Logística Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2266,1.2,0.22,0.75,public_directory,C,https://delta-logística-group.com.ar
+ACC00726,Cumbre Oil Servicios,Construcción,Construction,Córdoba,Argentina,780,0.97,0.241,0.52,public_directory,B,https://patagonia-servicios-argentina.com.ar
+ACC00727,Cumbre Solutions S.R.L.,Construcción,Construction,Buenos Aires,Argentina,62,1.18,0.196,0.52,public_directory,B,https://norte-minera-s-r-l.com.ar
+ACC00728,Delta Solutions Corp.,Energía,Utilities,Córdoba,Argentina,259,1.31,0.257,0.68,public_directory,C,https://sur-minera-argentina.com.ar
+ACC00729,Litoral Operaciones Servicios,Construcción,Construction,Mendoza,Argentina,89,0.95,0.24,0.52,outbound_research,B,https://cumbre-industrial-argentina.com.ar
+ACC00730,Austral Oil S.A.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,4255,1.35,0.192,0.75,public_directory,C,https://aconcagua-tecnología-group.com.ar
+ACC00731,Cumbre Solutions Servicios,Oil & Gas,Oil & Gas,Neuquén,Argentina,1510,1.55,0.242,0.75,partner_referral,B,https://austral-infraestructura-group.com.ar
+ACC00732,Norte Oil S.A.,Manufactura,Manufacturing,Córdoba,Argentina,1500,1.02,0.247,0.61,industry_event,A,https://delta-infraestructura-s-r-l.com.ar
+ACC00733,Pampa Solutions Servicios,Minería,Mining,Catamarca,Argentina,2731,1.1,0.129,0.72,public_directory,C,https://sur-energía-argentina.com.ar
+ACC00734,Delta Operaciones Servicios,Manufactura,Manufacturing,Córdoba,Argentina,1528,1.06,0.151,0.61,website_form,C,https://pampa-infraestructura-s-r-l.com.ar
+ACC00735,Cumbre Energía Argentina,Minería,Mining,Catamarca,Argentina,2301,1.43,0.116,0.72,public_directory,B,https://litoral-solutions-group.com.ar
+ACC00736,Aconcagua Servicios Corp.,Minería,Mining,Santa Cruz,Argentina,2679,1.36,0.141,0.72,outbound_research,C,https://patagonia-minera-s-r-l.com.ar
+ACC00737,Cumbre Minera Argentina,Energía,Energy,Córdoba,Argentina,853,1.23,0.124,0.68,outbound_research,C,https://aconcagua-tecnología-s-r-l.com.ar
+ACC00738,Pampa Minera Argentina,Oil & Gas,Oil & Gas,Neuquén,Argentina,3693,1.2,0.195,0.75,website_form,B,https://aconcagua-operaciones-s-a.com.ar
+ACC00739,Delta Solutions S.A.,Oil & Gas,Oil & Gas,Neuquén,Argentina,558,1.21,0.213,0.75,website_form,C,https://andes-energía-servicios.com.ar
+ACC00740,Patagonia Solutions S.R.L.,Construcción,Construction,Córdoba,Argentina,744,1.13,0.376,0.52,outbound_research,B,https://litoral-servicios-s-r-l.com.ar
+ACC00741,Patagonia Industrial S.A.,Oil & Gas,Oil & Gas,Chubut,Argentina,4653,1.4,0.118,0.75,partner_referral,A,https://pampa-industrial-s-r-l.com.ar
+ACC00742,Norte Solutions Argentina,Energía,Utilities,Córdoba,Argentina,1527,1.24,0.249,0.68,website_form,B,https://patagonia-solutions-s-a.com.ar
+ACC00743,Patagonia Tecnología Group,Servicios,Services,Córdoba,Argentina,192,0.91,0.43,0.45,website_form,C,https://cumbre-servicios-s-r-l.com.ar
+ACC00744,Aconcagua Servicios Argentina,Energía,Utilities,Santa Fe,Argentina,822,1.22,0.172,0.68,website_form,B,https://litoral-logística-group.com.ar
+ACC00745,Delta Servicios Group,Construcción,Construction,Buenos Aires,Argentina,22,1.02,0.339,0.52,partner_referral,C,https://patagonia-tecnología-corp.com.ar
+ACC00746,Patagonia Logística S.R.L.,Servicios,Services,Córdoba,Argentina,84,1.03,0.275,0.45,partner_referral,B,https://aconcagua-tecnología-argentina.com.ar
+ACC00747,Aconcagua Operaciones Servicios,Minería,Mining,Río Negro,Argentina,1107,1.29,0.149,0.72,public_directory,C,https://aconcagua-energía-servicios.com.ar
+ACC00748,Pampa Energía S.R.L.,Construcción,Construction,Santa Fe,Argentina,611,0.9,0.399,0.52,website_form,B,https://litoral-servicios-s-a.com.ar
+ACC00749,Delta Infraestructura Corp.,Oil & Gas,Oil & Gas,Chubut,Argentina,3156,1.53,0.199,0.75,partner_referral,B,https://pampa-industrial-argentina.com.ar
+ACC00750,Andes Operaciones Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,3292,1.47,0.219,0.75,website_form,B,https://cumbre-servicios-s-a.com.ar
+ACC00751,Pampa Energía S.A.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,847,1.22,0.133,0.75,outbound_research,C,https://norte-minera-corp.com.ar
+ACC00752,Andes Infraestructura S.A.,Construcción,Construction,Mendoza,Argentina,680,0.92,0.321,0.52,public_directory,C,https://austral-servicios-s-a.com.ar
+ACC00753,Litoral Oil Argentina,Minería,Mining,San Juan,Argentina,2884,1.42,0.15,0.72,outbound_research,B,https://delta-infraestructura-s-a.com.ar
+ACC00754,Aconcagua Tecnología S.A.,Energía,Energy,Córdoba,Argentina,947,1.14,0.268,0.68,public_directory,B,https://patagonia-minera-corp.com.ar
+ACC00755,Aconcagua Servicios S.A.,Minería,Mining,Río Negro,Argentina,1759,1.33,0.107,0.72,website_form,A,https://sur-tecnología-group.com.ar
+ACC00756,Austral Energía S.A.,Oil & Gas,Oil & Gas,Chubut,Argentina,1533,1.42,0.236,0.75,industry_event,A,https://pampa-industrial-s-r-l.com.ar
+ACC00757,Andes Tecnología Corp.,Minería,Mining,Santa Cruz,Argentina,2413,1.12,0.093,0.72,industry_event,A,https://sur-infraestructura-corp.com.ar
+ACC00758,Sur Servicios Argentina,Energía,Energy,Santa Fe,Argentina,1680,1.12,0.281,0.68,public_directory,A,https://delta-industrial-servicios.com.ar
+ACC00759,Andes Infraestructura S.R.L.,Construcción,Construction,Mendoza,Argentina,620,1.1,0.197,0.52,website_form,C,https://pampa-solutions-argentina.com.ar
+ACC00760,Austral Tecnología Argentina,Construcción,Construction,CABA,Argentina,533,1.03,0.209,0.52,industry_event,B,https://aconcagua-industrial-argentina.com.ar
+ACC00761,Pampa Tecnología Servicios,Construcción,Construction,Mendoza,Argentina,264,1.19,0.305,0.52,partner_referral,A,https://andes-servicios-group.com.ar
+ACC00762,Patagonia Minera Group,Energía,Energy,Buenos Aires,Argentina,2123,1.33,0.149,0.68,industry_event,B,https://sur-energía-s-a.com.ar
+ACC00763,Litoral Infraestructura Corp.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2313,1.57,0.275,0.75,partner_referral,A,https://norte-operaciones-corp.com.ar
+ACC00764,Sur Oil Servicios,Manufactura,Manufacturing,Santa Fe,Argentina,952,1.07,0.276,0.61,public_directory,B,https://andes-tecnología-argentina.com.ar
+ACC00765,Andes Servicios S.A.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4794,1.32,0.203,0.75,website_form,B,https://litoral-energía-group.com.ar
+ACC00766,Patagonia Energía S.R.L.,Energía,Energy,Neuquén,Argentina,1984,1.32,0.286,0.68,partner_referral,A,https://sur-energía-group.com.ar
+ACC00767,Pampa Minera S.A.,Minería,Mining,Santa Cruz,Argentina,2091,1.26,0.156,0.72,partner_referral,A,https://pampa-logística-servicios.com.ar
+ACC00768,Andes Logística Corp.,Oil & Gas,Oil & Gas,CABA,Argentina,3315,1.25,0.138,0.75,website_form,C,https://aconcagua-infraestructura-group.com.ar
+ACC00769,Patagonia Infraestructura Corp.,Construcción,Construction,Buenos Aires,Argentina,165,0.99,0.337,0.52,partner_referral,B,https://norte-servicios-s-a.com.ar
+ACC00770,Norte Servicios S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,3001,1.57,0.187,0.75,public_directory,B,https://delta-operaciones-group.com.ar
+ACC00771,Andes Oil Servicios,Manufactura,Manufacturing,Mendoza,Argentina,1735,0.98,0.274,0.61,public_directory,A,https://sur-industrial-s-r-l.com.ar
+ACC00772,Sur Energía Argentina,Manufactura,Manufacturing,Santa Fe,Argentina,1072,1.04,0.284,0.61,partner_referral,C,https://delta-minera-argentina.com.ar
+ACC00773,Pampa Solutions Corp.,Servicios,Services,CABA,Argentina,28,0.98,0.238,0.45,outbound_research,C,https://cumbre-industrial-group.com.ar
+ACC00774,Norte Oil S.A.,Construcción,Construction,Buenos Aires,Argentina,329,1.09,0.28,0.52,partner_referral,B,https://austral-operaciones-servicios.com.ar
+ACC00775,Delta Minera Corp.,Servicios,Services,Córdoba,Argentina,68,0.85,0.341,0.45,public_directory,B,https://norte-operaciones-argentina.com.ar
+ACC00776,Patagonia Energía S.A.,Minería,Mining,Santa Cruz,Argentina,506,1.32,0.138,0.72,partner_referral,C,https://cumbre-oil-s-a.com.ar
+ACC00777,Andes Infraestructura Corp.,Construcción,Construction,Santa Fe,Argentina,615,0.97,0.28,0.52,partner_referral,A,https://litoral-energía-group.com.ar
+ACC00778,Aconcagua Industrial Group,Servicios,Services,Santa Fe,Argentina,221,0.95,0.252,0.45,industry_event,B,https://aconcagua-solutions-s-a.com.ar
+ACC00779,Andes Industrial S.R.L.,Manufactura,Manufacturing,Mendoza,Argentina,116,1.23,0.244,0.61,public_directory,B,https://delta-tecnología-corp.com.ar
+ACC00780,Cumbre Operaciones S.A.,Minería,Mining,San Juan,Argentina,889,1.15,0.169,0.72,outbound_research,B,https://sur-oil-s-r-l.com.ar
+ACC00781,Austral Energía Argentina,Energía,Utilities,Buenos Aires,Argentina,597,1.3,0.233,0.68,industry_event,C,https://delta-logística-s-r-l.com.ar
+ACC00782,Andes Tecnología S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,3783,1.43,0.198,0.75,website_form,B,https://andes-servicios-corp.com.ar
+ACC00783,Pampa Solutions Group,Construcción,Construction,Córdoba,Argentina,211,1.06,0.234,0.52,partner_referral,C,https://andes-infraestructura-s-a.com.ar
+ACC00784,Cumbre Energía S.A.,Servicios,Services,CABA,Argentina,336,1.08,0.213,0.45,outbound_research,B,https://delta-energía-s-a.com.ar
+ACC00785,Aconcagua Energía Corp.,Energía,Energy,Santa Fe,Argentina,931,1.14,0.208,0.68,website_form,A,https://aconcagua-operaciones-group.com.ar
+ACC00786,Delta Infraestructura S.A.,Construcción,Construction,Mendoza,Argentina,184,1.1,0.319,0.52,website_form,A,https://sur-logística-corp.com.ar
+ACC00787,Austral Infraestructura S.A.,Servicios,Services,CABA,Argentina,91,0.98,0.325,0.45,public_directory,B,https://delta-solutions-group.com.ar
+ACC00788,Sur Servicios S.R.L.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,441,1.48,0.269,0.75,industry_event,B,https://pampa-energía-group.com.ar
+ACC00789,Litoral Operaciones Servicios,Construcción,Construction,Córdoba,Argentina,498,1.18,0.235,0.52,outbound_research,B,https://norte-operaciones-s-a.com.ar
+ACC00790,Delta Solutions Argentina,Energía,Utilities,Neuquén,Argentina,1356,1.15,0.2,0.68,public_directory,C,https://sur-tecnología-s-a.com.ar
+ACC00791,Cumbre Logística Group,Construcción,Construction,Mendoza,Argentina,224,1.03,0.376,0.52,public_directory,B,https://aconcagua-infraestructura-servicios.com.ar
+ACC00792,Andes Energía S.R.L.,Manufactura,Manufacturing,Córdoba,Argentina,865,1.09,0.177,0.61,outbound_research,A,https://sur-logística-s-r-l.com.ar
+ACC00793,Sur Industrial Argentina,Construcción,Construction,Buenos Aires,Argentina,29,0.96,0.305,0.52,industry_event,C,https://austral-energía-corp.com.ar
+ACC00794,Pampa Energía Servicios,Minería,Mining,Jujuy,Argentina,2259,1.35,0.212,0.72,website_form,B,https://aconcagua-operaciones-group.com.ar
+ACC00795,Andes Minera Corp.,Construcción,Construction,CABA,Argentina,221,1.2,0.273,0.52,website_form,B,https://cumbre-logística-servicios.com.ar
+ACC00796,Norte Industrial Argentina,Minería,Mining,Santa Cruz,Argentina,187,1.42,0.12,0.72,partner_referral,A,https://austral-oil-s-a.com.ar
+ACC00797,Litoral Energía Corp.,Minería,Mining,Catamarca,Argentina,384,1.2,0.186,0.72,partner_referral,A,https://sur-minera-servicios.com.ar
+ACC00798,Litoral Energía Group,Oil & Gas,Oil & Gas,Chubut,Argentina,3923,1.16,0.109,0.75,website_form,A,https://sur-operaciones-s-r-l.com.ar
+ACC00799,Austral Industrial Argentina,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,3221,1.27,0.241,0.75,website_form,A,https://norte-energía-group.com.ar
+ACC00800,Norte Servicios S.R.L.,Minería,Mining,Santa Cruz,Argentina,1654,1.14,0.125,0.72,outbound_research,C,https://aconcagua-minera-argentina.com.ar
+ACC00801,Cumbre Minera Argentina,Oil & Gas,Oil & Gas,CABA,Argentina,2170,1.59,0.158,0.75,partner_referral,B,https://norte-infraestructura-argentina.com.ar
+ACC00802,Pampa Energía S.A.,Oil & Gas,Oil & Gas,CABA,Argentina,2185,1.18,0.102,0.75,outbound_research,B,https://aconcagua-solutions-corp.com.ar
+ACC00803,Austral Logística Group,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4522,1.44,0.253,0.75,website_form,C,https://pampa-logística-corp.com.ar
+ACC00804,Pampa Energía Group,Servicios,Services,Buenos Aires,Argentina,214,0.85,0.263,0.45,public_directory,B,https://delta-minera-s-a.com.ar
+ACC00805,Litoral Servicios Group,Construcción,Construction,CABA,Argentina,36,1.04,0.297,0.52,industry_event,B,https://austral-energía-group.com.ar
+ACC00806,Austral Operaciones Servicios,Energía,Utilities,Córdoba,Argentina,1705,1.02,0.169,0.68,website_form,A,https://aconcagua-operaciones-s-r-l.com.ar
+ACC00807,Cumbre Infraestructura Servicios,Minería,Mining,San Juan,Argentina,823,1.28,0.095,0.72,website_form,B,https://patagonia-solutions-s-a.com.ar
+ACC00808,Norte Solutions S.A.,Oil & Gas,Oil & Gas,Neuquén,Argentina,4912,1.27,0.259,0.75,partner_referral,B,https://patagonia-solutions-argentina.com.ar
+ACC00809,Pampa Servicios S.R.L.,Manufactura,Manufacturing,Córdoba,Argentina,1064,1.16,0.281,0.61,industry_event,C,https://patagonia-servicios-servicios.com.ar
+ACC00810,Norte Solutions S.R.L.,Manufactura,Manufacturing,Mendoza,Argentina,1563,1.17,0.173,0.61,industry_event,C,https://delta-industrial-argentina.com.ar
+ACC00811,Delta Infraestructura S.A.,Energía,Energy,Santa Fe,Argentina,165,1.24,0.274,0.68,public_directory,B,https://litoral-tecnología-s-a.com.ar
+ACC00812,Patagonia Industrial S.A.,Energía,Utilities,Córdoba,Argentina,2015,1.29,0.215,0.68,outbound_research,C,https://patagonia-energía-group.com.ar
+ACC00813,Litoral Logística Servicios,Construcción,Construction,Córdoba,Argentina,483,1.1,0.236,0.52,partner_referral,A,https://sur-infraestructura-argentina.com.ar
+ACC00814,Cumbre Minera S.A.,Minería,Mining,Santa Cruz,Argentina,2819,1.34,0.182,0.72,website_form,A,https://aconcagua-solutions-argentina.com.ar
+ACC00815,Andes Solutions Servicios,Servicios,Services,Córdoba,Argentina,264,0.91,0.381,0.45,outbound_research,C,https://aconcagua-energía-group.com.ar
+ACC00816,Austral Servicios Group,Manufactura,Manufacturing,Mendoza,Argentina,1844,1.24,0.218,0.61,partner_referral,C,https://norte-infraestructura-s-r-l.com.ar
+ACC00817,Cumbre Energía Corp.,Oil & Gas,Oil & Gas,CABA,Argentina,3012,1.4,0.243,0.75,industry_event,B,https://andes-minera-argentina.com.ar
+ACC00818,Norte Tecnología Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,4485,1.29,0.152,0.75,industry_event,A,https://andes-solutions-group.com.ar
+ACC00819,Litoral Infraestructura S.A.,Manufactura,Manufacturing,Buenos Aires,Argentina,158,1.07,0.307,0.61,website_form,B,https://sur-infraestructura-servicios.com.ar
+ACC00820,Patagonia Infraestructura S.R.L.,Construcción,Construction,Santa Fe,Argentina,178,1.03,0.382,0.52,industry_event,A,https://litoral-logística-s-r-l.com.ar
+ACC00821,Aconcagua Energía Group,Construcción,Construction,Mendoza,Argentina,452,1.08,0.218,0.52,partner_referral,B,https://sur-tecnología-s-r-l.com.ar
+ACC00822,Delta Operaciones Servicios,Construcción,Construction,CABA,Argentina,276,0.99,0.199,0.52,public_directory,C,https://litoral-oil-s-r-l.com.ar
+ACC00823,Delta Oil Corp.,Minería,Mining,San Juan,Argentina,493,1.28,0.176,0.72,industry_event,B,https://aconcagua-minera-corp.com.ar
+ACC00824,Austral Industrial Corp.,Servicios,Services,Santa Fe,Argentina,24,1.03,0.346,0.45,industry_event,C,https://cumbre-oil-group.com.ar
+ACC00825,Norte Industrial Corp.,Oil & Gas,Oil & Gas,CABA,Argentina,4833,1.33,0.101,0.75,public_directory,B,https://andes-energía-s-a.com.ar
+ACC00826,Sur Tecnología S.A.,Minería,Mining,Río Negro,Argentina,538,1.3,0.177,0.72,website_form,A,https://cumbre-oil-argentina.com.ar
+ACC00827,Delta Oil Argentina,Construcción,Construction,CABA,Argentina,548,0.94,0.377,0.52,outbound_research,B,https://norte-industrial-corp.com.ar
+ACC00828,Patagonia Industrial S.R.L.,Construcción,Construction,CABA,Argentina,137,1.06,0.234,0.52,website_form,B,https://austral-minera-corp.com.ar
+ACC00829,Aconcagua Minera S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,2656,1.53,0.198,0.75,public_directory,B,https://cumbre-energía-corp.com.ar
+ACC00830,Delta Solutions S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,1713,1.36,0.152,0.75,website_form,C,https://litoral-logística-argentina.com.ar
+ACC00831,Patagonia Minera Corp.,Minería,Mining,San Juan,Argentina,2957,1.15,0.12,0.72,website_form,B,https://andes-tecnología-group.com.ar
+ACC00832,Andes Logística S.R.L.,Oil & Gas,Oil & Gas,CABA,Argentina,3841,1.55,0.183,0.75,website_form,C,https://sur-oil-servicios.com.ar
+ACC00833,Austral Energía S.R.L.,Oil & Gas,Oil & Gas,CABA,Argentina,3399,1.31,0.229,0.75,industry_event,B,https://delta-infraestructura-argentina.com.ar
+ACC00834,Litoral Operaciones Corp.,Minería,Mining,San Juan,Argentina,379,1.3,0.21,0.72,public_directory,B,https://sur-tecnología-servicios.com.ar
+ACC00835,Patagonia Industrial S.A.,Minería,Mining,Santa Cruz,Argentina,1753,1.18,0.173,0.72,partner_referral,C,https://litoral-logística-s-r-l.com.ar
+ACC00836,Delta Operaciones Corp.,Servicios,Services,Buenos Aires,Argentina,63,0.82,0.248,0.45,website_form,C,https://patagonia-minera-group.com.ar
+ACC00837,Sur Energía Argentina,Construcción,Construction,Buenos Aires,Argentina,198,1.01,0.398,0.52,public_directory,B,https://pampa-infraestructura-corp.com.ar
+ACC00838,Pampa Servicios Corp.,Energía,Energy,Santa Fe,Argentina,1003,1.03,0.124,0.68,website_form,A,https://delta-industrial-group.com.ar
+ACC00839,Patagonia Logística S.R.L.,Construcción,Construction,Santa Fe,Argentina,579,0.96,0.226,0.52,partner_referral,B,https://sur-tecnología-servicios.com.ar
+ACC00840,Aconcagua Operaciones S.A.,Manufactura,Manufacturing,Buenos Aires,Argentina,948,0.99,0.243,0.61,website_form,A,https://pampa-industrial-servicios.com.ar
+ACC00841,Norte Infraestructura Corp.,Energía,Utilities,Buenos Aires,Argentina,997,1.02,0.277,0.68,industry_event,A,https://cumbre-solutions-servicios.com.ar
+ACC00842,Cumbre Industrial Servicios,Servicios,Services,Córdoba,Argentina,214,0.97,0.433,0.45,industry_event,B,https://andes-logística-corp.com.ar
+ACC00843,Delta Solutions Servicios,Minería,Mining,Salta,Argentina,343,1.42,0.173,0.72,website_form,B,https://patagonia-tecnología-servicios.com.ar
+ACC00844,Patagonia Operaciones Servicios,Construcción,Construction,Buenos Aires,Argentina,374,1.17,0.285,0.52,outbound_research,B,https://andes-energía-s-a.com.ar
+ACC00845,Aconcagua Minera Group,Energía,Energy,Córdoba,Argentina,1514,1.01,0.13,0.68,outbound_research,B,https://aconcagua-industrial-servicios.com.ar
+ACC00846,Delta Operaciones Argentina,Energía,Utilities,Mendoza,Argentina,1625,1.19,0.141,0.68,website_form,C,https://sur-logística-s-r-l.com.ar
+ACC00847,Pampa Energía Servicios,Minería,Mining,Catamarca,Argentina,1075,1.18,0.185,0.72,public_directory,B,https://andes-solutions-s-a.com.ar
+ACC00848,Delta Infraestructura S.A.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,3792,1.31,0.218,0.75,outbound_research,C,https://delta-tecnología-corp.com.ar
+ACC00849,Patagonia Infraestructura Servicios,Energía,Energy,Buenos Aires,Argentina,394,1.17,0.252,0.68,industry_event,C,https://pampa-minera-argentina.com.ar
+ACC00850,Norte Solutions Servicios,Minería,Mining,Salta,Argentina,2358,1.21,0.156,0.72,website_form,A,https://aconcagua-tecnología-corp.com.ar
+ACC00851,Austral Solutions Group,Minería,Mining,Jujuy,Argentina,661,1.14,0.181,0.72,outbound_research,A,https://pampa-minera-argentina.com.ar
+ACC00852,Litoral Industrial Group,Construcción,Construction,Buenos Aires,Argentina,41,1.08,0.246,0.52,website_form,A,https://cumbre-operaciones-corp.com.ar
+ACC00853,Litoral Industrial S.R.L.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,3351,1.32,0.219,0.75,public_directory,A,https://norte-industrial-servicios.com.ar
+ACC00854,Sur Infraestructura Servicios,Construcción,Construction,Buenos Aires,Argentina,643,1.13,0.255,0.52,public_directory,B,https://aconcagua-industrial-s-a.com.ar
+ACC00855,Litoral Operaciones Servicios,Energía,Utilities,Santa Fe,Argentina,2270,1.06,0.189,0.68,outbound_research,A,https://andes-infraestructura-argentina.com.ar
+ACC00856,Austral Infraestructura Group,Servicios,Services,CABA,Argentina,137,0.81,0.254,0.45,industry_event,B,https://cumbre-industrial-s-a.com.ar
+ACC00857,Norte Servicios Corp.,Minería,Mining,Río Negro,Argentina,1414,1.11,0.081,0.72,website_form,C,https://litoral-oil-s-r-l.com.ar
+ACC00858,Norte Tecnología Servicios,Minería,Mining,Santa Cruz,Argentina,425,1.43,0.142,0.72,industry_event,C,https://norte-infraestructura-corp.com.ar
+ACC00859,Cumbre Industrial S.R.L.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,1403,1.44,0.133,0.75,public_directory,C,https://cumbre-logística-s-a.com.ar
+ACC00860,Norte Infraestructura S.A.,Energía,Utilities,Córdoba,Argentina,329,1.19,0.128,0.68,outbound_research,B,https://patagonia-oil-corp.com.ar
+ACC00861,Pampa Logística Servicios,Oil & Gas,Oil & Gas,Neuquén,Argentina,2141,1.52,0.223,0.75,website_form,B,https://norte-servicios-s-a.com.ar
+ACC00862,Aconcagua Logística Corp.,Minería,Mining,Salta,Argentina,1472,1.32,0.102,0.72,website_form,B,https://delta-tecnología-s-a.com.ar
+ACC00863,Austral Oil Servicios,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2764,1.57,0.168,0.75,public_directory,A,https://delta-operaciones-argentina.com.ar
+ACC00864,Cumbre Oil Servicios,Oil & Gas,Oil & Gas,Neuquén,Argentina,2039,1.39,0.122,0.75,public_directory,C,https://cumbre-minera-argentina.com.ar
+ACC00865,Norte Solutions Servicios,Energía,Utilities,Mendoza,Argentina,1378,1.32,0.179,0.68,industry_event,B,https://sur-energía-argentina.com.ar
+ACC00866,Sur Energía Group,Minería,Mining,Río Negro,Argentina,1779,1.42,0.171,0.72,public_directory,B,https://aconcagua-solutions-servicios.com.ar
+ACC00867,Austral Solutions Corp.,Manufactura,Manufacturing,Santa Fe,Argentina,1945,1.15,0.299,0.61,industry_event,B,https://patagonia-operaciones-corp.com.ar
+ACC00868,Litoral Solutions S.R.L.,Energía,Utilities,Córdoba,Argentina,2439,1.01,0.142,0.68,industry_event,C,https://litoral-energía-s-r-l.com.ar
+ACC00869,Delta Energía S.R.L.,Manufactura,Manufacturing,Mendoza,Argentina,99,1.25,0.211,0.61,partner_referral,B,https://pampa-infraestructura-s-a.com.ar
+ACC00870,Cumbre Tecnología S.A.,Minería,Mining,Salta,Argentina,2522,1.13,0.209,0.72,partner_referral,C,https://litoral-operaciones-group.com.ar
+ACC00871,Delta Tecnología Servicios,Construcción,Construction,CABA,Argentina,771,0.95,0.182,0.52,public_directory,B,https://litoral-operaciones-group.com.ar
+ACC00872,Norte Energía S.R.L.,Energía,Utilities,Neuquén,Argentina,2488,1.17,0.129,0.68,public_directory,C,https://cumbre-oil-corp.com.ar
+ACC00873,Delta Servicios S.A.,Minería,Mining,San Juan,Argentina,1404,1.25,0.119,0.72,public_directory,B,https://sur-infraestructura-s-r-l.com.ar
+ACC00874,Litoral Solutions S.R.L.,Oil & Gas,Oil & Gas,Chubut,Argentina,4186,1.57,0.147,0.75,public_directory,C,https://pampa-infraestructura-s-r-l.com.ar
+ACC00875,Delta Industrial Servicios,Oil & Gas,Oil & Gas,CABA,Argentina,4367,1.58,0.197,0.75,outbound_research,A,https://andes-logística-s-r-l.com.ar
+ACC00876,Litoral Oil S.R.L.,Minería,Mining,Santa Cruz,Argentina,1846,1.2,0.095,0.72,website_form,B,https://aconcagua-minera-group.com.ar
+ACC00877,Patagonia Logística S.A.,Oil & Gas,Oil & Gas,Santa Cruz,Argentina,2481,1.48,0.159,0.75,public_directory,B,https://litoral-oil-argentina.com.ar
+ACC00878,Aconcagua Energía Argentina,Construcción,Construction,Córdoba,Argentina,59,0.96,0.303,0.52,website_form,C,https://andes-solutions-s-r-l.com.ar
+ACC00879,Norte Minera S.R.L.,Energía,Utilities,Córdoba,Argentina,881,1.28,0.252,0.68,industry_event,A,https://patagonia-oil-argentina.com.ar
+ACC00880,Patagonia Minera Servicios,Construcción,Construction,Buenos Aires,Argentina,464,1.11,0.189,0.52,industry_event,B,https://cumbre-solutions-argentina.com.ar
+ACC00881,Delta Infraestructura S.R.L.,Minería,Mining,Santa Cruz,Argentina,2790,1.33,0.149,0.72,partner_referral,B,https://austral-minera-group.com.ar
+ACC00882,Aconcagua Minera Group,Oil & Gas,Oil & Gas,Neuquén,Argentina,2553,1.45,0.121,0.75,partner_referral,C,https://patagonia-logística-argentina.com.ar
+ACC00883,Litoral Tecnología Corp.,Minería,Mining,Jujuy,Argentina,2081,1.11,0.118,0.72,outbound_research,C,https://aconcagua-industrial-servicios.com.ar
+ACC00884,Sur Operaciones Corp.,Construcción,Construction,Córdoba,Argentina,711,1.03,0.237,0.52,website_form,B,https://pampa-logística-argentina.com.ar
+ACC00885,Aconcagua Solutions Servicios,Construcción,Construction,Córdoba,Argentina,478,1.06,0.352,0.52,website_form,C,https://cumbre-tecnología-group.com.ar
+ACC00886,Andes Operaciones S.A.,Oil & Gas,Oil & Gas,CABA,Argentina,363,1.56,0.238,0.75,public_directory,A,https://andes-oil-s-r-l.com.ar
+ACC00887,Austral Operaciones Argentina,Minería,Mining,Jujuy,Argentina,743,1.2,0.103,0.72,industry_event,B,https://pampa-oil-argentina.com.ar
+ACC00888,Andes Oil S.A.,Minería,Mining,Catamarca,Argentina,247,1.38,0.086,0.72,industry_event,B,https://pampa-solutions-s-a.com.ar
+ACC00889,Aconcagua Servicios Argentina,Minería,Mining,Catamarca,Argentina,1647,1.4,0.091,0.72,public_directory,C,https://aconcagua-industrial-s-a.com.ar
+ACC00890,Delta Energía Argentina,Construcción,Construction,Santa Fe,Argentina,639,0.96,0.313,0.52,industry_event,C,https://aconcagua-oil-argentina.com.ar
+ACC00891,Pampa Energía Group,Oil & Gas,Oil & Gas,Chubut,Argentina,3959,1.32,0.177,0.75,outbound_research,C,https://austral-infraestructura-corp.com.ar
+ACC00892,Austral Solutions Corp.,Minería,Mining,Río Negro,Argentina,2284,1.45,0.182,0.72,industry_event,C,https://patagonia-minera-s-r-l.com.ar
+ACC00893,Pampa Minera Group,Energía,Utilities,Buenos Aires,Argentina,1707,1.2,0.236,0.68,industry_event,A,https://patagonia-energía-servicios.com.ar
+ACC00894,Patagonia Servicios Corp.,Oil & Gas,Oil & Gas,Buenos Aires,Argentina,2247,1.39,0.251,0.75,outbound_research,A,https://litoral-infraestructura-corp.com.ar
+ACC00895,Andes Logística Argentina,Minería,Mining,Salta,Argentina,716,1.4,0.118,0.72,outbound_research,C,https://litoral-oil-corp.com.ar
+ACC00896,Sur Minera Argentina,Minería,Mining,Río Negro,Argentina,1065,1.28,0.2,0.72,website_form,C,https://aconcagua-energía-corp.com.ar
+ACC00897,Austral Energía S.R.L.,Oil & Gas,Oil & Gas,Neuquén,Argentina,1527,1.35,0.275,0.75,website_form,C,https://litoral-servicios-argentina.com.ar
+ACC00898,Austral Operaciones Corp.,Construcción,Construction,Mendoza,Argentina,163,0.99,0.276,0.52,industry_event,C,https://norte-oil-group.com.ar
+ACC00899,Delta Servicios Group,Construcción,Construction,Córdoba,Argentina,597,1.14,0.389,0.52,industry_event,B,https://norte-minera-corp.com.ar
+ACC00900,Delta Oil Argentina,Oil & Gas,Oil & Gas,Chubut,Argentina,1308,1.15,0.175,0.75,outbound_research,B,https://andes-infraestructura-argentina.com.ar

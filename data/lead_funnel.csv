@@ -1,0 +1,901 @@
+lead_id,account_id,company_name,contact_name,contact_role,email,source,sector,province,industry_fit_score,funnel_stage,next_best_action
+LEAD_ACC00001,ACC00001,Norte Solutions S.R.L.,Martín Gómez,Fleet Manager,martín.gómez@norte-solutions-s-r-l.com.ar,public_directory,Construcción,Buenos Aires,0.6918,new,call
+LEAD_ACC00002,ACC00002,Cumbre Industrial Servicios,Lucía Alvarez,Technical Director,lucía.alvarez@cumbre-industrial-servicios.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.687,won,schedule_visit
+LEAD_ACC00003,ACC00003,Aconcagua Logística Group,Micaela Molina,Purchasing Analyst,micaela.molina@aconcagua-logística-group.com.ar,website_form,Construcción,CABA,0.7677,new,send_catalog
+LEAD_ACC00004,ACC00004,Litoral Oil S.A.,Julia Díaz,Maintenance Manager,julia.díaz@litoral-oil-s-a.com.ar,public_directory,Construcción,Buenos Aires,0.3889,qualified,schedule_visit
+LEAD_ACC00005,ACC00005,Pampa Infraestructura S.A.,Marcos Castro,Engineering Manager,marcos.castro@pampa-infraestructura-s-a.com.ar,partner_referral,Construcción,Buenos Aires,0.528,qualified,schedule_visit
+LEAD_ACC00006,ACC00006,Patagonia Tecnología Argentina,Pablo Alvarez,Maintenance Manager,pablo.alvarez@patagonia-tecnología-argentina.com.ar,partner_referral,Minería,Río Negro,0.7835,qualified,schedule_visit
+LEAD_ACC00007,ACC00007,Andes Logística Corp.,Nicolás López,Maintenance Manager,nicolás.lópez@andes-logística-corp.com.ar,public_directory,Minería,Catamarca,0.7228,new,send_quote
+LEAD_ACC00008,ACC00008,Norte Servicios S.R.L.,Micaela Castro,Engineering Manager,micaela.castro@norte-servicios-s-r-l.com.ar,public_directory,Energía,Mendoza,0.7294,proposal,call
+LEAD_ACC00009,ACC00009,Delta Servicios Argentina,Federico López,Procurement Manager,federico.lópez@delta-servicios-argentina.com.ar,public_directory,Energía,Buenos Aires,0.7672,proposal,call
+LEAD_ACC00010,ACC00010,Patagonia Oil Group,Carolina Torres,Maintenance Manager,carolina.torres@patagonia-oil-group.com.ar,partner_referral,Manufactura,Buenos Aires,0.629,won,schedule_visit
+LEAD_ACC00011,ACC00011,Austral Tecnología S.R.L.,Javier Fernández,Plant Manager,javier.fernández@austral-tecnología-s-r-l.com.ar,public_directory,Energía,Buenos Aires,0.7221,won,schedule_visit
+LEAD_ACC00012,ACC00012,Pampa Industrial S.R.L.,Diego Sosa,Technical Director,diego.sosa@pampa-industrial-s-r-l.com.ar,website_form,Oil & Gas,Chubut,0.7719,proposal,schedule_visit
+LEAD_ACC00013,ACC00013,Norte Oil Servicios,Carolina Ruiz,Maintenance Manager,carolina.ruiz@norte-oil-servicios.com.ar,outbound_research,Construcción,Santa Fe,0.6288,negotiation,send_quote
+LEAD_ACC00014,ACC00014,Pampa Solutions S.A.,Marcos Pérez,Fleet Manager,marcos.pérez@pampa-solutions-s-a.com.ar,public_directory,Manufactura,Mendoza,0.5932,negotiation,call
+LEAD_ACC00015,ACC00015,Patagonia Oil S.R.L.,Marcos Herrera,Procurement Manager,marcos.herrera@patagonia-oil-s-r-l.com.ar,outbound_research,Oil & Gas,Neuquén,0.5484,proposal,call
+LEAD_ACC00016,ACC00016,Pampa Energía S.A.,Diego Díaz,HSE Manager,diego.díaz@pampa-energía-s-a.com.ar,website_form,Minería,San Juan,0.5898,qualified,call
+LEAD_ACC00017,ACC00017,Pampa Solutions Servicios,Cecilia Castro,Fleet Manager,cecilia.castro@pampa-solutions-servicios.com.ar,partner_referral,Construcción,Buenos Aires,0.7107,proposal,send_catalog
+LEAD_ACC00018,ACC00018,Patagonia Solutions S.R.L.,Julia Alvarez,Procurement Manager,julia.alvarez@patagonia-solutions-s-r-l.com.ar,partner_referral,Oil & Gas,CABA,0.6429,qualified,request_requirements
+LEAD_ACC00019,ACC00019,Norte Operaciones Argentina,Sofía Torres,Purchasing Analyst,sofía.torres@norte-operaciones-argentina.com.ar,website_form,Servicios,Córdoba,0.6144,negotiation,call
+LEAD_ACC00020,ACC00020,Litoral Oil Servicios,Martín López,Plant Manager,martín.lópez@litoral-oil-servicios.com.ar,outbound_research,Minería,Catamarca,0.8187,qualified,send_catalog
+LEAD_ACC00021,ACC00021,Cumbre Tecnología S.A.,Martín Molina,Operations Manager,martín.molina@cumbre-tecnología-s-a.com.ar,public_directory,Oil & Gas,CABA,0.8169,negotiation,schedule_visit
+LEAD_ACC00022,ACC00022,Aconcagua Servicios Argentina,Nicolás Díaz,Maintenance Manager,nicolás.díaz@aconcagua-servicios-argentina.com.ar,website_form,Construcción,CABA,0.7054,won,send_quote
+LEAD_ACC00023,ACC00023,Norte Servicios Group,Micaela Romero,Plant Manager,micaela.romero@norte-servicios-group.com.ar,outbound_research,Oil & Gas,Santa Cruz,0.5887,new,send_catalog
+LEAD_ACC00024,ACC00024,Austral Infraestructura Argentina,Julia Sosa,Plant Manager,julia.sosa@austral-infraestructura-argentina.com.ar,website_form,Servicios,CABA,0.4603,qualified,request_requirements
+LEAD_ACC00025,ACC00025,Pampa Infraestructura Servicios,Nicolás Molina,Operations Manager,nicolás.molina@pampa-infraestructura-servicios.com.ar,website_form,Minería,Jujuy,0.8629,proposal,schedule_visit
+LEAD_ACC00026,ACC00026,Delta Minera Servicios,Lucía Alvarez,HSE Manager,lucía.alvarez@delta-minera-servicios.com.ar,outbound_research,Oil & Gas,Santa Cruz,0.6387,lost,schedule_visit
+LEAD_ACC00027,ACC00027,Norte Logística S.A.,Javier Romero,Plant Manager,javier.romero@norte-logística-s-a.com.ar,website_form,Oil & Gas,Santa Cruz,0.5995,qualified,schedule_visit
+LEAD_ACC00028,ACC00028,Delta Operaciones S.A.,Martín Gómez,Purchasing Analyst,martín.gómez@delta-operaciones-s-a.com.ar,partner_referral,Construcción,CABA,0.5588,negotiation,request_requirements
+LEAD_ACC00029,ACC00029,Andes Minera S.R.L.,Carolina Gómez,Project Manager,carolina.gómez@andes-minera-s-r-l.com.ar,industry_event,Construcción,Buenos Aires,0.5998,qualified,request_requirements
+LEAD_ACC00030,ACC00030,Norte Energía Group,Carolina Molina,Purchasing Analyst,carolina.molina@norte-energía-group.com.ar,public_directory,Construcción,Mendoza,0.5729,new,call
+LEAD_ACC00031,ACC00031,Patagonia Tecnología Corp.,Federico Díaz,Operations Manager,federico.díaz@patagonia-tecnología-corp.com.ar,public_directory,Oil & Gas,Chubut,0.5129,negotiation,send_quote
+LEAD_ACC00032,ACC00032,Andes Oil Servicios,Cecilia Castro,Purchasing Analyst,cecilia.castro@andes-oil-servicios.com.ar,industry_event,Oil & Gas,Neuquén,0.7466,new,send_catalog
+LEAD_ACC00033,ACC00033,Aconcagua Infraestructura Servicios,Lucía Ruiz,Technical Director,lucía.ruiz@aconcagua-infraestructura-servicios.com.ar,partner_referral,Minería,San Juan,0.9188,negotiation,request_requirements
+LEAD_ACC00034,ACC00034,Norte Infraestructura S.R.L.,Carolina Fernández,Fleet Manager,carolina.fernández@norte-infraestructura-s-r-l.com.ar,industry_event,Minería,Santa Cruz,0.8782,new,send_quote
+LEAD_ACC00035,ACC00035,Norte Oil Argentina,Diego Pérez,Maintenance Manager,diego.pérez@norte-oil-argentina.com.ar,outbound_research,Energía,Córdoba,0.7245,negotiation,call
+LEAD_ACC00036,ACC00036,Cumbre Energía Corp.,Nicolás Alvarez,Fleet Manager,nicolás.alvarez@cumbre-energía-corp.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.8123,qualified,send_catalog
+LEAD_ACC00037,ACC00037,Pampa Servicios Argentina,Javier Pérez,Maintenance Manager,javier.pérez@pampa-servicios-argentina.com.ar,website_form,Construcción,Buenos Aires,0.5561,lost,send_quote
+LEAD_ACC00038,ACC00038,Aconcagua Oil Corp.,Diego López,Engineering Manager,diego.lópez@aconcagua-oil-corp.com.ar,industry_event,Energía,Mendoza,0.659,proposal,call
+LEAD_ACC00039,ACC00039,Patagonia Infraestructura S.R.L.,Carolina Castro,Fleet Manager,carolina.castro@patagonia-infraestructura-s-r-l.com.ar,website_form,Construcción,Córdoba,0.7738,won,send_catalog
+LEAD_ACC00040,ACC00040,Aconcagua Operaciones Group,Martín Molina,Procurement Manager,martín.molina@aconcagua-operaciones-group.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.8117,negotiation,call
+LEAD_ACC00041,ACC00041,Norte Operaciones Corp.,Diego Alvarez,Procurement Manager,diego.alvarez@norte-operaciones-corp.com.ar,partner_referral,Minería,Catamarca,0.9288,negotiation,send_quote
+LEAD_ACC00042,ACC00042,Cumbre Oil S.A.,Micaela López,Maintenance Manager,micaela.lópez@cumbre-oil-s-a.com.ar,website_form,Oil & Gas,Buenos Aires,0.6791,new,send_catalog
+LEAD_ACC00043,ACC00043,Pampa Minera Group,Federico Fernández,Plant Manager,federico.fernández@pampa-minera-group.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.6258,lost,send_quote
+LEAD_ACC00044,ACC00044,Pampa Energía Argentina,Martín Sosa,Operations Manager,martín.sosa@pampa-energía-argentina.com.ar,outbound_research,Construcción,Buenos Aires,0.6295,proposal,call
+LEAD_ACC00045,ACC00045,Pampa Minera Argentina,Lucía Sosa,Engineering Manager,lucía.sosa@pampa-minera-argentina.com.ar,public_directory,Oil & Gas,Neuquén,0.7434,lost,call
+LEAD_ACC00046,ACC00046,Cumbre Operaciones Corp.,Cecilia Torres,Procurement Manager,cecilia.torres@cumbre-operaciones-corp.com.ar,outbound_research,Oil & Gas,Neuquén,0.7458,new,send_quote
+LEAD_ACC00047,ACC00047,Sur Oil Corp.,Diego Sosa,Engineering Manager,diego.sosa@sur-oil-corp.com.ar,website_form,Construcción,Santa Fe,0.6098,qualified,schedule_visit
+LEAD_ACC00048,ACC00048,Delta Operaciones S.R.L.,Valentina Pérez,Project Manager,valentina.pérez@delta-operaciones-s-r-l.com.ar,partner_referral,Servicios,Santa Fe,0.6849,qualified,send_quote
+LEAD_ACC00049,ACC00049,Litoral Solutions Corp.,Martín Benítez,Engineering Manager,martín.benítez@litoral-solutions-corp.com.ar,industry_event,Manufactura,Buenos Aires,0.7269,qualified,schedule_visit
+LEAD_ACC00050,ACC00050,Norte Oil S.A.,Carolina Molina,Fleet Manager,carolina.molina@norte-oil-s-a.com.ar,partner_referral,Minería,Santa Cruz,0.839,qualified,send_catalog
+LEAD_ACC00051,ACC00051,Patagonia Infraestructura S.R.L.,Valentina Castro,Operations Manager,valentina.castro@patagonia-infraestructura-s-r-l.com.ar,public_directory,Construcción,Mendoza,0.7185,negotiation,send_catalog
+LEAD_ACC00052,ACC00052,Sur Minera Group,Pablo Benítez,Plant Manager,pablo.benítez@sur-minera-group.com.ar,outbound_research,Energía,Neuquén,0.6753,qualified,call
+LEAD_ACC00053,ACC00053,Cumbre Oil Servicios,Micaela Benítez,Technical Director,micaela.benítez@cumbre-oil-servicios.com.ar,industry_event,Oil & Gas,Buenos Aires,0.7214,negotiation,call
+LEAD_ACC00054,ACC00054,Andes Industrial Servicios,Pablo Ruiz,Maintenance Manager,pablo.ruiz@andes-industrial-servicios.com.ar,partner_referral,Construcción,CABA,0.6661,new,schedule_visit
+LEAD_ACC00055,ACC00055,Delta Industrial Group,Diego López,Project Manager,diego.lópez@delta-industrial-group.com.ar,partner_referral,Energía,Mendoza,0.7687,lost,send_quote
+LEAD_ACC00056,ACC00056,Pampa Energía Servicios,Lucía Castro,Maintenance Manager,lucía.castro@pampa-energía-servicios.com.ar,outbound_research,Construcción,Córdoba,0.4013,qualified,schedule_visit
+LEAD_ACC00057,ACC00057,Norte Tecnología Servicios,Cecilia Fernández,HSE Manager,cecilia.fernández@norte-tecnología-servicios.com.ar,outbound_research,Minería,Santa Cruz,0.5843,qualified,request_requirements
+LEAD_ACC00058,ACC00058,Delta Industrial Corp.,Lucía Torres,HSE Manager,lucía.torres@delta-industrial-corp.com.ar,website_form,Oil & Gas,CABA,0.6913,proposal,send_quote
+LEAD_ACC00059,ACC00059,Cumbre Solutions Corp.,Sofía Molina,Plant Manager,sofía.molina@cumbre-solutions-corp.com.ar,industry_event,Construcción,Córdoba,0.7222,qualified,call
+LEAD_ACC00060,ACC00060,Cumbre Infraestructura Corp.,Carolina Romero,Operations Manager,carolina.romero@cumbre-infraestructura-corp.com.ar,partner_referral,Construcción,Santa Fe,0.6093,proposal,schedule_visit
+LEAD_ACC00061,ACC00061,Aconcagua Logística Servicios,Carolina Romero,Operations Manager,carolina.romero@aconcagua-logística-servicios.com.ar,public_directory,Energía,Neuquén,0.7387,negotiation,request_requirements
+LEAD_ACC00062,ACC00062,Austral Minera Group,Diego Alvarez,Operations Manager,diego.alvarez@austral-minera-group.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.6095,proposal,send_catalog
+LEAD_ACC00063,ACC00063,Delta Logística Corp.,Micaela Sosa,Procurement Manager,micaela.sosa@delta-logística-corp.com.ar,public_directory,Minería,Río Negro,0.8585,qualified,call
+LEAD_ACC00064,ACC00064,Andes Oil Corp.,Javier Sosa,Engineering Manager,javier.sosa@andes-oil-corp.com.ar,public_directory,Minería,San Juan,0.6146,proposal,call
+LEAD_ACC00065,ACC00065,Litoral Minera S.A.,Marcos Herrera,Project Manager,marcos.herrera@litoral-minera-s-a.com.ar,outbound_research,Minería,Jujuy,0.5549,lost,schedule_visit
+LEAD_ACC00066,ACC00066,Patagonia Minera S.A.,Valentina Gómez,Engineering Manager,valentina.gómez@patagonia-minera-s-a.com.ar,public_directory,Energía,Buenos Aires,0.7384,negotiation,call
+LEAD_ACC00067,ACC00067,Aconcagua Solutions Servicios,Pablo Benítez,Maintenance Manager,pablo.benítez@aconcagua-solutions-servicios.com.ar,partner_referral,Minería,Santa Cruz,0.9198,won,request_requirements
+LEAD_ACC00068,ACC00068,Cumbre Minera S.R.L.,Javier Herrera,Engineering Manager,javier.herrera@cumbre-minera-s-r-l.com.ar,public_directory,Minería,Salta,0.7579,won,call
+LEAD_ACC00069,ACC00069,Aconcagua Solutions Corp.,Lucía Pérez,Technical Director,lucía.pérez@aconcagua-solutions-corp.com.ar,partner_referral,Manufactura,Santa Fe,0.6657,qualified,send_catalog
+LEAD_ACC00070,ACC00070,Patagonia Minera S.A.,Micaela Díaz,Operations Manager,micaela.díaz@patagonia-minera-s-a.com.ar,outbound_research,Oil & Gas,CABA,0.6176,proposal,request_requirements
+LEAD_ACC00071,ACC00071,Austral Operaciones Group,Pablo Sosa,Technical Director,pablo.sosa@austral-operaciones-group.com.ar,website_form,Construcción,Buenos Aires,0.4996,won,schedule_visit
+LEAD_ACC00072,ACC00072,Litoral Servicios Argentina,Julia Romero,Technical Director,julia.romero@litoral-servicios-argentina.com.ar,website_form,Oil & Gas,Neuquén,0.6469,lost,request_requirements
+LEAD_ACC00073,ACC00073,Delta Servicios S.R.L.,Pablo Castro,Engineering Manager,pablo.castro@delta-servicios-s-r-l.com.ar,outbound_research,Minería,San Juan,0.6867,negotiation,call
+LEAD_ACC00074,ACC00074,Norte Industrial Corp.,Marcos Herrera,Fleet Manager,marcos.herrera@norte-industrial-corp.com.ar,partner_referral,Energía,Santa Fe,0.669,lost,schedule_visit
+LEAD_ACC00075,ACC00075,Norte Solutions Corp.,Federico Torres,Purchasing Analyst,federico.torres@norte-solutions-corp.com.ar,industry_event,Servicios,Córdoba,0.6827,won,call
+LEAD_ACC00076,ACC00076,Andes Tecnología Argentina,Julia Gómez,Maintenance Manager,julia.gómez@andes-tecnología-argentina.com.ar,outbound_research,Minería,Catamarca,0.6953,proposal,send_quote
+LEAD_ACC00077,ACC00077,Patagonia Industrial Group,Valentina Alvarez,Engineering Manager,valentina.alvarez@patagonia-industrial-group.com.ar,outbound_research,Oil & Gas,Chubut,0.6472,lost,call
+LEAD_ACC00078,ACC00078,Austral Logística Servicios,Lucía Pérez,Plant Manager,lucía.pérez@austral-logística-servicios.com.ar,partner_referral,Minería,Jujuy,0.6357,negotiation,schedule_visit
+LEAD_ACC00079,ACC00079,Pampa Operaciones Servicios,Pablo Torres,Technical Director,pablo.torres@pampa-operaciones-servicios.com.ar,industry_event,Energía,Buenos Aires,0.6906,qualified,request_requirements
+LEAD_ACC00080,ACC00080,Aconcagua Logística S.A.,Javier Gómez,Operations Manager,javier.gómez@aconcagua-logística-s-a.com.ar,public_directory,Construcción,Córdoba,0.4939,negotiation,schedule_visit
+LEAD_ACC00081,ACC00081,Aconcagua Energía S.R.L.,Nicolás Herrera,HSE Manager,nicolás.herrera@aconcagua-energía-s-r-l.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.8258,negotiation,schedule_visit
+LEAD_ACC00082,ACC00082,Austral Operaciones Servicios,Nicolás Pérez,Project Manager,nicolás.pérez@austral-operaciones-servicios.com.ar,partner_referral,Minería,Salta,0.9004,qualified,send_quote
+LEAD_ACC00083,ACC00083,Pampa Logística S.A.,Micaela Benítez,Operations Manager,micaela.benítez@pampa-logística-s-a.com.ar,industry_event,Minería,San Juan,0.7716,proposal,schedule_visit
+LEAD_ACC00084,ACC00084,Pampa Tecnología S.A.,Pablo Romero,Fleet Manager,pablo.romero@pampa-tecnología-s-a.com.ar,outbound_research,Servicios,Santa Fe,0.47,proposal,send_quote
+LEAD_ACC00085,ACC00085,Sur Servicios Servicios,Lucía Torres,Maintenance Manager,lucía.torres@sur-servicios-servicios.com.ar,outbound_research,Oil & Gas,Santa Cruz,0.5418,proposal,request_requirements
+LEAD_ACC00086,ACC00086,Sur Solutions Servicios,Lucía Torres,Fleet Manager,lucía.torres@sur-solutions-servicios.com.ar,outbound_research,Manufactura,Santa Fe,0.6788,new,call
+LEAD_ACC00087,ACC00087,Austral Tecnología S.A.,Lucía Torres,Technical Director,lucía.torres@austral-tecnología-s-a.com.ar,website_form,Oil & Gas,Buenos Aires,0.5596,lost,request_requirements
+LEAD_ACC00088,ACC00088,Litoral Operaciones Corp.,Diego Molina,Technical Director,diego.molina@litoral-operaciones-corp.com.ar,website_form,Construcción,Buenos Aires,0.6438,proposal,call
+LEAD_ACC00089,ACC00089,Austral Logística Corp.,Valentina Romero,HSE Manager,valentina.romero@austral-logística-corp.com.ar,website_form,Oil & Gas,Chubut,0.7301,negotiation,schedule_visit
+LEAD_ACC00090,ACC00090,Pampa Operaciones Group,Ana Herrera,Procurement Manager,ana.herrera@pampa-operaciones-group.com.ar,industry_event,Manufactura,Mendoza,0.8162,negotiation,call
+LEAD_ACC00091,ACC00091,Patagonia Energía S.A.,Carolina Díaz,Engineering Manager,carolina.díaz@patagonia-energía-s-a.com.ar,outbound_research,Construcción,Mendoza,0.6651,proposal,schedule_visit
+LEAD_ACC00092,ACC00092,Sur Operaciones Argentina,Ana Romero,Maintenance Manager,ana.romero@sur-operaciones-argentina.com.ar,industry_event,Minería,Catamarca,0.9817,qualified,call
+LEAD_ACC00093,ACC00093,Sur Oil Group,Lucía Alvarez,Engineering Manager,lucía.alvarez@sur-oil-group.com.ar,partner_referral,Construcción,CABA,0.5121,negotiation,call
+LEAD_ACC00094,ACC00094,Norte Industrial S.R.L.,Lucía Torres,Purchasing Analyst,lucía.torres@norte-industrial-s-r-l.com.ar,industry_event,Construcción,Buenos Aires,0.7014,negotiation,call
+LEAD_ACC00095,ACC00095,Andes Energía Argentina,Cecilia Molina,HSE Manager,cecilia.molina@andes-energía-argentina.com.ar,outbound_research,Construcción,Buenos Aires,0.6103,qualified,schedule_visit
+LEAD_ACC00096,ACC00096,Delta Tecnología S.A.,Ana Alvarez,Project Manager,ana.alvarez@delta-tecnología-s-a.com.ar,partner_referral,Oil & Gas,Neuquén,0.8916,won,call
+LEAD_ACC00097,ACC00097,Aconcagua Energía Group,Nicolás Romero,HSE Manager,nicolás.romero@aconcagua-energía-group.com.ar,outbound_research,Construcción,Buenos Aires,0.5471,qualified,call
+LEAD_ACC00098,ACC00098,Norte Infraestructura Group,Cecilia Fernández,Maintenance Manager,cecilia.fernández@norte-infraestructura-group.com.ar,outbound_research,Oil & Gas,Santa Cruz,0.8313,negotiation,call
+LEAD_ACC00099,ACC00099,Aconcagua Industrial Corp.,Valentina Romero,Engineering Manager,valentina.romero@aconcagua-industrial-corp.com.ar,industry_event,Energía,Santa Fe,0.8424,negotiation,send_catalog
+LEAD_ACC00100,ACC00100,Aconcagua Industrial Group,Carolina López,Project Manager,carolina.lópez@aconcagua-industrial-group.com.ar,industry_event,Construcción,Córdoba,0.6029,new,request_requirements
+LEAD_ACC00101,ACC00101,Aconcagua Infraestructura Argentina,Nicolás Castro,HSE Manager,nicolás.castro@aconcagua-infraestructura-argentina.com.ar,website_form,Energía,Neuquén,0.7912,negotiation,send_quote
+LEAD_ACC00102,ACC00102,Delta Solutions S.A.,Ana Molina,Procurement Manager,ana.molina@delta-solutions-s-a.com.ar,outbound_research,Oil & Gas,Chubut,0.6548,qualified,call
+LEAD_ACC00103,ACC00103,Litoral Tecnología Argentina,Martín Castro,Engineering Manager,martín.castro@litoral-tecnología-argentina.com.ar,outbound_research,Energía,Neuquén,0.6125,won,send_quote
+LEAD_ACC00104,ACC00104,Andes Logística Servicios,Martín Sosa,Maintenance Manager,martín.sosa@andes-logística-servicios.com.ar,website_form,Minería,Salta,0.7782,won,call
+LEAD_ACC00105,ACC00105,Cumbre Oil Corp.,Carolina Fernández,Plant Manager,carolina.fernández@cumbre-oil-corp.com.ar,website_form,Manufactura,Buenos Aires,0.4949,qualified,send_quote
+LEAD_ACC00106,ACC00106,Andes Minera S.A.,Diego Castro,Project Manager,diego.castro@andes-minera-s-a.com.ar,outbound_research,Construcción,Santa Fe,0.7652,proposal,schedule_visit
+LEAD_ACC00107,ACC00107,Sur Infraestructura Corp.,Sofía López,HSE Manager,sofía.lópez@sur-infraestructura-corp.com.ar,website_form,Energía,Córdoba,0.5264,lost,send_quote
+LEAD_ACC00108,ACC00108,Norte Tecnología S.R.L.,Diego Torres,Project Manager,diego.torres@norte-tecnología-s-r-l.com.ar,industry_event,Oil & Gas,Buenos Aires,0.9129,won,request_requirements
+LEAD_ACC00109,ACC00109,Austral Operaciones Argentina,Lucía Sosa,Technical Director,lucía.sosa@austral-operaciones-argentina.com.ar,public_directory,Construcción,Buenos Aires,0.5074,won,send_catalog
+LEAD_ACC00110,ACC00110,Pampa Logística Corp.,Javier Gómez,Project Manager,javier.gómez@pampa-logística-corp.com.ar,website_form,Oil & Gas,Chubut,0.7992,won,send_quote
+LEAD_ACC00111,ACC00111,Sur Tecnología S.R.L.,Lucía Ruiz,Fleet Manager,lucía.ruiz@sur-tecnología-s-r-l.com.ar,public_directory,Manufactura,Buenos Aires,0.6232,qualified,send_quote
+LEAD_ACC00112,ACC00112,Litoral Tecnología Group,Marcos Molina,Project Manager,marcos.molina@litoral-tecnología-group.com.ar,partner_referral,Minería,Río Negro,0.6124,won,send_quote
+LEAD_ACC00113,ACC00113,Norte Operaciones Servicios,Cecilia Torres,Procurement Manager,cecilia.torres@norte-operaciones-servicios.com.ar,public_directory,Servicios,Santa Fe,0.5667,won,schedule_visit
+LEAD_ACC00114,ACC00114,Patagonia Oil S.A.,Julia Sosa,Operations Manager,julia.sosa@patagonia-oil-s-a.com.ar,partner_referral,Energía,Santa Fe,0.6716,won,call
+LEAD_ACC00115,ACC00115,Sur Industrial Corp.,Pablo Díaz,Fleet Manager,pablo.díaz@sur-industrial-corp.com.ar,partner_referral,Servicios,Buenos Aires,0.4871,qualified,send_catalog
+LEAD_ACC00116,ACC00116,Sur Servicios S.R.L.,Micaela López,HSE Manager,micaela.lópez@sur-servicios-s-r-l.com.ar,outbound_research,Minería,Catamarca,0.7393,lost,call
+LEAD_ACC00117,ACC00117,Norte Solutions S.R.L.,Lucía Benítez,Maintenance Manager,lucía.benítez@norte-solutions-s-r-l.com.ar,industry_event,Oil & Gas,Neuquén,0.8924,proposal,request_requirements
+LEAD_ACC00118,ACC00118,Patagonia Minera Servicios,Cecilia Alvarez,Procurement Manager,cecilia.alvarez@patagonia-minera-servicios.com.ar,outbound_research,Construcción,Mendoza,0.5809,lost,call
+LEAD_ACC00119,ACC00119,Patagonia Oil Group,Micaela Molina,Purchasing Analyst,micaela.molina@patagonia-oil-group.com.ar,public_directory,Minería,San Juan,0.8111,qualified,request_requirements
+LEAD_ACC00120,ACC00120,Andes Logística S.A.,Ana Molina,Engineering Manager,ana.molina@andes-logística-s-a.com.ar,website_form,Construcción,Córdoba,0.4596,qualified,send_catalog
+LEAD_ACC00121,ACC00121,Delta Minera Argentina,Cecilia Benítez,Engineering Manager,cecilia.benítez@delta-minera-argentina.com.ar,website_form,Minería,Salta,0.6986,proposal,schedule_visit
+LEAD_ACC00122,ACC00122,Sur Infraestructura Servicios,Lucía Fernández,Technical Director,lucía.fernández@sur-infraestructura-servicios.com.ar,industry_event,Oil & Gas,Santa Cruz,0.8534,proposal,schedule_visit
+LEAD_ACC00123,ACC00123,Sur Infraestructura S.A.,Marcos Herrera,Procurement Manager,marcos.herrera@sur-infraestructura-s-a.com.ar,partner_referral,Manufactura,Buenos Aires,0.5564,negotiation,call
+LEAD_ACC00124,ACC00124,Austral Infraestructura S.A.,Sofía Alvarez,Fleet Manager,sofía.alvarez@austral-infraestructura-s-a.com.ar,outbound_research,Energía,Mendoza,0.7977,negotiation,send_quote
+LEAD_ACC00125,ACC00125,Litoral Tecnología Argentina,Nicolás Gómez,Procurement Manager,nicolás.gómez@litoral-tecnología-argentina.com.ar,partner_referral,Minería,Salta,0.9226,negotiation,send_catalog
+LEAD_ACC00126,ACC00126,Aconcagua Logística Servicios,Martín Molina,Maintenance Manager,martín.molina@aconcagua-logística-servicios.com.ar,public_directory,Minería,Catamarca,0.541,negotiation,send_catalog
+LEAD_ACC00127,ACC00127,Aconcagua Tecnología S.A.,Pablo Benítez,Operations Manager,pablo.benítez@aconcagua-tecnología-s-a.com.ar,industry_event,Oil & Gas,Chubut,0.7142,won,send_quote
+LEAD_ACC00128,ACC00128,Norte Solutions S.A.,Cecilia Romero,Maintenance Manager,cecilia.romero@norte-solutions-s-a.com.ar,partner_referral,Energía,Mendoza,0.6701,proposal,send_catalog
+LEAD_ACC00129,ACC00129,Norte Minera S.R.L.,Diego Alvarez,Fleet Manager,diego.alvarez@norte-minera-s-r-l.com.ar,outbound_research,Construcción,CABA,0.5007,proposal,call
+LEAD_ACC00130,ACC00130,Sur Energía Servicios,Pablo López,Project Manager,pablo.lópez@sur-energía-servicios.com.ar,outbound_research,Servicios,Córdoba,0.5061,lost,schedule_visit
+LEAD_ACC00131,ACC00131,Litoral Industrial Group,Micaela Torres,Engineering Manager,micaela.torres@litoral-industrial-group.com.ar,outbound_research,Servicios,Buenos Aires,0.6908,negotiation,send_catalog
+LEAD_ACC00132,ACC00132,Austral Operaciones Corp.,Federico Molina,Engineering Manager,federico.molina@austral-operaciones-corp.com.ar,website_form,Minería,Río Negro,0.6844,new,send_catalog
+LEAD_ACC00133,ACC00133,Delta Operaciones Servicios,Valentina Alvarez,Engineering Manager,valentina.alvarez@delta-operaciones-servicios.com.ar,industry_event,Manufactura,Santa Fe,0.729,negotiation,schedule_visit
+LEAD_ACC00134,ACC00134,Norte Solutions Argentina,Sofía Benítez,HSE Manager,sofía.benítez@norte-solutions-argentina.com.ar,public_directory,Servicios,Córdoba,0.6395,proposal,call
+LEAD_ACC00135,ACC00135,Cumbre Industrial S.A.,Nicolás Alvarez,Engineering Manager,nicolás.alvarez@cumbre-industrial-s-a.com.ar,public_directory,Oil & Gas,CABA,0.662,lost,send_quote
+LEAD_ACC00136,ACC00136,Austral Infraestructura Argentina,Sofía Torres,Fleet Manager,sofía.torres@austral-infraestructura-argentina.com.ar,partner_referral,Construcción,Buenos Aires,0.5709,new,schedule_visit
+LEAD_ACC00137,ACC00137,Pampa Logística Servicios,Sofía Castro,Procurement Manager,sofía.castro@pampa-logística-servicios.com.ar,industry_event,Energía,Mendoza,0.7699,proposal,send_quote
+LEAD_ACC00138,ACC00138,Litoral Energía Group,Federico Benítez,Operations Manager,federico.benítez@litoral-energía-group.com.ar,industry_event,Energía,Santa Fe,0.8053,negotiation,call
+LEAD_ACC00139,ACC00139,Cumbre Logística S.R.L.,Carolina Sosa,HSE Manager,carolina.sosa@cumbre-logística-s-r-l.com.ar,partner_referral,Servicios,Buenos Aires,0.5397,new,call
+LEAD_ACC00140,ACC00140,Pampa Tecnología Group,Javier Molina,Engineering Manager,javier.molina@pampa-tecnología-group.com.ar,partner_referral,Servicios,Santa Fe,0.6625,won,call
+LEAD_ACC00141,ACC00141,Aconcagua Logística S.A.,Pablo Benítez,Project Manager,pablo.benítez@aconcagua-logística-s-a.com.ar,industry_event,Oil & Gas,Chubut,0.7443,negotiation,call
+LEAD_ACC00142,ACC00142,Cumbre Tecnología S.A.,Carolina Pérez,Fleet Manager,carolina.pérez@cumbre-tecnología-s-a.com.ar,industry_event,Energía,Neuquén,0.8289,proposal,call
+LEAD_ACC00143,ACC00143,Andes Industrial S.A.,Ana Gómez,Plant Manager,ana.gómez@andes-industrial-s-a.com.ar,public_directory,Construcción,Mendoza,0.6168,new,send_quote
+LEAD_ACC00144,ACC00144,Delta Operaciones Servicios,Carolina Alvarez,Plant Manager,carolina.alvarez@delta-operaciones-servicios.com.ar,public_directory,Minería,Santa Cruz,0.751,qualified,send_catalog
+LEAD_ACC00145,ACC00145,Patagonia Operaciones Servicios,Carolina Castro,Operations Manager,carolina.castro@patagonia-operaciones-servicios.com.ar,website_form,Construcción,Córdoba,0.4728,lost,schedule_visit
+LEAD_ACC00146,ACC00146,Litoral Servicios Servicios,Cecilia Pérez,Engineering Manager,cecilia.pérez@litoral-servicios-servicios.com.ar,website_form,Oil & Gas,Neuquén,0.5351,qualified,send_quote
+LEAD_ACC00147,ACC00147,Aconcagua Solutions Corp.,Ana Díaz,Procurement Manager,ana.díaz@aconcagua-solutions-corp.com.ar,website_form,Energía,Mendoza,0.6169,won,schedule_visit
+LEAD_ACC00148,ACC00148,Austral Operaciones Group,Carolina Alvarez,Maintenance Manager,carolina.alvarez@austral-operaciones-group.com.ar,public_directory,Minería,Río Negro,0.8164,negotiation,request_requirements
+LEAD_ACC00149,ACC00149,Austral Infraestructura S.R.L.,Cecilia Herrera,Engineering Manager,cecilia.herrera@austral-infraestructura-s-r-l.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.8874,negotiation,send_quote
+LEAD_ACC00150,ACC00150,Austral Operaciones Corp.,Martín Fernández,Fleet Manager,martín.fernández@austral-operaciones-corp.com.ar,industry_event,Minería,Catamarca,0.8514,won,schedule_visit
+LEAD_ACC00151,ACC00151,Pampa Oil Group,Sofía Herrera,Maintenance Manager,sofía.herrera@pampa-oil-group.com.ar,public_directory,Construcción,Mendoza,0.6892,won,schedule_visit
+LEAD_ACC00152,ACC00152,Aconcagua Logística Argentina,Pablo Romero,Fleet Manager,pablo.romero@aconcagua-logística-argentina.com.ar,website_form,Construcción,Buenos Aires,0.4578,qualified,schedule_visit
+LEAD_ACC00153,ACC00153,Pampa Infraestructura Group,Valentina Pérez,Fleet Manager,valentina.pérez@pampa-infraestructura-group.com.ar,website_form,Servicios,Santa Fe,0.6497,negotiation,schedule_visit
+LEAD_ACC00154,ACC00154,Aconcagua Servicios S.A.,Nicolás Castro,Maintenance Manager,nicolás.castro@aconcagua-servicios-s-a.com.ar,industry_event,Construcción,Buenos Aires,0.5624,new,send_catalog
+LEAD_ACC00155,ACC00155,Litoral Oil Servicios,Pablo Alvarez,Procurement Manager,pablo.alvarez@litoral-oil-servicios.com.ar,public_directory,Construcción,Córdoba,0.5015,proposal,schedule_visit
+LEAD_ACC00156,ACC00156,Delta Industrial Argentina,Valentina Alvarez,Technical Director,valentina.alvarez@delta-industrial-argentina.com.ar,outbound_research,Oil & Gas,Buenos Aires,0.6415,qualified,send_quote
+LEAD_ACC00157,ACC00157,Patagonia Servicios S.R.L.,Diego Gómez,Engineering Manager,diego.gómez@patagonia-servicios-s-r-l.com.ar,industry_event,Minería,San Juan,0.8319,new,send_catalog
+LEAD_ACC00158,ACC00158,Andes Infraestructura Argentina,Diego Benítez,Procurement Manager,diego.benítez@andes-infraestructura-argentina.com.ar,website_form,Minería,Río Negro,0.6828,proposal,call
+LEAD_ACC00159,ACC00159,Norte Logística Servicios,Federico Benítez,Project Manager,federico.benítez@norte-logística-servicios.com.ar,outbound_research,Energía,Santa Fe,0.646,lost,schedule_visit
+LEAD_ACC00160,ACC00160,Austral Solutions S.R.L.,Marcos Gómez,Engineering Manager,marcos.gómez@austral-solutions-s-r-l.com.ar,industry_event,Construcción,Mendoza,0.8087,won,send_quote
+LEAD_ACC00161,ACC00161,Austral Servicios S.R.L.,Julia Alvarez,Purchasing Analyst,julia.alvarez@austral-servicios-s-r-l.com.ar,outbound_research,Manufactura,Santa Fe,0.4941,new,send_catalog
+LEAD_ACC00162,ACC00162,Delta Oil Corp.,Carolina Díaz,Plant Manager,carolina.díaz@delta-oil-corp.com.ar,industry_event,Energía,Buenos Aires,0.806,won,request_requirements
+LEAD_ACC00163,ACC00163,Andes Operaciones Group,Julia Romero,Plant Manager,julia.romero@andes-operaciones-group.com.ar,website_form,Construcción,Santa Fe,0.5057,won,schedule_visit
+LEAD_ACC00164,ACC00164,Aconcagua Logística Corp.,Valentina Alvarez,Project Manager,valentina.alvarez@aconcagua-logística-corp.com.ar,partner_referral,Minería,Jujuy,0.881,qualified,call
+LEAD_ACC00165,ACC00165,Austral Operaciones Servicios,Pablo Castro,Engineering Manager,pablo.castro@austral-operaciones-servicios.com.ar,website_form,Manufactura,Buenos Aires,0.5108,new,send_catalog
+LEAD_ACC00166,ACC00166,Aconcagua Solutions S.R.L.,Cecilia López,HSE Manager,cecilia.lópez@aconcagua-solutions-s-r-l.com.ar,website_form,Construcción,Mendoza,0.7037,proposal,call
+LEAD_ACC00167,ACC00167,Cumbre Industrial Corp.,Ana Sosa,Purchasing Analyst,ana.sosa@cumbre-industrial-corp.com.ar,partner_referral,Minería,Catamarca,0.7602,qualified,schedule_visit
+LEAD_ACC00168,ACC00168,Cumbre Logística Servicios,Cecilia Pérez,Engineering Manager,cecilia.pérez@cumbre-logística-servicios.com.ar,public_directory,Energía,Santa Fe,0.5281,proposal,schedule_visit
+LEAD_ACC00169,ACC00169,Aconcagua Oil Corp.,Diego Gómez,Maintenance Manager,diego.gómez@aconcagua-oil-corp.com.ar,partner_referral,Energía,Neuquén,0.5881,negotiation,call
+LEAD_ACC00170,ACC00170,Austral Minera S.R.L.,Martín Herrera,Fleet Manager,martín.herrera@austral-minera-s-r-l.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.7185,new,send_catalog
+LEAD_ACC00171,ACC00171,Pampa Infraestructura S.R.L.,Martín Castro,HSE Manager,martín.castro@pampa-infraestructura-s-r-l.com.ar,industry_event,Energía,Córdoba,0.7635,proposal,send_quote
+LEAD_ACC00172,ACC00172,Andes Energía S.R.L.,Valentina Ruiz,Plant Manager,valentina.ruiz@andes-energía-s-r-l.com.ar,industry_event,Minería,Santa Cruz,0.7337,won,send_quote
+LEAD_ACC00173,ACC00173,Litoral Solutions Argentina,Martín Alvarez,Purchasing Analyst,martín.alvarez@litoral-solutions-argentina.com.ar,industry_event,Servicios,CABA,0.5557,new,call
+LEAD_ACC00174,ACC00174,Sur Oil Corp.,Carolina Díaz,Fleet Manager,carolina.díaz@sur-oil-corp.com.ar,partner_referral,Construcción,Córdoba,0.6418,lost,send_catalog
+LEAD_ACC00175,ACC00175,Pampa Servicios S.A.,Valentina Díaz,Procurement Manager,valentina.díaz@pampa-servicios-s-a.com.ar,partner_referral,Minería,Catamarca,0.815,won,schedule_visit
+LEAD_ACC00176,ACC00176,Austral Logística Group,Javier López,Operations Manager,javier.lópez@austral-logística-group.com.ar,partner_referral,Minería,Jujuy,0.8463,lost,call
+LEAD_ACC00177,ACC00177,Austral Industrial Servicios,Cecilia Torres,Purchasing Analyst,cecilia.torres@austral-industrial-servicios.com.ar,website_form,Construcción,Mendoza,0.3861,qualified,call
+LEAD_ACC00178,ACC00178,Pampa Oil Corp.,Nicolás Herrera,Operations Manager,nicolás.herrera@pampa-oil-corp.com.ar,public_directory,Oil & Gas,Santa Cruz,0.6808,negotiation,call
+LEAD_ACC00179,ACC00179,Andes Oil Argentina,Pablo Sosa,Engineering Manager,pablo.sosa@andes-oil-argentina.com.ar,public_directory,Energía,Mendoza,0.6898,won,call
+LEAD_ACC00180,ACC00180,Pampa Tecnología Servicios,Nicolás Fernández,Purchasing Analyst,nicolás.fernández@pampa-tecnología-servicios.com.ar,partner_referral,Manufactura,Santa Fe,0.7822,won,call
+LEAD_ACC00181,ACC00181,Norte Energía Argentina,Pablo Gómez,Engineering Manager,pablo.gómez@norte-energía-argentina.com.ar,public_directory,Minería,Río Negro,0.7658,lost,call
+LEAD_ACC00182,ACC00182,Cumbre Energía Servicios,Valentina Herrera,Procurement Manager,valentina.herrera@cumbre-energía-servicios.com.ar,public_directory,Energía,Mendoza,0.5277,proposal,schedule_visit
+LEAD_ACC00183,ACC00183,Sur Industrial S.R.L.,Lucía Herrera,Engineering Manager,lucía.herrera@sur-industrial-s-r-l.com.ar,partner_referral,Servicios,CABA,0.7675,proposal,send_quote
+LEAD_ACC00184,ACC00184,Austral Logística Corp.,Ana Ruiz,Procurement Manager,ana.ruiz@austral-logística-corp.com.ar,website_form,Minería,San Juan,0.5428,negotiation,schedule_visit
+LEAD_ACC00185,ACC00185,Cumbre Tecnología Servicios,Ana Molina,Procurement Manager,ana.molina@cumbre-tecnología-servicios.com.ar,industry_event,Energía,Buenos Aires,0.6106,won,send_quote
+LEAD_ACC00186,ACC00186,Delta Tecnología Argentina,Cecilia Alvarez,Maintenance Manager,cecilia.alvarez@delta-tecnología-argentina.com.ar,outbound_research,Minería,San Juan,0.6601,qualified,request_requirements
+LEAD_ACC00187,ACC00187,Aconcagua Logística Group,Martín Fernández,Maintenance Manager,martín.fernández@aconcagua-logística-group.com.ar,partner_referral,Minería,Río Negro,0.8548,proposal,send_catalog
+LEAD_ACC00188,ACC00188,Austral Oil Servicios,Pablo Pérez,Engineering Manager,pablo.pérez@austral-oil-servicios.com.ar,public_directory,Oil & Gas,Buenos Aires,0.7112,proposal,send_catalog
+LEAD_ACC00189,ACC00189,Patagonia Oil S.R.L.,Martín López,Procurement Manager,martín.lópez@patagonia-oil-s-r-l.com.ar,industry_event,Oil & Gas,Buenos Aires,0.8749,won,call
+LEAD_ACC00190,ACC00190,Norte Minera S.A.,Marcos Alvarez,Technical Director,marcos.alvarez@norte-minera-s-a.com.ar,partner_referral,Oil & Gas,Chubut,0.9082,negotiation,send_quote
+LEAD_ACC00191,ACC00191,Sur Tecnología Corp.,Sofía Ruiz,Maintenance Manager,sofía.ruiz@sur-tecnología-corp.com.ar,public_directory,Oil & Gas,Neuquén,0.8122,proposal,send_quote
+LEAD_ACC00192,ACC00192,Aconcagua Logística Group,Micaela Pérez,HSE Manager,micaela.pérez@aconcagua-logística-group.com.ar,industry_event,Oil & Gas,Chubut,0.9096,qualified,send_quote
+LEAD_ACC00193,ACC00193,Austral Servicios Argentina,Valentina Castro,Operations Manager,valentina.castro@austral-servicios-argentina.com.ar,outbound_research,Servicios,Buenos Aires,0.5815,proposal,send_catalog
+LEAD_ACC00194,ACC00194,Norte Solutions Group,Lucía Díaz,Purchasing Analyst,lucía.díaz@norte-solutions-group.com.ar,website_form,Construcción,CABA,0.6393,qualified,send_quote
+LEAD_ACC00195,ACC00195,Aconcagua Oil S.A.,Micaela Fernández,Technical Director,micaela.fernández@aconcagua-oil-s-a.com.ar,public_directory,Minería,Santa Cruz,0.7692,new,request_requirements
+LEAD_ACC00196,ACC00196,Cumbre Industrial Servicios,Julia Ruiz,Fleet Manager,julia.ruiz@cumbre-industrial-servicios.com.ar,partner_referral,Construcción,Córdoba,0.6732,proposal,schedule_visit
+LEAD_ACC00197,ACC00197,Cumbre Tecnología S.R.L.,Carolina Torres,HSE Manager,carolina.torres@cumbre-tecnología-s-r-l.com.ar,public_directory,Energía,Neuquén,0.6337,new,send_quote
+LEAD_ACC00198,ACC00198,Patagonia Energía Argentina,Marcos Molina,Engineering Manager,marcos.molina@patagonia-energía-argentina.com.ar,outbound_research,Energía,Santa Fe,0.5746,qualified,send_quote
+LEAD_ACC00199,ACC00199,Patagonia Infraestructura S.A.,Sofía Pérez,Operations Manager,sofía.pérez@patagonia-infraestructura-s-a.com.ar,website_form,Energía,Mendoza,0.6221,won,send_quote
+LEAD_ACC00200,ACC00200,Austral Operaciones Corp.,Carolina López,Procurement Manager,carolina.lópez@austral-operaciones-corp.com.ar,outbound_research,Oil & Gas,Santa Cruz,0.6029,new,request_requirements
+LEAD_ACC00201,ACC00201,Cumbre Operaciones Corp.,Carolina Alvarez,HSE Manager,carolina.alvarez@cumbre-operaciones-corp.com.ar,website_form,Construcción,CABA,0.4457,won,schedule_visit
+LEAD_ACC00202,ACC00202,Norte Minera Servicios,Marcos Gómez,Operations Manager,marcos.gómez@norte-minera-servicios.com.ar,public_directory,Minería,San Juan,0.8274,negotiation,schedule_visit
+LEAD_ACC00203,ACC00203,Delta Logística S.A.,Federico Díaz,Project Manager,federico.díaz@delta-logística-s-a.com.ar,outbound_research,Oil & Gas,Chubut,0.6672,won,call
+LEAD_ACC00204,ACC00204,Litoral Oil Argentina,Javier Pérez,Project Manager,javier.pérez@litoral-oil-argentina.com.ar,outbound_research,Energía,Mendoza,0.6665,negotiation,send_catalog
+LEAD_ACC00205,ACC00205,Delta Solutions Corp.,Lucía Ruiz,Purchasing Analyst,lucía.ruiz@delta-solutions-corp.com.ar,partner_referral,Manufactura,Buenos Aires,0.6945,proposal,schedule_visit
+LEAD_ACC00206,ACC00206,Andes Infraestructura S.R.L.,Ana Gómez,Procurement Manager,ana.gómez@andes-infraestructura-s-r-l.com.ar,partner_referral,Construcción,CABA,0.6477,won,send_catalog
+LEAD_ACC00207,ACC00207,Austral Industrial Argentina,Pablo Fernández,Technical Director,pablo.fernández@austral-industrial-argentina.com.ar,website_form,Minería,Santa Cruz,0.6909,qualified,call
+LEAD_ACC00208,ACC00208,Litoral Energía S.R.L.,Valentina Romero,Technical Director,valentina.romero@litoral-energía-s-r-l.com.ar,industry_event,Energía,Santa Fe,0.6162,qualified,call
+LEAD_ACC00209,ACC00209,Andes Tecnología Group,Micaela Herrera,Technical Director,micaela.herrera@andes-tecnología-group.com.ar,industry_event,Construcción,CABA,0.6808,won,call
+LEAD_ACC00210,ACC00210,Aconcagua Industrial Group,Nicolás Benítez,Plant Manager,nicolás.benítez@aconcagua-industrial-group.com.ar,outbound_research,Construcción,CABA,0.4449,proposal,send_quote
+LEAD_ACC00211,ACC00211,Aconcagua Minera S.A.,Ana Romero,Engineering Manager,ana.romero@aconcagua-minera-s-a.com.ar,industry_event,Oil & Gas,Chubut,0.913,negotiation,send_catalog
+LEAD_ACC00212,ACC00212,Sur Energía Servicios,Federico López,Project Manager,federico.lópez@sur-energía-servicios.com.ar,outbound_research,Oil & Gas,Neuquén,0.5502,qualified,call
+LEAD_ACC00213,ACC00213,Litoral Logística Argentina,Valentina Díaz,HSE Manager,valentina.díaz@litoral-logística-argentina.com.ar,partner_referral,Energía,Córdoba,0.7538,new,schedule_visit
+LEAD_ACC00214,ACC00214,Delta Infraestructura S.R.L.,Sofía Romero,Purchasing Analyst,sofía.romero@delta-infraestructura-s-r-l.com.ar,website_form,Oil & Gas,Buenos Aires,0.6023,lost,schedule_visit
+LEAD_ACC00215,ACC00215,Patagonia Energía S.A.,Javier Alvarez,Fleet Manager,javier.alvarez@patagonia-energía-s-a.com.ar,outbound_research,Construcción,CABA,0.6292,qualified,send_quote
+LEAD_ACC00216,ACC00216,Delta Minera S.A.,Federico López,HSE Manager,federico.lópez@delta-minera-s-a.com.ar,website_form,Construcción,Buenos Aires,0.6473,won,schedule_visit
+LEAD_ACC00217,ACC00217,Delta Energía Servicios,Micaela Alvarez,Project Manager,micaela.alvarez@delta-energía-servicios.com.ar,industry_event,Minería,Jujuy,0.7208,proposal,call
+LEAD_ACC00218,ACC00218,Patagonia Servicios S.A.,Javier Molina,HSE Manager,javier.molina@patagonia-servicios-s-a.com.ar,outbound_research,Construcción,CABA,0.4354,lost,schedule_visit
+LEAD_ACC00219,ACC00219,Andes Infraestructura S.R.L.,Micaela Alvarez,Plant Manager,micaela.alvarez@andes-infraestructura-s-r-l.com.ar,website_form,Construcción,Santa Fe,0.6266,proposal,call
+LEAD_ACC00220,ACC00220,Austral Industrial Group,Carolina Díaz,HSE Manager,carolina.díaz@austral-industrial-group.com.ar,public_directory,Oil & Gas,Buenos Aires,0.7088,new,call
+LEAD_ACC00221,ACC00221,Cumbre Energía S.A.,Valentina Fernández,Project Manager,valentina.fernández@cumbre-energía-s-a.com.ar,partner_referral,Servicios,CABA,0.6889,proposal,request_requirements
+LEAD_ACC00222,ACC00222,Austral Oil Servicios,Lucía Herrera,Fleet Manager,lucía.herrera@austral-oil-servicios.com.ar,public_directory,Construcción,Buenos Aires,0.4155,won,schedule_visit
+LEAD_ACC00223,ACC00223,Patagonia Infraestructura Argentina,Cecilia Gómez,Project Manager,cecilia.gómez@patagonia-infraestructura-argentina.com.ar,website_form,Minería,Río Negro,0.7572,qualified,schedule_visit
+LEAD_ACC00224,ACC00224,Delta Energía S.A.,Nicolás Torres,Operations Manager,nicolás.torres@delta-energía-s-a.com.ar,industry_event,Construcción,Buenos Aires,0.6552,proposal,send_quote
+LEAD_ACC00225,ACC00225,Andes Logística Corp.,Nicolás Alvarez,HSE Manager,nicolás.alvarez@andes-logística-corp.com.ar,public_directory,Oil & Gas,Chubut,0.817,proposal,schedule_visit
+LEAD_ACC00226,ACC00226,Delta Logística S.R.L.,Marcos Fernández,HSE Manager,marcos.fernández@delta-logística-s-r-l.com.ar,website_form,Minería,San Juan,0.7029,won,request_requirements
+LEAD_ACC00227,ACC00227,Andes Minera Group,Federico Díaz,Fleet Manager,federico.díaz@andes-minera-group.com.ar,website_form,Manufactura,Buenos Aires,0.4823,qualified,schedule_visit
+LEAD_ACC00228,ACC00228,Norte Energía Servicios,Nicolás Benítez,Project Manager,nicolás.benítez@norte-energía-servicios.com.ar,website_form,Minería,Río Negro,0.6471,qualified,call
+LEAD_ACC00229,ACC00229,Norte Logística S.A.,Carolina López,HSE Manager,carolina.lópez@norte-logística-s-a.com.ar,public_directory,Oil & Gas,Buenos Aires,0.4808,proposal,schedule_visit
+LEAD_ACC00230,ACC00230,Austral Solutions S.R.L.,Marcos Molina,Plant Manager,marcos.molina@austral-solutions-s-r-l.com.ar,public_directory,Minería,San Juan,0.6074,qualified,send_quote
+LEAD_ACC00231,ACC00231,Norte Energía S.R.L.,Diego López,Plant Manager,diego.lópez@norte-energía-s-r-l.com.ar,outbound_research,Construcción,Mendoza,0.5909,proposal,send_quote
+LEAD_ACC00232,ACC00232,Sur Minera Argentina,Valentina Romero,Purchasing Analyst,valentina.romero@sur-minera-argentina.com.ar,partner_referral,Manufactura,Mendoza,0.8772,won,schedule_visit
+LEAD_ACC00233,ACC00233,Norte Infraestructura Group,Nicolás Alvarez,Purchasing Analyst,nicolás.alvarez@norte-infraestructura-group.com.ar,industry_event,Construcción,CABA,0.7184,lost,send_catalog
+LEAD_ACC00234,ACC00234,Delta Energía S.R.L.,Sofía Díaz,Purchasing Analyst,sofía.díaz@delta-energía-s-r-l.com.ar,public_directory,Oil & Gas,CABA,0.6834,negotiation,request_requirements
+LEAD_ACC00235,ACC00235,Delta Infraestructura Argentina,Lucía Molina,Technical Director,lucía.molina@delta-infraestructura-argentina.com.ar,outbound_research,Energía,Buenos Aires,0.848,new,call
+LEAD_ACC00236,ACC00236,Delta Industrial Corp.,Pablo Benítez,Fleet Manager,pablo.benítez@delta-industrial-corp.com.ar,website_form,Energía,Santa Fe,0.6123,won,schedule_visit
+LEAD_ACC00237,ACC00237,Pampa Operaciones Group,Cecilia Pérez,HSE Manager,cecilia.pérez@pampa-operaciones-group.com.ar,website_form,Oil & Gas,Santa Cruz,0.6866,qualified,send_quote
+LEAD_ACC00238,ACC00238,Sur Energía S.A.,Sofía Herrera,Procurement Manager,sofía.herrera@sur-energía-s-a.com.ar,partner_referral,Energía,Córdoba,0.7899,lost,schedule_visit
+LEAD_ACC00239,ACC00239,Sur Solutions S.R.L.,Micaela Benítez,Purchasing Analyst,micaela.benítez@sur-solutions-s-r-l.com.ar,website_form,Minería,San Juan,0.6681,new,call
+LEAD_ACC00240,ACC00240,Litoral Industrial S.A.,Sofía Alvarez,Project Manager,sofía.alvarez@litoral-industrial-s-a.com.ar,public_directory,Minería,San Juan,0.6496,proposal,call
+LEAD_ACC00241,ACC00241,Austral Minera Group,Lucía Castro,Operations Manager,lucía.castro@austral-minera-group.com.ar,industry_event,Construcción,Córdoba,0.5474,lost,send_quote
+LEAD_ACC00242,ACC00242,Sur Tecnología S.R.L.,Sofía Torres,Plant Manager,sofía.torres@sur-tecnología-s-r-l.com.ar,industry_event,Construcción,Mendoza,0.6926,lost,request_requirements
+LEAD_ACC00243,ACC00243,Delta Servicios S.R.L.,Martín Pérez,Technical Director,martín.pérez@delta-servicios-s-r-l.com.ar,public_directory,Manufactura,Mendoza,0.7017,qualified,call
+LEAD_ACC00244,ACC00244,Austral Infraestructura S.R.L.,Micaela Molina,Operations Manager,micaela.molina@austral-infraestructura-s-r-l.com.ar,public_directory,Oil & Gas,Santa Cruz,0.8269,proposal,schedule_visit
+LEAD_ACC00245,ACC00245,Delta Logística Argentina,Lucía Castro,Technical Director,lucía.castro@delta-logística-argentina.com.ar,industry_event,Minería,Santa Cruz,0.9748,qualified,schedule_visit
+LEAD_ACC00246,ACC00246,Austral Logística S.A.,Javier Torres,Operations Manager,javier.torres@austral-logística-s-a.com.ar,public_directory,Manufactura,Buenos Aires,0.6904,proposal,call
+LEAD_ACC00247,ACC00247,Litoral Logística S.R.L.,Marcos Molina,Project Manager,marcos.molina@litoral-logística-s-r-l.com.ar,outbound_research,Servicios,Santa Fe,0.5244,proposal,schedule_visit
+LEAD_ACC00248,ACC00248,Cumbre Industrial S.R.L.,Cecilia Gómez,Purchasing Analyst,cecilia.gómez@cumbre-industrial-s-r-l.com.ar,outbound_research,Construcción,Santa Fe,0.6773,proposal,send_quote
+LEAD_ACC00249,ACC00249,Sur Logística S.R.L.,Lucía Díaz,Maintenance Manager,lucía.díaz@sur-logística-s-r-l.com.ar,industry_event,Minería,Catamarca,0.7065,lost,send_quote
+LEAD_ACC00250,ACC00250,Patagonia Industrial S.A.,Micaela Ruiz,Technical Director,micaela.ruiz@patagonia-industrial-s-a.com.ar,outbound_research,Construcción,Córdoba,0.545,proposal,send_catalog
+LEAD_ACC00251,ACC00251,Cumbre Solutions S.R.L.,Nicolás Díaz,Fleet Manager,nicolás.díaz@cumbre-solutions-s-r-l.com.ar,industry_event,Energía,Buenos Aires,0.797,lost,send_catalog
+LEAD_ACC00252,ACC00252,Patagonia Oil S.A.,Federico Pérez,HSE Manager,federico.pérez@patagonia-oil-s-a.com.ar,partner_referral,Minería,San Juan,0.7344,lost,schedule_visit
+LEAD_ACC00253,ACC00253,Patagonia Logística S.R.L.,Cecilia López,Purchasing Analyst,cecilia.lópez@patagonia-logística-s-r-l.com.ar,public_directory,Manufactura,Santa Fe,0.5828,proposal,call
+LEAD_ACC00254,ACC00254,Austral Minera S.R.L.,Marcos Alvarez,HSE Manager,marcos.alvarez@austral-minera-s-r-l.com.ar,industry_event,Oil & Gas,Buenos Aires,0.6885,won,schedule_visit
+LEAD_ACC00255,ACC00255,Norte Energía Corp.,Marcos Sosa,Operations Manager,marcos.sosa@norte-energía-corp.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.808,qualified,schedule_visit
+LEAD_ACC00256,ACC00256,Aconcagua Logística S.R.L.,Lucía Díaz,Plant Manager,lucía.díaz@aconcagua-logística-s-r-l.com.ar,industry_event,Energía,Córdoba,0.8983,proposal,send_quote
+LEAD_ACC00257,ACC00257,Sur Oil Corp.,Valentina Benítez,Engineering Manager,valentina.benítez@sur-oil-corp.com.ar,public_directory,Oil & Gas,Neuquén,0.5564,lost,schedule_visit
+LEAD_ACC00258,ACC00258,Patagonia Operaciones Argentina,Julia Díaz,Procurement Manager,julia.díaz@patagonia-operaciones-argentina.com.ar,public_directory,Manufactura,Mendoza,0.4918,qualified,schedule_visit
+LEAD_ACC00259,ACC00259,Delta Solutions S.R.L.,Sofía Castro,Plant Manager,sofía.castro@delta-solutions-s-r-l.com.ar,partner_referral,Servicios,Santa Fe,0.7657,new,request_requirements
+LEAD_ACC00260,ACC00260,Patagonia Operaciones Servicios,Diego Benítez,Technical Director,diego.benítez@patagonia-operaciones-servicios.com.ar,public_directory,Minería,Río Negro,0.7939,proposal,call
+LEAD_ACC00261,ACC00261,Aconcagua Servicios S.R.L.,Ana Alvarez,Purchasing Analyst,ana.alvarez@aconcagua-servicios-s-r-l.com.ar,website_form,Energía,Mendoza,0.7296,proposal,send_quote
+LEAD_ACC00262,ACC00262,Cumbre Tecnología Corp.,Valentina Molina,Fleet Manager,valentina.molina@cumbre-tecnología-corp.com.ar,public_directory,Minería,Río Negro,0.6727,qualified,send_quote
+LEAD_ACC00263,ACC00263,Pampa Industrial Argentina,Valentina Castro,Project Manager,valentina.castro@pampa-industrial-argentina.com.ar,website_form,Manufactura,Córdoba,0.7141,qualified,schedule_visit
+LEAD_ACC00264,ACC00264,Pampa Servicios Group,Valentina Fernández,Plant Manager,valentina.fernández@pampa-servicios-group.com.ar,partner_referral,Manufactura,Buenos Aires,0.6351,lost,schedule_visit
+LEAD_ACC00265,ACC00265,Austral Logística S.A.,Nicolás Díaz,Fleet Manager,nicolás.díaz@austral-logística-s-a.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.9638,won,call
+LEAD_ACC00266,ACC00266,Pampa Industrial Corp.,Micaela Castro,Maintenance Manager,micaela.castro@pampa-industrial-corp.com.ar,industry_event,Oil & Gas,Santa Cruz,0.857,proposal,request_requirements
+LEAD_ACC00267,ACC00267,Andes Solutions Group,Ana Molina,Procurement Manager,ana.molina@andes-solutions-group.com.ar,partner_referral,Construcción,Buenos Aires,0.6723,won,send_catalog
+LEAD_ACC00268,ACC00268,Patagonia Infraestructura S.A.,Ana Pérez,Fleet Manager,ana.pérez@patagonia-infraestructura-s-a.com.ar,outbound_research,Manufactura,Córdoba,0.4696,negotiation,request_requirements
+LEAD_ACC00269,ACC00269,Andes Minera S.R.L.,Sofía Herrera,Project Manager,sofía.herrera@andes-minera-s-r-l.com.ar,industry_event,Construcción,Santa Fe,0.6669,qualified,schedule_visit
+LEAD_ACC00270,ACC00270,Norte Solutions Corp.,Marcos Gómez,Maintenance Manager,marcos.gómez@norte-solutions-corp.com.ar,partner_referral,Manufactura,Córdoba,0.6235,negotiation,schedule_visit
+LEAD_ACC00271,ACC00271,Cumbre Tecnología Group,Marcos Alvarez,Project Manager,marcos.alvarez@cumbre-tecnología-group.com.ar,industry_event,Servicios,Córdoba,0.6166,proposal,call
+LEAD_ACC00272,ACC00272,Delta Oil S.R.L.,Diego Benítez,Project Manager,diego.benítez@delta-oil-s-r-l.com.ar,public_directory,Construcción,Córdoba,0.6292,negotiation,call
+LEAD_ACC00273,ACC00273,Norte Operaciones Corp.,Martín Pérez,Operations Manager,martín.pérez@norte-operaciones-corp.com.ar,public_directory,Oil & Gas,Buenos Aires,0.7127,new,send_quote
+LEAD_ACC00274,ACC00274,Austral Infraestructura S.R.L.,Sofía Sosa,HSE Manager,sofía.sosa@austral-infraestructura-s-r-l.com.ar,industry_event,Energía,Mendoza,0.7916,won,send_catalog
+LEAD_ACC00275,ACC00275,Sur Solutions Argentina,Ana Pérez,Engineering Manager,ana.pérez@sur-solutions-argentina.com.ar,industry_event,Manufactura,Buenos Aires,0.7191,won,request_requirements
+LEAD_ACC00276,ACC00276,Cumbre Energía Corp.,Ana Torres,Project Manager,ana.torres@cumbre-energía-corp.com.ar,partner_referral,Energía,Neuquén,0.7686,new,schedule_visit
+LEAD_ACC00277,ACC00277,Aconcagua Tecnología Corp.,Carolina Fernández,Procurement Manager,carolina.fernández@aconcagua-tecnología-corp.com.ar,website_form,Oil & Gas,Santa Cruz,0.6971,won,send_quote
+LEAD_ACC00278,ACC00278,Pampa Servicios Servicios,Marcos Torres,Plant Manager,marcos.torres@pampa-servicios-servicios.com.ar,website_form,Oil & Gas,Buenos Aires,0.7321,negotiation,schedule_visit
+LEAD_ACC00279,ACC00279,Andes Industrial Servicios,Martín Fernández,Fleet Manager,martín.fernández@andes-industrial-servicios.com.ar,industry_event,Energía,Mendoza,0.7967,proposal,schedule_visit
+LEAD_ACC00280,ACC00280,Sur Infraestructura S.R.L.,Marcos Sosa,Technical Director,marcos.sosa@sur-infraestructura-s-r-l.com.ar,outbound_research,Construcción,CABA,0.5463,proposal,request_requirements
+LEAD_ACC00281,ACC00281,Sur Operaciones Argentina,Carolina Díaz,Fleet Manager,carolina.díaz@sur-operaciones-argentina.com.ar,industry_event,Energía,Neuquén,0.6816,negotiation,schedule_visit
+LEAD_ACC00282,ACC00282,Andes Tecnología Servicios,Carolina Torres,Project Manager,carolina.torres@andes-tecnología-servicios.com.ar,website_form,Oil & Gas,Santa Cruz,0.7755,won,send_quote
+LEAD_ACC00283,ACC00283,Andes Industrial Argentina,Julia Alvarez,Operations Manager,julia.alvarez@andes-industrial-argentina.com.ar,public_directory,Oil & Gas,Neuquén,0.634,proposal,send_quote
+LEAD_ACC00284,ACC00284,Aconcagua Energía Argentina,Micaela Fernández,Project Manager,micaela.fernández@aconcagua-energía-argentina.com.ar,partner_referral,Construcción,Buenos Aires,0.7078,won,call
+LEAD_ACC00285,ACC00285,Patagonia Minera S.R.L.,Cecilia Castro,Project Manager,cecilia.castro@patagonia-minera-s-r-l.com.ar,outbound_research,Construcción,Córdoba,0.4405,negotiation,request_requirements
+LEAD_ACC00286,ACC00286,Litoral Logística S.R.L.,Micaela Benítez,Project Manager,micaela.benítez@litoral-logística-s-r-l.com.ar,website_form,Oil & Gas,Buenos Aires,0.7792,won,send_catalog
+LEAD_ACC00287,ACC00287,Patagonia Infraestructura Argentina,Carolina Romero,Technical Director,carolina.romero@patagonia-infraestructura-argentina.com.ar,industry_event,Construcción,Buenos Aires,0.5495,negotiation,send_quote
+LEAD_ACC00288,ACC00288,Sur Operaciones Argentina,Cecilia Pérez,Maintenance Manager,cecilia.pérez@sur-operaciones-argentina.com.ar,website_form,Manufactura,Córdoba,0.6331,negotiation,request_requirements
+LEAD_ACC00289,ACC00289,Norte Energía Group,Marcos Romero,Maintenance Manager,marcos.romero@norte-energía-group.com.ar,partner_referral,Minería,San Juan,0.6338,won,send_catalog
+LEAD_ACC00290,ACC00290,Delta Industrial S.R.L.,Nicolás Díaz,Maintenance Manager,nicolás.díaz@delta-industrial-s-r-l.com.ar,public_directory,Construcción,CABA,0.5325,qualified,schedule_visit
+LEAD_ACC00291,ACC00291,Delta Minera Corp.,Sofía Alvarez,Procurement Manager,sofía.alvarez@delta-minera-corp.com.ar,website_form,Construcción,Santa Fe,0.5898,won,call
+LEAD_ACC00292,ACC00292,Sur Oil Servicios,Diego López,HSE Manager,diego.lópez@sur-oil-servicios.com.ar,partner_referral,Manufactura,Santa Fe,0.5437,won,schedule_visit
+LEAD_ACC00293,ACC00293,Delta Oil Corp.,Marcos Díaz,Plant Manager,marcos.díaz@delta-oil-corp.com.ar,partner_referral,Manufactura,Buenos Aires,0.5922,lost,call
+LEAD_ACC00294,ACC00294,Aconcagua Solutions S.A.,Micaela Castro,HSE Manager,micaela.castro@aconcagua-solutions-s-a.com.ar,website_form,Energía,Neuquén,0.6183,qualified,call
+LEAD_ACC00295,ACC00295,Aconcagua Operaciones S.A.,Marcos Castro,HSE Manager,marcos.castro@aconcagua-operaciones-s-a.com.ar,public_directory,Servicios,CABA,0.4228,won,request_requirements
+LEAD_ACC00296,ACC00296,Sur Industrial S.R.L.,Martín López,Fleet Manager,martín.lópez@sur-industrial-s-r-l.com.ar,public_directory,Construcción,Mendoza,0.6233,qualified,schedule_visit
+LEAD_ACC00297,ACC00297,Sur Logística Argentina,Diego Fernández,Technical Director,diego.fernández@sur-logística-argentina.com.ar,website_form,Oil & Gas,Santa Cruz,0.7037,negotiation,schedule_visit
+LEAD_ACC00298,ACC00298,Norte Tecnología S.R.L.,Javier Fernández,Procurement Manager,javier.fernández@norte-tecnología-s-r-l.com.ar,outbound_research,Manufactura,Mendoza,0.5473,qualified,send_quote
+LEAD_ACC00299,ACC00299,Cumbre Energía Corp.,Lucía Castro,Project Manager,lucía.castro@cumbre-energía-corp.com.ar,outbound_research,Construcción,Buenos Aires,0.4398,proposal,schedule_visit
+LEAD_ACC00300,ACC00300,Litoral Oil S.R.L.,Micaela Romero,Project Manager,micaela.romero@litoral-oil-s-r-l.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.6912,negotiation,schedule_visit
+LEAD_ACC00301,ACC00301,Pampa Infraestructura Corp.,Ana Torres,Plant Manager,ana.torres@pampa-infraestructura-corp.com.ar,outbound_research,Manufactura,Mendoza,0.7978,proposal,request_requirements
+LEAD_ACC00302,ACC00302,Austral Solutions S.R.L.,Diego Pérez,Fleet Manager,diego.pérez@austral-solutions-s-r-l.com.ar,industry_event,Manufactura,Córdoba,0.6775,qualified,schedule_visit
+LEAD_ACC00303,ACC00303,Sur Oil Corp.,Nicolás Herrera,Operations Manager,nicolás.herrera@sur-oil-corp.com.ar,public_directory,Energía,Santa Fe,0.7257,won,call
+LEAD_ACC00304,ACC00304,Andes Industrial S.R.L.,Pablo Castro,Maintenance Manager,pablo.castro@andes-industrial-s-r-l.com.ar,industry_event,Oil & Gas,Buenos Aires,0.8019,proposal,request_requirements
+LEAD_ACC00305,ACC00305,Austral Industrial Group,Diego Molina,Engineering Manager,diego.molina@austral-industrial-group.com.ar,public_directory,Construcción,CABA,0.4659,won,schedule_visit
+LEAD_ACC00306,ACC00306,Aconcagua Operaciones Corp.,Marcos Molina,Fleet Manager,marcos.molina@aconcagua-operaciones-corp.com.ar,industry_event,Energía,Santa Fe,0.8057,negotiation,schedule_visit
+LEAD_ACC00307,ACC00307,Cumbre Oil Argentina,Cecilia Benítez,Maintenance Manager,cecilia.benítez@cumbre-oil-argentina.com.ar,industry_event,Construcción,Córdoba,0.7233,won,schedule_visit
+LEAD_ACC00308,ACC00308,Andes Operaciones Group,Sofía Ruiz,Fleet Manager,sofía.ruiz@andes-operaciones-group.com.ar,industry_event,Construcción,Buenos Aires,0.8515,negotiation,request_requirements
+LEAD_ACC00309,ACC00309,Cumbre Infraestructura Corp.,Javier Molina,Engineering Manager,javier.molina@cumbre-infraestructura-corp.com.ar,public_directory,Oil & Gas,Chubut,0.7939,proposal,schedule_visit
+LEAD_ACC00310,ACC00310,Austral Oil Corp.,Lucía Sosa,Plant Manager,lucía.sosa@austral-oil-corp.com.ar,industry_event,Construcción,CABA,0.6939,won,call
+LEAD_ACC00311,ACC00311,Patagonia Logística Corp.,Sofía Ruiz,HSE Manager,sofía.ruiz@patagonia-logística-corp.com.ar,public_directory,Energía,Neuquén,0.6085,won,call
+LEAD_ACC00312,ACC00312,Norte Oil Argentina,Carolina López,Procurement Manager,carolina.lópez@norte-oil-argentina.com.ar,industry_event,Manufactura,Buenos Aires,0.5596,negotiation,request_requirements
+LEAD_ACC00313,ACC00313,Austral Energía S.A.,Martín Benítez,Engineering Manager,martín.benítez@austral-energía-s-a.com.ar,public_directory,Oil & Gas,Santa Cruz,0.7593,lost,send_quote
+LEAD_ACC00314,ACC00314,Aconcagua Energía S.R.L.,Javier Molina,Plant Manager,javier.molina@aconcagua-energía-s-r-l.com.ar,outbound_research,Construcción,CABA,0.5771,won,schedule_visit
+LEAD_ACC00315,ACC00315,Austral Energía Servicios,Pablo Gómez,Operations Manager,pablo.gómez@austral-energía-servicios.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.8619,won,send_catalog
+LEAD_ACC00316,ACC00316,Andes Tecnología S.A.,Marcos Torres,Procurement Manager,marcos.torres@andes-tecnología-s-a.com.ar,public_directory,Minería,Catamarca,0.6346,lost,call
+LEAD_ACC00317,ACC00317,Aconcagua Industrial Corp.,Ana Ruiz,Procurement Manager,ana.ruiz@aconcagua-industrial-corp.com.ar,partner_referral,Minería,San Juan,0.87,won,send_quote
+LEAD_ACC00318,ACC00318,Austral Oil S.R.L.,Diego Molina,Project Manager,diego.molina@austral-oil-s-r-l.com.ar,partner_referral,Oil & Gas,Chubut,0.914,lost,send_quote
+LEAD_ACC00319,ACC00319,Aconcagua Oil S.R.L.,Julia Fernández,Plant Manager,julia.fernández@aconcagua-oil-s-r-l.com.ar,industry_event,Construcción,Córdoba,0.7097,won,call
+LEAD_ACC00320,ACC00320,Austral Energía Group,Cecilia Torres,Plant Manager,cecilia.torres@austral-energía-group.com.ar,public_directory,Manufactura,Mendoza,0.581,proposal,schedule_visit
+LEAD_ACC00321,ACC00321,Norte Tecnología S.A.,Lucía Romero,Technical Director,lucía.romero@norte-tecnología-s-a.com.ar,public_directory,Construcción,CABA,0.6217,negotiation,send_quote
+LEAD_ACC00322,ACC00322,Delta Industrial Group,Marcos Díaz,Procurement Manager,marcos.díaz@delta-industrial-group.com.ar,partner_referral,Energía,Santa Fe,0.9021,qualified,call
+LEAD_ACC00323,ACC00323,Litoral Logística Group,Valentina Benítez,Procurement Manager,valentina.benítez@litoral-logística-group.com.ar,public_directory,Construcción,Mendoza,0.5075,won,schedule_visit
+LEAD_ACC00324,ACC00324,Andes Oil Argentina,Ana Gómez,Project Manager,ana.gómez@andes-oil-argentina.com.ar,public_directory,Oil & Gas,Neuquén,0.8746,qualified,call
+LEAD_ACC00325,ACC00325,Delta Logística Corp.,Federico Alvarez,Project Manager,federico.alvarez@delta-logística-corp.com.ar,industry_event,Energía,Neuquén,0.9472,lost,send_catalog
+LEAD_ACC00326,ACC00326,Pampa Tecnología Argentina,Julia Fernández,Purchasing Analyst,julia.fernández@pampa-tecnología-argentina.com.ar,outbound_research,Minería,Santa Cruz,0.7225,qualified,request_requirements
+LEAD_ACC00327,ACC00327,Pampa Minera S.R.L.,Micaela Herrera,Maintenance Manager,micaela.herrera@pampa-minera-s-r-l.com.ar,outbound_research,Construcción,Córdoba,0.5113,proposal,call
+LEAD_ACC00328,ACC00328,Sur Energía Argentina,Micaela Molina,Procurement Manager,micaela.molina@sur-energía-argentina.com.ar,public_directory,Manufactura,Buenos Aires,0.6862,qualified,schedule_visit
+LEAD_ACC00329,ACC00329,Norte Operaciones S.R.L.,Valentina Alvarez,Fleet Manager,valentina.alvarez@norte-operaciones-s-r-l.com.ar,partner_referral,Energía,Buenos Aires,0.7811,won,request_requirements
+LEAD_ACC00330,ACC00330,Pampa Energía Servicios,Julia Sosa,Fleet Manager,julia.sosa@pampa-energía-servicios.com.ar,industry_event,Manufactura,Mendoza,0.6457,won,call
+LEAD_ACC00331,ACC00331,Litoral Minera S.R.L.,Valentina Díaz,Operations Manager,valentina.díaz@litoral-minera-s-r-l.com.ar,outbound_research,Construcción,Buenos Aires,0.6245,new,schedule_visit
+LEAD_ACC00332,ACC00332,Cumbre Servicios S.A.,Federico Alvarez,Operations Manager,federico.alvarez@cumbre-servicios-s-a.com.ar,partner_referral,Oil & Gas,CABA,0.7424,lost,call
+LEAD_ACC00333,ACC00333,Pampa Minera Servicios,Ana Romero,Engineering Manager,ana.romero@pampa-minera-servicios.com.ar,partner_referral,Construcción,Córdoba,0.6312,proposal,request_requirements
+LEAD_ACC00334,ACC00334,Sur Minera Servicios,Cecilia Castro,Operations Manager,cecilia.castro@sur-minera-servicios.com.ar,website_form,Construcción,Córdoba,0.7566,new,send_quote
+LEAD_ACC00335,ACC00335,Patagonia Servicios Corp.,Lucía Sosa,Engineering Manager,lucía.sosa@patagonia-servicios-corp.com.ar,website_form,Minería,Jujuy,0.7633,lost,send_catalog
+LEAD_ACC00336,ACC00336,Aconcagua Logística S.A.,Lucía Herrera,Purchasing Analyst,lucía.herrera@aconcagua-logística-s-a.com.ar,partner_referral,Manufactura,Mendoza,0.6394,qualified,call
+LEAD_ACC00337,ACC00337,Patagonia Infraestructura Servicios,Cecilia Romero,Fleet Manager,cecilia.romero@patagonia-infraestructura-servicios.com.ar,website_form,Oil & Gas,Buenos Aires,0.7744,proposal,schedule_visit
+LEAD_ACC00338,ACC00338,Sur Operaciones Group,Valentina Romero,Operations Manager,valentina.romero@sur-operaciones-group.com.ar,industry_event,Minería,Jujuy,0.8125,negotiation,call
+LEAD_ACC00339,ACC00339,Aconcagua Solutions Corp.,Diego Herrera,Fleet Manager,diego.herrera@aconcagua-solutions-corp.com.ar,partner_referral,Minería,Salta,0.856,qualified,call
+LEAD_ACC00340,ACC00340,Delta Energía Argentina,Sofía Gómez,Project Manager,sofía.gómez@delta-energía-argentina.com.ar,outbound_research,Construcción,Mendoza,0.6694,new,send_quote
+LEAD_ACC00341,ACC00341,Andes Servicios Corp.,Marcos Benítez,Operations Manager,marcos.benítez@andes-servicios-corp.com.ar,partner_referral,Construcción,Santa Fe,0.5421,qualified,send_quote
+LEAD_ACC00342,ACC00342,Cumbre Industrial Argentina,Sofía Molina,Fleet Manager,sofía.molina@cumbre-industrial-argentina.com.ar,public_directory,Minería,Salta,0.6186,qualified,request_requirements
+LEAD_ACC00343,ACC00343,Pampa Oil Group,Cecilia Castro,Purchasing Analyst,cecilia.castro@pampa-oil-group.com.ar,public_directory,Construcción,Mendoza,0.4209,won,call
+LEAD_ACC00344,ACC00344,Delta Energía Group,Federico Pérez,Technical Director,federico.pérez@delta-energía-group.com.ar,public_directory,Oil & Gas,Santa Cruz,0.639,qualified,call
+LEAD_ACC00345,ACC00345,Sur Logística Group,Micaela Fernández,Plant Manager,micaela.fernández@sur-logística-group.com.ar,partner_referral,Energía,Neuquén,0.8183,new,call
+LEAD_ACC00346,ACC00346,Austral Infraestructura Group,Javier López,Maintenance Manager,javier.lópez@austral-infraestructura-group.com.ar,public_directory,Energía,Neuquén,0.717,qualified,send_catalog
+LEAD_ACC00347,ACC00347,Litoral Solutions Group,Sofía Romero,HSE Manager,sofía.romero@litoral-solutions-group.com.ar,website_form,Energía,Mendoza,0.5723,new,send_quote
+LEAD_ACC00348,ACC00348,Pampa Logística Corp.,Valentina Díaz,Plant Manager,valentina.díaz@pampa-logística-corp.com.ar,industry_event,Construcción,CABA,0.6778,won,schedule_visit
+LEAD_ACC00349,ACC00349,Austral Servicios Corp.,Javier Castro,Maintenance Manager,javier.castro@austral-servicios-corp.com.ar,industry_event,Construcción,Córdoba,0.8334,proposal,call
+LEAD_ACC00350,ACC00350,Pampa Solutions S.R.L.,Sofía Pérez,Plant Manager,sofía.pérez@pampa-solutions-s-r-l.com.ar,website_form,Oil & Gas,Santa Cruz,0.7512,lost,call
+LEAD_ACC00351,ACC00351,Litoral Logística Servicios,Carolina Castro,HSE Manager,carolina.castro@litoral-logística-servicios.com.ar,public_directory,Oil & Gas,CABA,0.715,won,schedule_visit
+LEAD_ACC00352,ACC00352,Delta Industrial Servicios,Martín Herrera,Procurement Manager,martín.herrera@delta-industrial-servicios.com.ar,public_directory,Minería,Jujuy,0.6574,lost,call
+LEAD_ACC00353,ACC00353,Andes Industrial Argentina,Marcos Benítez,Maintenance Manager,marcos.benítez@andes-industrial-argentina.com.ar,industry_event,Construcción,Mendoza,0.6637,proposal,send_quote
+LEAD_ACC00354,ACC00354,Cumbre Logística Group,Cecilia Castro,Engineering Manager,cecilia.castro@cumbre-logística-group.com.ar,industry_event,Minería,Salta,0.7671,lost,call
+LEAD_ACC00355,ACC00355,Pampa Energía Argentina,Ana Fernández,Technical Director,ana.fernández@pampa-energía-argentina.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.7242,negotiation,call
+LEAD_ACC00356,ACC00356,Austral Oil Argentina,Lucía Fernández,Fleet Manager,lucía.fernández@austral-oil-argentina.com.ar,public_directory,Oil & Gas,Buenos Aires,0.5625,negotiation,schedule_visit
+LEAD_ACC00357,ACC00357,Norte Minera Argentina,Carolina Alvarez,HSE Manager,carolina.alvarez@norte-minera-argentina.com.ar,industry_event,Construcción,Buenos Aires,0.6176,lost,schedule_visit
+LEAD_ACC00358,ACC00358,Cumbre Solutions Servicios,Cecilia Herrera,Purchasing Analyst,cecilia.herrera@cumbre-solutions-servicios.com.ar,industry_event,Oil & Gas,Neuquén,0.7561,negotiation,call
+LEAD_ACC00359,ACC00359,Delta Servicios Argentina,Carolina Torres,Procurement Manager,carolina.torres@delta-servicios-argentina.com.ar,partner_referral,Minería,Salta,0.7905,won,schedule_visit
+LEAD_ACC00360,ACC00360,Norte Infraestructura Servicios,Valentina Díaz,Technical Director,valentina.díaz@norte-infraestructura-servicios.com.ar,industry_event,Minería,Salta,0.8107,won,call
+LEAD_ACC00361,ACC00361,Pampa Infraestructura Argentina,Ana Herrera,Plant Manager,ana.herrera@pampa-infraestructura-argentina.com.ar,website_form,Oil & Gas,Neuquén,0.7355,qualified,send_catalog
+LEAD_ACC00362,ACC00362,Patagonia Energía Group,Diego Fernández,Technical Director,diego.fernández@patagonia-energía-group.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.756,proposal,call
+LEAD_ACC00363,ACC00363,Delta Industrial S.A.,Pablo Gómez,Engineering Manager,pablo.gómez@delta-industrial-s-a.com.ar,partner_referral,Construcción,CABA,0.648,negotiation,send_catalog
+LEAD_ACC00364,ACC00364,Cumbre Tecnología Corp.,Nicolás Díaz,Maintenance Manager,nicolás.díaz@cumbre-tecnología-corp.com.ar,industry_event,Energía,Neuquén,0.6258,lost,call
+LEAD_ACC00365,ACC00365,Sur Operaciones Group,Federico Alvarez,Technical Director,federico.alvarez@sur-operaciones-group.com.ar,outbound_research,Construcción,Mendoza,0.6695,new,call
+LEAD_ACC00366,ACC00366,Litoral Infraestructura S.A.,Diego Castro,Procurement Manager,diego.castro@litoral-infraestructura-s-a.com.ar,website_form,Construcción,Mendoza,0.6416,won,schedule_visit
+LEAD_ACC00367,ACC00367,Aconcagua Operaciones S.R.L.,Diego Díaz,Technical Director,diego.díaz@aconcagua-operaciones-s-r-l.com.ar,public_directory,Energía,Córdoba,0.6559,negotiation,send_catalog
+LEAD_ACC00368,ACC00368,Aconcagua Solutions S.A.,Sofía Díaz,Maintenance Manager,sofía.díaz@aconcagua-solutions-s-a.com.ar,partner_referral,Construcción,Santa Fe,0.5567,proposal,schedule_visit
+LEAD_ACC00369,ACC00369,Andes Oil S.A.,Javier López,Plant Manager,javier.lópez@andes-oil-s-a.com.ar,outbound_research,Oil & Gas,Neuquén,0.7051,won,send_quote
+LEAD_ACC00370,ACC00370,Sur Operaciones Group,Julia Pérez,Operations Manager,julia.pérez@sur-operaciones-group.com.ar,website_form,Oil & Gas,Buenos Aires,0.8105,negotiation,send_catalog
+LEAD_ACC00371,ACC00371,Litoral Servicios S.R.L.,Cecilia Sosa,Engineering Manager,cecilia.sosa@litoral-servicios-s-r-l.com.ar,website_form,Construcción,Buenos Aires,0.5534,qualified,schedule_visit
+LEAD_ACC00372,ACC00372,Litoral Energía Servicios,Martín Herrera,Operations Manager,martín.herrera@litoral-energía-servicios.com.ar,industry_event,Minería,Catamarca,0.6473,qualified,send_quote
+LEAD_ACC00373,ACC00373,Litoral Infraestructura S.R.L.,Cecilia Sosa,Procurement Manager,cecilia.sosa@litoral-infraestructura-s-r-l.com.ar,outbound_research,Servicios,CABA,0.4903,won,schedule_visit
+LEAD_ACC00374,ACC00374,Patagonia Operaciones S.R.L.,Marcos Ruiz,Technical Director,marcos.ruiz@patagonia-operaciones-s-r-l.com.ar,partner_referral,Oil & Gas,Chubut,0.8622,won,request_requirements
+LEAD_ACC00375,ACC00375,Cumbre Logística Argentina,Micaela Fernández,Technical Director,micaela.fernández@cumbre-logística-argentina.com.ar,public_directory,Minería,San Juan,0.7255,negotiation,schedule_visit
+LEAD_ACC00376,ACC00376,Sur Minera Argentina,Federico Alvarez,Purchasing Analyst,federico.alvarez@sur-minera-argentina.com.ar,outbound_research,Minería,Santa Cruz,0.5279,lost,send_quote
+LEAD_ACC00377,ACC00377,Litoral Solutions Servicios,Valentina Castro,HSE Manager,valentina.castro@litoral-solutions-servicios.com.ar,partner_referral,Energía,Santa Fe,0.7002,qualified,send_quote
+LEAD_ACC00378,ACC00378,Norte Infraestructura Servicios,Ana López,Procurement Manager,ana.lópez@norte-infraestructura-servicios.com.ar,public_directory,Oil & Gas,Santa Cruz,0.6127,proposal,call
+LEAD_ACC00379,ACC00379,Patagonia Oil Corp.,Nicolás Pérez,Fleet Manager,nicolás.pérez@patagonia-oil-corp.com.ar,public_directory,Manufactura,Santa Fe,0.761,negotiation,send_catalog
+LEAD_ACC00380,ACC00380,Austral Energía S.A.,Sofía Díaz,Project Manager,sofía.díaz@austral-energía-s-a.com.ar,website_form,Construcción,Buenos Aires,0.4626,negotiation,call
+LEAD_ACC00381,ACC00381,Litoral Oil Servicios,Lucía Castro,Fleet Manager,lucía.castro@litoral-oil-servicios.com.ar,website_form,Construcción,Mendoza,0.7238,qualified,send_catalog
+LEAD_ACC00382,ACC00382,Austral Operaciones Group,Carolina Herrera,Technical Director,carolina.herrera@austral-operaciones-group.com.ar,website_form,Energía,Buenos Aires,0.5823,proposal,send_quote
+LEAD_ACC00383,ACC00383,Pampa Oil Corp.,Martín Sosa,Operations Manager,martín.sosa@pampa-oil-corp.com.ar,public_directory,Servicios,CABA,0.6531,negotiation,call
+LEAD_ACC00384,ACC00384,Sur Minera Argentina,Sofía Fernández,Plant Manager,sofía.fernández@sur-minera-argentina.com.ar,outbound_research,Energía,Buenos Aires,0.5358,qualified,schedule_visit
+LEAD_ACC00385,ACC00385,Sur Logística Servicios,Sofía Castro,Technical Director,sofía.castro@sur-logística-servicios.com.ar,partner_referral,Oil & Gas,CABA,0.7822,qualified,schedule_visit
+LEAD_ACC00386,ACC00386,Austral Infraestructura Group,Pablo Castro,Operations Manager,pablo.castro@austral-infraestructura-group.com.ar,website_form,Energía,Córdoba,0.6257,proposal,call
+LEAD_ACC00387,ACC00387,Norte Solutions S.R.L.,Cecilia Díaz,Project Manager,cecilia.díaz@norte-solutions-s-r-l.com.ar,industry_event,Oil & Gas,Chubut,0.8065,qualified,send_catalog
+LEAD_ACC00388,ACC00388,Andes Minera Group,Carolina Díaz,Plant Manager,carolina.díaz@andes-minera-group.com.ar,public_directory,Servicios,Buenos Aires,0.505,negotiation,schedule_visit
+LEAD_ACC00389,ACC00389,Patagonia Logística Corp.,Cecilia Díaz,Operations Manager,cecilia.díaz@patagonia-logística-corp.com.ar,public_directory,Energía,Neuquén,0.6801,new,send_catalog
+LEAD_ACC00390,ACC00390,Aconcagua Energía S.A.,Javier Molina,HSE Manager,javier.molina@aconcagua-energía-s-a.com.ar,partner_referral,Minería,Río Negro,0.7598,new,send_catalog
+LEAD_ACC00391,ACC00391,Aconcagua Industrial Group,Carolina Ruiz,Maintenance Manager,carolina.ruiz@aconcagua-industrial-group.com.ar,industry_event,Construcción,Santa Fe,0.5834,qualified,call
+LEAD_ACC00392,ACC00392,Cumbre Tecnología Servicios,Javier Molina,Purchasing Analyst,javier.molina@cumbre-tecnología-servicios.com.ar,partner_referral,Construcción,Mendoza,0.6984,new,send_quote
+LEAD_ACC00393,ACC00393,Aconcagua Infraestructura S.A.,Cecilia Ruiz,Operations Manager,cecilia.ruiz@aconcagua-infraestructura-s-a.com.ar,outbound_research,Energía,Buenos Aires,0.5327,proposal,send_quote
+LEAD_ACC00394,ACC00394,Austral Tecnología Argentina,Marcos Castro,HSE Manager,marcos.castro@austral-tecnología-argentina.com.ar,partner_referral,Energía,Neuquén,0.7701,won,send_quote
+LEAD_ACC00395,ACC00395,Sur Solutions Group,Diego Romero,Procurement Manager,diego.romero@sur-solutions-group.com.ar,industry_event,Construcción,Mendoza,0.6216,won,call
+LEAD_ACC00396,ACC00396,Pampa Solutions Argentina,Carolina Gómez,Procurement Manager,carolina.gómez@pampa-solutions-argentina.com.ar,website_form,Construcción,Mendoza,0.5056,lost,send_quote
+LEAD_ACC00397,ACC00397,Sur Energía Group,Lucía Benítez,Plant Manager,lucía.benítez@sur-energía-group.com.ar,public_directory,Servicios,Córdoba,0.6727,negotiation,send_quote
+LEAD_ACC00398,ACC00398,Andes Operaciones Servicios,Diego Herrera,Fleet Manager,diego.herrera@andes-operaciones-servicios.com.ar,outbound_research,Energía,Neuquén,0.6053,qualified,call
+LEAD_ACC00399,ACC00399,Aconcagua Infraestructura Argentina,Pablo Torres,Purchasing Analyst,pablo.torres@aconcagua-infraestructura-argentina.com.ar,partner_referral,Energía,Buenos Aires,0.7174,won,schedule_visit
+LEAD_ACC00400,ACC00400,Cumbre Oil S.A.,Valentina Benítez,Engineering Manager,valentina.benítez@cumbre-oil-s-a.com.ar,public_directory,Oil & Gas,Chubut,0.7296,lost,call
+LEAD_ACC00401,ACC00401,Litoral Operaciones Argentina,Martín Romero,Maintenance Manager,martín.romero@litoral-operaciones-argentina.com.ar,industry_event,Servicios,Córdoba,0.7733,qualified,schedule_visit
+LEAD_ACC00402,ACC00402,Andes Oil Group,Carolina Benítez,Engineering Manager,carolina.benítez@andes-oil-group.com.ar,outbound_research,Construcción,Córdoba,0.6572,proposal,send_catalog
+LEAD_ACC00403,ACC00403,Pampa Tecnología S.R.L.,Federico López,Purchasing Analyst,federico.lópez@pampa-tecnología-s-r-l.com.ar,industry_event,Construcción,CABA,0.6219,proposal,call
+LEAD_ACC00404,ACC00404,Delta Infraestructura Argentina,Cecilia Díaz,Maintenance Manager,cecilia.díaz@delta-infraestructura-argentina.com.ar,outbound_research,Oil & Gas,CABA,0.6731,qualified,schedule_visit
+LEAD_ACC00405,ACC00405,Delta Logística S.R.L.,Pablo Gómez,Technical Director,pablo.gómez@delta-logística-s-r-l.com.ar,partner_referral,Oil & Gas,CABA,0.8518,proposal,send_quote
+LEAD_ACC00406,ACC00406,Pampa Energía S.R.L.,Valentina Pérez,Project Manager,valentina.pérez@pampa-energía-s-r-l.com.ar,public_directory,Servicios,Córdoba,0.6657,won,call
+LEAD_ACC00407,ACC00407,Sur Energía Argentina,Ana Castro,Procurement Manager,ana.castro@sur-energía-argentina.com.ar,partner_referral,Energía,Córdoba,0.6239,qualified,schedule_visit
+LEAD_ACC00408,ACC00408,Pampa Solutions S.A.,Nicolás Molina,Procurement Manager,nicolás.molina@pampa-solutions-s-a.com.ar,industry_event,Energía,Córdoba,0.8081,negotiation,call
+LEAD_ACC00409,ACC00409,Sur Minera S.R.L.,Pablo Torres,Plant Manager,pablo.torres@sur-minera-s-r-l.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.8119,proposal,send_quote
+LEAD_ACC00410,ACC00410,Andes Oil S.A.,Julia Herrera,Maintenance Manager,julia.herrera@andes-oil-s-a.com.ar,outbound_research,Energía,Neuquén,0.748,proposal,request_requirements
+LEAD_ACC00411,ACC00411,Pampa Infraestructura Corp.,Ana Gómez,Purchasing Analyst,ana.gómez@pampa-infraestructura-corp.com.ar,industry_event,Minería,Río Negro,0.7893,negotiation,schedule_visit
+LEAD_ACC00412,ACC00412,Litoral Energía Argentina,Ana Benítez,Plant Manager,ana.benítez@litoral-energía-argentina.com.ar,public_directory,Manufactura,Santa Fe,0.7593,negotiation,call
+LEAD_ACC00413,ACC00413,Litoral Energía Group,Javier Romero,Purchasing Analyst,javier.romero@litoral-energía-group.com.ar,outbound_research,Oil & Gas,Buenos Aires,0.5005,proposal,send_catalog
+LEAD_ACC00414,ACC00414,Austral Operaciones Argentina,Julia López,Procurement Manager,julia.lópez@austral-operaciones-argentina.com.ar,outbound_research,Construcción,Córdoba,0.4624,new,schedule_visit
+LEAD_ACC00415,ACC00415,Andes Operaciones Group,Valentina Fernández,Maintenance Manager,valentina.fernández@andes-operaciones-group.com.ar,industry_event,Manufactura,Santa Fe,0.6131,proposal,call
+LEAD_ACC00416,ACC00416,Litoral Minera Corp.,Martín Sosa,HSE Manager,martín.sosa@litoral-minera-corp.com.ar,outbound_research,Oil & Gas,Chubut,0.7695,new,send_quote
+LEAD_ACC00417,ACC00417,Pampa Oil Group,Martín Benítez,Purchasing Analyst,martín.benítez@pampa-oil-group.com.ar,industry_event,Energía,Neuquén,0.9566,negotiation,schedule_visit
+LEAD_ACC00418,ACC00418,Patagonia Operaciones S.R.L.,Lucía Herrera,Fleet Manager,lucía.herrera@patagonia-operaciones-s-r-l.com.ar,public_directory,Minería,Catamarca,0.6588,negotiation,send_quote
+LEAD_ACC00419,ACC00419,Patagonia Infraestructura Group,Lucía Gómez,Operations Manager,lucía.gómez@patagonia-infraestructura-group.com.ar,partner_referral,Construcción,Córdoba,0.7488,proposal,send_quote
+LEAD_ACC00420,ACC00420,Austral Operaciones Servicios,Martín Molina,Maintenance Manager,martín.molina@austral-operaciones-servicios.com.ar,website_form,Oil & Gas,Chubut,0.7156,proposal,schedule_visit
+LEAD_ACC00421,ACC00421,Norte Operaciones Servicios,Julia Benítez,Engineering Manager,julia.benítez@norte-operaciones-servicios.com.ar,public_directory,Construcción,Santa Fe,0.4653,new,call
+LEAD_ACC00422,ACC00422,Delta Tecnología S.R.L.,Micaela Fernández,Engineering Manager,micaela.fernández@delta-tecnología-s-r-l.com.ar,website_form,Energía,Mendoza,0.7897,proposal,send_quote
+LEAD_ACC00423,ACC00423,Sur Logística Servicios,Nicolás Sosa,HSE Manager,nicolás.sosa@sur-logística-servicios.com.ar,industry_event,Servicios,Santa Fe,0.6714,qualified,call
+LEAD_ACC00424,ACC00424,Patagonia Logística Group,Cecilia Ruiz,HSE Manager,cecilia.ruiz@patagonia-logística-group.com.ar,website_form,Energía,Santa Fe,0.6113,proposal,schedule_visit
+LEAD_ACC00425,ACC00425,Andes Servicios Corp.,Cecilia Romero,Maintenance Manager,cecilia.romero@andes-servicios-corp.com.ar,public_directory,Servicios,Santa Fe,0.4276,proposal,send_catalog
+LEAD_ACC00426,ACC00426,Cumbre Logística Servicios,Nicolás Benítez,Purchasing Analyst,nicolás.benítez@cumbre-logística-servicios.com.ar,industry_event,Oil & Gas,CABA,0.8226,proposal,schedule_visit
+LEAD_ACC00427,ACC00427,Austral Servicios Servicios,Micaela Benítez,Project Manager,micaela.benítez@austral-servicios-servicios.com.ar,industry_event,Minería,San Juan,0.8168,negotiation,call
+LEAD_ACC00428,ACC00428,Sur Minera Group,Lucía Díaz,Fleet Manager,lucía.díaz@sur-minera-group.com.ar,industry_event,Minería,San Juan,0.6084,negotiation,send_catalog
+LEAD_ACC00429,ACC00429,Delta Solutions Group,Pablo Romero,Technical Director,pablo.romero@delta-solutions-group.com.ar,industry_event,Energía,Mendoza,0.9171,negotiation,request_requirements
+LEAD_ACC00430,ACC00430,Andes Minera Corp.,Pablo Díaz,Maintenance Manager,pablo.díaz@andes-minera-corp.com.ar,public_directory,Servicios,Buenos Aires,0.642,proposal,schedule_visit
+LEAD_ACC00431,ACC00431,Cumbre Infraestructura Argentina,Nicolás Pérez,Technical Director,nicolás.pérez@cumbre-infraestructura-argentina.com.ar,industry_event,Oil & Gas,Chubut,0.6624,proposal,request_requirements
+LEAD_ACC00432,ACC00432,Andes Tecnología Servicios,Lucía Benítez,HSE Manager,lucía.benítez@andes-tecnología-servicios.com.ar,industry_event,Oil & Gas,Chubut,0.8295,proposal,schedule_visit
+LEAD_ACC00433,ACC00433,Austral Minera S.A.,Pablo Pérez,Maintenance Manager,pablo.pérez@austral-minera-s-a.com.ar,website_form,Oil & Gas,Chubut,0.8814,proposal,send_catalog
+LEAD_ACC00434,ACC00434,Cumbre Minera Servicios,Sofía Castro,Project Manager,sofía.castro@cumbre-minera-servicios.com.ar,public_directory,Minería,Río Negro,0.8375,won,schedule_visit
+LEAD_ACC00435,ACC00435,Litoral Infraestructura Argentina,Pablo Castro,Plant Manager,pablo.castro@litoral-infraestructura-argentina.com.ar,outbound_research,Oil & Gas,Buenos Aires,0.7287,won,send_quote
+LEAD_ACC00436,ACC00436,Sur Logística Corp.,Ana Benítez,Technical Director,ana.benítez@sur-logística-corp.com.ar,industry_event,Minería,Río Negro,0.7779,negotiation,send_catalog
+LEAD_ACC00437,ACC00437,Patagonia Operaciones Argentina,Ana Alvarez,Operations Manager,ana.alvarez@patagonia-operaciones-argentina.com.ar,industry_event,Construcción,CABA,0.6285,proposal,call
+LEAD_ACC00438,ACC00438,Delta Minera Corp.,Carolina Benítez,Technical Director,carolina.benítez@delta-minera-corp.com.ar,public_directory,Oil & Gas,Santa Cruz,0.5843,lost,schedule_visit
+LEAD_ACC00439,ACC00439,Patagonia Tecnología Corp.,Carolina Ruiz,Plant Manager,carolina.ruiz@patagonia-tecnología-corp.com.ar,public_directory,Energía,Córdoba,0.668,qualified,call
+LEAD_ACC00440,ACC00440,Patagonia Tecnología Corp.,Diego Molina,Purchasing Analyst,diego.molina@patagonia-tecnología-corp.com.ar,website_form,Servicios,CABA,0.7533,qualified,send_quote
+LEAD_ACC00441,ACC00441,Delta Minera Servicios,Diego Molina,Fleet Manager,diego.molina@delta-minera-servicios.com.ar,outbound_research,Construcción,CABA,0.7505,won,call
+LEAD_ACC00442,ACC00442,Sur Energía Servicios,Micaela Fernández,Purchasing Analyst,micaela.fernández@sur-energía-servicios.com.ar,outbound_research,Construcción,Córdoba,0.481,won,call
+LEAD_ACC00443,ACC00443,Austral Logística S.A.,Valentina Pérez,Operations Manager,valentina.pérez@austral-logística-s-a.com.ar,public_directory,Servicios,CABA,0.533,qualified,send_quote
+LEAD_ACC00444,ACC00444,Delta Minera S.R.L.,Micaela Gómez,Plant Manager,micaela.gómez@delta-minera-s-r-l.com.ar,industry_event,Minería,Santa Cruz,0.8113,won,call
+LEAD_ACC00445,ACC00445,Andes Servicios Argentina,Micaela Torres,Procurement Manager,micaela.torres@andes-servicios-argentina.com.ar,outbound_research,Oil & Gas,Neuquén,0.7313,proposal,schedule_visit
+LEAD_ACC00446,ACC00446,Delta Minera Servicios,Martín Ruiz,Purchasing Analyst,martín.ruiz@delta-minera-servicios.com.ar,industry_event,Construcción,Mendoza,0.5913,proposal,send_catalog
+LEAD_ACC00447,ACC00447,Norte Operaciones Servicios,Carolina Herrera,Engineering Manager,carolina.herrera@norte-operaciones-servicios.com.ar,partner_referral,Energía,Córdoba,0.8046,proposal,schedule_visit
+LEAD_ACC00448,ACC00448,Austral Infraestructura Corp.,Federico Molina,Engineering Manager,federico.molina@austral-infraestructura-corp.com.ar,outbound_research,Servicios,CABA,0.5128,won,schedule_visit
+LEAD_ACC00449,ACC00449,Austral Industrial Corp.,Valentina Pérez,Project Manager,valentina.pérez@austral-industrial-corp.com.ar,industry_event,Minería,Catamarca,0.8705,proposal,request_requirements
+LEAD_ACC00450,ACC00450,Cumbre Infraestructura S.A.,Federico Fernández,Operations Manager,federico.fernández@cumbre-infraestructura-s-a.com.ar,industry_event,Oil & Gas,CABA,0.8753,proposal,send_catalog
+LEAD_ACC00451,ACC00451,Patagonia Infraestructura Group,Valentina Díaz,Maintenance Manager,valentina.díaz@patagonia-infraestructura-group.com.ar,industry_event,Energía,Córdoba,0.8146,negotiation,request_requirements
+LEAD_ACC00452,ACC00452,Litoral Logística S.R.L.,Marcos López,Plant Manager,marcos.lópez@litoral-logística-s-r-l.com.ar,outbound_research,Manufactura,Santa Fe,0.6251,won,call
+LEAD_ACC00453,ACC00453,Aconcagua Operaciones S.R.L.,Javier López,Technical Director,javier.lópez@aconcagua-operaciones-s-r-l.com.ar,public_directory,Servicios,Buenos Aires,0.455,negotiation,send_quote
+LEAD_ACC00454,ACC00454,Delta Minera Corp.,Lucía Benítez,Technical Director,lucía.benítez@delta-minera-corp.com.ar,public_directory,Minería,Catamarca,0.6864,qualified,send_quote
+LEAD_ACC00455,ACC00455,Norte Minera Corp.,Valentina Molina,Fleet Manager,valentina.molina@norte-minera-corp.com.ar,website_form,Oil & Gas,Buenos Aires,0.8553,proposal,send_quote
+LEAD_ACC00456,ACC00456,Norte Infraestructura S.A.,Pablo Gómez,Fleet Manager,pablo.gómez@norte-infraestructura-s-a.com.ar,outbound_research,Construcción,Córdoba,0.4618,lost,call
+LEAD_ACC00457,ACC00457,Sur Oil S.A.,Ana Benítez,Maintenance Manager,ana.benítez@sur-oil-s-a.com.ar,website_form,Minería,Río Negro,0.6512,lost,call
+LEAD_ACC00458,ACC00458,Andes Industrial Servicios,Pablo Molina,Engineering Manager,pablo.molina@andes-industrial-servicios.com.ar,outbound_research,Construcción,Córdoba,0.5153,proposal,call
+LEAD_ACC00459,ACC00459,Cumbre Servicios S.A.,Ana Fernández,Fleet Manager,ana.fernández@cumbre-servicios-s-a.com.ar,website_form,Manufactura,Santa Fe,0.436,proposal,call
+LEAD_ACC00460,ACC00460,Delta Energía Group,Carolina Sosa,HSE Manager,carolina.sosa@delta-energía-group.com.ar,website_form,Manufactura,Córdoba,0.7184,proposal,call
+LEAD_ACC00461,ACC00461,Delta Minera S.A.,Micaela Molina,Technical Director,micaela.molina@delta-minera-s-a.com.ar,public_directory,Oil & Gas,Santa Cruz,0.7992,won,schedule_visit
+LEAD_ACC00462,ACC00462,Norte Minera S.A.,Nicolás Pérez,Engineering Manager,nicolás.pérez@norte-minera-s-a.com.ar,website_form,Oil & Gas,Neuquén,0.7574,qualified,send_catalog
+LEAD_ACC00463,ACC00463,Andes Oil Argentina,Sofía Alvarez,Plant Manager,sofía.alvarez@andes-oil-argentina.com.ar,website_form,Minería,San Juan,0.7689,negotiation,call
+LEAD_ACC00464,ACC00464,Cumbre Oil Group,Micaela Herrera,Engineering Manager,micaela.herrera@cumbre-oil-group.com.ar,website_form,Construcción,Mendoza,0.6317,proposal,call
+LEAD_ACC00465,ACC00465,Pampa Servicios Servicios,Martín Torres,Plant Manager,martín.torres@pampa-servicios-servicios.com.ar,industry_event,Construcción,Córdoba,0.5438,qualified,send_quote
+LEAD_ACC00466,ACC00466,Delta Industrial S.R.L.,Sofía Benítez,Technical Director,sofía.benítez@delta-industrial-s-r-l.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.7846,won,schedule_visit
+LEAD_ACC00467,ACC00467,Andes Logística S.A.,Micaela Alvarez,Maintenance Manager,micaela.alvarez@andes-logística-s-a.com.ar,website_form,Energía,Mendoza,0.6334,proposal,send_catalog
+LEAD_ACC00468,ACC00468,Cumbre Solutions S.A.,Sofía Benítez,Plant Manager,sofía.benítez@cumbre-solutions-s-a.com.ar,website_form,Manufactura,Santa Fe,0.4343,proposal,send_quote
+LEAD_ACC00469,ACC00469,Delta Industrial Group,Marcos Ruiz,Fleet Manager,marcos.ruiz@delta-industrial-group.com.ar,public_directory,Construcción,CABA,0.6371,qualified,request_requirements
+LEAD_ACC00470,ACC00470,Patagonia Solutions Corp.,Lucía Herrera,Plant Manager,lucía.herrera@patagonia-solutions-corp.com.ar,partner_referral,Energía,Neuquén,0.799,new,schedule_visit
+LEAD_ACC00471,ACC00471,Cumbre Servicios Group,Pablo Díaz,Fleet Manager,pablo.díaz@cumbre-servicios-group.com.ar,partner_referral,Minería,Jujuy,0.7726,qualified,send_catalog
+LEAD_ACC00472,ACC00472,Delta Energía Argentina,Cecilia Alvarez,Plant Manager,cecilia.alvarez@delta-energía-argentina.com.ar,partner_referral,Energía,Neuquén,0.8844,qualified,send_catalog
+LEAD_ACC00473,ACC00473,Aconcagua Minera Argentina,Martín Gómez,Purchasing Analyst,martín.gómez@aconcagua-minera-argentina.com.ar,public_directory,Construcción,Santa Fe,0.6193,new,request_requirements
+LEAD_ACC00474,ACC00474,Litoral Tecnología S.A.,Lucía Herrera,Technical Director,lucía.herrera@litoral-tecnología-s-a.com.ar,outbound_research,Construcción,Santa Fe,0.5203,negotiation,schedule_visit
+LEAD_ACC00475,ACC00475,Pampa Minera Argentina,Valentina Gómez,Plant Manager,valentina.gómez@pampa-minera-argentina.com.ar,outbound_research,Minería,Santa Cruz,0.8165,negotiation,send_catalog
+LEAD_ACC00476,ACC00476,Sur Infraestructura S.R.L.,Federico Romero,Engineering Manager,federico.romero@sur-infraestructura-s-r-l.com.ar,partner_referral,Oil & Gas,Neuquén,0.841,negotiation,request_requirements
+LEAD_ACC00477,ACC00477,Austral Energía S.A.,Carolina Romero,HSE Manager,carolina.romero@austral-energía-s-a.com.ar,industry_event,Oil & Gas,Neuquén,0.6961,new,send_quote
+LEAD_ACC00478,ACC00478,Aconcagua Solutions Corp.,Javier Ruiz,Purchasing Analyst,javier.ruiz@aconcagua-solutions-corp.com.ar,website_form,Minería,Catamarca,0.5834,won,schedule_visit
+LEAD_ACC00479,ACC00479,Delta Minera Argentina,Nicolás Castro,Engineering Manager,nicolás.castro@delta-minera-argentina.com.ar,outbound_research,Energía,Mendoza,0.7515,won,send_catalog
+LEAD_ACC00480,ACC00480,Litoral Operaciones S.R.L.,Sofía López,Maintenance Manager,sofía.lópez@litoral-operaciones-s-r-l.com.ar,outbound_research,Minería,Catamarca,0.4933,negotiation,send_quote
+LEAD_ACC00481,ACC00481,Aconcagua Oil Corp.,Federico Castro,Maintenance Manager,federico.castro@aconcagua-oil-corp.com.ar,industry_event,Servicios,Buenos Aires,0.6525,won,schedule_visit
+LEAD_ACC00482,ACC00482,Cumbre Servicios Servicios,Lucía Gómez,Procurement Manager,lucía.gómez@cumbre-servicios-servicios.com.ar,partner_referral,Minería,Santa Cruz,0.7886,negotiation,send_quote
+LEAD_ACC00483,ACC00483,Litoral Minera S.R.L.,Valentina Gómez,Technical Director,valentina.gómez@litoral-minera-s-r-l.com.ar,partner_referral,Energía,Mendoza,0.5989,won,schedule_visit
+LEAD_ACC00484,ACC00484,Litoral Infraestructura S.R.L.,Pablo Ruiz,HSE Manager,pablo.ruiz@litoral-infraestructura-s-r-l.com.ar,website_form,Oil & Gas,Neuquén,0.568,new,call
+LEAD_ACC00485,ACC00485,Litoral Industrial Argentina,Nicolás Sosa,Technical Director,nicolás.sosa@litoral-industrial-argentina.com.ar,public_directory,Minería,Salta,0.6126,lost,schedule_visit
+LEAD_ACC00486,ACC00486,Patagonia Tecnología Group,Micaela Alvarez,Fleet Manager,micaela.alvarez@patagonia-tecnología-group.com.ar,industry_event,Servicios,Buenos Aires,0.7767,negotiation,call
+LEAD_ACC00487,ACC00487,Sur Servicios Argentina,Valentina Castro,Purchasing Analyst,valentina.castro@sur-servicios-argentina.com.ar,outbound_research,Energía,Buenos Aires,0.706,qualified,send_catalog
+LEAD_ACC00488,ACC00488,Pampa Solutions Group,Martín Fernández,HSE Manager,martín.fernández@pampa-solutions-group.com.ar,partner_referral,Construcción,Santa Fe,0.7543,won,send_catalog
+LEAD_ACC00489,ACC00489,Patagonia Minera Argentina,Micaela Sosa,Purchasing Analyst,micaela.sosa@patagonia-minera-argentina.com.ar,website_form,Energía,Neuquén,0.6373,proposal,request_requirements
+LEAD_ACC00490,ACC00490,Patagonia Energía S.R.L.,Sofía Torres,HSE Manager,sofía.torres@patagonia-energía-s-r-l.com.ar,outbound_research,Minería,Jujuy,0.703,won,send_catalog
+LEAD_ACC00491,ACC00491,Delta Minera Group,Ana Molina,Operations Manager,ana.molina@delta-minera-group.com.ar,industry_event,Minería,Río Negro,0.9921,proposal,schedule_visit
+LEAD_ACC00492,ACC00492,Sur Logística Corp.,Ana Sosa,Plant Manager,ana.sosa@sur-logística-corp.com.ar,industry_event,Construcción,Mendoza,0.8773,proposal,send_quote
+LEAD_ACC00493,ACC00493,Delta Logística Group,Javier Benítez,Project Manager,javier.benítez@delta-logística-group.com.ar,outbound_research,Minería,Salta,0.6981,new,schedule_visit
+LEAD_ACC00494,ACC00494,Pampa Energía S.A.,Diego Díaz,Project Manager,diego.díaz@pampa-energía-s-a.com.ar,industry_event,Manufactura,Santa Fe,0.8467,negotiation,send_catalog
+LEAD_ACC00495,ACC00495,Sur Minera Servicios,Valentina Sosa,Engineering Manager,valentina.sosa@sur-minera-servicios.com.ar,website_form,Minería,Salta,0.544,negotiation,send_catalog
+LEAD_ACC00496,ACC00496,Austral Oil Group,Micaela Gómez,Maintenance Manager,micaela.gómez@austral-oil-group.com.ar,public_directory,Servicios,Buenos Aires,0.6008,proposal,send_quote
+LEAD_ACC00497,ACC00497,Delta Oil S.A.,Lucía Díaz,Maintenance Manager,lucía.díaz@delta-oil-s-a.com.ar,outbound_research,Construcción,Mendoza,0.5255,new,send_quote
+LEAD_ACC00498,ACC00498,Austral Solutions Group,Diego Gómez,Procurement Manager,diego.gómez@austral-solutions-group.com.ar,partner_referral,Construcción,CABA,0.6258,lost,call
+LEAD_ACC00499,ACC00499,Andes Logística Corp.,Lucía Ruiz,Procurement Manager,lucía.ruiz@andes-logística-corp.com.ar,partner_referral,Oil & Gas,Chubut,0.914,lost,call
+LEAD_ACC00500,ACC00500,Patagonia Solutions Argentina,Diego López,Purchasing Analyst,diego.lópez@patagonia-solutions-argentina.com.ar,partner_referral,Minería,San Juan,0.8113,proposal,send_quote
+LEAD_ACC00501,ACC00501,Pampa Infraestructura Corp.,Nicolás Torres,Plant Manager,nicolás.torres@pampa-infraestructura-corp.com.ar,partner_referral,Manufactura,Buenos Aires,0.8038,lost,call
+LEAD_ACC00502,ACC00502,Delta Solutions S.R.L.,Carolina Alvarez,Maintenance Manager,carolina.alvarez@delta-solutions-s-r-l.com.ar,industry_event,Oil & Gas,Buenos Aires,0.7623,won,call
+LEAD_ACC00503,ACC00503,Andes Servicios Group,Marcos Pérez,Purchasing Analyst,marcos.pérez@andes-servicios-group.com.ar,partner_referral,Construcción,CABA,0.6202,won,send_catalog
+LEAD_ACC00504,ACC00504,Patagonia Infraestructura Corp.,Diego Romero,Plant Manager,diego.romero@patagonia-infraestructura-corp.com.ar,partner_referral,Energía,Córdoba,0.7349,negotiation,schedule_visit
+LEAD_ACC00505,ACC00505,Cumbre Industrial Group,Javier Pérez,Project Manager,javier.pérez@cumbre-industrial-group.com.ar,partner_referral,Construcción,Córdoba,0.6837,lost,send_catalog
+LEAD_ACC00506,ACC00506,Sur Industrial Group,Carolina Díaz,Purchasing Analyst,carolina.díaz@sur-industrial-group.com.ar,public_directory,Oil & Gas,Chubut,0.8289,negotiation,schedule_visit
+LEAD_ACC00507,ACC00507,Sur Infraestructura Group,Carolina Benítez,Engineering Manager,carolina.benítez@sur-infraestructura-group.com.ar,outbound_research,Construcción,Santa Fe,0.6194,negotiation,call
+LEAD_ACC00508,ACC00508,Delta Energía S.R.L.,Marcos Díaz,Plant Manager,marcos.díaz@delta-energía-s-r-l.com.ar,public_directory,Construcción,Mendoza,0.454,won,schedule_visit
+LEAD_ACC00509,ACC00509,Litoral Energía S.A.,Federico López,Fleet Manager,federico.lópez@litoral-energía-s-a.com.ar,industry_event,Energía,Buenos Aires,0.7361,negotiation,call
+LEAD_ACC00510,ACC00510,Norte Industrial Argentina,Nicolás López,Technical Director,nicolás.lópez@norte-industrial-argentina.com.ar,outbound_research,Energía,Santa Fe,0.5981,proposal,request_requirements
+LEAD_ACC00511,ACC00511,Patagonia Energía S.A.,Martín Pérez,HSE Manager,martín.pérez@patagonia-energía-s-a.com.ar,website_form,Oil & Gas,Neuquén,0.6857,lost,schedule_visit
+LEAD_ACC00512,ACC00512,Patagonia Infraestructura Argentina,Nicolás Romero,Engineering Manager,nicolás.romero@patagonia-infraestructura-argentina.com.ar,public_directory,Energía,Santa Fe,0.6368,won,schedule_visit
+LEAD_ACC00513,ACC00513,Norte Tecnología Group,Nicolás Torres,HSE Manager,nicolás.torres@norte-tecnología-group.com.ar,public_directory,Minería,Catamarca,0.7896,proposal,call
+LEAD_ACC00514,ACC00514,Pampa Solutions Group,Valentina Díaz,Project Manager,valentina.díaz@pampa-solutions-group.com.ar,website_form,Construcción,Buenos Aires,0.5846,won,send_catalog
+LEAD_ACC00515,ACC00515,Patagonia Servicios Group,Federico Alvarez,HSE Manager,federico.alvarez@patagonia-servicios-group.com.ar,partner_referral,Construcción,CABA,0.7042,new,schedule_visit
+LEAD_ACC00516,ACC00516,Sur Infraestructura Servicios,Micaela López,Project Manager,micaela.lópez@sur-infraestructura-servicios.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.8874,won,send_quote
+LEAD_ACC00517,ACC00517,Austral Operaciones Group,Diego Castro,Fleet Manager,diego.castro@austral-operaciones-group.com.ar,partner_referral,Servicios,Santa Fe,0.7582,negotiation,send_quote
+LEAD_ACC00518,ACC00518,Patagonia Operaciones Corp.,Sofía Romero,Project Manager,sofía.romero@patagonia-operaciones-corp.com.ar,public_directory,Servicios,Santa Fe,0.5326,qualified,call
+LEAD_ACC00519,ACC00519,Cumbre Operaciones S.A.,Pablo Fernández,Technical Director,pablo.fernández@cumbre-operaciones-s-a.com.ar,industry_event,Servicios,Córdoba,0.5217,won,call
+LEAD_ACC00520,ACC00520,Litoral Tecnología Corp.,Lucía Fernández,Procurement Manager,lucía.fernández@litoral-tecnología-corp.com.ar,partner_referral,Construcción,Mendoza,0.7662,proposal,send_quote
+LEAD_ACC00521,ACC00521,Patagonia Industrial S.A.,Federico Díaz,HSE Manager,federico.díaz@patagonia-industrial-s-a.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.7855,negotiation,call
+LEAD_ACC00522,ACC00522,Patagonia Oil Corp.,Pablo Castro,Maintenance Manager,pablo.castro@patagonia-oil-corp.com.ar,partner_referral,Construcción,Buenos Aires,0.6128,lost,send_quote
+LEAD_ACC00523,ACC00523,Patagonia Operaciones Corp.,Carolina Pérez,Engineering Manager,carolina.pérez@patagonia-operaciones-corp.com.ar,website_form,Energía,Buenos Aires,0.7577,won,send_quote
+LEAD_ACC00524,ACC00524,Norte Operaciones Corp.,Julia Torres,Engineering Manager,julia.torres@norte-operaciones-corp.com.ar,public_directory,Oil & Gas,Buenos Aires,0.5421,lost,schedule_visit
+LEAD_ACC00525,ACC00525,Andes Operaciones Group,Julia Molina,HSE Manager,julia.molina@andes-operaciones-group.com.ar,industry_event,Energía,Córdoba,0.715,negotiation,send_catalog
+LEAD_ACC00526,ACC00526,Sur Logística Argentina,Julia Díaz,Project Manager,julia.díaz@sur-logística-argentina.com.ar,partner_referral,Oil & Gas,Neuquén,0.9634,won,schedule_visit
+LEAD_ACC00527,ACC00527,Pampa Solutions Argentina,Cecilia Romero,Engineering Manager,cecilia.romero@pampa-solutions-argentina.com.ar,website_form,Minería,Río Negro,0.5346,lost,send_catalog
+LEAD_ACC00528,ACC00528,Litoral Operaciones Servicios,Lucía Benítez,Fleet Manager,lucía.benítez@litoral-operaciones-servicios.com.ar,public_directory,Oil & Gas,Chubut,0.8732,new,call
+LEAD_ACC00529,ACC00529,Litoral Energía Argentina,Valentina Herrera,Maintenance Manager,valentina.herrera@litoral-energía-argentina.com.ar,industry_event,Minería,Santa Cruz,0.7459,qualified,send_catalog
+LEAD_ACC00530,ACC00530,Pampa Infraestructura Group,Lucía Molina,Fleet Manager,lucía.molina@pampa-infraestructura-group.com.ar,outbound_research,Oil & Gas,Neuquén,0.7328,proposal,request_requirements
+LEAD_ACC00531,ACC00531,Cumbre Oil Corp.,Valentina Castro,Procurement Manager,valentina.castro@cumbre-oil-corp.com.ar,industry_event,Energía,Santa Fe,0.8885,won,call
+LEAD_ACC00532,ACC00532,Aconcagua Infraestructura Servicios,Marcos Castro,Engineering Manager,marcos.castro@aconcagua-infraestructura-servicios.com.ar,website_form,Energía,Córdoba,0.7105,negotiation,call
+LEAD_ACC00533,ACC00533,Austral Tecnología Corp.,Federico Benítez,Technical Director,federico.benítez@austral-tecnología-corp.com.ar,outbound_research,Energía,Mendoza,0.6108,negotiation,schedule_visit
+LEAD_ACC00534,ACC00534,Pampa Operaciones Group,Marcos Sosa,Fleet Manager,marcos.sosa@pampa-operaciones-group.com.ar,public_directory,Minería,Catamarca,0.5706,lost,call
+LEAD_ACC00535,ACC00535,Litoral Minera Servicios,Pablo Alvarez,Operations Manager,pablo.alvarez@litoral-minera-servicios.com.ar,outbound_research,Oil & Gas,Santa Cruz,0.7976,won,schedule_visit
+LEAD_ACC00536,ACC00536,Austral Servicios Argentina,Valentina Díaz,Plant Manager,valentina.díaz@austral-servicios-argentina.com.ar,website_form,Construcción,Córdoba,0.7528,negotiation,send_quote
+LEAD_ACC00537,ACC00537,Sur Energía Corp.,Lucía Fernández,Project Manager,lucía.fernández@sur-energía-corp.com.ar,public_directory,Minería,Catamarca,0.4885,new,schedule_visit
+LEAD_ACC00538,ACC00538,Cumbre Energía Group,Julia Molina,Fleet Manager,julia.molina@cumbre-energía-group.com.ar,outbound_research,Minería,Catamarca,0.653,negotiation,send_quote
+LEAD_ACC00539,ACC00539,Aconcagua Infraestructura Servicios,Pablo Torres,Technical Director,pablo.torres@aconcagua-infraestructura-servicios.com.ar,website_form,Oil & Gas,Chubut,0.645,negotiation,schedule_visit
+LEAD_ACC00540,ACC00540,Sur Minera Argentina,Federico Romero,Operations Manager,federico.romero@sur-minera-argentina.com.ar,public_directory,Minería,Salta,0.7881,proposal,request_requirements
+LEAD_ACC00541,ACC00541,Patagonia Oil S.R.L.,Ana Romero,Plant Manager,ana.romero@patagonia-oil-s-r-l.com.ar,partner_referral,Energía,Santa Fe,0.7249,won,send_quote
+LEAD_ACC00542,ACC00542,Pampa Servicios Corp.,Julia Herrera,HSE Manager,julia.herrera@pampa-servicios-corp.com.ar,partner_referral,Servicios,Buenos Aires,0.5692,new,call
+LEAD_ACC00543,ACC00543,Aconcagua Energía S.R.L.,Ana Torres,Project Manager,ana.torres@aconcagua-energía-s-r-l.com.ar,public_directory,Energía,Mendoza,0.6119,proposal,call
+LEAD_ACC00544,ACC00544,Delta Minera Argentina,Sofía López,Fleet Manager,sofía.lópez@delta-minera-argentina.com.ar,industry_event,Construcción,Buenos Aires,0.702,proposal,send_quote
+LEAD_ACC00545,ACC00545,Delta Tecnología Argentina,Federico Gómez,Plant Manager,federico.gómez@delta-tecnología-argentina.com.ar,partner_referral,Minería,Río Negro,0.8003,won,request_requirements
+LEAD_ACC00546,ACC00546,Pampa Energía Corp.,Micaela López,HSE Manager,micaela.lópez@pampa-energía-corp.com.ar,public_directory,Construcción,Córdoba,0.4592,proposal,schedule_visit
+LEAD_ACC00547,ACC00547,Litoral Solutions Group,Cecilia Gómez,Plant Manager,cecilia.gómez@litoral-solutions-group.com.ar,public_directory,Construcción,CABA,0.5157,proposal,call
+LEAD_ACC00548,ACC00548,Austral Operaciones Corp.,Diego Pérez,Project Manager,diego.pérez@austral-operaciones-corp.com.ar,outbound_research,Servicios,CABA,0.4544,new,send_catalog
+LEAD_ACC00549,ACC00549,Pampa Tecnología S.R.L.,Lucía Fernández,HSE Manager,lucía.fernández@pampa-tecnología-s-r-l.com.ar,outbound_research,Energía,Córdoba,0.6352,negotiation,call
+LEAD_ACC00550,ACC00550,Litoral Solutions Group,Ana Gómez,Engineering Manager,ana.gómez@litoral-solutions-group.com.ar,industry_event,Servicios,Buenos Aires,0.7396,qualified,send_catalog
+LEAD_ACC00551,ACC00551,Norte Energía S.A.,Federico Sosa,Engineering Manager,federico.sosa@norte-energía-s-a.com.ar,partner_referral,Minería,San Juan,0.7533,proposal,send_quote
+LEAD_ACC00552,ACC00552,Norte Oil Servicios,Pablo Molina,HSE Manager,pablo.molina@norte-oil-servicios.com.ar,industry_event,Construcción,Buenos Aires,0.7495,proposal,schedule_visit
+LEAD_ACC00553,ACC00553,Litoral Logística Corp.,Pablo López,Technical Director,pablo.lópez@litoral-logística-corp.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.7926,new,request_requirements
+LEAD_ACC00554,ACC00554,Sur Operaciones Group,Valentina Díaz,HSE Manager,valentina.díaz@sur-operaciones-group.com.ar,industry_event,Servicios,Santa Fe,0.6716,lost,call
+LEAD_ACC00555,ACC00555,Austral Minera S.A.,Lucía Díaz,Maintenance Manager,lucía.díaz@austral-minera-s-a.com.ar,website_form,Construcción,Mendoza,0.5259,new,schedule_visit
+LEAD_ACC00556,ACC00556,Litoral Logística Argentina,Micaela Pérez,Operations Manager,micaela.pérez@litoral-logística-argentina.com.ar,outbound_research,Oil & Gas,Buenos Aires,0.8647,negotiation,schedule_visit
+LEAD_ACC00557,ACC00557,Norte Tecnología Argentina,Diego Molina,Technical Director,diego.molina@norte-tecnología-argentina.com.ar,public_directory,Oil & Gas,Santa Cruz,0.641,won,send_catalog
+LEAD_ACC00558,ACC00558,Patagonia Logística S.A.,Ana Díaz,Purchasing Analyst,ana.díaz@patagonia-logística-s-a.com.ar,partner_referral,Minería,San Juan,0.8847,won,send_quote
+LEAD_ACC00559,ACC00559,Litoral Infraestructura Servicios,Valentina Pérez,Maintenance Manager,valentina.pérez@litoral-infraestructura-servicios.com.ar,public_directory,Oil & Gas,Buenos Aires,0.5898,proposal,schedule_visit
+LEAD_ACC00560,ACC00560,Sur Industrial Argentina,Lucía López,Purchasing Analyst,lucía.lópez@sur-industrial-argentina.com.ar,website_form,Oil & Gas,Neuquén,0.5784,negotiation,call
+LEAD_ACC00561,ACC00561,Aconcagua Operaciones Group,Diego Díaz,HSE Manager,diego.díaz@aconcagua-operaciones-group.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.7313,won,call
+LEAD_ACC00562,ACC00562,Austral Solutions Corp.,Cecilia Díaz,Purchasing Analyst,cecilia.díaz@austral-solutions-corp.com.ar,public_directory,Minería,Catamarca,0.8167,negotiation,call
+LEAD_ACC00563,ACC00563,Aconcagua Energía S.A.,Valentina López,Project Manager,valentina.lópez@aconcagua-energía-s-a.com.ar,outbound_research,Construcción,Mendoza,0.6725,proposal,send_quote
+LEAD_ACC00564,ACC00564,Litoral Infraestructura S.R.L.,Ana Torres,Plant Manager,ana.torres@litoral-infraestructura-s-r-l.com.ar,outbound_research,Minería,San Juan,0.6217,lost,send_quote
+LEAD_ACC00565,ACC00565,Patagonia Oil Corp.,Ana Romero,Engineering Manager,ana.romero@patagonia-oil-corp.com.ar,public_directory,Energía,Buenos Aires,0.5397,proposal,schedule_visit
+LEAD_ACC00566,ACC00566,Patagonia Minera S.R.L.,Marcos Ruiz,Plant Manager,marcos.ruiz@patagonia-minera-s-r-l.com.ar,partner_referral,Oil & Gas,CABA,0.5936,qualified,send_catalog
+LEAD_ACC00567,ACC00567,Norte Logística S.R.L.,Martín Molina,Engineering Manager,martín.molina@norte-logística-s-r-l.com.ar,public_directory,Construcción,Mendoza,0.5621,proposal,schedule_visit
+LEAD_ACC00568,ACC00568,Andes Servicios Argentina,Cecilia Herrera,Engineering Manager,cecilia.herrera@andes-servicios-argentina.com.ar,public_directory,Oil & Gas,Buenos Aires,0.6347,proposal,schedule_visit
+LEAD_ACC00569,ACC00569,Aconcagua Infraestructura S.A.,Cecilia Castro,Maintenance Manager,cecilia.castro@aconcagua-infraestructura-s-a.com.ar,website_form,Minería,Río Negro,0.5688,lost,send_quote
+LEAD_ACC00570,ACC00570,Aconcagua Oil S.R.L.,Ana Díaz,Purchasing Analyst,ana.díaz@aconcagua-oil-s-r-l.com.ar,partner_referral,Energía,Córdoba,0.7098,proposal,send_quote
+LEAD_ACC00571,ACC00571,Litoral Industrial Corp.,Lucía Sosa,Fleet Manager,lucía.sosa@litoral-industrial-corp.com.ar,partner_referral,Construcción,Mendoza,0.7597,negotiation,send_catalog
+LEAD_ACC00572,ACC00572,Litoral Tecnología Servicios,Marcos Pérez,HSE Manager,marcos.pérez@litoral-tecnología-servicios.com.ar,public_directory,Manufactura,Mendoza,0.6647,proposal,schedule_visit
+LEAD_ACC00573,ACC00573,Aconcagua Tecnología Group,Javier Pérez,Project Manager,javier.pérez@aconcagua-tecnología-group.com.ar,partner_referral,Construcción,Santa Fe,0.894,negotiation,send_quote
+LEAD_ACC00574,ACC00574,Norte Solutions Corp.,Lucía Romero,Project Manager,lucía.romero@norte-solutions-corp.com.ar,public_directory,Construcción,Buenos Aires,0.5976,negotiation,call
+LEAD_ACC00575,ACC00575,Aconcagua Operaciones Argentina,Carolina Sosa,Engineering Manager,carolina.sosa@aconcagua-operaciones-argentina.com.ar,outbound_research,Construcción,CABA,0.5624,lost,send_quote
+LEAD_ACC00576,ACC00576,Delta Tecnología Corp.,Ana Castro,Plant Manager,ana.castro@delta-tecnología-corp.com.ar,partner_referral,Energía,Córdoba,0.8528,negotiation,send_quote
+LEAD_ACC00577,ACC00577,Sur Servicios S.R.L.,Diego Fernández,Fleet Manager,diego.fernández@sur-servicios-s-r-l.com.ar,website_form,Servicios,Córdoba,0.5951,qualified,schedule_visit
+LEAD_ACC00578,ACC00578,Andes Oil Group,Julia Pérez,Fleet Manager,julia.pérez@andes-oil-group.com.ar,public_directory,Energía,Santa Fe,0.7059,won,call
+LEAD_ACC00579,ACC00579,Cumbre Tecnología S.A.,Diego Molina,Procurement Manager,diego.molina@cumbre-tecnología-s-a.com.ar,website_form,Servicios,CABA,0.5842,new,request_requirements
+LEAD_ACC00580,ACC00580,Litoral Energía S.R.L.,Ana Torres,Plant Manager,ana.torres@litoral-energía-s-r-l.com.ar,outbound_research,Minería,San Juan,0.553,new,send_catalog
+LEAD_ACC00581,ACC00581,Norte Oil S.R.L.,Micaela Gómez,Maintenance Manager,micaela.gómez@norte-oil-s-r-l.com.ar,partner_referral,Manufactura,Mendoza,0.5654,negotiation,send_catalog
+LEAD_ACC00582,ACC00582,Aconcagua Operaciones Corp.,Nicolás Benítez,Project Manager,nicolás.benítez@aconcagua-operaciones-corp.com.ar,industry_event,Energía,Córdoba,0.8125,lost,send_quote
+LEAD_ACC00583,ACC00583,Patagonia Logística Group,Valentina Pérez,Procurement Manager,valentina.pérez@patagonia-logística-group.com.ar,website_form,Construcción,Santa Fe,0.6408,new,call
+LEAD_ACC00584,ACC00584,Aconcagua Operaciones Argentina,Federico Fernández,Operations Manager,federico.fernández@aconcagua-operaciones-argentina.com.ar,industry_event,Oil & Gas,CABA,0.7622,proposal,schedule_visit
+LEAD_ACC00585,ACC00585,Pampa Oil Servicios,Julia Gómez,Fleet Manager,julia.gómez@pampa-oil-servicios.com.ar,partner_referral,Servicios,Santa Fe,0.6376,proposal,call
+LEAD_ACC00586,ACC00586,Austral Oil Group,Micaela Fernández,Maintenance Manager,micaela.fernández@austral-oil-group.com.ar,public_directory,Energía,Mendoza,0.7936,proposal,send_catalog
+LEAD_ACC00587,ACC00587,Norte Operaciones Servicios,Sofía Sosa,Fleet Manager,sofía.sosa@norte-operaciones-servicios.com.ar,industry_event,Manufactura,Córdoba,0.7516,won,schedule_visit
+LEAD_ACC00588,ACC00588,Norte Tecnología Argentina,Federico Alvarez,Procurement Manager,federico.alvarez@norte-tecnología-argentina.com.ar,public_directory,Construcción,Buenos Aires,0.628,negotiation,call
+LEAD_ACC00589,ACC00589,Cumbre Servicios Argentina,Federico Gómez,Engineering Manager,federico.gómez@cumbre-servicios-argentina.com.ar,industry_event,Minería,Salta,0.694,negotiation,call
+LEAD_ACC00590,ACC00590,Patagonia Energía S.A.,Pablo Molina,Fleet Manager,pablo.molina@patagonia-energía-s-a.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.9919,proposal,send_catalog
+LEAD_ACC00591,ACC00591,Cumbre Minera Argentina,Diego Ruiz,Plant Manager,diego.ruiz@cumbre-minera-argentina.com.ar,partner_referral,Energía,Mendoza,0.6422,negotiation,send_catalog
+LEAD_ACC00592,ACC00592,Delta Oil Servicios,Nicolás Sosa,HSE Manager,nicolás.sosa@delta-oil-servicios.com.ar,website_form,Energía,Mendoza,0.5846,lost,send_quote
+LEAD_ACC00593,ACC00593,Patagonia Logística Servicios,Lucía López,Operations Manager,lucía.lópez@patagonia-logística-servicios.com.ar,industry_event,Construcción,Mendoza,0.602,qualified,schedule_visit
+LEAD_ACC00594,ACC00594,Cumbre Operaciones S.A.,Carolina López,Plant Manager,carolina.lópez@cumbre-operaciones-s-a.com.ar,partner_referral,Energía,Córdoba,0.8139,lost,send_quote
+LEAD_ACC00595,ACC00595,Cumbre Infraestructura Servicios,Cecilia López,Project Manager,cecilia.lópez@cumbre-infraestructura-servicios.com.ar,partner_referral,Manufactura,Mendoza,0.7664,won,send_catalog
+LEAD_ACC00596,ACC00596,Litoral Servicios Argentina,Federico Ruiz,Technical Director,federico.ruiz@litoral-servicios-argentina.com.ar,public_directory,Energía,Mendoza,0.6063,negotiation,send_catalog
+LEAD_ACC00597,ACC00597,Patagonia Servicios Argentina,Carolina Molina,Operations Manager,carolina.molina@patagonia-servicios-argentina.com.ar,industry_event,Energía,Mendoza,0.7527,qualified,schedule_visit
+LEAD_ACC00598,ACC00598,Cumbre Industrial Servicios,Carolina Torres,Technical Director,carolina.torres@cumbre-industrial-servicios.com.ar,website_form,Oil & Gas,CABA,0.6606,negotiation,request_requirements
+LEAD_ACC00599,ACC00599,Cumbre Minera S.A.,Pablo Castro,HSE Manager,pablo.castro@cumbre-minera-s-a.com.ar,website_form,Minería,Jujuy,0.7289,qualified,schedule_visit
+LEAD_ACC00600,ACC00600,Norte Energía S.A.,Sofía Herrera,Technical Director,sofía.herrera@norte-energía-s-a.com.ar,outbound_research,Manufactura,Córdoba,0.596,qualified,schedule_visit
+LEAD_ACC00601,ACC00601,Cumbre Logística S.R.L.,Carolina Díaz,HSE Manager,carolina.díaz@cumbre-logística-s-r-l.com.ar,website_form,Servicios,Buenos Aires,0.5793,negotiation,call
+LEAD_ACC00602,ACC00602,Pampa Solutions Servicios,Marcos Molina,Procurement Manager,marcos.molina@pampa-solutions-servicios.com.ar,partner_referral,Minería,Catamarca,0.704,negotiation,call
+LEAD_ACC00603,ACC00603,Litoral Industrial Corp.,Federico Sosa,Purchasing Analyst,federico.sosa@litoral-industrial-corp.com.ar,public_directory,Energía,Mendoza,0.7112,new,schedule_visit
+LEAD_ACC00604,ACC00604,Cumbre Operaciones Corp.,Julia Molina,Operations Manager,julia.molina@cumbre-operaciones-corp.com.ar,outbound_research,Construcción,CABA,0.6987,proposal,request_requirements
+LEAD_ACC00605,ACC00605,Andes Minera Servicios,Federico Herrera,HSE Manager,federico.herrera@andes-minera-servicios.com.ar,website_form,Servicios,Santa Fe,0.6435,proposal,call
+LEAD_ACC00606,ACC00606,Sur Solutions Servicios,Pablo Romero,HSE Manager,pablo.romero@sur-solutions-servicios.com.ar,public_directory,Minería,Río Negro,0.8892,proposal,schedule_visit
+LEAD_ACC00607,ACC00607,Norte Operaciones S.R.L.,Cecilia Romero,Plant Manager,cecilia.romero@norte-operaciones-s-r-l.com.ar,industry_event,Oil & Gas,Santa Cruz,0.8524,new,schedule_visit
+LEAD_ACC00608,ACC00608,Pampa Minera Servicios,Sofía Gómez,Engineering Manager,sofía.gómez@pampa-minera-servicios.com.ar,website_form,Construcción,Córdoba,0.5805,won,request_requirements
+LEAD_ACC00609,ACC00609,Aconcagua Oil S.A.,Micaela Ruiz,Technical Director,micaela.ruiz@aconcagua-oil-s-a.com.ar,partner_referral,Oil & Gas,CABA,0.894,qualified,request_requirements
+LEAD_ACC00610,ACC00610,Andes Energía Corp.,Ana Pérez,Project Manager,ana.pérez@andes-energía-corp.com.ar,outbound_research,Minería,Jujuy,0.5327,lost,request_requirements
+LEAD_ACC00611,ACC00611,Pampa Solutions Corp.,Javier Ruiz,Technical Director,javier.ruiz@pampa-solutions-corp.com.ar,public_directory,Oil & Gas,CABA,0.7191,proposal,request_requirements
+LEAD_ACC00612,ACC00612,Austral Solutions Argentina,Julia Sosa,Purchasing Analyst,julia.sosa@austral-solutions-argentina.com.ar,website_form,Manufactura,Mendoza,0.7886,lost,send_quote
+LEAD_ACC00613,ACC00613,Andes Oil Servicios,Sofía Pérez,Fleet Manager,sofía.pérez@andes-oil-servicios.com.ar,website_form,Construcción,Córdoba,0.3828,negotiation,call
+LEAD_ACC00614,ACC00614,Patagonia Oil Corp.,Diego Molina,Purchasing Analyst,diego.molina@patagonia-oil-corp.com.ar,outbound_research,Manufactura,Mendoza,0.7949,proposal,request_requirements
+LEAD_ACC00615,ACC00615,Sur Energía Servicios,Federico Ruiz,Fleet Manager,federico.ruiz@sur-energía-servicios.com.ar,partner_referral,Minería,San Juan,0.743,proposal,request_requirements
+LEAD_ACC00616,ACC00616,Patagonia Industrial Corp.,Julia Fernández,Technical Director,julia.fernández@patagonia-industrial-corp.com.ar,industry_event,Minería,Catamarca,0.8353,proposal,call
+LEAD_ACC00617,ACC00617,Sur Oil S.R.L.,Julia Pérez,Plant Manager,julia.pérez@sur-oil-s-r-l.com.ar,website_form,Oil & Gas,Chubut,0.5538,qualified,schedule_visit
+LEAD_ACC00618,ACC00618,Sur Energía S.R.L.,Javier Alvarez,Purchasing Analyst,javier.alvarez@sur-energía-s-r-l.com.ar,industry_event,Servicios,CABA,0.5972,qualified,send_quote
+LEAD_ACC00619,ACC00619,Norte Operaciones Corp.,Diego Ruiz,Operations Manager,diego.ruiz@norte-operaciones-corp.com.ar,public_directory,Construcción,Santa Fe,0.6172,negotiation,send_quote
+LEAD_ACC00620,ACC00620,Cumbre Energía Group,Pablo Castro,Purchasing Analyst,pablo.castro@cumbre-energía-group.com.ar,outbound_research,Minería,San Juan,0.6526,won,request_requirements
+LEAD_ACC00621,ACC00621,Delta Oil Group,Diego Benítez,Engineering Manager,diego.benítez@delta-oil-group.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.9481,proposal,call
+LEAD_ACC00622,ACC00622,Austral Logística Group,Javier Castro,Operations Manager,javier.castro@austral-logística-group.com.ar,industry_event,Oil & Gas,CABA,0.8208,qualified,call
+LEAD_ACC00623,ACC00623,Pampa Oil Servicios,Valentina Castro,Procurement Manager,valentina.castro@pampa-oil-servicios.com.ar,outbound_research,Construcción,CABA,0.5171,qualified,call
+LEAD_ACC00624,ACC00624,Cumbre Logística Servicios,Pablo Castro,Fleet Manager,pablo.castro@cumbre-logística-servicios.com.ar,outbound_research,Oil & Gas,Buenos Aires,0.6707,won,request_requirements
+LEAD_ACC00625,ACC00625,Pampa Minera Servicios,Cecilia Pérez,HSE Manager,cecilia.pérez@pampa-minera-servicios.com.ar,industry_event,Manufactura,Santa Fe,0.5706,won,call
+LEAD_ACC00626,ACC00626,Andes Energía Group,Cecilia Alvarez,Procurement Manager,cecilia.alvarez@andes-energía-group.com.ar,partner_referral,Oil & Gas,Neuquén,0.8961,negotiation,call
+LEAD_ACC00627,ACC00627,Norte Servicios S.R.L.,Julia Castro,Maintenance Manager,julia.castro@norte-servicios-s-r-l.com.ar,public_directory,Servicios,Buenos Aires,0.4555,proposal,send_catalog
+LEAD_ACC00628,ACC00628,Delta Operaciones Argentina,Federico Gómez,HSE Manager,federico.gómez@delta-operaciones-argentina.com.ar,partner_referral,Manufactura,Buenos Aires,0.6708,won,send_quote
+LEAD_ACC00629,ACC00629,Patagonia Energía S.R.L.,Ana Torres,Operations Manager,ana.torres@patagonia-energía-s-r-l.com.ar,partner_referral,Servicios,Santa Fe,0.6133,qualified,request_requirements
+LEAD_ACC00630,ACC00630,Cumbre Tecnología S.R.L.,Cecilia Gómez,Maintenance Manager,cecilia.gómez@cumbre-tecnología-s-r-l.com.ar,website_form,Servicios,Buenos Aires,0.5085,negotiation,call
+LEAD_ACC00631,ACC00631,Patagonia Minera Argentina,Lucía Torres,Fleet Manager,lucía.torres@patagonia-minera-argentina.com.ar,public_directory,Servicios,Santa Fe,0.4601,qualified,send_quote
+LEAD_ACC00632,ACC00632,Litoral Minera Corp.,Micaela Pérez,Fleet Manager,micaela.pérez@litoral-minera-corp.com.ar,public_directory,Minería,Salta,0.7017,proposal,schedule_visit
+LEAD_ACC00633,ACC00633,Pampa Infraestructura Corp.,Valentina Díaz,Purchasing Analyst,valentina.díaz@pampa-infraestructura-corp.com.ar,industry_event,Energía,Córdoba,0.7612,negotiation,schedule_visit
+LEAD_ACC00634,ACC00634,Pampa Tecnología S.A.,Federico Herrera,Fleet Manager,federico.herrera@pampa-tecnología-s-a.com.ar,partner_referral,Minería,Santa Cruz,0.6855,qualified,send_quote
+LEAD_ACC00635,ACC00635,Delta Minera S.R.L.,Javier Ruiz,Engineering Manager,javier.ruiz@delta-minera-s-r-l.com.ar,website_form,Minería,San Juan,0.7819,new,schedule_visit
+LEAD_ACC00636,ACC00636,Patagonia Energía S.A.,Sofía Gómez,HSE Manager,sofía.gómez@patagonia-energía-s-a.com.ar,outbound_research,Construcción,Córdoba,0.6311,new,schedule_visit
+LEAD_ACC00637,ACC00637,Cumbre Servicios Argentina,Ana Pérez,Project Manager,ana.pérez@cumbre-servicios-argentina.com.ar,industry_event,Construcción,Córdoba,0.4985,negotiation,schedule_visit
+LEAD_ACC00638,ACC00638,Austral Servicios Corp.,Marcos Castro,Plant Manager,marcos.castro@austral-servicios-corp.com.ar,partner_referral,Construcción,Buenos Aires,0.6918,qualified,send_catalog
+LEAD_ACC00639,ACC00639,Patagonia Logística S.R.L.,Pablo Pérez,HSE Manager,pablo.pérez@patagonia-logística-s-r-l.com.ar,outbound_research,Construcción,Mendoza,0.5761,qualified,call
+LEAD_ACC00640,ACC00640,Andes Minera Argentina,Pablo Romero,Operations Manager,pablo.romero@andes-minera-argentina.com.ar,partner_referral,Oil & Gas,Santa Cruz,0.7549,new,schedule_visit
+LEAD_ACC00641,ACC00641,Delta Servicios Group,Julia Díaz,Technical Director,julia.díaz@delta-servicios-group.com.ar,partner_referral,Energía,Neuquén,0.9426,proposal,schedule_visit
+LEAD_ACC00642,ACC00642,Norte Energía S.R.L.,Valentina Romero,Project Manager,valentina.romero@norte-energía-s-r-l.com.ar,public_directory,Oil & Gas,CABA,0.657,new,schedule_visit
+LEAD_ACC00643,ACC00643,Pampa Solutions Group,Martín Díaz,Plant Manager,martín.díaz@pampa-solutions-group.com.ar,website_form,Manufactura,Mendoza,0.7421,won,send_catalog
+LEAD_ACC00644,ACC00644,Aconcagua Minera Argentina,Micaela Benítez,Maintenance Manager,micaela.benítez@aconcagua-minera-argentina.com.ar,outbound_research,Servicios,Buenos Aires,0.7449,won,schedule_visit
+LEAD_ACC00645,ACC00645,Cumbre Tecnología Group,Diego Romero,Engineering Manager,diego.romero@cumbre-tecnología-group.com.ar,industry_event,Construcción,Mendoza,0.6136,proposal,call
+LEAD_ACC00646,ACC00646,Sur Tecnología Corp.,Micaela Benítez,Operations Manager,micaela.benítez@sur-tecnología-corp.com.ar,website_form,Manufactura,Santa Fe,0.7182,lost,call
+LEAD_ACC00647,ACC00647,Cumbre Servicios Corp.,Sofía Romero,Purchasing Analyst,sofía.romero@cumbre-servicios-corp.com.ar,partner_referral,Manufactura,Córdoba,0.8001,new,send_catalog
+LEAD_ACC00648,ACC00648,Delta Infraestructura Argentina,Cecilia Díaz,Maintenance Manager,cecilia.díaz@delta-infraestructura-argentina.com.ar,outbound_research,Minería,Catamarca,0.7107,won,request_requirements
+LEAD_ACC00649,ACC00649,Patagonia Oil Group,Nicolás Torres,Operations Manager,nicolás.torres@patagonia-oil-group.com.ar,public_directory,Servicios,CABA,0.6938,proposal,request_requirements
+LEAD_ACC00650,ACC00650,Sur Operaciones S.R.L.,Diego Sosa,Engineering Manager,diego.sosa@sur-operaciones-s-r-l.com.ar,outbound_research,Construcción,Mendoza,0.5347,won,request_requirements
+LEAD_ACC00651,ACC00651,Litoral Servicios Corp.,Sofía Torres,Procurement Manager,sofía.torres@litoral-servicios-corp.com.ar,website_form,Oil & Gas,CABA,0.6327,negotiation,schedule_visit
+LEAD_ACC00652,ACC00652,Patagonia Industrial Argentina,Carolina Fernández,Maintenance Manager,carolina.fernández@patagonia-industrial-argentina.com.ar,outbound_research,Energía,Mendoza,0.6418,negotiation,send_catalog
+LEAD_ACC00653,ACC00653,Patagonia Operaciones Argentina,Lucía Fernández,Project Manager,lucía.fernández@patagonia-operaciones-argentina.com.ar,website_form,Construcción,Santa Fe,0.4335,negotiation,schedule_visit
+LEAD_ACC00654,ACC00654,Andes Operaciones S.A.,Cecilia Alvarez,Technical Director,cecilia.alvarez@andes-operaciones-s-a.com.ar,website_form,Manufactura,Santa Fe,0.6384,qualified,call
+LEAD_ACC00655,ACC00655,Patagonia Logística Group,Pablo Molina,Maintenance Manager,pablo.molina@patagonia-logística-group.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.5868,proposal,schedule_visit
+LEAD_ACC00656,ACC00656,Andes Operaciones Argentina,Micaela Molina,Maintenance Manager,micaela.molina@andes-operaciones-argentina.com.ar,outbound_research,Oil & Gas,Chubut,0.7633,negotiation,send_quote
+LEAD_ACC00657,ACC00657,Norte Tecnología Corp.,Pablo Alvarez,HSE Manager,pablo.alvarez@norte-tecnología-corp.com.ar,public_directory,Oil & Gas,Santa Cruz,0.6743,proposal,call
+LEAD_ACC00658,ACC00658,Delta Logística S.R.L.,Federico Ruiz,Fleet Manager,federico.ruiz@delta-logística-s-r-l.com.ar,website_form,Servicios,Santa Fe,0.7012,won,call
+LEAD_ACC00659,ACC00659,Austral Tecnología Argentina,Pablo Ruiz,Procurement Manager,pablo.ruiz@austral-tecnología-argentina.com.ar,website_form,Minería,Río Negro,0.7628,proposal,send_quote
+LEAD_ACC00660,ACC00660,Litoral Infraestructura S.R.L.,Javier Fernández,Technical Director,javier.fernández@litoral-infraestructura-s-r-l.com.ar,outbound_research,Oil & Gas,Santa Cruz,0.7451,new,call
+LEAD_ACC00661,ACC00661,Sur Industrial Servicios,Federico Fernández,HSE Manager,federico.fernández@sur-industrial-servicios.com.ar,website_form,Manufactura,Santa Fe,0.4503,new,schedule_visit
+LEAD_ACC00662,ACC00662,Pampa Tecnología Corp.,Diego Castro,Procurement Manager,diego.castro@pampa-tecnología-corp.com.ar,website_form,Oil & Gas,Neuquén,0.691,new,send_quote
+LEAD_ACC00663,ACC00663,Delta Energía S.R.L.,Lucía Benítez,HSE Manager,lucía.benítez@delta-energía-s-r-l.com.ar,partner_referral,Construcción,CABA,0.6407,qualified,call
+LEAD_ACC00664,ACC00664,Norte Tecnología Corp.,Ana Fernández,HSE Manager,ana.fernández@norte-tecnología-corp.com.ar,website_form,Oil & Gas,Santa Cruz,0.7391,new,schedule_visit
+LEAD_ACC00665,ACC00665,Austral Tecnología Argentina,Pablo Molina,Purchasing Analyst,pablo.molina@austral-tecnología-argentina.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.7868,won,send_quote
+LEAD_ACC00666,ACC00666,Austral Servicios Servicios,Valentina Castro,Project Manager,valentina.castro@austral-servicios-servicios.com.ar,partner_referral,Construcción,Córdoba,0.6157,negotiation,schedule_visit
+LEAD_ACC00667,ACC00667,Pampa Servicios S.R.L.,Carolina Benítez,Engineering Manager,carolina.benítez@pampa-servicios-s-r-l.com.ar,industry_event,Oil & Gas,Santa Cruz,0.7162,proposal,call
+LEAD_ACC00668,ACC00668,Cumbre Energía Corp.,Javier Torres,Maintenance Manager,javier.torres@cumbre-energía-corp.com.ar,public_directory,Minería,San Juan,0.7981,qualified,send_catalog
+LEAD_ACC00669,ACC00669,Sur Industrial Argentina,Micaela Molina,Procurement Manager,micaela.molina@sur-industrial-argentina.com.ar,outbound_research,Minería,Río Negro,0.5383,lost,send_quote
+LEAD_ACC00670,ACC00670,Cumbre Minera Argentina,Martín Alvarez,Maintenance Manager,martín.alvarez@cumbre-minera-argentina.com.ar,outbound_research,Construcción,CABA,0.7735,negotiation,send_catalog
+LEAD_ACC00671,ACC00671,Pampa Operaciones S.R.L.,Ana Ruiz,Maintenance Manager,ana.ruiz@pampa-operaciones-s-r-l.com.ar,public_directory,Construcción,Buenos Aires,0.5687,lost,request_requirements
+LEAD_ACC00672,ACC00672,Cumbre Logística S.R.L.,Micaela Pérez,Maintenance Manager,micaela.pérez@cumbre-logística-s-r-l.com.ar,partner_referral,Construcción,Buenos Aires,0.7214,won,send_catalog
+LEAD_ACC00673,ACC00673,Austral Operaciones Argentina,Cecilia Pérez,HSE Manager,cecilia.pérez@austral-operaciones-argentina.com.ar,industry_event,Oil & Gas,Neuquén,0.8249,qualified,send_catalog
+LEAD_ACC00674,ACC00674,Cumbre Solutions S.R.L.,Marcos Gómez,Fleet Manager,marcos.gómez@cumbre-solutions-s-r-l.com.ar,outbound_research,Oil & Gas,Neuquén,0.7463,proposal,send_quote
+LEAD_ACC00675,ACC00675,Delta Energía Group,Micaela Romero,Maintenance Manager,micaela.romero@delta-energía-group.com.ar,industry_event,Manufactura,Buenos Aires,0.6902,negotiation,send_quote
+LEAD_ACC00676,ACC00676,Andes Infraestructura S.A.,Lucía Ruiz,Maintenance Manager,lucía.ruiz@andes-infraestructura-s-a.com.ar,website_form,Construcción,Buenos Aires,0.6944,negotiation,request_requirements
+LEAD_ACC00677,ACC00677,Sur Logística Argentina,Ana Romero,Procurement Manager,ana.romero@sur-logística-argentina.com.ar,industry_event,Energía,Santa Fe,0.7872,qualified,call
+LEAD_ACC00678,ACC00678,Andes Minera Argentina,Diego Gómez,Purchasing Analyst,diego.gómez@andes-minera-argentina.com.ar,outbound_research,Servicios,Córdoba,0.561,negotiation,request_requirements
+LEAD_ACC00679,ACC00679,Litoral Tecnología Argentina,Carolina Molina,HSE Manager,carolina.molina@litoral-tecnología-argentina.com.ar,website_form,Servicios,Buenos Aires,0.6341,new,send_quote
+LEAD_ACC00680,ACC00680,Litoral Solutions Servicios,Marcos Benítez,Fleet Manager,marcos.benítez@litoral-solutions-servicios.com.ar,website_form,Minería,Catamarca,0.5771,qualified,schedule_visit
+LEAD_ACC00681,ACC00681,Delta Oil Servicios,Martín Castro,HSE Manager,martín.castro@delta-oil-servicios.com.ar,industry_event,Minería,Santa Cruz,0.7609,won,call
+LEAD_ACC00682,ACC00682,Austral Solutions S.R.L.,Federico Sosa,Maintenance Manager,federico.sosa@austral-solutions-s-r-l.com.ar,website_form,Manufactura,Buenos Aires,0.7285,won,schedule_visit
+LEAD_ACC00683,ACC00683,Norte Minera Argentina,Lucía Gómez,Technical Director,lucía.gómez@norte-minera-argentina.com.ar,partner_referral,Manufactura,Córdoba,0.7438,won,send_catalog
+LEAD_ACC00684,ACC00684,Sur Operaciones Argentina,Martín Herrera,Purchasing Analyst,martín.herrera@sur-operaciones-argentina.com.ar,partner_referral,Construcción,Santa Fe,0.7671,new,request_requirements
+LEAD_ACC00685,ACC00685,Sur Tecnología S.R.L.,Ana Díaz,Operations Manager,ana.díaz@sur-tecnología-s-r-l.com.ar,industry_event,Minería,Catamarca,0.8686,qualified,request_requirements
+LEAD_ACC00686,ACC00686,Aconcagua Operaciones Group,Federico Ruiz,Plant Manager,federico.ruiz@aconcagua-operaciones-group.com.ar,outbound_research,Oil & Gas,CABA,0.6637,qualified,schedule_visit
+LEAD_ACC00687,ACC00687,Litoral Logística S.R.L.,Sofía Romero,Operations Manager,sofía.romero@litoral-logística-s-r-l.com.ar,partner_referral,Oil & Gas,Neuquén,0.7614,lost,schedule_visit
+LEAD_ACC00688,ACC00688,Sur Infraestructura Servicios,Sofía Castro,Technical Director,sofía.castro@sur-infraestructura-servicios.com.ar,public_directory,Construcción,Buenos Aires,0.6527,proposal,schedule_visit
+LEAD_ACC00689,ACC00689,Sur Servicios Argentina,Martín Benítez,Technical Director,martín.benítez@sur-servicios-argentina.com.ar,outbound_research,Construcción,Mendoza,0.4878,qualified,schedule_visit
+LEAD_ACC00690,ACC00690,Delta Industrial Servicios,Martín Pérez,Fleet Manager,martín.pérez@delta-industrial-servicios.com.ar,industry_event,Construcción,Córdoba,0.6292,new,request_requirements
+LEAD_ACC00691,ACC00691,Pampa Oil Corp.,Cecilia Ruiz,Operations Manager,cecilia.ruiz@pampa-oil-corp.com.ar,public_directory,Construcción,Córdoba,0.5208,won,request_requirements
+LEAD_ACC00692,ACC00692,Litoral Minera Group,Diego Sosa,Procurement Manager,diego.sosa@litoral-minera-group.com.ar,outbound_research,Construcción,Santa Fe,0.4912,proposal,schedule_visit
+LEAD_ACC00693,ACC00693,Delta Operaciones Corp.,Julia Herrera,HSE Manager,julia.herrera@delta-operaciones-corp.com.ar,partner_referral,Manufactura,Buenos Aires,0.6664,qualified,call
+LEAD_ACC00694,ACC00694,Delta Operaciones S.R.L.,Pablo Ruiz,Maintenance Manager,pablo.ruiz@delta-operaciones-s-r-l.com.ar,industry_event,Construcción,Santa Fe,0.8004,negotiation,send_catalog
+LEAD_ACC00695,ACC00695,Aconcagua Infraestructura Argentina,Lucía Romero,Plant Manager,lucía.romero@aconcagua-infraestructura-argentina.com.ar,website_form,Servicios,CABA,0.5457,proposal,send_catalog
+LEAD_ACC00696,ACC00696,Norte Energía Servicios,Lucía Sosa,Fleet Manager,lucía.sosa@norte-energía-servicios.com.ar,partner_referral,Energía,Neuquén,0.87,proposal,schedule_visit
+LEAD_ACC00697,ACC00697,Aconcagua Industrial Corp.,Julia Gómez,HSE Manager,julia.gómez@aconcagua-industrial-corp.com.ar,public_directory,Oil & Gas,CABA,0.6855,qualified,send_quote
+LEAD_ACC00698,ACC00698,Cumbre Servicios S.A.,Cecilia López,HSE Manager,cecilia.lópez@cumbre-servicios-s-a.com.ar,outbound_research,Manufactura,Santa Fe,0.71,negotiation,schedule_visit
+LEAD_ACC00699,ACC00699,Patagonia Oil Group,Federico Benítez,Engineering Manager,federico.benítez@patagonia-oil-group.com.ar,website_form,Minería,Catamarca,0.5705,won,call
+LEAD_ACC00700,ACC00700,Cumbre Minera Argentina,Lucía Pérez,Plant Manager,lucía.pérez@cumbre-minera-argentina.com.ar,industry_event,Construcción,Mendoza,0.7361,proposal,request_requirements
+LEAD_ACC00701,ACC00701,Andes Solutions S.R.L.,Cecilia Sosa,Procurement Manager,cecilia.sosa@andes-solutions-s-r-l.com.ar,outbound_research,Oil & Gas,Neuquén,0.6826,negotiation,call
+LEAD_ACC00702,ACC00702,Aconcagua Energía Servicios,Carolina Díaz,Procurement Manager,carolina.díaz@aconcagua-energía-servicios.com.ar,outbound_research,Minería,Río Negro,0.5301,won,request_requirements
+LEAD_ACC00703,ACC00703,Pampa Energía Argentina,Marcos Torres,Plant Manager,marcos.torres@pampa-energía-argentina.com.ar,outbound_research,Energía,Córdoba,0.6805,won,send_catalog
+LEAD_ACC00704,ACC00704,Aconcagua Operaciones S.A.,Julia Díaz,Plant Manager,julia.díaz@aconcagua-operaciones-s-a.com.ar,website_form,Oil & Gas,Santa Cruz,0.7728,qualified,send_quote
+LEAD_ACC00705,ACC00705,Norte Servicios S.R.L.,Diego Fernández,Technical Director,diego.fernández@norte-servicios-s-r-l.com.ar,outbound_research,Construcción,Córdoba,0.4227,proposal,send_catalog
+LEAD_ACC00706,ACC00706,Litoral Energía Servicios,Carolina Molina,Plant Manager,carolina.molina@litoral-energía-servicios.com.ar,public_directory,Energía,Santa Fe,0.7054,negotiation,schedule_visit
+LEAD_ACC00707,ACC00707,Sur Oil Servicios,Carolina Alvarez,Project Manager,carolina.alvarez@sur-oil-servicios.com.ar,website_form,Minería,San Juan,0.665,proposal,call
+LEAD_ACC00708,ACC00708,Andes Logística Argentina,Pablo López,Maintenance Manager,pablo.lópez@andes-logística-argentina.com.ar,partner_referral,Minería,Río Negro,0.8655,new,schedule_visit
+LEAD_ACC00709,ACC00709,Pampa Infraestructura Argentina,Martín Gómez,HSE Manager,martín.gómez@pampa-infraestructura-argentina.com.ar,industry_event,Minería,San Juan,0.6624,lost,call
+LEAD_ACC00710,ACC00710,Cumbre Industrial S.A.,Micaela Romero,Operations Manager,micaela.romero@cumbre-industrial-s-a.com.ar,website_form,Minería,Catamarca,0.7239,negotiation,send_quote
+LEAD_ACC00711,ACC00711,Austral Energía Corp.,Carolina Herrera,Fleet Manager,carolina.herrera@austral-energía-corp.com.ar,website_form,Oil & Gas,Buenos Aires,0.7529,qualified,call
+LEAD_ACC00712,ACC00712,Litoral Servicios Argentina,Cecilia Benítez,Engineering Manager,cecilia.benítez@litoral-servicios-argentina.com.ar,outbound_research,Servicios,CABA,0.4647,qualified,schedule_visit
+LEAD_ACC00713,ACC00713,Sur Solutions Servicios,Marcos López,Purchasing Analyst,marcos.lópez@sur-solutions-servicios.com.ar,industry_event,Minería,Salta,0.9446,qualified,send_catalog
+LEAD_ACC00714,ACC00714,Cumbre Minera S.A.,Julia Ruiz,Plant Manager,julia.ruiz@cumbre-minera-s-a.com.ar,industry_event,Servicios,CABA,0.6319,proposal,schedule_visit
+LEAD_ACC00715,ACC00715,Patagonia Operaciones Corp.,Valentina Alvarez,Maintenance Manager,valentina.alvarez@patagonia-operaciones-corp.com.ar,outbound_research,Oil & Gas,Chubut,0.8171,qualified,send_quote
+LEAD_ACC00716,ACC00716,Litoral Operaciones Group,Marcos Herrera,Maintenance Manager,marcos.herrera@litoral-operaciones-group.com.ar,public_directory,Construcción,Córdoba,0.6344,negotiation,send_quote
+LEAD_ACC00717,ACC00717,Sur Operaciones S.A.,Sofía Romero,Procurement Manager,sofía.romero@sur-operaciones-s-a.com.ar,website_form,Manufactura,Santa Fe,0.7279,new,send_catalog
+LEAD_ACC00718,ACC00718,Delta Solutions Corp.,Federico Benítez,Operations Manager,federico.benítez@delta-solutions-corp.com.ar,partner_referral,Energía,Santa Fe,0.7458,new,call
+LEAD_ACC00719,ACC00719,Patagonia Energía S.A.,Diego Díaz,Engineering Manager,diego.díaz@patagonia-energía-s-a.com.ar,outbound_research,Energía,Mendoza,0.6514,proposal,send_catalog
+LEAD_ACC00720,ACC00720,Norte Infraestructura Corp.,Sofía Herrera,Fleet Manager,sofía.herrera@norte-infraestructura-corp.com.ar,outbound_research,Construcción,Mendoza,0.6153,negotiation,send_quote
+LEAD_ACC00721,ACC00721,Pampa Operaciones S.R.L.,Cecilia Fernández,Purchasing Analyst,cecilia.fernández@pampa-operaciones-s-r-l.com.ar,public_directory,Construcción,Córdoba,0.4486,negotiation,call
+LEAD_ACC00722,ACC00722,Delta Operaciones S.A.,Marcos Fernández,Plant Manager,marcos.fernández@delta-operaciones-s-a.com.ar,partner_referral,Construcción,CABA,0.6634,won,request_requirements
+LEAD_ACC00723,ACC00723,Pampa Solutions Group,Valentina Torres,Maintenance Manager,valentina.torres@pampa-solutions-group.com.ar,website_form,Minería,Santa Cruz,0.6627,new,call
+LEAD_ACC00724,ACC00724,Sur Industrial S.R.L.,Julia Fernández,HSE Manager,julia.fernández@sur-industrial-s-r-l.com.ar,industry_event,Servicios,Santa Fe,0.8777,won,schedule_visit
+LEAD_ACC00725,ACC00725,Litoral Logística Group,Federico Torres,HSE Manager,federico.torres@litoral-logística-group.com.ar,public_directory,Oil & Gas,Santa Cruz,0.4899,lost,send_catalog
+LEAD_ACC00726,ACC00726,Cumbre Oil Servicios,Ana Sosa,Technical Director,ana.sosa@cumbre-oil-servicios.com.ar,public_directory,Construcción,Córdoba,0.7084,negotiation,send_quote
+LEAD_ACC00727,ACC00727,Cumbre Solutions S.R.L.,Valentina López,Fleet Manager,valentina.lópez@cumbre-solutions-s-r-l.com.ar,public_directory,Construcción,Buenos Aires,0.6338,proposal,call
+LEAD_ACC00728,ACC00728,Delta Solutions Corp.,Cecilia Benítez,Engineering Manager,cecilia.benítez@delta-solutions-corp.com.ar,public_directory,Energía,Córdoba,0.5287,qualified,send_quote
+LEAD_ACC00729,ACC00729,Litoral Operaciones Servicios,Nicolás Sosa,Engineering Manager,nicolás.sosa@litoral-operaciones-servicios.com.ar,outbound_research,Construcción,Mendoza,0.5367,won,send_catalog
+LEAD_ACC00730,ACC00730,Austral Oil S.A.,Cecilia Romero,Project Manager,cecilia.romero@austral-oil-s-a.com.ar,public_directory,Oil & Gas,Buenos Aires,0.7067,qualified,request_requirements
+LEAD_ACC00731,ACC00731,Cumbre Solutions Servicios,Javier Romero,Purchasing Analyst,javier.romero@cumbre-solutions-servicios.com.ar,partner_referral,Oil & Gas,Neuquén,0.8372,proposal,request_requirements
+LEAD_ACC00732,ACC00732,Norte Oil S.A.,Julia Sosa,Maintenance Manager,julia.sosa@norte-oil-s-a.com.ar,industry_event,Manufactura,Córdoba,0.6161,proposal,send_quote
+LEAD_ACC00733,ACC00733,Pampa Solutions Servicios,Javier Alvarez,HSE Manager,javier.alvarez@pampa-solutions-servicios.com.ar,public_directory,Minería,Catamarca,0.5822,won,request_requirements
+LEAD_ACC00734,ACC00734,Delta Operaciones Servicios,Ana Herrera,Operations Manager,ana.herrera@delta-operaciones-servicios.com.ar,website_form,Manufactura,Córdoba,0.499,won,call
+LEAD_ACC00735,ACC00735,Cumbre Energía Argentina,Micaela Castro,HSE Manager,micaela.castro@cumbre-energía-argentina.com.ar,public_directory,Minería,Catamarca,0.602,lost,schedule_visit
+LEAD_ACC00736,ACC00736,Aconcagua Servicios Corp.,Julia Torres,HSE Manager,julia.torres@aconcagua-servicios-corp.com.ar,outbound_research,Minería,Santa Cruz,0.5867,lost,send_catalog
+LEAD_ACC00737,ACC00737,Cumbre Minera Argentina,Pablo Ruiz,Project Manager,pablo.ruiz@cumbre-minera-argentina.com.ar,outbound_research,Energía,Córdoba,0.6839,negotiation,call
+LEAD_ACC00738,ACC00738,Pampa Minera Argentina,Ana Fernández,Engineering Manager,ana.fernández@pampa-minera-argentina.com.ar,website_form,Oil & Gas,Neuquén,0.7056,won,send_quote
+LEAD_ACC00739,ACC00739,Delta Solutions S.A.,Valentina Benítez,Maintenance Manager,valentina.benítez@delta-solutions-s-a.com.ar,website_form,Oil & Gas,Neuquén,0.5046,qualified,send_quote
+LEAD_ACC00740,ACC00740,Patagonia Solutions S.R.L.,Marcos Castro,Engineering Manager,marcos.castro@patagonia-solutions-s-r-l.com.ar,outbound_research,Construcción,Córdoba,0.6102,won,send_catalog
+LEAD_ACC00741,ACC00741,Patagonia Industrial S.A.,Javier Díaz,HSE Manager,javier.díaz@patagonia-industrial-s-a.com.ar,partner_referral,Oil & Gas,Chubut,0.732,new,send_catalog
+LEAD_ACC00742,ACC00742,Norte Solutions Argentina,Valentina Molina,Maintenance Manager,valentina.molina@norte-solutions-argentina.com.ar,website_form,Energía,Córdoba,0.628,qualified,call
+LEAD_ACC00743,ACC00743,Patagonia Tecnología Group,Cecilia Ruiz,Purchasing Analyst,cecilia.ruiz@patagonia-tecnología-group.com.ar,website_form,Servicios,Córdoba,0.4362,proposal,schedule_visit
+LEAD_ACC00744,ACC00744,Aconcagua Servicios Argentina,Nicolás Molina,Procurement Manager,nicolás.molina@aconcagua-servicios-argentina.com.ar,website_form,Energía,Santa Fe,0.6424,new,send_catalog
+LEAD_ACC00745,ACC00745,Delta Servicios Group,Lucía Fernández,Maintenance Manager,lucía.fernández@delta-servicios-group.com.ar,partner_referral,Construcción,Buenos Aires,0.5079,negotiation,send_catalog
+LEAD_ACC00746,ACC00746,Patagonia Logística S.R.L.,Ana Herrera,HSE Manager,ana.herrera@patagonia-logística-s-r-l.com.ar,partner_referral,Servicios,Córdoba,0.6356,proposal,send_catalog
+LEAD_ACC00747,ACC00747,Aconcagua Operaciones Servicios,Martín Gómez,Purchasing Analyst,martín.gómez@aconcagua-operaciones-servicios.com.ar,public_directory,Minería,Río Negro,0.5054,lost,request_requirements
+LEAD_ACC00748,ACC00748,Pampa Energía S.R.L.,Cecilia Torres,Operations Manager,cecilia.torres@pampa-energía-s-r-l.com.ar,website_form,Construcción,Santa Fe,0.7135,negotiation,call
+LEAD_ACC00749,ACC00749,Delta Infraestructura Corp.,Ana Herrera,Maintenance Manager,ana.herrera@delta-infraestructura-corp.com.ar,partner_referral,Oil & Gas,Chubut,0.7342,qualified,send_catalog
+LEAD_ACC00750,ACC00750,Andes Operaciones Group,Nicolás Alvarez,Technical Director,nicolás.alvarez@andes-operaciones-group.com.ar,website_form,Oil & Gas,Santa Cruz,0.6679,new,send_catalog
+LEAD_ACC00751,ACC00751,Pampa Energía S.A.,Martín Pérez,Technical Director,martín.pérez@pampa-energía-s-a.com.ar,outbound_research,Oil & Gas,Santa Cruz,0.6063,proposal,call
+LEAD_ACC00752,ACC00752,Andes Infraestructura S.A.,Cecilia Alvarez,HSE Manager,cecilia.alvarez@andes-infraestructura-s-a.com.ar,public_directory,Construcción,Mendoza,0.4555,qualified,schedule_visit
+LEAD_ACC00753,ACC00753,Litoral Oil Argentina,Micaela Pérez,Procurement Manager,micaela.pérez@litoral-oil-argentina.com.ar,outbound_research,Minería,San Juan,0.6981,qualified,call
+LEAD_ACC00754,ACC00754,Aconcagua Tecnología S.A.,Julia Díaz,Maintenance Manager,julia.díaz@aconcagua-tecnología-s-a.com.ar,public_directory,Energía,Córdoba,0.6114,lost,send_catalog
+LEAD_ACC00755,ACC00755,Aconcagua Servicios S.A.,Sofía Romero,Engineering Manager,sofía.romero@aconcagua-servicios-s-a.com.ar,website_form,Minería,Río Negro,0.7861,won,send_catalog
+LEAD_ACC00756,ACC00756,Austral Energía S.A.,Valentina Sosa,Fleet Manager,valentina.sosa@austral-energía-s-a.com.ar,industry_event,Oil & Gas,Chubut,0.8004,won,send_quote
+LEAD_ACC00757,ACC00757,Andes Tecnología Corp.,Cecilia Castro,HSE Manager,cecilia.castro@andes-tecnología-corp.com.ar,industry_event,Minería,Santa Cruz,0.9923,qualified,send_catalog
+LEAD_ACC00758,ACC00758,Sur Servicios Argentina,Micaela Romero,Maintenance Manager,micaela.romero@sur-servicios-argentina.com.ar,public_directory,Energía,Santa Fe,0.8842,qualified,send_catalog
+LEAD_ACC00759,ACC00759,Andes Infraestructura S.R.L.,Micaela Benítez,Maintenance Manager,micaela.benítez@andes-infraestructura-s-r-l.com.ar,website_form,Construcción,Mendoza,0.6694,lost,send_catalog
+LEAD_ACC00760,ACC00760,Austral Tecnología Argentina,Nicolás Sosa,Maintenance Manager,nicolás.sosa@austral-tecnología-argentina.com.ar,industry_event,Construcción,CABA,0.7285,proposal,schedule_visit
+LEAD_ACC00761,ACC00761,Pampa Tecnología Servicios,Javier Fernández,HSE Manager,javier.fernández@pampa-tecnología-servicios.com.ar,partner_referral,Construcción,Mendoza,0.6727,proposal,send_quote
+LEAD_ACC00762,ACC00762,Patagonia Minera Group,Ana Fernández,Project Manager,ana.fernández@patagonia-minera-group.com.ar,industry_event,Energía,Buenos Aires,0.7379,qualified,schedule_visit
+LEAD_ACC00763,ACC00763,Litoral Infraestructura Corp.,Javier Benítez,HSE Manager,javier.benítez@litoral-infraestructura-corp.com.ar,partner_referral,Oil & Gas,Buenos Aires,0.8777,negotiation,send_quote
+LEAD_ACC00764,ACC00764,Sur Oil Servicios,Valentina Díaz,Purchasing Analyst,valentina.díaz@sur-oil-servicios.com.ar,public_directory,Manufactura,Santa Fe,0.585,lost,schedule_visit
+LEAD_ACC00765,ACC00765,Andes Servicios S.A.,Marcos Castro,Project Manager,marcos.castro@andes-servicios-s-a.com.ar,website_form,Oil & Gas,Santa Cruz,0.7325,proposal,send_catalog
+LEAD_ACC00766,ACC00766,Patagonia Energía S.R.L.,Carolina Fernández,Fleet Manager,carolina.fernández@patagonia-energía-s-r-l.com.ar,partner_referral,Energía,Neuquén,0.9079,won,send_quote
+LEAD_ACC00767,ACC00767,Pampa Minera S.A.,Pablo Romero,Purchasing Analyst,pablo.romero@pampa-minera-s-a.com.ar,partner_referral,Minería,Santa Cruz,0.8227,proposal,schedule_visit
+LEAD_ACC00768,ACC00768,Andes Logística Corp.,Ana Ruiz,Operations Manager,ana.ruiz@andes-logística-corp.com.ar,website_form,Oil & Gas,CABA,0.5526,negotiation,send_quote
+LEAD_ACC00769,ACC00769,Patagonia Infraestructura Corp.,Julia Molina,Technical Director,julia.molina@patagonia-infraestructura-corp.com.ar,partner_referral,Construcción,Buenos Aires,0.7567,new,request_requirements
+LEAD_ACC00770,ACC00770,Norte Servicios S.R.L.,Marcos Gómez,Plant Manager,marcos.gómez@norte-servicios-s-r-l.com.ar,public_directory,Oil & Gas,Buenos Aires,0.6638,proposal,schedule_visit
+LEAD_ACC00771,ACC00771,Andes Oil Servicios,Martín Díaz,Procurement Manager,martín.díaz@andes-oil-servicios.com.ar,public_directory,Manufactura,Mendoza,0.7761,negotiation,schedule_visit
+LEAD_ACC00772,ACC00772,Sur Energía Argentina,Javier Gómez,HSE Manager,javier.gómez@sur-energía-argentina.com.ar,partner_referral,Manufactura,Santa Fe,0.7172,proposal,request_requirements
+LEAD_ACC00773,ACC00773,Pampa Solutions Corp.,Martín Molina,Plant Manager,martín.molina@pampa-solutions-corp.com.ar,outbound_research,Servicios,CABA,0.5411,negotiation,call
+LEAD_ACC00774,ACC00774,Norte Oil S.A.,Carolina López,HSE Manager,carolina.lópez@norte-oil-s-a.com.ar,partner_referral,Construcción,Buenos Aires,0.7507,negotiation,send_catalog
+LEAD_ACC00775,ACC00775,Delta Minera Corp.,Carolina Herrera,Plant Manager,carolina.herrera@delta-minera-corp.com.ar,public_directory,Servicios,Córdoba,0.6141,new,request_requirements
+LEAD_ACC00776,ACC00776,Patagonia Energía S.A.,Nicolás Torres,Purchasing Analyst,nicolás.torres@patagonia-energía-s-a.com.ar,partner_referral,Minería,Santa Cruz,0.7832,proposal,send_quote
+LEAD_ACC00777,ACC00777,Andes Infraestructura Corp.,Julia Alvarez,Procurement Manager,julia.alvarez@andes-infraestructura-corp.com.ar,partner_referral,Construcción,Santa Fe,0.8897,proposal,call
+LEAD_ACC00778,ACC00778,Aconcagua Industrial Group,Nicolás Herrera,Project Manager,nicolás.herrera@aconcagua-industrial-group.com.ar,industry_event,Servicios,Santa Fe,0.5976,proposal,schedule_visit
+LEAD_ACC00779,ACC00779,Andes Industrial S.R.L.,Nicolás Castro,Maintenance Manager,nicolás.castro@andes-industrial-s-r-l.com.ar,public_directory,Manufactura,Mendoza,0.5942,negotiation,schedule_visit
+LEAD_ACC00780,ACC00780,Cumbre Operaciones S.A.,Diego López,Project Manager,diego.lópez@cumbre-operaciones-s-a.com.ar,outbound_research,Minería,San Juan,0.6373,won,schedule_visit
+LEAD_ACC00781,ACC00781,Austral Energía Argentina,Cecilia Gómez,Plant Manager,cecilia.gómez@austral-energía-argentina.com.ar,industry_event,Energía,Buenos Aires,0.7301,proposal,call
+LEAD_ACC00782,ACC00782,Andes Tecnología S.R.L.,Nicolás Pérez,Engineering Manager,nicolás.pérez@andes-tecnología-s-r-l.com.ar,website_form,Oil & Gas,Neuquén,0.5514,proposal,request_requirements
+LEAD_ACC00783,ACC00783,Pampa Solutions Group,Cecilia Díaz,Maintenance Manager,cecilia.díaz@pampa-solutions-group.com.ar,partner_referral,Construcción,Córdoba,0.5148,lost,call
+LEAD_ACC00784,ACC00784,Cumbre Energía S.A.,Micaela Castro,Technical Director,micaela.castro@cumbre-energía-s-a.com.ar,outbound_research,Servicios,CABA,0.5136,proposal,call
+LEAD_ACC00785,ACC00785,Aconcagua Energía Corp.,Lucía Fernández,Maintenance Manager,lucía.fernández@aconcagua-energía-corp.com.ar,website_form,Energía,Santa Fe,0.7449,proposal,send_catalog
+LEAD_ACC00786,ACC00786,Delta Infraestructura S.A.,Valentina Díaz,Maintenance Manager,valentina.díaz@delta-infraestructura-s-a.com.ar,website_form,Construcción,Mendoza,0.709,proposal,send_catalog
+LEAD_ACC00787,ACC00787,Austral Infraestructura S.A.,Pablo Molina,Engineering Manager,pablo.molina@austral-infraestructura-s-a.com.ar,public_directory,Servicios,CABA,0.6631,qualified,send_quote
+LEAD_ACC00788,ACC00788,Sur Servicios S.R.L.,Valentina Sosa,Fleet Manager,valentina.sosa@sur-servicios-s-r-l.com.ar,industry_event,Oil & Gas,Santa Cruz,0.8144,negotiation,call
+LEAD_ACC00789,ACC00789,Litoral Operaciones Servicios,Cecilia Sosa,Fleet Manager,cecilia.sosa@litoral-operaciones-servicios.com.ar,outbound_research,Construcción,Córdoba,0.7152,qualified,call
+LEAD_ACC00790,ACC00790,Delta Solutions Argentina,Javier López,Procurement Manager,javier.lópez@delta-solutions-argentina.com.ar,public_directory,Energía,Neuquén,0.528,negotiation,request_requirements
+LEAD_ACC00791,ACC00791,Cumbre Logística Group,Carolina Herrera,Operations Manager,carolina.herrera@cumbre-logística-group.com.ar,public_directory,Construcción,Mendoza,0.4896,proposal,call
+LEAD_ACC00792,ACC00792,Andes Energía S.R.L.,Federico Torres,Purchasing Analyst,federico.torres@andes-energía-s-r-l.com.ar,outbound_research,Manufactura,Córdoba,0.6921,proposal,call
+LEAD_ACC00793,ACC00793,Sur Industrial Argentina,Diego Molina,Purchasing Analyst,diego.molina@sur-industrial-argentina.com.ar,industry_event,Construcción,Buenos Aires,0.6642,qualified,schedule_visit
+LEAD_ACC00794,ACC00794,Pampa Energía Servicios,Sofía Gómez,Project Manager,sofía.gómez@pampa-energía-servicios.com.ar,website_form,Minería,Jujuy,0.6367,negotiation,call
+LEAD_ACC00795,ACC00795,Andes Minera Corp.,Pablo Castro,Procurement Manager,pablo.castro@andes-minera-corp.com.ar,website_form,Construcción,CABA,0.6457,won,call
+LEAD_ACC00796,ACC00796,Norte Industrial Argentina,Carolina Díaz,Procurement Manager,carolina.díaz@norte-industrial-argentina.com.ar,partner_referral,Minería,Santa Cruz,0.7305,won,call
+LEAD_ACC00797,ACC00797,Litoral Energía Corp.,Lucía Gómez,Operations Manager,lucía.gómez@litoral-energía-corp.com.ar,partner_referral,Minería,Catamarca,0.7978,proposal,call
+LEAD_ACC00798,ACC00798,Litoral Energía Group,Marcos Fernández,Technical Director,marcos.fernández@litoral-energía-group.com.ar,website_form,Oil & Gas,Chubut,0.8588,negotiation,schedule_visit
+LEAD_ACC00799,ACC00799,Austral Industrial Argentina,Valentina Sosa,HSE Manager,valentina.sosa@austral-industrial-argentina.com.ar,website_form,Oil & Gas,Santa Cruz,0.7791,negotiation,schedule_visit
+LEAD_ACC00800,ACC00800,Norte Servicios S.R.L.,Nicolás López,Technical Director,nicolás.lópez@norte-servicios-s-r-l.com.ar,outbound_research,Minería,Santa Cruz,0.5844,won,schedule_visit
+LEAD_ACC00801,ACC00801,Cumbre Minera Argentina,Julia Fernández,Operations Manager,julia.fernández@cumbre-minera-argentina.com.ar,partner_referral,Oil & Gas,CABA,0.8641,negotiation,send_catalog
+LEAD_ACC00802,ACC00802,Pampa Energía S.A.,Micaela Benítez,HSE Manager,micaela.benítez@pampa-energía-s-a.com.ar,outbound_research,Oil & Gas,CABA,0.7043,new,call
+LEAD_ACC00803,ACC00803,Austral Logística Group,Valentina Gómez,Operations Manager,valentina.gómez@austral-logística-group.com.ar,website_form,Oil & Gas,Santa Cruz,0.5154,proposal,call
+LEAD_ACC00804,ACC00804,Pampa Energía Group,Cecilia Díaz,Technical Director,cecilia.díaz@pampa-energía-group.com.ar,public_directory,Servicios,Buenos Aires,0.628,proposal,send_catalog
+LEAD_ACC00805,ACC00805,Litoral Servicios Group,Micaela Díaz,Procurement Manager,micaela.díaz@litoral-servicios-group.com.ar,industry_event,Construcción,CABA,0.5614,proposal,call
+LEAD_ACC00806,ACC00806,Austral Operaciones Servicios,Sofía Pérez,Engineering Manager,sofía.pérez@austral-operaciones-servicios.com.ar,website_form,Energía,Córdoba,0.7907,negotiation,schedule_visit
+LEAD_ACC00807,ACC00807,Cumbre Infraestructura Servicios,Pablo Castro,Fleet Manager,pablo.castro@cumbre-infraestructura-servicios.com.ar,website_form,Minería,San Juan,0.82,negotiation,schedule_visit
+LEAD_ACC00808,ACC00808,Norte Solutions S.A.,Cecilia Torres,Technical Director,cecilia.torres@norte-solutions-s-a.com.ar,partner_referral,Oil & Gas,Neuquén,0.6621,proposal,schedule_visit
+LEAD_ACC00809,ACC00809,Pampa Servicios S.R.L.,Valentina Castro,HSE Manager,valentina.castro@pampa-servicios-s-r-l.com.ar,industry_event,Manufactura,Córdoba,0.4961,proposal,call
+LEAD_ACC00810,ACC00810,Norte Solutions S.R.L.,Ana López,Procurement Manager,ana.lópez@norte-solutions-s-r-l.com.ar,industry_event,Manufactura,Mendoza,0.521,won,request_requirements
+LEAD_ACC00811,ACC00811,Delta Infraestructura S.A.,Sofía Molina,HSE Manager,sofía.molina@delta-infraestructura-s-a.com.ar,public_directory,Energía,Santa Fe,0.6716,proposal,send_quote
+LEAD_ACC00812,ACC00812,Patagonia Industrial S.A.,Valentina Romero,HSE Manager,valentina.romero@patagonia-industrial-s-a.com.ar,outbound_research,Energía,Córdoba,0.6047,won,schedule_visit
+LEAD_ACC00813,ACC00813,Litoral Logística Servicios,Valentina Castro,Fleet Manager,valentina.castro@litoral-logística-servicios.com.ar,partner_referral,Construcción,Córdoba,0.6248,new,send_quote
+LEAD_ACC00814,ACC00814,Cumbre Minera S.A.,Ana Torres,Maintenance Manager,ana.torres@cumbre-minera-s-a.com.ar,website_form,Minería,Santa Cruz,0.6876,qualified,schedule_visit
+LEAD_ACC00815,ACC00815,Andes Solutions Servicios,Pablo Castro,HSE Manager,pablo.castro@andes-solutions-servicios.com.ar,outbound_research,Servicios,Córdoba,0.4305,proposal,send_quote
+LEAD_ACC00816,ACC00816,Austral Servicios Group,Micaela Gómez,Engineering Manager,micaela.gómez@austral-servicios-group.com.ar,partner_referral,Manufactura,Mendoza,0.7098,negotiation,call
+LEAD_ACC00817,ACC00817,Cumbre Energía Corp.,Martín Alvarez,Technical Director,martín.alvarez@cumbre-energía-corp.com.ar,industry_event,Oil & Gas,CABA,0.6543,won,send_quote
+LEAD_ACC00818,ACC00818,Norte Tecnología Servicios,Javier Benítez,Procurement Manager,javier.benítez@norte-tecnología-servicios.com.ar,industry_event,Oil & Gas,Santa Cruz,0.8101,won,call
+LEAD_ACC00819,ACC00819,Litoral Infraestructura S.A.,Micaela Pérez,Engineering Manager,micaela.pérez@litoral-infraestructura-s-a.com.ar,website_form,Manufactura,Buenos Aires,0.6357,negotiation,request_requirements
+LEAD_ACC00820,ACC00820,Patagonia Infraestructura S.R.L.,Diego Sosa,Maintenance Manager,diego.sosa@patagonia-infraestructura-s-r-l.com.ar,industry_event,Construcción,Santa Fe,0.6307,won,send_quote
+LEAD_ACC00821,ACC00821,Aconcagua Energía Group,Micaela Molina,Procurement Manager,micaela.molina@aconcagua-energía-group.com.ar,partner_referral,Construcción,Mendoza,0.6093,lost,schedule_visit
+LEAD_ACC00822,ACC00822,Delta Operaciones Servicios,Sofía Benítez,Fleet Manager,sofía.benítez@delta-operaciones-servicios.com.ar,public_directory,Construcción,CABA,0.4846,won,send_catalog
+LEAD_ACC00823,ACC00823,Delta Oil Corp.,Javier Ruiz,Operations Manager,javier.ruiz@delta-oil-corp.com.ar,industry_event,Minería,San Juan,0.9182,won,call
+LEAD_ACC00824,ACC00824,Austral Industrial Corp.,Pablo Benítez,Technical Director,pablo.benítez@austral-industrial-corp.com.ar,industry_event,Servicios,Santa Fe,0.7232,negotiation,send_catalog
+LEAD_ACC00825,ACC00825,Norte Industrial Corp.,Diego Pérez,Purchasing Analyst,diego.pérez@norte-industrial-corp.com.ar,public_directory,Oil & Gas,CABA,0.7332,negotiation,call
+LEAD_ACC00826,ACC00826,Sur Tecnología S.A.,Ana Pérez,Project Manager,ana.pérez@sur-tecnología-s-a.com.ar,website_form,Minería,Río Negro,0.6418,qualified,call
+LEAD_ACC00827,ACC00827,Delta Oil Argentina,Cecilia Castro,Procurement Manager,cecilia.castro@delta-oil-argentina.com.ar,outbound_research,Construcción,CABA,0.4378,proposal,send_catalog
+LEAD_ACC00828,ACC00828,Patagonia Industrial S.R.L.,Valentina Gómez,Operations Manager,valentina.gómez@patagonia-industrial-s-r-l.com.ar,website_form,Construcción,CABA,0.5816,proposal,send_quote
+LEAD_ACC00829,ACC00829,Aconcagua Minera S.R.L.,Federico Ruiz,HSE Manager,federico.ruiz@aconcagua-minera-s-r-l.com.ar,public_directory,Oil & Gas,Neuquén,0.6068,qualified,send_quote
+LEAD_ACC00830,ACC00830,Delta Solutions S.R.L.,Federico López,Operations Manager,federico.lópez@delta-solutions-s-r-l.com.ar,website_form,Oil & Gas,Neuquén,0.7756,negotiation,call
+LEAD_ACC00831,ACC00831,Patagonia Minera Corp.,Sofía Benítez,Plant Manager,sofía.benítez@patagonia-minera-corp.com.ar,website_form,Minería,San Juan,0.8088,won,request_requirements
+LEAD_ACC00832,ACC00832,Andes Logística S.R.L.,Federico Molina,HSE Manager,federico.molina@andes-logística-s-r-l.com.ar,website_form,Oil & Gas,CABA,0.7777,won,call
+LEAD_ACC00833,ACC00833,Austral Energía S.R.L.,Nicolás Romero,Technical Director,nicolás.romero@austral-energía-s-r-l.com.ar,industry_event,Oil & Gas,CABA,0.8798,qualified,send_quote
+LEAD_ACC00834,ACC00834,Litoral Operaciones Corp.,Diego Castro,Project Manager,diego.castro@litoral-operaciones-corp.com.ar,public_directory,Minería,San Juan,0.7685,won,schedule_visit
+LEAD_ACC00835,ACC00835,Patagonia Industrial S.A.,Diego Ruiz,Purchasing Analyst,diego.ruiz@patagonia-industrial-s-a.com.ar,partner_referral,Minería,Santa Cruz,0.7268,negotiation,call
+LEAD_ACC00836,ACC00836,Delta Operaciones Corp.,Diego Díaz,Purchasing Analyst,diego.díaz@delta-operaciones-corp.com.ar,website_form,Servicios,Buenos Aires,0.5043,proposal,schedule_visit
+LEAD_ACC00837,ACC00837,Sur Energía Argentina,Diego Benítez,Engineering Manager,diego.benítez@sur-energía-argentina.com.ar,public_directory,Construcción,Buenos Aires,0.684,new,schedule_visit
+LEAD_ACC00838,ACC00838,Pampa Servicios Corp.,Pablo López,Purchasing Analyst,pablo.lópez@pampa-servicios-corp.com.ar,website_form,Energía,Santa Fe,0.6835,lost,send_catalog
+LEAD_ACC00839,ACC00839,Patagonia Logística S.R.L.,Federico Sosa,Project Manager,federico.sosa@patagonia-logística-s-r-l.com.ar,partner_referral,Construcción,Santa Fe,0.8051,proposal,call
+LEAD_ACC00840,ACC00840,Aconcagua Operaciones S.A.,Lucía Fernández,Technical Director,lucía.fernández@aconcagua-operaciones-s-a.com.ar,website_form,Manufactura,Buenos Aires,0.7322,won,send_quote
+LEAD_ACC00841,ACC00841,Norte Infraestructura Corp.,Pablo Torres,Plant Manager,pablo.torres@norte-infraestructura-corp.com.ar,industry_event,Energía,Buenos Aires,0.8375,negotiation,send_catalog
+LEAD_ACC00842,ACC00842,Cumbre Industrial Servicios,Nicolás Castro,Purchasing Analyst,nicolás.castro@cumbre-industrial-servicios.com.ar,industry_event,Servicios,Córdoba,0.539,negotiation,call
+LEAD_ACC00843,ACC00843,Delta Solutions Servicios,Carolina Pérez,Technical Director,carolina.pérez@delta-solutions-servicios.com.ar,website_form,Minería,Salta,0.6489,qualified,call
+LEAD_ACC00844,ACC00844,Patagonia Operaciones Servicios,Julia Gómez,Purchasing Analyst,julia.gómez@patagonia-operaciones-servicios.com.ar,outbound_research,Construcción,Buenos Aires,0.6685,proposal,schedule_visit
+LEAD_ACC00845,ACC00845,Aconcagua Minera Group,Julia Romero,Maintenance Manager,julia.romero@aconcagua-minera-group.com.ar,outbound_research,Energía,Córdoba,0.6898,proposal,send_catalog
+LEAD_ACC00846,ACC00846,Delta Operaciones Argentina,Micaela Pérez,Plant Manager,micaela.pérez@delta-operaciones-argentina.com.ar,website_form,Energía,Mendoza,0.6848,new,call
+LEAD_ACC00847,ACC00847,Pampa Energía Servicios,Javier Molina,HSE Manager,javier.molina@pampa-energía-servicios.com.ar,public_directory,Minería,Catamarca,0.7552,proposal,call
+LEAD_ACC00848,ACC00848,Delta Infraestructura S.A.,Carolina Herrera,Operations Manager,carolina.herrera@delta-infraestructura-s-a.com.ar,outbound_research,Oil & Gas,Santa Cruz,0.7373,proposal,call
+LEAD_ACC00849,ACC00849,Patagonia Infraestructura Servicios,Marcos Molina,Project Manager,marcos.molina@patagonia-infraestructura-servicios.com.ar,industry_event,Energía,Buenos Aires,0.8674,qualified,send_quote
+LEAD_ACC00850,ACC00850,Norte Solutions Servicios,Julia Sosa,Project Manager,julia.sosa@norte-solutions-servicios.com.ar,website_form,Minería,Salta,0.6396,negotiation,call
+LEAD_ACC00851,ACC00851,Austral Solutions Group,Julia Benítez,Engineering Manager,julia.benítez@austral-solutions-group.com.ar,outbound_research,Minería,Jujuy,0.8798,qualified,schedule_visit
+LEAD_ACC00852,ACC00852,Litoral Industrial Group,Ana Sosa,Operations Manager,ana.sosa@litoral-industrial-group.com.ar,website_form,Construcción,Buenos Aires,0.5751,proposal,request_requirements
+LEAD_ACC00853,ACC00853,Litoral Industrial S.R.L.,Cecilia Benítez,Purchasing Analyst,cecilia.benítez@litoral-industrial-s-r-l.com.ar,public_directory,Oil & Gas,Buenos Aires,0.6497,proposal,send_catalog
+LEAD_ACC00854,ACC00854,Sur Infraestructura Servicios,Cecilia Fernández,Project Manager,cecilia.fernández@sur-infraestructura-servicios.com.ar,public_directory,Construcción,Buenos Aires,0.6298,qualified,schedule_visit
+LEAD_ACC00855,ACC00855,Litoral Operaciones Servicios,Ana Alvarez,Engineering Manager,ana.alvarez@litoral-operaciones-servicios.com.ar,outbound_research,Energía,Santa Fe,0.8111,new,schedule_visit
+LEAD_ACC00856,ACC00856,Austral Infraestructura Group,Valentina Torres,Plant Manager,valentina.torres@austral-infraestructura-group.com.ar,industry_event,Servicios,CABA,0.5598,qualified,schedule_visit
+LEAD_ACC00857,ACC00857,Norte Servicios Corp.,Federico Sosa,Purchasing Analyst,federico.sosa@norte-servicios-corp.com.ar,website_form,Minería,Río Negro,0.4828,negotiation,send_quote
+LEAD_ACC00858,ACC00858,Norte Tecnología Servicios,Ana Herrera,Maintenance Manager,ana.herrera@norte-tecnología-servicios.com.ar,industry_event,Minería,Santa Cruz,0.8764,proposal,call
+LEAD_ACC00859,ACC00859,Cumbre Industrial S.R.L.,Federico Gómez,HSE Manager,federico.gómez@cumbre-industrial-s-r-l.com.ar,public_directory,Oil & Gas,Santa Cruz,0.5012,proposal,send_quote
+LEAD_ACC00860,ACC00860,Norte Infraestructura S.A.,Federico López,Maintenance Manager,federico.lópez@norte-infraestructura-s-a.com.ar,outbound_research,Energía,Córdoba,0.5507,proposal,request_requirements
+LEAD_ACC00861,ACC00861,Pampa Logística Servicios,Ana Sosa,Procurement Manager,ana.sosa@pampa-logística-servicios.com.ar,website_form,Oil & Gas,Neuquén,0.5611,won,send_quote
+LEAD_ACC00862,ACC00862,Aconcagua Logística Corp.,Martín Díaz,Purchasing Analyst,martín.díaz@aconcagua-logística-corp.com.ar,website_form,Minería,Salta,0.5599,lost,call
+LEAD_ACC00863,ACC00863,Austral Oil Servicios,Federico Romero,Project Manager,federico.romero@austral-oil-servicios.com.ar,public_directory,Oil & Gas,Santa Cruz,0.7592,new,schedule_visit
+LEAD_ACC00864,ACC00864,Cumbre Oil Servicios,Valentina Castro,Purchasing Analyst,valentina.castro@cumbre-oil-servicios.com.ar,public_directory,Oil & Gas,Neuquén,0.612,won,schedule_visit
+LEAD_ACC00865,ACC00865,Norte Solutions Servicios,Marcos Ruiz,Fleet Manager,marcos.ruiz@norte-solutions-servicios.com.ar,industry_event,Energía,Mendoza,0.6654,proposal,send_quote
+LEAD_ACC00866,ACC00866,Sur Energía Group,Martín Díaz,Fleet Manager,martín.díaz@sur-energía-group.com.ar,public_directory,Minería,Río Negro,0.778,new,call
+LEAD_ACC00867,ACC00867,Austral Solutions Corp.,Pablo Gómez,Procurement Manager,pablo.gómez@austral-solutions-corp.com.ar,industry_event,Manufactura,Santa Fe,0.7457,negotiation,send_catalog
+LEAD_ACC00868,ACC00868,Litoral Solutions S.R.L.,Pablo Gómez,Maintenance Manager,pablo.gómez@litoral-solutions-s-r-l.com.ar,industry_event,Energía,Córdoba,0.869,proposal,call
+LEAD_ACC00869,ACC00869,Delta Energía S.R.L.,Pablo Castro,Technical Director,pablo.castro@delta-energía-s-r-l.com.ar,partner_referral,Manufactura,Mendoza,0.6031,new,schedule_visit
+LEAD_ACC00870,ACC00870,Cumbre Tecnología S.A.,Nicolás Molina,Engineering Manager,nicolás.molina@cumbre-tecnología-s-a.com.ar,partner_referral,Minería,Salta,0.76,negotiation,send_quote
+LEAD_ACC00871,ACC00871,Delta Tecnología Servicios,Lucía Sosa,Engineering Manager,lucía.sosa@delta-tecnología-servicios.com.ar,public_directory,Construcción,CABA,0.6271,won,schedule_visit
+LEAD_ACC00872,ACC00872,Norte Energía S.R.L.,Ana Ruiz,Fleet Manager,ana.ruiz@norte-energía-s-r-l.com.ar,public_directory,Energía,Neuquén,0.5705,proposal,schedule_visit
+LEAD_ACC00873,ACC00873,Delta Servicios S.A.,Micaela Alvarez,Procurement Manager,micaela.alvarez@delta-servicios-s-a.com.ar,public_directory,Minería,San Juan,0.7444,proposal,call
+LEAD_ACC00874,ACC00874,Litoral Solutions S.R.L.,Lucía Castro,Technical Director,lucía.castro@litoral-solutions-s-r-l.com.ar,public_directory,Oil & Gas,Chubut,0.7494,lost,schedule_visit
+LEAD_ACC00875,ACC00875,Delta Industrial Servicios,Diego Díaz,Project Manager,diego.díaz@delta-industrial-servicios.com.ar,outbound_research,Oil & Gas,CABA,0.6338,proposal,schedule_visit
+LEAD_ACC00876,ACC00876,Litoral Oil S.R.L.,Martín Pérez,Maintenance Manager,martín.pérez@litoral-oil-s-r-l.com.ar,website_form,Minería,Santa Cruz,0.6785,lost,request_requirements
+LEAD_ACC00877,ACC00877,Patagonia Logística S.A.,Javier Sosa,Procurement Manager,javier.sosa@patagonia-logística-s-a.com.ar,public_directory,Oil & Gas,Santa Cruz,0.8002,qualified,send_quote
+LEAD_ACC00878,ACC00878,Aconcagua Energía Argentina,Ana Molina,Operations Manager,ana.molina@aconcagua-energía-argentina.com.ar,website_form,Construcción,Córdoba,0.5505,proposal,send_quote
+LEAD_ACC00879,ACC00879,Norte Minera S.R.L.,Marcos Fernández,Project Manager,marcos.fernández@norte-minera-s-r-l.com.ar,industry_event,Energía,Córdoba,0.9288,lost,send_quote
+LEAD_ACC00880,ACC00880,Patagonia Minera Servicios,Nicolás Pérez,Operations Manager,nicolás.pérez@patagonia-minera-servicios.com.ar,industry_event,Construcción,Buenos Aires,0.525,new,call
+LEAD_ACC00881,ACC00881,Delta Infraestructura S.R.L.,Julia Alvarez,Project Manager,julia.alvarez@delta-infraestructura-s-r-l.com.ar,partner_referral,Minería,Santa Cruz,0.6319,new,send_quote
+LEAD_ACC00882,ACC00882,Aconcagua Minera Group,Valentina Ruiz,Maintenance Manager,valentina.ruiz@aconcagua-minera-group.com.ar,partner_referral,Oil & Gas,Neuquén,0.732,negotiation,schedule_visit
+LEAD_ACC00883,ACC00883,Litoral Tecnología Corp.,Valentina López,Procurement Manager,valentina.lópez@litoral-tecnología-corp.com.ar,outbound_research,Minería,Jujuy,0.6046,negotiation,call
+LEAD_ACC00884,ACC00884,Sur Operaciones Corp.,Nicolás Ruiz,Fleet Manager,nicolás.ruiz@sur-operaciones-corp.com.ar,website_form,Construcción,Córdoba,0.581,negotiation,call
+LEAD_ACC00885,ACC00885,Aconcagua Solutions Servicios,Nicolás Benítez,Plant Manager,nicolás.benítez@aconcagua-solutions-servicios.com.ar,website_form,Construcción,Córdoba,0.473,proposal,call
+LEAD_ACC00886,ACC00886,Andes Operaciones S.A.,Carolina Molina,Maintenance Manager,carolina.molina@andes-operaciones-s-a.com.ar,public_directory,Oil & Gas,CABA,0.8424,negotiation,send_catalog
+LEAD_ACC00887,ACC00887,Austral Operaciones Argentina,Lucía Ruiz,Purchasing Analyst,lucía.ruiz@austral-operaciones-argentina.com.ar,industry_event,Minería,Jujuy,0.8103,won,send_quote
+LEAD_ACC00888,ACC00888,Andes Oil S.A.,Marcos Díaz,Plant Manager,marcos.díaz@andes-oil-s-a.com.ar,industry_event,Minería,Catamarca,0.6398,negotiation,send_quote
+LEAD_ACC00889,ACC00889,Aconcagua Servicios Argentina,Valentina Pérez,Maintenance Manager,valentina.pérez@aconcagua-servicios-argentina.com.ar,public_directory,Minería,Catamarca,0.7339,new,call
+LEAD_ACC00890,ACC00890,Delta Energía Argentina,Nicolás Ruiz,Engineering Manager,nicolás.ruiz@delta-energía-argentina.com.ar,industry_event,Construcción,Santa Fe,0.6103,proposal,schedule_visit
+LEAD_ACC00891,ACC00891,Pampa Energía Group,Cecilia López,HSE Manager,cecilia.lópez@pampa-energía-group.com.ar,outbound_research,Oil & Gas,Chubut,0.5728,won,send_quote
+LEAD_ACC00892,ACC00892,Austral Solutions Corp.,Nicolás Ruiz,Fleet Manager,nicolás.ruiz@austral-solutions-corp.com.ar,industry_event,Minería,Río Negro,0.6158,negotiation,send_quote
+LEAD_ACC00893,ACC00893,Pampa Minera Group,Marcos Gómez,Fleet Manager,marcos.gómez@pampa-minera-group.com.ar,industry_event,Energía,Buenos Aires,0.7491,lost,schedule_visit
+LEAD_ACC00894,ACC00894,Patagonia Servicios Corp.,Valentina Romero,Procurement Manager,valentina.romero@patagonia-servicios-corp.com.ar,outbound_research,Oil & Gas,Buenos Aires,0.8349,won,call
+LEAD_ACC00895,ACC00895,Andes Logística Argentina,Nicolás Benítez,Operations Manager,nicolás.benítez@andes-logística-argentina.com.ar,outbound_research,Minería,Salta,0.5181,won,call
+LEAD_ACC00896,ACC00896,Sur Minera Argentina,Valentina Romero,Operations Manager,valentina.romero@sur-minera-argentina.com.ar,website_form,Minería,Río Negro,0.7459,won,call
+LEAD_ACC00897,ACC00897,Austral Energía S.R.L.,Valentina Herrera,Operations Manager,valentina.herrera@austral-energía-s-r-l.com.ar,website_form,Oil & Gas,Neuquén,0.7221,qualified,call
+LEAD_ACC00898,ACC00898,Austral Operaciones Corp.,Carolina López,Engineering Manager,carolina.lópez@austral-operaciones-corp.com.ar,industry_event,Construcción,Mendoza,0.6937,negotiation,call
+LEAD_ACC00899,ACC00899,Delta Servicios Group,Lucía Molina,Project Manager,lucía.molina@delta-servicios-group.com.ar,industry_event,Construcción,Córdoba,0.6566,proposal,schedule_visit
+LEAD_ACC00900,ACC00900,Delta Oil Argentina,Julia Gómez,Technical Director,julia.gómez@delta-oil-argentina.com.ar,outbound_research,Oil & Gas,Chubut,0.6901,proposal,call

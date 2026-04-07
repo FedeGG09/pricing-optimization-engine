@@ -1,0 +1,862 @@
+[
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Camiones articulados",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Heavy Earthmoving",
+    "unit": "unit",
+    "min_price_usd": 180000,
+    "max_price_usd": 650000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 96,
+    "avg_lead_time_days": 35,
+    "tags": [
+      "mining",
+      "earthmoving",
+      "haulage"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Camiones rígidos",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Heavy Earthmoving",
+    "unit": "unit",
+    "min_price_usd": 250000,
+    "max_price_usd": 850000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 96,
+    "avg_lead_time_days": 40,
+    "tags": [
+      "mining",
+      "haulage"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Camiones Volcadores",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Heavy Earthmoving",
+    "unit": "unit",
+    "min_price_usd": 70000,
+    "max_price_usd": 240000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 84,
+    "avg_lead_time_days": 25,
+    "tags": [
+      "construction",
+      "transport"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Cargadoras frontales",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Earthmoving",
+    "unit": "unit",
+    "min_price_usd": 90000,
+    "max_price_usd": 380000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 96,
+    "avg_lead_time_days": 30,
+    "tags": [
+      "construction",
+      "mining"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Cargadoras frontales con retroexcavadora",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Earthmoving",
+    "unit": "unit",
+    "min_price_usd": 65000,
+    "max_price_usd": 180000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 4,
+    "avg_lifespan_months": 84,
+    "avg_lead_time_days": 28,
+    "tags": [
+      "construction",
+      "utilities"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Compactadoras de asfalto",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Compaction",
+    "unit": "unit",
+    "min_price_usd": 40000,
+    "max_price_usd": 160000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 72,
+    "avg_lead_time_days": 20,
+    "tags": [
+      "roads",
+      "civil"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Compactadoras de suelo",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Compaction",
+    "unit": "unit",
+    "min_price_usd": 25000,
+    "max_price_usd": 120000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 72,
+    "avg_lead_time_days": 18,
+    "tags": [
+      "roads",
+      "civil"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Excavadoras",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Earthmoving",
+    "unit": "unit",
+    "min_price_usd": 100000,
+    "max_price_usd": 650000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 108,
+    "avg_lead_time_days": 40,
+    "tags": [
+      "mining",
+      "construction"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Minicargadoras",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Earthmoving",
+    "unit": "unit",
+    "min_price_usd": 35000,
+    "max_price_usd": 140000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 72,
+    "avg_lead_time_days": 18,
+    "tags": [
+      "construction",
+      "industrial"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Miniexcavadoras",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Earthmoving",
+    "unit": "unit",
+    "min_price_usd": 30000,
+    "max_price_usd": 150000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 72,
+    "avg_lead_time_days": 18,
+    "tags": [
+      "construction",
+      "utilities"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Motoniveladoras",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Earthmoving",
+    "unit": "unit",
+    "min_price_usd": 120000,
+    "max_price_usd": 520000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 108,
+    "avg_lead_time_days": 35,
+    "tags": [
+      "roads",
+      "mining"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Tiendetubos",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Pipeline",
+    "unit": "unit",
+    "min_price_usd": 180000,
+    "max_price_usd": 600000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 120,
+    "avg_lead_time_days": 45,
+    "tags": [
+      "oil_gas",
+      "pipeline"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Topadoras",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Earthmoving",
+    "unit": "unit",
+    "min_price_usd": 150000,
+    "max_price_usd": 750000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 120,
+    "avg_lead_time_days": 45,
+    "tags": [
+      "mining",
+      "construction"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Movimiento de tierra",
+    "subfamily": "Tractores",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Agricultural / Industrial",
+    "unit": "unit",
+    "min_price_usd": 60000,
+    "max_price_usd": 220000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 3,
+    "avg_lifespan_months": 72,
+    "avg_lead_time_days": 22,
+    "tags": [
+      "agro",
+      "industrial"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Plataformas para trabajo en altura",
+    "subfamily": "Elevadores personales",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Aerial Work Platform",
+    "unit": "unit",
+    "min_price_usd": 8000,
+    "max_price_usd": 35000,
+    "lead_intent": "quote",
+    "service_intensity": "low",
+    "criticality": 3,
+    "avg_lifespan_months": 60,
+    "avg_lead_time_days": 14,
+    "tags": [
+      "facilities",
+      "maintenance"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Plataformas para trabajo en altura",
+    "subfamily": "Plataformas verticales manuales",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Aerial Work Platform",
+    "unit": "unit",
+    "min_price_usd": 12000,
+    "max_price_usd": 45000,
+    "lead_intent": "quote",
+    "service_intensity": "low",
+    "criticality": 3,
+    "avg_lifespan_months": 60,
+    "avg_lead_time_days": 14,
+    "tags": [
+      "facilities",
+      "maintenance"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Plataformas para trabajo en altura",
+    "subfamily": "Plumas articuladas diesel",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Aerial Work Platform",
+    "unit": "unit",
+    "min_price_usd": 45000,
+    "max_price_usd": 180000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 72,
+    "avg_lead_time_days": 18,
+    "tags": [
+      "construction",
+      "industrial"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Plataformas para trabajo en altura",
+    "subfamily": "Plumas articuladas eléctricas",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Aerial Work Platform",
+    "unit": "unit",
+    "min_price_usd": 50000,
+    "max_price_usd": 190000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 72,
+    "avg_lead_time_days": 18,
+    "tags": [
+      "indoor",
+      "industrial"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Plataformas para trabajo en altura",
+    "subfamily": "Plumas compactas sobre orugas",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Aerial Work Platform",
+    "unit": "unit",
+    "min_price_usd": 60000,
+    "max_price_usd": 220000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 72,
+    "avg_lead_time_days": 18,
+    "tags": [
+      "construction",
+      "confined"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Plataformas para trabajo en altura",
+    "subfamily": "Plumas telescópicas diesel",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Aerial Work Platform",
+    "unit": "unit",
+    "min_price_usd": 65000,
+    "max_price_usd": 240000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 72,
+    "avg_lead_time_days": 18,
+    "tags": [
+      "construction",
+      "industrial"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Plataformas para trabajo en altura",
+    "subfamily": "Tijeras eléctricas",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Aerial Work Platform",
+    "unit": "unit",
+    "min_price_usd": 20000,
+    "max_price_usd": 90000,
+    "lead_intent": "quote",
+    "service_intensity": "low",
+    "criticality": 3,
+    "avg_lifespan_months": 60,
+    "avg_lead_time_days": 15,
+    "tags": [
+      "warehouse",
+      "facilities"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Plataformas para trabajo en altura",
+    "subfamily": "Tijeras todo terreno diesel",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Aerial Work Platform",
+    "unit": "unit",
+    "min_price_usd": 28000,
+    "max_price_usd": 110000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 3,
+    "avg_lifespan_months": 60,
+    "avg_lead_time_days": 15,
+    "tags": [
+      "construction",
+      "outdoor"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Compresores de aire",
+    "subfamily": "Compresores Oil Free",
+    "business_model": "Venta / Servicio",
+    "asset_type": "Compressed Air",
+    "unit": "unit",
+    "min_price_usd": 70000,
+    "max_price_usd": 350000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 84,
+    "avg_lead_time_days": 25,
+    "tags": [
+      "pharma",
+      "food",
+      "oil_free"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Compresores de aire",
+    "subfamily": "Diesel portátiles",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Compressed Air",
+    "unit": "unit",
+    "min_price_usd": 15000,
+    "max_price_usd": 220000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 96,
+    "avg_lead_time_days": 20,
+    "tags": [
+      "construction",
+      "mining",
+      "oil_gas"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Compresores de aire",
+    "subfamily": "Eléctricos estacionarios",
+    "business_model": "Venta / Servicio",
+    "asset_type": "Compressed Air",
+    "unit": "unit",
+    "min_price_usd": 25000,
+    "max_price_usd": 280000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 96,
+    "avg_lead_time_days": 20,
+    "tags": [
+      "manufacturing",
+      "industrial"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Compresores de aire",
+    "subfamily": "Equipos especiales: Skids & Shelter",
+    "business_model": "Proyecto / Venta",
+    "asset_type": "Compressed Air",
+    "unit": "unit",
+    "min_price_usd": 90000,
+    "max_price_usd": 500000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 108,
+    "avg_lead_time_days": 30,
+    "tags": [
+      "oil_gas",
+      "process"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Compresores de aire",
+    "subfamily": "Generadores de Nitrógeno",
+    "business_model": "Proyecto / Venta",
+    "asset_type": "Compressed Air",
+    "unit": "unit",
+    "min_price_usd": 120000,
+    "max_price_usd": 650000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 108,
+    "avg_lead_time_days": 35,
+    "tags": [
+      "oil_gas",
+      "process"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Compresores de aire",
+    "subfamily": "Tratamiento de aire comprimido",
+    "business_model": "Servicio / Venta",
+    "asset_type": "Compressed Air",
+    "unit": "unit",
+    "min_price_usd": 10000,
+    "max_price_usd": 120000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 72,
+    "avg_lead_time_days": 18,
+    "tags": [
+      "industrial",
+      "maintenance"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Manipuladores",
+    "subfamily": "Compactos",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Telehandler",
+    "unit": "unit",
+    "min_price_usd": 70000,
+    "max_price_usd": 210000,
+    "lead_intent": "quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 84,
+    "avg_lead_time_days": 20,
+    "tags": [
+      "construction",
+      "logistics"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Manipuladores",
+    "subfamily": "Telescópicos",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Telehandler",
+    "unit": "unit",
+    "min_price_usd": 80000,
+    "max_price_usd": 260000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 84,
+    "avg_lead_time_days": 25,
+    "tags": [
+      "construction",
+      "industrial"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Manipuladores",
+    "subfamily": "Telescópicos Rotativos",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Telehandler",
+    "unit": "unit",
+    "min_price_usd": 120000,
+    "max_price_usd": 340000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 84,
+    "avg_lead_time_days": 30,
+    "tags": [
+      "construction",
+      "mining"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Grupos electrógenos",
+    "subfamily": "Diesel",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Power Generation",
+    "unit": "unit",
+    "min_price_usd": 12000,
+    "max_price_usd": 420000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 96,
+    "avg_lead_time_days": 20,
+    "tags": [
+      "backup_power",
+      "industrial"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Grupos electrógenos",
+    "subfamily": "Gas para servicio continuo",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Power Generation",
+    "unit": "unit",
+    "min_price_usd": 30000,
+    "max_price_usd": 500000,
+    "lead_intent": "quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 96,
+    "avg_lead_time_days": 20,
+    "tags": [
+      "continuous_power",
+      "industrial"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Torres de iluminación",
+    "subfamily": "Torres de iluminación diesel",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Lighting Tower",
+    "unit": "unit",
+    "min_price_usd": 5000,
+    "max_price_usd": 65000,
+    "lead_intent": "quote",
+    "service_intensity": "low",
+    "criticality": 3,
+    "avg_lifespan_months": 60,
+    "avg_lead_time_days": 12,
+    "tags": [
+      "construction",
+      "events",
+      "mining"
+    ]
+  },
+  {
+    "section": "Equipos",
+    "family": "Torres de iluminación",
+    "subfamily": "Torres de iluminación fotovoltaicas",
+    "business_model": "Alquiler / Venta",
+    "asset_type": "Lighting Tower",
+    "unit": "unit",
+    "min_price_usd": 8000,
+    "max_price_usd": 90000,
+    "lead_intent": "quote",
+    "service_intensity": "low",
+    "criticality": 3,
+    "avg_lifespan_months": 60,
+    "avg_lead_time_days": 14,
+    "tags": [
+      "sustainable",
+      "events",
+      "construction"
+    ]
+  },
+  {
+    "section": "Repuestos",
+    "family": "Repuestos para Compresores de aire",
+    "subfamily": "Filtros de aire / aceite",
+    "business_model": "Venta",
+    "asset_type": "Consumable",
+    "unit": "piece",
+    "min_price_usd": 15,
+    "max_price_usd": 1200,
+    "lead_intent": "spare_quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 12,
+    "avg_lead_time_days": 5,
+    "tags": [
+      "filters",
+      "air_compressor"
+    ]
+  },
+  {
+    "section": "Repuestos",
+    "family": "Repuestos para Compresores de aire",
+    "subfamily": "Lubricantes",
+    "business_model": "Venta",
+    "asset_type": "Consumable",
+    "unit": "piece",
+    "min_price_usd": 20,
+    "max_price_usd": 2500,
+    "lead_intent": "spare_quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 6,
+    "avg_lead_time_days": 5,
+    "tags": [
+      "lubricants",
+      "air_compressor"
+    ]
+  },
+  {
+    "section": "Repuestos",
+    "family": "Repuestos para Compresores de aire",
+    "subfamily": "Filtros Fleetguard",
+    "business_model": "Venta",
+    "asset_type": "Consumable",
+    "unit": "piece",
+    "min_price_usd": 25,
+    "max_price_usd": 1800,
+    "lead_intent": "spare_quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 12,
+    "avg_lead_time_days": 5,
+    "tags": [
+      "fleetguard",
+      "filtration"
+    ]
+  },
+  {
+    "section": "Repuestos",
+    "family": "Repuestos para Plataformas",
+    "subfamily": "Componentes hidráulicos",
+    "business_model": "Venta",
+    "asset_type": "Spare Part",
+    "unit": "piece",
+    "min_price_usd": 50,
+    "max_price_usd": 6000,
+    "lead_intent": "spare_quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 24,
+    "avg_lead_time_days": 7,
+    "tags": [
+      "platform",
+      "hydraulic"
+    ]
+  },
+  {
+    "section": "Repuestos",
+    "family": "Repuestos para Manipuladores",
+    "subfamily": "Transmisión y tren de potencia",
+    "business_model": "Venta",
+    "asset_type": "Spare Part",
+    "unit": "piece",
+    "min_price_usd": 80,
+    "max_price_usd": 12000,
+    "lead_intent": "spare_quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 24,
+    "avg_lead_time_days": 7,
+    "tags": [
+      "telehandler",
+      "powertrain"
+    ]
+  },
+  {
+    "section": "Repuestos",
+    "family": "Repuestos para Grupos electrógenos",
+    "subfamily": "Tableros y alternadores",
+    "business_model": "Venta",
+    "asset_type": "Spare Part",
+    "unit": "piece",
+    "min_price_usd": 100,
+    "max_price_usd": 15000,
+    "lead_intent": "spare_quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 24,
+    "avg_lead_time_days": 7,
+    "tags": [
+      "generator",
+      "electrical"
+    ]
+  },
+  {
+    "section": "Postventa",
+    "family": "Cursos de capacitación",
+    "subfamily": "Capacitación técnica",
+    "business_model": "Servicio",
+    "asset_type": "Service",
+    "unit": "session",
+    "min_price_usd": 500,
+    "max_price_usd": 5000,
+    "lead_intent": "service_quote",
+    "service_intensity": "medium",
+    "criticality": 3,
+    "avg_lifespan_months": 1,
+    "avg_lead_time_days": 10,
+    "tags": [
+      "training",
+      "safety"
+    ]
+  },
+  {
+    "section": "Postventa",
+    "family": "Servicio técnico",
+    "subfamily": "Mantenimiento correctivo",
+    "business_model": "Servicio",
+    "asset_type": "Service",
+    "unit": "job",
+    "min_price_usd": 300,
+    "max_price_usd": 20000,
+    "lead_intent": "service_quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 1,
+    "avg_lead_time_days": 2,
+    "tags": [
+      "maintenance",
+      "repair"
+    ]
+  },
+  {
+    "section": "Postventa",
+    "family": "Sistema de mantenimiento planificado",
+    "subfamily": "Contrato de mantenimiento",
+    "business_model": "Servicio",
+    "asset_type": "Service",
+    "unit": "contract",
+    "min_price_usd": 1200,
+    "max_price_usd": 50000,
+    "lead_intent": "service_quote",
+    "service_intensity": "high",
+    "criticality": 5,
+    "avg_lifespan_months": 12,
+    "avg_lead_time_days": 14,
+    "tags": [
+      "maintenance",
+      "predictive"
+    ]
+  },
+  {
+    "section": "Postventa",
+    "family": "Auditoria de Aire Sullair",
+    "subfamily": "Auditoría industrial",
+    "business_model": "Servicio",
+    "asset_type": "Service",
+    "unit": "job",
+    "min_price_usd": 800,
+    "max_price_usd": 12000,
+    "lead_intent": "service_quote",
+    "service_intensity": "medium",
+    "criticality": 4,
+    "avg_lifespan_months": 1,
+    "avg_lead_time_days": 10,
+    "tags": [
+      "audit",
+      "air_quality"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "model_name": "pricing_model",
+  "target_col": "negotiated_price_usd",
+  "date_col": "date",
+  "training_rows": 40000,
+  "validation_rows": 10000,
+  "feature_count": 75,
+  "metrics": {
+    "mae": 339.4776000764941,
+    "rmse": 764.1362564960034,
+    "r2": 0.9998591220506863,
+    "mape_pct": 0.5185470786658205
+  },
+  "trained_at_utc": "2026-04-06T22:09:18.889900"
+}

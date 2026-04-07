@@ -1,0 +1,1861 @@
+{
+  "model_version": "rf-price-ratio-v1",
+  "metrics": {
+    "rmse": 0.030076041064988818,
+    "mae": 0.0236799262715771,
+    "r2": 0.703202950196382
+  },
+  "feature_importance": [
+    [
+      "list_discount_pct",
+      0.7839136333049024
+    ],
+    [
+      "macro_index",
+      0.012805111083573184
+    ],
+    [
+      "price_sensitivity",
+      0.01240332537367349
+    ],
+    [
+      "industry_fit_score",
+      0.011866835268195897
+    ],
+    [
+      "annual_budget_multiplier",
+      0.010640755550865029
+    ],
+    [
+      "churn_risk",
+      0.009819159375516964
+    ],
+    [
+      "win_probability",
+      0.009005595017504498
+    ],
+    [
+      "elasticity_estimate",
+      0.008865208157740516
+    ],
+    [
+      "list_price_usd",
+      0.008606994220985754
+    ],
+    [
+      "gross_margin_usd",
+      0.008079194898297469
+    ],
+    [
+      "margin_buffer_pct",
+      0.008021569218222557
+    ],
+    [
+      "month",
+      0.007789928079110966
+    ],
+    [
+      "dayofweek",
+      0.007685884174318636
+    ],
+    [
+      "lead_time_days",
+      0.006878810370829656
+    ],
+    [
+      "urgency_score",
+      0.006021460615746202
+    ],
+    [
+      "margin_pct",
+      0.0057469939029185825
+    ],
+    [
+      "gross_margin_pct",
+      0.00552277077318542
+    ],
+    [
+      "employee_count",
+      0.004525815692796666
+    ],
+    [
+      "employee_count_acct",
+      0.004341330860042973
+    ],
+    [
+      "revenue_usd",
+      0.003928620352462898
+    ],
+    [
+      "source_partner_referral",
+      0.0034453180582708393
+    ],
+    [
+      "cost_usd",
+      0.0033677861921219236
+    ],
+    [
+      "contact_role_HSE Manager",
+      0.002694946346174795
+    ],
+    [
+      "seasonality_index",
+      0.002682957373275409
+    ],
+    [
+      "competitor_price_index",
+      0.0025141758392073087
+    ],
+    [
+      "quarter",
+      0.0020625647691035606
+    ],
+    [
+      "min_price_usd",
+      0.0020408024761263926
+    ],
+    [
+      "criticality",
+      0.0019751414041794817
+    ],
+    [
+      "next_best_action_schedule_visit",
+      0.0019680127376018705
+    ],
+    [
+      "event_factor",
+      0.0019035579933962539
+    ],
+    [
+      "business_model_Alquiler / Venta",
+      0.00160167663522009
+    ],
+    [
+      "business_model_prod_Alquiler / Venta",
+      0.0015709669874318377
+    ],
+    [
+      "quantity",
+      0.0015707385985731892
+    ],
+    [
+      "purchasing_power_index",
+      0.0015591757350541019
+    ],
+    [
+      "next_best_action_call",
+      0.001472098355922947
+    ],
+    [
+      "funnel_stage_negotiation",
+      0.0013409513270809315
+    ],
+    [
+      "next_best_action_send_catalog",
+      0.0012569132072306598
+    ],
+    [
+      "max_price_usd",
+      0.0010199536451490168
+    ],
+    [
+      "logistics_cost_index",
+      0.0010128282209493165
+    ],
+    [
+      "account_tier_B",
+      0.0009767163659148627
+    ]
+  ],
+  "feature_columns": [
+    "date",
+    "sector",
+    "province",
+    "employee_count",
+    "section",
+    "family",
+    "subfamily",
+    "business_model",
+    "asset_type",
+    "unit",
+    "base_price_usd",
+    "list_price_usd",
+    "negotiated_price_usd",
+    "quantity",
+    "revenue_usd",
+    "cost_usd",
+    "gross_margin_usd",
+    "gross_margin_pct",
+    "lead_time_days",
+    "win_probability",
+    "urgency_score",
+    "churn_risk",
+    "macro_index",
+    "seasonality_index",
+    "min_margin_required",
+    "compliance_ok",
+    "contact_role",
+    "lead_intent",
+    "service_intensity",
+    "section_prod",
+    "family_prod",
+    "subfamily_prod",
+    "business_model_prod",
+    "asset_type_prod",
+    "unit_prod",
+    "base_price_usd_prod",
+    "min_price_usd",
+    "max_price_usd",
+    "lead_intent_prod",
+    "service_intensity_prod",
+    "criticality",
+    "avg_lifespan_months",
+    "avg_lead_time_days",
+    "tags_json",
+    "catalog_key",
+    "company_name_acct",
+    "sector_acct",
+    "industry",
+    "province_acct",
+    "country",
+    "employee_count_acct",
+    "annual_budget_multiplier",
+    "price_sensitivity",
+    "service_attachment",
+    "source",
+    "account_tier",
+    "industry_fit_score",
+    "funnel_stage",
+    "next_best_action",
+    "month",
+    "quarter",
+    "dayofweek",
+    "is_month_end",
+    "price_ratio",
+    "list_discount_pct",
+    "margin_pct",
+    "margin_buffer_pct",
+    "customer_segment",
+    "competitor_price_index",
+    "logistics_cost_index",
+    "purchasing_power_index",
+    "loyalty_score",
+    "payment_behavior_score",
+    "event_factor",
+    "stock_available",
+    "stock_rotations_90d",
+    "stock_pressure",
+    "elasticity_estimate",
+    "payment_risk"
+  ],
+  "numeric_columns": [
+    "employee_count",
+    "base_price_usd",
+    "list_price_usd",
+    "quantity",
+    "revenue_usd",
+    "cost_usd",
+    "gross_margin_usd",
+    "gross_margin_pct",
+    "lead_time_days",
+    "win_probability",
+    "urgency_score",
+    "churn_risk",
+    "macro_index",
+    "seasonality_index",
+    "min_margin_required",
+    "compliance_ok",
+    "base_price_usd_prod",
+    "min_price_usd",
+    "max_price_usd",
+    "criticality",
+    "avg_lifespan_months",
+    "avg_lead_time_days",
+    "employee_count_acct",
+    "annual_budget_multiplier",
+    "price_sensitivity",
+    "service_attachment",
+    "industry_fit_score",
+    "month",
+    "quarter",
+    "dayofweek",
+    "is_month_end",
+    "list_discount_pct",
+    "margin_pct",
+    "margin_buffer_pct",
+    "competitor_price_index",
+    "logistics_cost_index",
+    "purchasing_power_index",
+    "loyalty_score",
+    "payment_behavior_score",
+    "event_factor",
+    "stock_pressure",
+    "elasticity_estimate",
+    "payment_risk"
+  ],
+  "categorical_columns": [
+    "sector",
+    "province",
+    "section",
+    "family",
+    "subfamily",
+    "business_model",
+    "asset_type",
+    "unit",
+    "contact_role",
+    "lead_intent",
+    "service_intensity",
+    "section_prod",
+    "family_prod",
+    "subfamily_prod",
+    "business_model_prod",
+    "asset_type_prod",
+    "unit_prod",
+    "lead_intent_prod",
+    "service_intensity_prod",
+    "tags_json",
+    "catalog_key",
+    "company_name_acct",
+    "sector_acct",
+    "industry",
+    "province_acct",
+    "country",
+    "source",
+    "account_tier",
+    "funnel_stage",
+    "next_best_action",
+    "customer_segment"
+  ],
+  "product_stats": {
+    "equipos_compresores-de-aire_diesel-portátiles_001": {
+      "cost_ratio": 0.47863192647077674,
+      "avg_margin_pct": 0.4815967741935484,
+      "avg_discount_pct": 0.11023439153754272
+    },
+    "equipos_compresores-de-aire_equipos-especiales-skids-shelter_001": {
+      "cost_ratio": 0.495600557197945,
+      "avg_margin_pct": 0.4779333333333333,
+      "avg_discount_pct": 0.1062079410978967
+    },
+    "equipos_compresores-de-aire_generadores-de-nitrógeno_001": {
+      "cost_ratio": 0.48948855798929164,
+      "avg_margin_pct": 0.47760869565217406,
+      "avg_discount_pct": 0.10482268042183387
+    },
+    "equipos_grupos-electrógenos_diesel_001": {
+      "cost_ratio": 0.4408871340677318,
+      "avg_margin_pct": 0.5089333333333333,
+      "avg_discount_pct": 0.1263695060071646
+    },
+    "equipos_grupos-electrógenos_gas-para-servicio-continuo_001": {
+      "cost_ratio": 0.4851290581918309,
+      "avg_margin_pct": 0.45285,
+      "avg_discount_pct": 0.10579979440482978
+    },
+    "equipos_manipuladores_compactos_001": {
+      "cost_ratio": 0.40890026346465846,
+      "avg_margin_pct": 0.514,
+      "avg_discount_pct": 0.2158743921077439
+    },
+    "equipos_manipuladores_telescópicos_001": {
+      "cost_ratio": 0.4952248043863612,
+      "avg_margin_pct": 0.46941249999999995,
+      "avg_discount_pct": 0.05326794266909525
+    },
+    "equipos_movimiento-de-tierra_camiones-volcadores_001": {
+      "cost_ratio": 0.4967175661558134,
+      "avg_margin_pct": 0.469675,
+      "avg_discount_pct": 0.13811825036265435
+    },
+    "equipos_movimiento-de-tierra_cargadoras-frontales-con-retroexcavadora_001": {
+      "cost_ratio": 0.4462733752898336,
+      "avg_margin_pct": 0.51005,
+      "avg_discount_pct": 0.13273767876523063
+    },
+    "equipos_movimiento-de-tierra_cargadoras-frontales_001": {
+      "cost_ratio": 0.4770124118875631,
+      "avg_margin_pct": 0.4867916666666667,
+      "avg_discount_pct": 0.13845416591036905
+    },
+    "equipos_movimiento-de-tierra_compactadoras-de-asfalto_001": {
+      "cost_ratio": 0.49887653074200083,
+      "avg_margin_pct": 0.4737090909090909,
+      "avg_discount_pct": 0.10811356503818778
+    },
+    "equipos_movimiento-de-tierra_compactadoras-de-suelo_001": {
+      "cost_ratio": 0.48357332007234655,
+      "avg_margin_pct": 0.4885875,
+      "avg_discount_pct": 0.09651175639745879
+    },
+    "equipos_movimiento-de-tierra_excavadoras_001": {
+      "cost_ratio": 0.49634222959765933,
+      "avg_margin_pct": 0.4606352941176471,
+      "avg_discount_pct": 0.10323698019419486
+    },
+    "equipos_movimiento-de-tierra_minicargadoras_001": {
+      "cost_ratio": 0.4330936639336435,
+      "avg_margin_pct": 0.5207666666666667,
+      "avg_discount_pct": 0.08791988032677638
+    },
+    "equipos_movimiento-de-tierra_topadoras_001": {
+      "cost_ratio": 0.4998286302025094,
+      "avg_margin_pct": 0.4707076923076923,
+      "avg_discount_pct": 0.10289892885148692
+    },
+    "equipos_movimiento-de-tierra_tractores_001": {
+      "cost_ratio": 0.48397697577312704,
+      "avg_margin_pct": 0.46456,
+      "avg_discount_pct": 0.14369586868257547
+    },
+    "equipos_plataformas-para-trabajo-en-altura_plataformas-verticales-manuales_001": {
+      "cost_ratio": 0.45445858870412914,
+      "avg_margin_pct": 0.4862,
+      "avg_discount_pct": 0.0454696632908812
+    },
+    "equipos_plataformas-para-trabajo-en-altura_plumas-articuladas-diesel_001": {
+      "cost_ratio": 0.5014481106610159,
+      "avg_margin_pct": 0.465075,
+      "avg_discount_pct": 0.08020974867141148
+    },
+    "equipos_plataformas-para-trabajo-en-altura_plumas-articuladas-eléctricas_001": {
+      "cost_ratio": 0.4408644835051127,
+      "avg_margin_pct": 0.49300000000000005,
+      "avg_discount_pct": 0.19558491106483303
+    },
+    "equipos_plataformas-para-trabajo-en-altura_plumas-compactas-sobre-orugas_001": {
+      "cost_ratio": 0.4460884728314349,
+      "avg_margin_pct": 0.47586666666666666,
+      "avg_discount_pct": 0.21541797941758797
+    },
+    "equipos_plataformas-para-trabajo-en-altura_plumas-telescópicas-diesel_001": {
+      "cost_ratio": 0.5466635322408184,
+      "avg_margin_pct": 0.44989999999999997,
+      "avg_discount_pct": 0.08060393623635204
+    },
+    "equipos_plataformas-para-trabajo-en-altura_tijeras-eléctricas_001": {
+      "cost_ratio": 0.4640775338036869,
+      "avg_margin_pct": 0.4843111111111111,
+      "avg_discount_pct": 0.13699760316212625
+    },
+    "equipos_plataformas-para-trabajo-en-altura_tijeras-todo-terreno-diesel_001": {
+      "cost_ratio": 0.49528491066164815,
+      "avg_margin_pct": 0.4628833333333333,
+      "avg_discount_pct": 0.0793470636839807
+    },
+    "equipos_torres-de-iluminación_torres-de-iluminación-diesel_001": {
+      "cost_ratio": 0.4625182799647336,
+      "avg_margin_pct": 0.4911055555555556,
+      "avg_discount_pct": 0.09498848053175464
+    },
+    "equipos_torres-de-iluminación_torres-de-iluminación-fotovoltaicas_001": {
+      "cost_ratio": 0.4637955687849541,
+      "avg_margin_pct": 0.5137,
+      "avg_discount_pct": 0.056959156524982235
+    },
+    "repuestos_repuestos-para-grupos-electrógenos_tableros-y-alternadores_001": {
+      "cost_ratio": 0.85,
+      "avg_margin_pct": 0.6528285714285714,
+      "avg_discount_pct": 0.09379789424238802
+    }
+  },
+  "account_stats": {
+    "ACC00001": {
+      "avg_price_sensitivity": 0.329,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.73375,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00003": {
+      "avg_price_sensitivity": 0.348,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7225,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00005": {
+      "avg_price_sensitivity": 0.264,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5611,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00006": {
+      "avg_price_sensitivity": 0.114,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6331,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00011": {
+      "avg_price_sensitivity": 0.149,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.7282,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00016": {
+      "avg_price_sensitivity": 0.138,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6364000000000001,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00020": {
+      "avg_price_sensitivity": 0.151,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.7607999999999999,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00021": {
+      "avg_price_sensitivity": 0.205,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6327,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00022": {
+      "avg_price_sensitivity": 0.384,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7138,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00025": {
+      "avg_price_sensitivity": 0.207,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.7893,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00026": {
+      "avg_price_sensitivity": 0.12,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6756,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00027": {
+      "avg_price_sensitivity": 0.145,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6921,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00028": {
+      "avg_price_sensitivity": 0.253,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5638,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00031": {
+      "avg_price_sensitivity": 0.156,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6444,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00035": {
+      "avg_price_sensitivity": 0.291,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6492,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00036": {
+      "avg_price_sensitivity": 0.204,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6554,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00040": {
+      "avg_price_sensitivity": 0.137,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7269,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00041": {
+      "avg_price_sensitivity": 0.118,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.80765,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00042": {
+      "avg_price_sensitivity": 0.219,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7073,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00044": {
+      "avg_price_sensitivity": 0.389,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5626,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00045": {
+      "avg_price_sensitivity": 0.13,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6507,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00048": {
+      "avg_price_sensitivity": 0.428,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.5603,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00053": {
+      "avg_price_sensitivity": 0.25,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6219,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00054": {
+      "avg_price_sensitivity": 0.208,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7561,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00057": {
+      "avg_price_sensitivity": 0.184,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6568,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00061": {
+      "avg_price_sensitivity": 0.161,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6804,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00066": {
+      "avg_price_sensitivity": 0.249,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6922,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00081": {
+      "avg_price_sensitivity": 0.155,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.8726,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00082": {
+      "avg_price_sensitivity": 0.172,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6372,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00084": {
+      "avg_price_sensitivity": 0.246,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.604,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00096": {
+      "avg_price_sensitivity": 0.219,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6293,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00099": {
+      "avg_price_sensitivity": 0.134,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.7198,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00100": {
+      "avg_price_sensitivity": 0.316,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7887,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00103": {
+      "avg_price_sensitivity": 0.233,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6181,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00108": {
+      "avg_price_sensitivity": 0.219,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6293,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00109": {
+      "avg_price_sensitivity": 0.327,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.696,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00116": {
+      "avg_price_sensitivity": 0.196,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6464,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00117": {
+      "avg_price_sensitivity": 0.152,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7954,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00119": {
+      "avg_price_sensitivity": 0.156,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6231,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00127": {
+      "avg_price_sensitivity": 0.271,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7068,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00131": {
+      "avg_price_sensitivity": 0.445,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.4783,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00136": {
+      "avg_price_sensitivity": 0.357,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6483,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00138": {
+      "avg_price_sensitivity": 0.137,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.7311,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00143": {
+      "avg_price_sensitivity": 0.357,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6288,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00146": {
+      "avg_price_sensitivity": 0.223,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6959,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00147": {
+      "avg_price_sensitivity": 0.252,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.675,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00149": {
+      "avg_price_sensitivity": 0.227,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6274,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00150": {
+      "avg_price_sensitivity": 0.193,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.7822,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00151": {
+      "avg_price_sensitivity": 0.315,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6268,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00159": {
+      "avg_price_sensitivity": 0.144,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.7234,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00160": {
+      "avg_price_sensitivity": 0.296,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.825,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00169": {
+      "avg_price_sensitivity": 0.289,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6046,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00193": {
+      "avg_price_sensitivity": 0.305,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.5344,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00196": {
+      "avg_price_sensitivity": 0.253,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7138,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00197": {
+      "avg_price_sensitivity": 0.203,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6253,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00204": {
+      "avg_price_sensitivity": 0.208,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.7741,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00205": {
+      "avg_price_sensitivity": 0.238,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.609,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00209": {
+      "avg_price_sensitivity": 0.217,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6624,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00214": {
+      "avg_price_sensitivity": 0.165,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6423,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00237": {
+      "avg_price_sensitivity": 0.147,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7966,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00238": {
+      "avg_price_sensitivity": 0.286,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6054,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00245": {
+      "avg_price_sensitivity": 0.198,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.826,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00252": {
+      "avg_price_sensitivity": 0.166,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6207,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00259": {
+      "avg_price_sensitivity": 0.201,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.7769,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00262": {
+      "avg_price_sensitivity": 0.136,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.5829,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00264": {
+      "avg_price_sensitivity": 0.204,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.5857,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00267": {
+      "avg_price_sensitivity": 0.219,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5719,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00272": {
+      "avg_price_sensitivity": 0.357,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6168,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00273": {
+      "avg_price_sensitivity": 0.205,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6327,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00280": {
+      "avg_price_sensitivity": 0.31,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7705500000000001,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00287": {
+      "avg_price_sensitivity": 0.395,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6512,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00289": {
+      "avg_price_sensitivity": 0.136,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.5829,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00291": {
+      "avg_price_sensitivity": 0.277,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6795,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00293": {
+      "avg_price_sensitivity": 0.155,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.6109,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00295": {
+      "avg_price_sensitivity": 0.394,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.4906,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00319": {
+      "avg_price_sensitivity": 0.316,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7302,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00321": {
+      "avg_price_sensitivity": 0.279,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6025,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00324": {
+      "avg_price_sensitivity": 0.204,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7829,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00330": {
+      "avg_price_sensitivity": 0.177,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.6056,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00334": {
+      "avg_price_sensitivity": 0.265,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7424,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00339": {
+      "avg_price_sensitivity": 0.158,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.7306,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00341": {
+      "avg_price_sensitivity": 0.361,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5379,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00348": {
+      "avg_price_sensitivity": 0.182,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5808,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00349": {
+      "avg_price_sensitivity": 0.377,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7155,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00355": {
+      "avg_price_sensitivity": 0.2,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7839,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00358": {
+      "avg_price_sensitivity": 0.151,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6906,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00360": {
+      "avg_price_sensitivity": 0.142,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.7344,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00363": {
+      "avg_price_sensitivity": 0.252,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.564,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00368": {
+      "avg_price_sensitivity": 0.204,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.622,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00371": {
+      "avg_price_sensitivity": 0.362,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5376,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00377": {
+      "avg_price_sensitivity": 0.178,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6313,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00378": {
+      "avg_price_sensitivity": 0.24,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6243,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00390": {
+      "avg_price_sensitivity": 0.194,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6769,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00392": {
+      "avg_price_sensitivity": 0.244,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7939,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00394": {
+      "avg_price_sensitivity": 0.168,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6337,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00402": {
+      "avg_price_sensitivity": 0.377,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7155,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00404": {
+      "avg_price_sensitivity": 0.264,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6635,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00415": {
+      "avg_price_sensitivity": 0.332,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.6764,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00419": {
+      "avg_price_sensitivity": 0.36,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5696,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00421": {
+      "avg_price_sensitivity": 0.307,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5508,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00429": {
+      "avg_price_sensitivity": 0.214,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.7726,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00436": {
+      "avg_price_sensitivity": 0.147,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6432,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00438": {
+      "avg_price_sensitivity": 0.247,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6226,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00439": {
+      "avg_price_sensitivity": 0.203,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.8142499999999999,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00445": {
+      "avg_price_sensitivity": 0.275,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7659,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00451": {
+      "avg_price_sensitivity": 0.17,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.7832,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00456": {
+      "avg_price_sensitivity": 0.266,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5607,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00462": {
+      "avg_price_sensitivity": 0.215,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6303,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00469": {
+      "avg_price_sensitivity": 0.218,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.75145,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00478": {
+      "avg_price_sensitivity": 0.162,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.5766,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00499": {
+      "avg_price_sensitivity": 0.177,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7173,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00503": {
+      "avg_price_sensitivity": 0.364,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7321,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00504": {
+      "avg_price_sensitivity": 0.185,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6296,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00506": {
+      "avg_price_sensitivity": 0.269,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.8573,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00510": {
+      "avg_price_sensitivity": 0.274,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6082,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00511": {
+      "avg_price_sensitivity": 0.108,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.806,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00519": {
+      "avg_price_sensitivity": 0.376,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.4949,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00526": {
+      "avg_price_sensitivity": 0.213,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.8033,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00531": {
+      "avg_price_sensitivity": 0.263,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6109,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00536": {
+      "avg_price_sensitivity": 0.287,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7056,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00544": {
+      "avg_price_sensitivity": 0.224,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6487,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00561": {
+      "avg_price_sensitivity": 0.188,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6368,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00562": {
+      "avg_price_sensitivity": 0.147,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6252,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00574": {
+      "avg_price_sensitivity": 0.292,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5859,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00577": {
+      "avg_price_sensitivity": 0.271,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.5201,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00579": {
+      "avg_price_sensitivity": 0.225,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.5311,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00587": {
+      "avg_price_sensitivity": 0.308,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.6822,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00588": {
+      "avg_price_sensitivity": 0.396,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.561,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00589": {
+      "avg_price_sensitivity": 0.115,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6959,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00590": {
+      "avg_price_sensitivity": 0.186,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7872,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00593": {
+      "avg_price_sensitivity": 0.214,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5731,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00597": {
+      "avg_price_sensitivity": 0.263,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6109,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00620": {
+      "avg_price_sensitivity": 0.126,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.7983,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00623": {
+      "avg_price_sensitivity": 0.223,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6174,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00626": {
+      "avg_price_sensitivity": 0.126,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.8016,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00628": {
+      "avg_price_sensitivity": 0.182,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.6044,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00631": {
+      "avg_price_sensitivity": 0.285,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.5947,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00639": {
+      "avg_price_sensitivity": 0.334,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5758,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00649": {
+      "avg_price_sensitivity": 0.248,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.6756,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00651": {
+      "avg_price_sensitivity": 0.131,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7284,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00660": {
+      "avg_price_sensitivity": 0.216,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.675,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00672": {
+      "avg_price_sensitivity": 0.385,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5321,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00674": {
+      "avg_price_sensitivity": 0.133,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.68895,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00678": {
+      "avg_price_sensitivity": 0.42,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.6343,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00682": {
+      "avg_price_sensitivity": 0.329,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.7957,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00683": {
+      "avg_price_sensitivity": 0.325,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.8161,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00687": {
+      "avg_price_sensitivity": 0.19,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7863,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00693": {
+      "avg_price_sensitivity": 0.159,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.769,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00697": {
+      "avg_price_sensitivity": 0.251,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6216,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00699": {
+      "avg_price_sensitivity": 0.104,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.7,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00701": {
+      "avg_price_sensitivity": 0.139,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7265,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00703": {
+      "avg_price_sensitivity": 0.245,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6152,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00704": {
+      "avg_price_sensitivity": 0.122,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6526,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00705": {
+      "avg_price_sensitivity": 0.263,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5929,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00706": {
+      "avg_price_sensitivity": 0.276,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6078,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00708": {
+      "avg_price_sensitivity": 0.139,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.7321,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00713": {
+      "avg_price_sensitivity": 0.148,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.73,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00714": {
+      "avg_price_sensitivity": 0.304,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.6022,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00717": {
+      "avg_price_sensitivity": 0.282,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.7574,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00718": {
+      "avg_price_sensitivity": 0.208,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6241,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00725": {
+      "avg_price_sensitivity": 0.22,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6291,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00726": {
+      "avg_price_sensitivity": 0.241,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6882,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00727": {
+      "avg_price_sensitivity": 0.196,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.58425,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00728": {
+      "avg_price_sensitivity": 0.257,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6123,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00729": {
+      "avg_price_sensitivity": 0.24,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6051500000000001,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00732": {
+      "avg_price_sensitivity": 0.247,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.7703,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00733": {
+      "avg_price_sensitivity": 0.129,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.5845,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00735": {
+      "avg_price_sensitivity": 0.116,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6641999999999999,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00738": {
+      "avg_price_sensitivity": 0.195,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6351,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00740": {
+      "avg_price_sensitivity": 0.376,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6122,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00741": {
+      "avg_price_sensitivity": 0.118,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.8036,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00743": {
+      "avg_price_sensitivity": 0.43,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.5599,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00748": {
+      "avg_price_sensitivity": 0.399,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5827,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00749": {
+      "avg_price_sensitivity": 0.199,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6341,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00753": {
+      "avg_price_sensitivity": 0.15,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6425,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00754": {
+      "avg_price_sensitivity": 0.268,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6097,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00758": {
+      "avg_price_sensitivity": 0.281,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.79555,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00759": {
+      "avg_price_sensitivity": 0.197,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5457,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00762": {
+      "avg_price_sensitivity": 0.149,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6382,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00764": {
+      "avg_price_sensitivity": 0.276,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.6134,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00768": {
+      "avg_price_sensitivity": 0.138,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7267,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00771": {
+      "avg_price_sensitivity": 0.274,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.7578499999999999,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00774": {
+      "avg_price_sensitivity": 0.28,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6352,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00775": {
+      "avg_price_sensitivity": 0.341,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.5033,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00783": {
+      "avg_price_sensitivity": 0.234,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5683,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00785": {
+      "avg_price_sensitivity": 0.208,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.8191,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00789": {
+      "avg_price_sensitivity": 0.235,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5681,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00793": {
+      "avg_price_sensitivity": 0.305,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6278,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00796": {
+      "avg_price_sensitivity": 0.12,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.8776,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00797": {
+      "avg_price_sensitivity": 0.186,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.7839,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00799": {
+      "avg_price_sensitivity": 0.241,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.858,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00801": {
+      "avg_price_sensitivity": 0.158,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.689,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00803": {
+      "avg_price_sensitivity": 0.253,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6212,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00804": {
+      "avg_price_sensitivity": 0.263,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.522,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00806": {
+      "avg_price_sensitivity": 0.169,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.8059000000000001,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00807": {
+      "avg_price_sensitivity": 0.095,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6706,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00808": {
+      "avg_price_sensitivity": 0.259,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6647,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00810": {
+      "avg_price_sensitivity": 0.173,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.5931,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00812": {
+      "avg_price_sensitivity": 0.215,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6224,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00814": {
+      "avg_price_sensitivity": 0.182,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.8298,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00817": {
+      "avg_price_sensitivity": 0.243,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.6236,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00818": {
+      "avg_price_sensitivity": 0.152,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.8404,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00819": {
+      "avg_price_sensitivity": 0.307,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.5294,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00821": {
+      "avg_price_sensitivity": 0.218,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6186,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00826": {
+      "avg_price_sensitivity": 0.177,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.768,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00832": {
+      "avg_price_sensitivity": 0.183,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.683,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00834": {
+      "avg_price_sensitivity": 0.21,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6101,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00838": {
+      "avg_price_sensitivity": 0.124,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.7942,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00840": {
+      "avg_price_sensitivity": 0.243,
+      "avg_service_attachment": 0.61,
+      "avg_win_probability": 0.7495,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00842": {
+      "avg_price_sensitivity": 0.433,
+      "avg_service_attachment": 0.45,
+      "avg_win_probability": 0.4812,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00843": {
+      "avg_price_sensitivity": 0.173,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.574,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00846": {
+      "avg_price_sensitivity": 0.141,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6402,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00847": {
+      "avg_price_sensitivity": 0.185,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6341,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00850": {
+      "avg_price_sensitivity": 0.156,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.7985500000000001,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00851": {
+      "avg_price_sensitivity": 0.181,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.82405,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00852": {
+      "avg_price_sensitivity": 0.246,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.7365,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00853": {
+      "avg_price_sensitivity": 0.219,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.8183,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00859": {
+      "avg_price_sensitivity": 0.133,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.65,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00860": {
+      "avg_price_sensitivity": 0.128,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.6882999999999999,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00862": {
+      "avg_price_sensitivity": 0.102,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.699,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00863": {
+      "avg_price_sensitivity": 0.168,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.83055,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00872": {
+      "avg_price_sensitivity": 0.129,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.643,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00878": {
+      "avg_price_sensitivity": 0.303,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.6283,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00879": {
+      "avg_price_sensitivity": 0.252,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.7635,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00880": {
+      "avg_price_sensitivity": 0.189,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5791,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00882": {
+      "avg_price_sensitivity": 0.121,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7308,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00883": {
+      "avg_price_sensitivity": 0.118,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.70265,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00886": {
+      "avg_price_sensitivity": 0.238,
+      "avg_service_attachment": 0.75,
+      "avg_win_probability": 0.7748,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00887": {
+      "avg_price_sensitivity": 0.103,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6538,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00889": {
+      "avg_price_sensitivity": 0.091,
+      "avg_service_attachment": 0.72,
+      "avg_win_probability": 0.6387,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00893": {
+      "avg_price_sensitivity": 0.236,
+      "avg_service_attachment": 0.68,
+      "avg_win_probability": 0.7824,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00898": {
+      "avg_price_sensitivity": 0.276,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5583,
+      "avg_loyalty_score": 0.5
+    },
+    "ACC00899": {
+      "avg_price_sensitivity": 0.389,
+      "avg_service_attachment": 0.52,
+      "avg_win_probability": 0.5311,
+      "avg_loyalty_score": 0.5
+    }
+  }
+}

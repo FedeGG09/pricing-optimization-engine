@@ -38,6 +38,7 @@ class Settings(BaseSettings):
     default_role: str = "analyst"
 
     prometheus_enabled: bool = True
+    llm_front_password: str | None = None
 
 
 settings = Settings()

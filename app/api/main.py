@@ -35,6 +35,20 @@ from app.pricing_engine.dynamic_pricing_engine import get_engine
 
 app = FastAPI(title="Dynamic Pricing API", version="1.2.0")
 
+class LLMLoginRequest(BaseModel):
+    password: str
+
+@app.post("/auth/llm-login")
+def llm_login(req: LLMLoginRequest):
+    if not settings.llm_front_password:
+        raise HTTPException(status_code=500, detail="LLM password not configured")
+
+    if req.password != settings.llm_front_password:
+        raise HTTPException(status_code=401, detail="Invalid password")
+
+    token = create_access_token(subject="llm-user", role=settings.default_role)
+    return {"access_token": token, "token_type": "bearer"}
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[

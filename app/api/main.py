@@ -1,22 +1,20 @@
 from __future__ import annotations
 
+import os
 import sqlite3
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import pandas as pd
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from jose import jwt
 from pydantic import BaseModel
-from pathlib import Path
 from dotenv import load_dotenv
-from pydantic import BaseModel
-from app.core.config import settings
-from app.core.security import create_access_token
-
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-load_dotenv(PROJECT_ROOT / ".env")
 
 from app.api.agents_routes import router as agents_router
+from app.api.deps import get_current_user
 from app.api.shared_runtime import (
     AUDIT_TABLE,
     SQLITE_PATH,
@@ -33,37 +31,15 @@ from app.api.shared_runtime import (
 )
 from app.pricing_engine.dynamic_pricing_engine import get_engine
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(PROJECT_ROOT / ".env")
+
 app = FastAPI(title="Dynamic Pricing API", version="1.2.0")
+engine = get_engine()
+
 
 class LLMLoginRequest(BaseModel):
     password: str
-
-@app.post("/auth/llm-login")
-def llm_login(req: LLMLoginRequest):
-    if not settings.llm_front_password:
-        raise HTTPException(status_code=500, detail="LLM password not configured")
-
-    if req.password != settings.llm_front_password:
-        raise HTTPException(status_code=401, detail="Invalid password")
-
-    token = create_access_token(subject="llm-user", role=settings.default_role)
-    return {"access_token": token, "token_type": "bearer"}
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
-        "http://127.0.0.1:5500",
-        "http://localhost:5500",
-        "http://127.0.0.1:3000",
-        "http://localhost:3000",
-    ],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-app.include_router(agents_router)
-engine = get_engine()
 
 
 class PricingRequest(BaseModel):
@@ -115,6 +91,46 @@ class LookupResponse(BaseModel):
     rows: List[Dict[str, Any]]
 
 
+def _env_flag(name: str, default: str = "false") -> bool:
+    return os.getenv(name, default).strip().lower() in {"1", "true", "yes", "on"}
+
+
+def _env_list(name: str, default: str) -> list[str]:
+    raw = os.getenv(name, default).strip()
+    if not raw:
+        return []
+    return [item.strip() for item in raw.split(",") if item.strip()]
+
+
+def _allowed_origins() -> list[str]:
+    defaults = [
+        "http://127.0.0.1:5500",
+        "http://localhost:5500",
+        "http://127.0.0.1:3000",
+        "http://localhost:3000",
+    ]
+    env_origins = _env_list("ALLOWED_ORIGINS", "")
+    return env_origins or defaults
+
+
+def _create_llm_token(subject: str = "llm-user") -> str:
+    secret = os.getenv("JWT_SECRET_KEY", "").strip()
+    if not secret:
+        raise HTTPException(status_code=500, detail="JWT_SECRET_KEY not configured")
+
+    algorithm = os.getenv("JWT_ALGORITHM", "HS256").strip() or "HS256"
+    expires_minutes = int(os.getenv("JWT_ACCESS_TOKEN_EXPIRE_MINUTES", "60"))
+    expire_at = datetime.now(timezone.utc) + timedelta(minutes=expires_minutes)
+
+    payload = {
+        "sub": subject,
+        "role": "llm-user",
+        "exp": int(expire_at.timestamp()),
+        "iat": int(datetime.now(timezone.utc).timestamp()),
+    }
+    return jwt.encode(payload, secret, algorithm=algorithm)
+
+
 def read_table(table_name: str) -> pd.DataFrame:
     if not SQLITE_PATH.exists():
         return pd.DataFrame()
@@ -159,6 +175,20 @@ def _table_count_payload(limit: int = 20) -> Dict[str, Any]:
     return {"count": len(rows), "rows": rows}
 
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=_allowed_origins(),
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+if _env_flag("ENABLE_AUTH", "true"):
+    app.include_router(agents_router, dependencies=[Depends(get_current_user)])
+else:
+    app.include_router(agents_router)
+
+
 @app.on_event("startup")
 def startup_event() -> None:
     ensure_audit_schema()
@@ -167,6 +197,19 @@ def startup_event() -> None:
 @app.get("/health")
 def health() -> Dict[str, str]:
     return {"status": "ok"}
+
+
+@app.post("/auth/llm-login")
+def llm_login(req: LLMLoginRequest):
+    front_password = os.getenv("LLM_FRONT_PASSWORD", "").strip()
+    if not front_password:
+        raise HTTPException(status_code=500, detail="LLM_FRONT_PASSWORD not configured")
+
+    if req.password != front_password:
+        raise HTTPException(status_code=401, detail="Invalid password")
+
+    token = _create_llm_token(subject="llm-user")
+    return {"access_token": token, "token_type": "bearer"}
 
 
 @app.get("/pricing/model-metrics")
@@ -180,17 +223,11 @@ def recommend_price(req: PricingRequest) -> Dict[str, Any]:
         context = build_enriched_payload(
             account_id=req.account_id,
             product_id=req.product_id,
-            overrides=(
-                {
-                    k: v
-                    for k, v in req.model_dump().items() if k not in {"account_id", "product_id"} and v is not None
-                }
-                if hasattr(req, "model_dump")
-                else {
-                    k: v
-                    for k, v in req.dict().items() if k not in {"account_id", "product_id"} and v is not None
-                }
-            ),
+            overrides={
+                k: v
+                for k, v in req.model_dump().items()
+                if k not in {"account_id", "product_id"} and v is not None
+            },
         )
         recommendation = engine.recommend(context["payload"])
         decision_id = log_decision(
@@ -198,7 +235,7 @@ def recommend_price(req: PricingRequest) -> Dict[str, Any]:
             account_id=req.account_id,
             product_id=req.product_id,
             context_source=context["context_source"],
-            request_json=req.model_dump() if hasattr(req, "model_dump") else req.dict(),
+            request_json=req.model_dump(),
             enriched_payload_json=context["payload"],
             response_json=json_safe(recommendation),
             status_code=200,
@@ -218,7 +255,7 @@ def recommend_price(req: PricingRequest) -> Dict[str, Any]:
             account_id=req.account_id,
             product_id=req.product_id,
             context_source="error",
-            request_json=req.model_dump() if hasattr(req, "model_dump") else req.dict(),
+            request_json=req.model_dump(),
             enriched_payload_json={"error": "failed_to_build_payload"},
             response_json={"error": str(exc)},
             status_code=500,
@@ -234,17 +271,11 @@ def explain_price(req: PricingRequest) -> Dict[str, Any]:
         context = build_enriched_payload(
             account_id=req.account_id,
             product_id=req.product_id,
-            overrides=(
-                {
-                    k: v
-                    for k, v in req.model_dump().items() if k not in {"account_id", "product_id"} and v is not None
-                }
-                if hasattr(req, "model_dump")
-                else {
-                    k: v
-                    for k, v in req.dict().items() if k not in {"account_id", "product_id"} and v is not None
-                }
-            ),
+            overrides={
+                k: v
+                for k, v in req.model_dump().items()
+                if k not in {"account_id", "product_id"} and v is not None
+            },
         )
         explanation = engine.explain(context["payload"])
         decision_id = log_decision(
@@ -252,11 +283,13 @@ def explain_price(req: PricingRequest) -> Dict[str, Any]:
             account_id=req.account_id,
             product_id=req.product_id,
             context_source=context["context_source"],
-            request_json=req.model_dump() if hasattr(req, "model_dump") else req.dict(),
+            request_json=req.model_dump(),
             enriched_payload_json=context["payload"],
             response_json=json_safe(explanation),
             status_code=200,
-            model_version=getattr(explanation, "model_version", None) if not isinstance(explanation, dict) else explanation.get("model_version"),
+            model_version=getattr(explanation, "model_version", None)
+            if not isinstance(explanation, dict)
+            else explanation.get("model_version"),
         )
         return {
             "status": "ok",
@@ -278,17 +311,11 @@ def simulate_price(req: SimulationRequest) -> Dict[str, Any]:
         context = build_enriched_payload(
             account_id=req.account_id,
             product_id=req.product_id,
-            overrides=(
-                {
-                    k: v
-                    for k, v in req.model_dump().items() if k not in {"account_id", "product_id", "candidate_multipliers"} and v is not None
-                }
-                if hasattr(req, "model_dump")
-                else {
-                    k: v
-                    for k, v in req.dict().items() if k not in {"account_id", "product_id", "candidate_multipliers"} and v is not None
-                }
-            ),
+            overrides={
+                k: v
+                for k, v in req.model_dump().items()
+                if k not in {"account_id", "product_id", "candidate_multipliers"} and v is not None
+            },
         )
         scenarios = engine.simulate(context["payload"], candidate_multipliers=req.candidate_multipliers)
         scenarios_dict = [json_safe(s) for s in scenarios]
@@ -297,7 +324,7 @@ def simulate_price(req: SimulationRequest) -> Dict[str, Any]:
             account_id=req.account_id,
             product_id=req.product_id,
             context_source=context["context_source"],
-            request_json=req.model_dump() if hasattr(req, "model_dump") else req.dict(),
+            request_json=req.model_dump(),
             enriched_payload_json=context["payload"],
             response_json={"scenarios": scenarios_dict},
             status_code=200,
@@ -319,7 +346,8 @@ def simulate_price(req: SimulationRequest) -> Dict[str, Any]:
 
 @app.get("/pricing/audit/latest")
 def audit_latest(limit: int = 20) -> Dict[str, Any]:
-    return {"count": len(latest_audit_rows(limit)), "rows": latest_audit_rows(limit)}
+    rows = latest_audit_rows(limit)
+    return {"count": len(rows), "rows": rows}
 
 
 @app.get("/pricing/audit/{decision_id}")
@@ -374,7 +402,13 @@ def list_provinces(limit: int = Query(200, ge=1, le=5000)) -> Dict[str, Any]:
 def list_zones(limit: int = Query(200, ge=1, le=5000)) -> Dict[str, Any]:
     candidates: list[dict[str, Any]] = []
 
-    for table_name in ["account_master", "account_features", "pricing_training_set", "product_master", "product_features"]:
+    for table_name in [
+        "account_master",
+        "account_features",
+        "pricing_training_set",
+        "product_master",
+        "product_features",
+    ]:
         df = read_table(table_name)
         if df.empty:
             continue
@@ -409,4 +443,3 @@ def catalog() -> Dict[str, Any]:
         "zones": list_zones(limit=5000)["rows"],
         "metrics": model_metrics(),
     }
-#

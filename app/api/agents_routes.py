@@ -17,8 +17,14 @@ from app.pricing_engine.dynamic_pricing_engine import get_engine
 from app.services.hf_client import get_hf_client
 
 logger = logging.getLogger(__name__)
+from fastapi import APIRouter, HTTPException, Depends
+from app.api.deps import get_current_user
 
-router = APIRouter(prefix="/agents", tags=["agents"])
+router = APIRouter(
+    prefix="/agents",
+    tags=["agents"],
+    dependencies=[Depends(get_current_user)],
+)
 
 orchestrator = PricingAgentOrchestrator()
 pricing_engine = get_engine()

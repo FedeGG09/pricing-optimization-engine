@@ -101,19 +101,28 @@ function setText(id, value) {
 
 function showError(message) {
   const box = el("errorBox");
+  if (!box) return;
   box.textContent = message;
   box.classList.remove("hidden");
 }
 
 function clearError() {
   const box = el("errorBox");
+  if (!box) return;
   box.textContent = "";
   box.classList.add("hidden");
 }
 
-async function fetchJSON(url, options = {}) {
+async function fetchJSON(url, options = {}, retries = 2, timeoutMs = 12000) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
   try {
-    const res = await fetch(url, options);
+    const res = await fetch(url, {
+      ...options,
+      signal: controller.signal,
+    });
+
     const text = await res.text();
 
     let data = null;
@@ -130,7 +139,13 @@ async function fetchJSON(url, options = {}) {
 
     return data;
   } catch (err) {
+    if (retries > 0) {
+      await new Promise((r) => setTimeout(r, 700));
+      return fetchJSON(url, options, retries - 1, timeoutMs);
+    }
     throw new Error(`No se pudo conectar con ${url}. ${err.message}`);
+  } finally {
+    clearTimeout(timer);
   }
 }
 
@@ -248,6 +263,8 @@ function aiFetchOptions(extra = {}) {
 
 function populateSelect(id, items, placeholder, allowAll = false) {
   const select = el(id);
+  if (!select) return;
+
   select.innerHTML = "";
 
   const emptyOption = document.createElement("option");
@@ -272,39 +289,70 @@ function populateSelect(id, items, placeholder, allowAll = false) {
 }
 
 function updateActionButtonsState() {
-  const hasAccount = !!el("accountSelect").value.trim();
-  const hasProduct = !!el("productSelect").value.trim();
+  const accountNode = el("accountSelect");
+  const productNode = el("productSelect");
+
+  const hasAccount = !!accountNode?.value?.trim();
+  const hasProduct = !!productNode?.value?.trim();
   const aiReady = isAiConnected();
 
   const pricingEnabled = hasAccount && hasProduct;
 
-  el("recommendBtn").disabled = !pricingEnabled;
-  el("btnExplainAi").disabled = !(pricingEnabled && aiReady);
-  el("btnAnomalies").disabled = !(pricingEnabled && aiReady);
-  el("btnStrategy").disabled = !(pricingEnabled && aiReady);
-  el("btnWhatIf").disabled = !(pricingEnabled && aiReady);
+  const recommendBtn = el("recommendBtn");
+  if (recommendBtn) recommendBtn.disabled = !pricingEnabled;
+
+  const btnExplainAi = el("btnExplainAi");
+  if (btnExplainAi) btnExplainAi.disabled = !(pricingEnabled && aiReady);
+
+  const btnAnomalies = el("btnAnomalies");
+  if (btnAnomalies) btnAnomalies.disabled = !(pricingEnabled && aiReady);
+
+  const btnStrategy = el("btnStrategy");
+  if (btnStrategy) btnStrategy.disabled = !(pricingEnabled && aiReady);
+
+  const btnWhatIf = el("btnWhatIf");
+  if (btnWhatIf) btnWhatIf.disabled = !(pricingEnabled && aiReady);
+
   const narratorBtn = el("narratorChatBtn");
   if (narratorBtn) narratorBtn.disabled = !aiReady;
 }
 
 async function loadCatalog() {
-  const requests = await Promise.allSettled([
-    fetchJSON(`${API_BASE}/reference/accounts`),
-    fetchJSON(`${API_BASE}/reference/products`),
-    fetchJSON(`${API_BASE}/reference/provinces`),
-    fetchJSON(`${API_BASE}/reference/zones`),
-  ]);
+  let bootstrap = null;
 
-  const [accountsRes, productsRes, provincesRes, zonesRes] = requests;
+  try {
+    bootstrap = await fetchJSON(`${API_BASE}/reference/catalog`);
+  } catch {
+    bootstrap = null;
+  }
 
-  const accounts = accountsRes.status === "fulfilled" ? normalizeCatalogItems(accountsRes.value.rows || []) : [];
-  const products = productsRes.status === "fulfilled" ? normalizeCatalogItems(productsRes.value.rows || []) : [];
-  const provinces = provincesRes.status === "fulfilled" ? normalizeCatalogItems(provincesRes.value.rows || []) : [];
-  const zones = zonesRes.status === "fulfilled" ? normalizeCatalogItems(zonesRes.value.rows || []) : [];
+  let accounts = [];
+  let products = [];
+  let provinces = [];
+  let zones = [];
+
+  if (bootstrap) {
+    accounts = normalizeCatalogItems(bootstrap.accounts || []);
+    products = normalizeCatalogItems(bootstrap.products || []);
+    provinces = normalizeCatalogItems(bootstrap.provinces || []);
+    zones = normalizeCatalogItems(bootstrap.zones || []);
+  } else {
+    const accountsRes = await fetchJSON(`${API_BASE}/reference/accounts`);
+    const productsRes = await fetchJSON(`${API_BASE}/reference/products`);
+    const provincesRes = await fetchJSON(`${API_BASE}/reference/provinces`);
+    const zonesRes = await fetchJSON(`${API_BASE}/reference/zones`);
+
+    accounts = normalizeCatalogItems(accountsRes.rows || []);
+    products = normalizeCatalogItems(productsRes.rows || []);
+    provinces = normalizeCatalogItems(provincesRes.rows || []);
+    zones = normalizeCatalogItems(zonesRes.rows || []);
+  }
 
   if (!accounts.length || !products.length) {
     throw new Error("No se pudieron cargar clientes o productos desde la API.");
   }
+
+  state.catalog = { accounts, products, provinces, zones };
 
   populateSelect("accountSelect", accounts, "Seleccionar cliente");
   populateSelect("productSelect", products, "Seleccionar producto");
@@ -313,7 +361,15 @@ async function loadCatalog() {
 }
 
 async function loadMetrics() {
-  const data = await fetchJSON(`${API_BASE}/pricing/model-metrics`);
+  let data = null;
+
+  try {
+    data = await fetchJSON(`${API_BASE}/pricing/model-metrics`);
+  } catch {
+    const bootstrap = await fetchJSON(`${API_BASE}/reference/catalog`);
+    data = bootstrap.metrics || bootstrap.model_metrics || { status: "pending" };
+  }
+
   state.metrics = data;
 
   const metrics = data.metrics || data;
@@ -338,16 +394,16 @@ async function loadMetrics() {
     setText("trainedAtBadge", "Entrenado: —");
   }
 
-  if (data.status === "pending") {
-    setText("modelStatusPill", "Métricas pendientes");
-  } else {
-    setText("modelStatusPill", "Métricas disponibles");
-  }
+  setText("modelStatusPill", data.status === "pending" ? "Métricas pendientes" : "Métricas disponibles");
 }
 
 async function loadAuditLatest() {
-  const data = await fetchJSON(`${API_BASE}/pricing/audit/latest?limit=10`);
-  renderAuditPanel(data.rows || []);
+  try {
+    const data = await fetchJSON(`${API_BASE}/pricing/audit/latest?limit=10`);
+    renderAuditPanel(data.rows || []);
+  } catch {
+    renderAuditPanel([]);
+  }
 }
 
 function renderAuditPanel(rows = []) {
@@ -378,25 +434,25 @@ function renderAuditPanel(rows = []) {
 }
 
 function buildPricingPayload() {
-  const accountValue = el("accountSelect").value.trim();
-  const productValue = el("productSelect").value.trim();
+  const accountValue = el("accountSelect")?.value?.trim() || "";
+  const productValue = el("productSelect")?.value?.trim() || "";
 
   if (!accountValue || !productValue) {
     throw new Error("Seleccioná un cliente y un producto válidos antes de calcular.");
   }
 
-  const monthValue = Number(el("monthInput").value);
-  const qtyValue = Number(el("qtyInput").value);
+  const monthValue = Number(el("monthInput")?.value);
+  const qtyValue = Number(el("qtyInput")?.value);
 
   return {
     account_id: accountValue,
     product_id: productValue,
-    province: el("provinceSelect").value && el("provinceSelect").value !== "__all__" ? el("provinceSelect").value : undefined,
-    zone: el("zoneSelect").value && el("zoneSelect").value !== "__all__" ? el("zoneSelect").value : undefined,
+    province: el("provinceSelect")?.value && el("provinceSelect").value !== "__all__" ? el("provinceSelect").value : undefined,
+    zone: el("zoneSelect")?.value && el("zoneSelect").value !== "__all__" ? el("zoneSelect").value : undefined,
     month: Number.isFinite(monthValue) ? monthValue : undefined,
     quantity: Number.isFinite(qtyValue) ? qtyValue : 1,
-    list_price_usd: el("listPriceInput").value ? Number(el("listPriceInput").value) : undefined,
-    base_price_usd: el("basePriceInput").value ? Number(el("basePriceInput").value) : undefined,
+    list_price_usd: el("listPriceInput")?.value ? Number(el("listPriceInput").value) : undefined,
+    base_price_usd: el("basePriceInput")?.value ? Number(el("basePriceInput").value) : undefined,
   };
 }
 
@@ -419,6 +475,8 @@ function buildAgentRequest() {
 
 function renderFactorScores(scores = {}) {
   const container = el("factorScores");
+  if (!container) return;
+
   container.innerHTML = "";
 
   const entries = Object.entries(scores);
@@ -444,6 +502,8 @@ function renderFactorScores(scores = {}) {
 
 function renderChart(reco) {
   const chart = el("chartBars");
+  if (!chart) return;
+
   chart.innerHTML = "";
 
   const points = [
@@ -472,8 +532,11 @@ function renderChart(reco) {
 function renderRecommendation(data) {
   state.recommendation = data;
 
-  el("recommendationEmpty").classList.add("hidden");
-  el("recommendationPanel").classList.remove("hidden");
+  const recommendationEmpty = el("recommendationEmpty");
+  const recommendationPanel = el("recommendationPanel");
+
+  if (recommendationEmpty) recommendationEmpty.classList.add("hidden");
+  if (recommendationPanel) recommendationPanel.classList.remove("hidden");
 
   setText("priceRecommended", formatMoney(data.price?.recommended));
   setText(
@@ -512,29 +575,33 @@ function renderNarrative(bundle) {
   setText("agentRecommendedAction", narrative.recommended_action || "—");
 
   const keyArgs = el("agentKeyArguments");
-  keyArgs.innerHTML = "";
-  (narrative.key_arguments || []).forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    keyArgs.appendChild(li);
-  });
-  if (!keyArgs.children.length) {
-    const li = document.createElement("li");
-    li.textContent = "Sin argumentos generados aún.";
-    keyArgs.appendChild(li);
+  if (keyArgs) {
+    keyArgs.innerHTML = "";
+    (narrative.key_arguments || []).forEach((item) => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      keyArgs.appendChild(li);
+    });
+    if (!keyArgs.children.length) {
+      const li = document.createElement("li");
+      li.textContent = "Sin argumentos generados aún.";
+      keyArgs.appendChild(li);
+    }
   }
 
   const risks = el("agentRisks");
-  risks.innerHTML = "";
-  (narrative.risks || []).forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    risks.appendChild(li);
-  });
-  if (!risks.children.length) {
-    const li = document.createElement("li");
-    li.textContent = "Sin riesgos reportados.";
-    risks.appendChild(li);
+  if (risks) {
+    risks.innerHTML = "";
+    (narrative.risks || []).forEach((item) => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      risks.appendChild(li);
+    });
+    if (!risks.children.length) {
+      const li = document.createElement("li");
+      li.textContent = "Sin riesgos reportados.";
+      risks.appendChild(li);
+    }
   }
 
   setText("agentMarketSummary", market.summary || "—");
@@ -550,6 +617,8 @@ function renderNarrative(bundle) {
 
 function renderAnomalies(anomalies = []) {
   const container = el("agentAnomalies");
+  if (!container) return;
+
   container.innerHTML = "";
 
   if (!anomalies.length) {
@@ -579,34 +648,40 @@ function renderStrategy(strategy = {}) {
   setText("agentStrategySummary", strategy.executive_summary || "—");
 
   const plan = el("agentActionPlan");
-  plan.innerHTML = "";
-  (strategy.action_plan || []).forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    plan.appendChild(li);
-  });
-  if (!plan.children.length) {
-    const li = document.createElement("li");
-    li.textContent = "Sin plan de acción.";
-    plan.appendChild(li);
+  if (plan) {
+    plan.innerHTML = "";
+    (strategy.action_plan || []).forEach((item) => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      plan.appendChild(li);
+    });
+    if (!plan.children.length) {
+      const li = document.createElement("li");
+      li.textContent = "Sin plan de acción.";
+      plan.appendChild(li);
+    }
   }
 
   const risks = el("agentStrategyRisks");
-  risks.innerHTML = "";
-  (strategy.risks || []).forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    risks.appendChild(li);
-  });
-  if (!risks.children.length) {
-    const li = document.createElement("li");
-    li.textContent = "Sin riesgos reportados.";
-    risks.appendChild(li);
+  if (risks) {
+    risks.innerHTML = "";
+    (strategy.risks || []).forEach((item) => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      risks.appendChild(li);
+    });
+    if (!risks.children.length) {
+      const li = document.createElement("li");
+      li.textContent = "Sin riesgos reportados.";
+      risks.appendChild(li);
+    }
   }
 }
 
 function renderWhatIfScenarios(scenarios = []) {
   const tbody = el("scenarioTableBody");
+  if (!tbody) return;
+
   tbody.innerHTML = "";
 
   if (!scenarios.length) {
@@ -633,8 +708,11 @@ async function requestRecommendation() {
   try {
     const payload = buildPricingPayload();
 
-    el("recommendBtn").disabled = true;
-    el("recommendBtn").textContent = "Calculando...";
+    const btn = el("recommendBtn");
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = "Calculando...";
+    }
 
     const data = await fetchJSON(`${API_BASE}/pricing/recommend`, {
       method: "POST",
@@ -646,8 +724,11 @@ async function requestRecommendation() {
   } catch (error) {
     showError(error.message || "Error generando recomendación");
   } finally {
-    el("recommendBtn").disabled = false;
-    el("recommendBtn").textContent = "Calcular recomendación";
+    const btn = el("recommendBtn");
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = "Calcular recomendación";
+    }
     updateActionButtonsState();
   }
 }
@@ -658,15 +739,21 @@ async function requestExplainAI() {
   try {
     const payload = buildAgentRequest();
 
-    el("btnExplainAi").disabled = true;
-    el("btnExplainAi").textContent = "Generando...";
+    const btn = el("btnExplainAi");
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = "Generando...";
+    }
 
     requireAiToken();
-    const data = await fetchJSON(`${API_BASE}/agents/explain-pricing`, aiFetchOptions({
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    }));
+    const data = await fetchJSON(
+      `${API_BASE}/agents/explain-pricing`,
+      aiFetchOptions({
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      })
+    );
 
     state.agentBundle = data.bundle || null;
     renderNarrative(data.bundle || {});
@@ -675,8 +762,11 @@ async function requestExplainAI() {
   } catch (error) {
     showError(error.message || "Error generando explicación IA");
   } finally {
-    el("btnExplainAi").disabled = false;
-    el("btnExplainAi").textContent = "Generar explicación IA";
+    const btn = el("btnExplainAi");
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = "Generar explicación IA";
+    }
     updateActionButtonsState();
   }
 }
@@ -687,22 +777,31 @@ async function requestAnomalies() {
   try {
     const payload = buildAgentRequest();
 
-    el("btnAnomalies").disabled = true;
-    el("btnAnomalies").textContent = "Analizando...";
+    const btn = el("btnAnomalies");
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = "Analizando...";
+    }
 
     requireAiToken();
-    const data = await fetchJSON(`${API_BASE}/agents/detect-anomalies`, aiFetchOptions({
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    }));
+    const data = await fetchJSON(
+      `${API_BASE}/agents/detect-anomalies`,
+      aiFetchOptions({
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      })
+    );
 
     renderAnomalies(data.anomalies || []);
   } catch (error) {
     showError(error.message || "Error detectando anomalías");
   } finally {
-    el("btnAnomalies").disabled = false;
-    el("btnAnomalies").textContent = "Detectar anomalías";
+    const btn = el("btnAnomalies");
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = "Detectar anomalías";
+    }
     updateActionButtonsState();
   }
 }
@@ -713,22 +812,31 @@ async function requestStrategy() {
   try {
     const payload = buildAgentRequest();
 
-    el("btnStrategy").disabled = true;
-    el("btnStrategy").textContent = "Pensando...";
+    const btn = el("btnStrategy");
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = "Pensando...";
+    }
 
     requireAiToken();
-    const data = await fetchJSON(`${API_BASE}/agents/recommend-strategy`, aiFetchOptions({
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    }));
+    const data = await fetchJSON(
+      `${API_BASE}/agents/recommend-strategy`,
+      aiFetchOptions({
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      })
+    );
 
     renderStrategy(data.strategy || {});
   } catch (error) {
     showError(error.message || "Error generando estrategia");
   } finally {
-    el("btnStrategy").disabled = false;
-    el("btnStrategy").textContent = "Recomendar estrategia";
+    const btn = el("btnStrategy");
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = "Recomendar estrategia";
+    }
     updateActionButtonsState();
   }
 }
@@ -739,25 +847,34 @@ async function requestWhatIf() {
   try {
     const payload = buildAgentRequest();
 
-    el("btnWhatIf").disabled = true;
-    el("btnWhatIf").textContent = "Simulando...";
+    const btn = el("btnWhatIf");
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = "Simulando...";
+    }
 
     requireAiToken();
-    const data = await fetchJSON(`${API_BASE}/agents/what-if-simulation`, aiFetchOptions({
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        ...payload,
-        candidate_multipliers: [0.85, 0.9, 0.95, 1.0, 1.03, 1.05, 1.08, 1.1],
-      }),
-    }));
+    const data = await fetchJSON(
+      `${API_BASE}/agents/what-if-simulation`,
+      aiFetchOptions({
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...payload,
+          candidate_multipliers: [0.85, 0.9, 0.95, 1.0, 1.03, 1.05, 1.08, 1.1],
+        }),
+      })
+    );
 
     renderWhatIfScenarios(data.scenarios || []);
   } catch (error) {
     showError(error.message || "Error simulando escenarios");
   } finally {
-    el("btnWhatIf").disabled = false;
-    el("btnWhatIf").textContent = "Simular escenarios";
+    const btn = el("btnWhatIf");
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = "Simular escenarios";
+    }
     updateActionButtonsState();
   }
 }
@@ -781,20 +898,23 @@ async function sendNarratorChat() {
     const payload = {
       question,
       decision_id: Number.isFinite(decisionId) ? decisionId : undefined,
-      account_id: el("accountSelect").value || undefined,
-      product_id: el("productSelect").value || undefined,
+      account_id: el("accountSelect")?.value || undefined,
+      product_id: el("productSelect")?.value || undefined,
       overrides: {
-        province: el("provinceSelect").value && el("provinceSelect").value !== "__all__" ? el("provinceSelect").value : undefined,
-        zone: el("zoneSelect").value && el("zoneSelect").value !== "__all__" ? el("zoneSelect").value : undefined,
+        province: el("provinceSelect")?.value && el("provinceSelect").value !== "__all__" ? el("provinceSelect").value : undefined,
+        zone: el("zoneSelect")?.value && el("zoneSelect").value !== "__all__" ? el("zoneSelect").value : undefined,
       },
     };
 
     requireAiToken();
-    const data = await fetchJSON(`${API_BASE}/agents/narrator-chat`, aiFetchOptions({
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    }));
+    const data = await fetchJSON(
+      `${API_BASE}/agents/narrator-chat`,
+      aiFetchOptions({
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      })
+    );
 
     if (answerEl) answerEl.textContent = data.answer || "Sin respuesta";
   } catch (error) {
@@ -823,16 +943,21 @@ function wireTabs() {
 
 function setDefaults() {
   const now = new Date();
-  el("monthInput").value = String(now.getMonth() + 1);
-  el("qtyInput").value = "1";
+  const monthInput = el("monthInput");
+  const qtyInput = el("qtyInput");
+  if (monthInput) monthInput.value = String(now.getMonth() + 1);
+  if (qtyInput) qtyInput.value = "1";
 }
 
 async function refreshAll() {
   clearError();
   setText("modelStatusPill", "Cargando métricas...");
   setText("fallbackBadge", "Fallback: —");
+
   try {
-    await Promise.all([loadCatalog(), loadMetrics(), loadAuditLatest()]);
+    await loadCatalog();
+    await loadMetrics();
+    await loadAuditLatest();
     updateActionButtonsState();
   } catch (e) {
     showError(e.message || "No se pudo cargar el dashboard");
@@ -840,12 +965,12 @@ async function refreshAll() {
 }
 
 function bindEvents() {
-  el("recommendBtn").addEventListener("click", requestRecommendation);
-  el("btnExplainAi").addEventListener("click", requestExplainAI);
-  el("btnAnomalies").addEventListener("click", requestAnomalies);
-  el("btnStrategy").addEventListener("click", requestStrategy);
-  el("btnWhatIf").addEventListener("click", requestWhatIf);
-  el("refreshBtn").addEventListener("click", refreshAll);
+  el("recommendBtn")?.addEventListener("click", requestRecommendation);
+  el("btnExplainAi")?.addEventListener("click", requestExplainAI);
+  el("btnAnomalies")?.addEventListener("click", requestAnomalies);
+  el("btnStrategy")?.addEventListener("click", requestStrategy);
+  el("btnWhatIf")?.addEventListener("click", requestWhatIf);
+  el("refreshBtn")?.addEventListener("click", refreshAll);
   document.getElementById("narratorChatBtn")?.addEventListener("click", sendNarratorChat);
   el("connectAiBtn")?.addEventListener("click", connectAi);
   el("disconnectAiBtn")?.addEventListener("click", disconnectAi);
@@ -858,7 +983,7 @@ function bindEvents() {
   });
 
   ["accountSelect", "productSelect"].forEach((id) => {
-    el(id).addEventListener("change", updateActionButtonsState);
+    el(id)?.addEventListener("change", updateActionButtonsState);
   });
 }
 

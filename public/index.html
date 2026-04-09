@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing Optimization Engine</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero__copy">
+        <span class="eyebrow">Pricing Optimization Engine</span>
+        <h1>Pricing inteligente con métricas reales, explicabilidad y agentes IA.</h1>
+        <p>
+          Seleccioná cliente, producto y contexto para pedir la recomendación al motor.
+          El dashboard muestra métricas del modelo, fallback, explicación, auditoría y
+          un panel de agentes Hugging Face para narrativa comercial, anomalías, estrategia y simulación.
+        </p>
+      </div>
+
+      <div class="hero__status card">
+        <div class="status-row">
+          <span id="fallbackBadge" class="chip">Fallback: —</span>
+          <span id="modelStatusPill" class="chip">Cargando...</span>
+        </div>
+        <div class="status-grid">
+          <div>
+            <span class="status-label">API</span>
+            <strong>Conectada</strong>
+          </div>
+          <div>
+            <span class="status-label">Entrenado</span>
+            <strong id="trainedAtBadge">—</strong>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="errorBox" class="error-box hidden"></div>
+
+    <section class="metrics-grid">
+      <article class="metric-card card">
+        <span class="metric-label">MAE</span>
+        <strong id="metricMae" class="metric-value">—</strong>
+        <p>Error absoluto medio del modelo de precio</p>
+      </article>
+
+      <article class="metric-card card">
+        <span class="metric-label">RMSE</span>
+        <strong id="metricRmse" class="metric-value">—</strong>
+        <p>Penaliza más los errores grandes</p>
+      </article>
+
+      <article class="metric-card card">
+        <span class="metric-label">R²</span>
+        <strong id="metricR2" class="metric-value">—</strong>
+        <p>Varianza explicada por el modelo</p>
+      </article>
+
+      <article class="metric-card card">
+        <span class="metric-label">MAPE</span>
+        <strong id="metricMape" class="metric-value">—</strong>
+        <p>Error porcentual absoluto medio</p>
+      </article>
+    </section>
+
+    <section class="workspace-grid">
+      <article class="card panel">
+        <div class="panel__head">
+          <div>
+            <span class="eyebrow">Selección operativa</span>
+            <h2>Elegí cliente, producto y contexto para calcular la recomendación.</h2>
+          </div>
+          <button id="refreshBtn" class="button button--ghost" type="button">Refrescar</button>
+        </div>
+
+        <div class="form-grid">
+          <label class="field">
+            <span>Cliente</span>
+            <select id="accountSelect"></select>
+          </label>
+
+          <label class="field">
+            <span>Producto</span>
+            <select id="productSelect"></select>
+          </label>
+
+          <label class="field">
+            <span>Provincia</span>
+            <select id="provinceSelect"></select>
+          </label>
+
+          <label class="field">
+            <span>Zona / Región</span>
+            <select id="zoneSelect"></select>
+          </label>
+
+          <label class="field">
+            <span>Mes</span>
+            <input id="monthInput" type="number" min="1" max="12" />
+          </label>
+
+          <label class="field">
+            <span>Cantidad</span>
+            <input id="qtyInput" type="number" min="1" step="1" />
+          </label>
+
+          <label class="field">
+            <span>Precio lista USD</span>
+            <input id="listPriceInput" type="number" min="0" step="0.01" placeholder="Opcional" />
+          </label>
+
+          <label class="field">
+            <span>Precio base USD</span>
+            <input id="basePriceInput" type="number" min="0" step="0.01" placeholder="Opcional" />
+          </label>
+        </div>
+
+        <div class="actions-row">
+          <button id="recommendBtn" class="button button--primary" type="button">Calcular recomendación</button>
+        </div>
+
+        <div class="summary-strip">
+          <div>
+            <span class="status-label">Salud del modelo</span>
+            <strong id="summaryMae">—</strong>
+          </div>
+          <div>
+            <span class="status-label">RMSE</span>
+            <strong id="summaryRmse">—</strong>
+          </div>
+          <div>
+            <span class="status-label">Training rows</span>
+            <strong id="trainingRows">—</strong>
+          </div>
+          <div>
+            <span class="status-label">Validation rows</span>
+            <strong id="validationRows">—</strong>
+          </div>
+          <div>
+            <span class="status-label">Features</span>
+            <strong id="featureCount">—</strong>
+          </div>
+        </div>
+      </article>
+
+      <article class="card panel">
+        <span class="eyebrow">Recomendación</span>
+        <h2>Precio final, discount, margen y motivo de la decisión.</h2>
+
+        <div id="recommendationEmpty" class="empty-state">
+          Elegí un cliente y un producto para ver la recomendación.
+        </div>
+
+        <div id="recommendationPanel" class="hidden">
+          <div class="rec-grid">
+            <div class="rec-card">
+              <span>Precio recomendado</span>
+              <strong id="priceRecommended">—</strong>
+            </div>
+            <div class="rec-card">
+              <span>Descuento recomendado</span>
+              <strong id="discountRecommended">—</strong>
+            </div>
+            <div class="rec-card">
+              <span>Margen esperado</span>
+              <strong id="marginExpected">—</strong>
+            </div>
+            <div class="rec-card">
+              <span>Fallback usado</span>
+              <strong id="fallbackUsed">—</strong>
+            </div>
+          </div>
+
+          <div class="detail-box">
+            <span class="detail-label">Contexto</span>
+            <strong id="contextSource">—</strong>
+          </div>
+
+          <div class="detail-box">
+            <span class="detail-label">Versión</span>
+            <strong id="modelVersion">—</strong>
+          </div>
+
+          <div class="detail-box">
+            <span class="detail-label">Motivo</span>
+            <p id="recommendationReason">—</p>
+          </div>
+
+          <div class="chart-area">
+            <h3>Visualización y trazabilidad</h3>
+            <div id="chartBars" class="chart-bars"></div>
+          </div>
+
+          <div class="factor-box">
+            <h3>Factores relevantes</h3>
+            <div id="factorScores" class="factor-list"></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="tabs card">
+      <div class="tabs__header">
+        <button class="tab-btn tab-btn--active" data-tab="roadmap" type="button">Dashboard</button>
+        <button class="tab-btn" data-tab="llm" type="button">IA / Agentes Hugging Face</button>
+        <button class="tab-btn" data-tab="audit" type="button">Auditoría</button>
+      </div>
+
+      <div id="tab-roadmap" class="tab-content tab-content--active">
+        <div class="two-col">
+          <article class="subcard">
+            <h3>Configuración base</h3>
+            <p>
+              Ya está listo el flujo de pricing, fallback con datos reales, auditoría y métricas.
+              Los agentes IA se apoyan sobre esa misma capa de contexto.
+            </p>
+          </article>
+
+          <article class="subcard">
+            <h3>Métricas del modelo</h3>
+            <div class="mini-metrics">
+              <div><span>MAE</span><strong id="metricMaeMini">—</strong></div>
+              <div><span>RMSE</span><strong id="metricRmseMini">—</strong></div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div id="tab-llm" class="tab-content">
+        <div class="two-col">
+          <article class="subcard">
+            <h3>Acceso a IA</h3>
+            <p>Conectar Hugging Face con contraseña.</p>
+            <p class="muted">La demo de pricing sigue abierta. Solo esta sección necesita autenticación para habilitar los agentes.</p>
+
+            <div class="ai-login">
+              <div class="status-row">
+                <span id="aiStatusBadge" class="chip">IA desconectada</span>
+              </div>
+
+              <label class="field">
+                <span>Contraseña de IA</span>
+                <input id="llmPassword" type="password" placeholder="••••••••••••••••" />
+              </label>
+
+              <div class="actions-row">
+                <button id="connectAiBtn" class="button button--primary" type="button">Conectar IA</button>
+                <button id="disconnectAiBtn" class="button button--ghost" type="button">Desconectar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="subcard">
+            <h3>Agentes de negocio</h3>
+            <div class="agent-grid">
+              <button id="btnExplainAi" class="button button--ghost" type="button">Generar explicación IA</button>
+              <button id="btnAnomalies" class="button button--ghost" type="button">Detectar anomalías</button>
+              <button id="btnStrategy" class="button button--ghost" type="button">Recomendar estrategia</button>
+              <button id="btnWhatIf" class="button button--ghost" type="button">Simular escenarios</button>
+            </div>
+            <p class="muted">Al conectar, se habilitan los agentes de Hugging Face y el Narrator.</p>
+          </article>
+        </div>
+
+        <div class="two-col two-col--stack">
+          <article class="subcard">
+            <h3>Narrador comercial</h3>
+            <label class="field">
+              <span>Pregunta</span>
+              <textarea id="narratorQuestion" rows="4" placeholder="¿Cómo justifico esta recomendación ante el cliente?"></textarea>
+            </label>
+            <label class="field">
+              <span>Decision ID (opcional)</span>
+              <input id="narratorDecisionId" type="number" min="1" placeholder="Ej. 12" />
+            </label>
+            <div class="actions-row">
+              <button id="narratorChatBtn" class="button button--primary" type="button">Consultar Narrator</button>
+            </div>
+            <div class="detail-box">
+              <span class="detail-label">Respuesta</span>
+              <p id="narratorAnswer">—</p>
+            </div>
+          </article>
+
+          <article class="subcard">
+            <h3>Explicación IA</h3>
+            <div class="detail-box">
+              <span class="detail-label">Tono</span>
+              <strong id="agentNarrativeTone">—</strong>
+            </div>
+            <div class="detail-box">
+              <span class="detail-label">Resumen ejecutivo</span>
+              <p id="agentExecutiveSummary">—</p>
+            </div>
+            <div class="detail-box">
+              <span class="detail-label">Contexto cliente</span>
+              <p id="agentClientContext">—</p>
+            </div>
+            <div class="detail-box">
+              <span class="detail-label">Contexto producto</span>
+              <p id="agentProductContext">—</p>
+            </div>
+            <div class="detail-box">
+              <span class="detail-label">Contexto zona</span>
+              <p id="agentZoneContext">—</p>
+            </div>
+            <div class="detail-box">
+              <span class="detail-label">Acción recomendada</span>
+              <p id="agentRecommendedAction">—</p>
+            </div>
+
+            <div class="two-col two-col--compact">
+              <div class="subbox">
+                <h4>Argumentos</h4>
+                <ul id="agentKeyArguments"></ul>
+              </div>
+              <div class="subbox">
+                <h4>Riesgos</h4>
+                <ul id="agentRisks"></ul>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="two-col">
+          <article class="subcard">
+            <h3>Anomalías</h3>
+            <div id="agentAnomalies" class="stack-list"></div>
+          </article>
+
+          <article class="subcard">
+            <h3>Estrategia</h3>
+            <div class="detail-box">
+              <span class="detail-label">Título</span>
+              <strong id="agentStrategyTitle">—</strong>
+            </div>
+            <div class="detail-box">
+              <span class="detail-label">Resumen</span>
+              <p id="agentStrategySummary">—</p>
+            </div>
+
+            <div class="two-col two-col--compact">
+              <div class="subbox">
+                <h4>Plan de acción</h4>
+                <ul id="agentActionPlan"></ul>
+              </div>
+              <div class="subbox">
+                <h4>Riesgos</h4>
+                <ul id="agentStrategyRisks"></ul>
+              </div>
+            </div>
+
+            <div class="detail-box">
+              <span class="detail-label">Estado de contexto</span>
+              <strong id="agentContextState">—</strong>
+            </div>
+
+            <div class="detail-box">
+              <span class="detail-label">Regla de protección</span>
+              <p id="agentGuardrailSummary">—</p>
+            </div>
+
+            <div class="detail-box">
+              <span class="detail-label">Resumen mercado</span>
+              <p id="agentMarketSummary">—</p>
+            </div>
+
+            <div class="detail-box">
+              <span class="detail-label">Resumen comportamiento</span>
+              <p id="agentBehaviorSummary">—</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="subcard">
+          <h3>Simulación What-if</h3>
+          <div class="table-wrap">
+            <table class="scenario-table">
+              <thead>
+                <tr>
+                  <th>Multiplicador</th>
+                  <th>Precio</th>
+                  <th>Margen esperado</th>
+                  <th>Score</th>
+                  <th>Estado</th>
+                </tr>
+              </thead>
+              <tbody id="scenarioTableBody">
+                <tr>
+                  <td colspan="5" class="empty-row">Todavía no se ejecutó simulación.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div id="tab-audit" class="tab-content">
+        <div class="two-col">
+          <article class="subcard">
+            <h3>Auditoría técnica</h3>
+            <div id="auditLatestRows" class="stack-list"></div>
+          </article>
+
+          <article class="subcard">
+            <h3>Estado base</h3>
+            <div class="detail-box">
+              <span class="detail-label">Resumen</span>
+              <p>
+                El dashboard combina pricing, métricas, fallback, trazabilidad y agentes IA en una sola interfaz.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

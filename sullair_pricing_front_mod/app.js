@@ -1,4 +1,4 @@
-const API_BASE = "https://pricing-optimization-api.onrender.com";
+const API_BASE = "https://pricing-optimization-engine.onrender.com";
 const LLM_TOKEN_KEY = "pricing_engine_llm_token";
 
 const el = (id) => document.getElementById(id);

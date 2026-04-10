@@ -2,6 +2,7 @@
 
 <img width="1631" height="784" alt="image" src="https://github.com/user-attachments/assets/fca180bc-aadf-4aab-bc8d-74478bb14f17" />
 
+Interactive Demo:  # https://argent-pricing.lovable.app/
 
 An industrial pricing demo built to showcase **data-driven pricing decisions, customer segmentation, commercial intelligence, and AI-assisted explanation workflows**.
 
@@ -184,6 +185,6 @@ pricing-optimization-engine/
 # Render Backend: https://pricing-optimization-engine.onrender.com
 # Frontend = https://pricing-optimization-engine.pages.dev/
 
-# Interactive Demo: https://argent-pricing.lovable.app/
+
 
 
